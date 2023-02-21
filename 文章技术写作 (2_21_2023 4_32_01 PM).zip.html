@@ -1,0 +1,1824 @@
+<!DOCTYPE html> <html data-sfz><meta charset='utf-8'><title>æ–‡ç« æŠ€æœ¯å†™ä½œ</title><link rel=canonical href="https://chat.openai.com/chat/f6db2cf8-d5b5-40bb-8aac-c934a90f8c13"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><body hidden><div id='sfz-wait-message'>Please wait...</div><div id='sfz-error-message'><strong>Error</strong>: Cannot open the page from the filesystem.<ul style='line-height:20px;'><li style='margin-bottom:10px'><strong>Chrome</strong>: Install <a href='https://chrome.google.com/webstore/detail/singlefilez/offkdfbbigofcgdokjemgjpdockaafjg'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (chrome://extensions/?id=offkdfbbigofcgdokjemgjpdockaafjg).</li><li style='margin-bottom:10px'><strong>Microsoft Edge</strong>: Install <a href='https://microsoftedge.microsoft.com/addons/detail/singlefilez/gofneaifncimeglaecpnanbnmnpfjekk'>SingleFileZ</a> and enable the option "Allow access to file URLs" in the details page of the extension (edge://extensions/?id=gofneaifncimeglaecpnanbnmnpfjekk).</li><li><strong>Safari</strong>: Select "Disable Local File Restrictions" in the "Develop" menu.</li></ul></div><script>var e,t;e=this,t=function(e){const{Array:t,Object:n,String:r,BigInt:s,Math:a,Date:i,Map:o,URL:c,Error:l,Uint8Array:u,Uint16Array:f,Uint32Array:h,DataView:d,Blob:p,Promise:w,TextEncoder:g,TextDecoder:m,document:y,crypto:b,btoa:v,TransformStream:S,ReadableStream:k,WritableStream:_,CompressionStream:z,DecompressionStream:D,navigator:x}=globalThis;var R=u,E=f,F=h,T=new R([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0,0]),C=new R([0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,0,0]),U=new R([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),W=(e,t)=>{for(var n=new E(31),r=0;31>r;++r)n[r]=t+=1<<e[r-1];var s=new F(n[30]);for(r=1;30>r;++r)for(var a=n[r];a<n[r+1];++a)s[a]=a-n[r]<<5|r;return[n,s]},A=W(T,2),N=A[0],L=A[1];N[28]=258,L[258]=28;for(var O=W(C,0),I=O[0],M=O[1],P=new E(32768),B=0;32768>B;++B){var V=(43690&B)>>>1|(21845&B)<<1;V=(61680&(V=(52428&V)>>>2|(13107&V)<<2))>>>4|(3855&V)<<4,P[B]=((65280&V)>>>8|(255&V)<<8)>>>1}var H=(e,t,n)=>{for(var r=e.length,s=0,a=new E(t);r>s;++s)e[s]&&++a[e[s]-1];var i,o=new E(t);for(s=0;t>s;++s)o[s]=o[s-1]+a[s-1]<<1;if(n){i=new E(1<<t);var c=15-t;for(s=0;r>s;++s)if(e[s])for(var l=s<<4|e[s],u=t-e[s],f=o[e[s]-1]++<<u,h=f|(1<<u)-1;h>=f;++f)i[P[f]>>>c]=l}else for(i=new E(r),s=0;r>s;++s)e[s]&&(i[s]=P[o[e[s]-1]++]>>>15-e[s]);return i},q=new R(288);for(B=0;144>B;++B)q[B]=8;for(B=144;256>B;++B)q[B]=9;for(B=256;280>B;++B)q[B]=7;for(B=280;288>B;++B)q[B]=8;var K=new R(32);for(B=0;32>B;++B)K[B]=5;var Z=H(q,9,0),Y=H(q,9,1),j=H(K,5,0),G=H(K,5,1),X=e=>{for(var t=e[0],n=1;n<e.length;++n)e[n]>t&&(t=e[n]);return t},J=(e,t,n)=>{var r=t/8|0;return(e[r]|e[r+1]<<8)>>(7&t)&n},Q=(e,t)=>{var n=t/8|0;return(e[n]|e[n+1]<<8|e[n+2]<<16)>>(7&t)},$=e=>(e+7)/8|0,ee=(e,t,n)=>{(null==t||0>t)&&(t=0),(null==n||n>e.length)&&(n=e.length);var r=new(2==e.BYTES_PER_ELEMENT?E:4==e.BYTES_PER_ELEMENT?F:R)(n-t);return r.set(e.subarray(t,n)),r},te=["unexpected EOF","invalid block type","invalid length/literal","invalid distance","stream finished","no stream handler",,"no callback","invalid UTF-8 data","extra field too long","date not in range 1980-2099","filename too long","stream finishing","invalid zip data"],ne=(e,t,n)=>{var r=new l(t||te[e]);if(r.code=e,l.captureStackTrace&&l.captureStackTrace(r,ne),!n)throw r;return r},re=(e,t,n)=>{n<<=7&t;var r=t/8|0;e[r]|=n,e[r+1]|=n>>>8},se=(e,t,n)=>{n<<=7&t;var r=t/8|0;e[r]|=n,e[r+1]|=n>>>8,e[r+2]|=n>>>16},ae=(e,t)=>{for(var n=[],r=0;r<e.length;++r)e[r]&&n.push({s:r,f:e[r]});var s=n.length,a=n.slice();if(!s)return[he,0];if(1==s){var i=new R(n[0].s+1);return i[n[0].s]=1,[i,1]}n.sort(((e,t)=>e.f-t.f)),n.push({s:-1,f:25001});var o=n[0],c=n[1],l=0,u=1,f=2;for(n[0]={s:-1,f:o.f+c.f,l:o,r:c};u!=s-1;)o=n[n[l].f<n[f].f?l++:f++],c=n[l!=u&&n[l].f<n[f].f?l++:f++],n[u++]={s:-1,f:o.f+c.f,l:o,r:c};var h=a[0].s;for(r=1;s>r;++r)a[r].s>h&&(h=a[r].s);var d=new E(h+1),p=ie(n[u-1],d,0);if(p>t){r=0;var w=0,g=p-t,m=1<<g;for(a.sort(((e,t)=>d[t.s]-d[e.s]||e.f-t.f));s>r;++r){var y=a[r].s;if(d[y]<=t)break;w+=m-(1<<p-d[y]),d[y]=t}for(w>>>=g;w>0;){var b=a[r].s;d[b]<t?w-=1<<t-d[b]++-1:++r}for(;r>=0&&w;--r){var v=a[r].s;d[v]==t&&(--d[v],++w)}p=t}return[new R(d),p]},ie=(e,t,n)=>-1==e.s?a.max(ie(e.l,t,n+1),ie(e.r,t,n+1)):t[e.s]=n,oe=e=>{for(var t=e.length;t&&!e[--t];);for(var n=new E(++t),r=0,s=e[0],a=1,i=e=>{n[r++]=e},o=1;t>=o;++o)if(e[o]==s&&o!=t)++a;else{if(!s&&a>2){for(;a>138;a-=138)i(32754);a>2&&(i(a>10?a-11<<5|28690:a-3<<5|12305),a=0)}else if(a>3){for(i(s),--a;a>6;a-=6)i(8304);a>2&&(i(a-3<<5|8208),a=0)}for(;a--;)i(s);a=1,s=e[o]}return[n.subarray(0,r),t]},ce=(e,t)=>{for(var n=0,r=0;r<t.length;++r)n+=e[r]*t[r];return n},le=(e,t,n)=>{var r=n.length,s=$(t+2);e[s]=255&r,e[s+1]=r>>>8,e[s+2]=255^e[s],e[s+3]=255^e[s+1];for(var a=0;r>a;++a)e[s+a+4]=n[a];return 8*(s+4+r)},ue=(e,t,n,r,s,a,i,o,c,l,u)=>{re(t,u++,n),++s[256];for(var f=ae(s,15),h=f[0],d=f[1],p=ae(a,15),w=p[0],g=p[1],m=oe(h),y=m[0],b=m[1],v=oe(w),S=v[0],k=v[1],_=new E(19),z=0;z<y.length;++z)_[31&y[z]]++;for(z=0;z<S.length;++z)_[31&S[z]]++;for(var D=ae(_,7),x=D[0],R=D[1],F=19;F>4&&!x[U[F-1]];--F);var W,A,N,L,O=l+5<<3,I=ce(s,q)+ce(a,K)+i,M=ce(s,h)+ce(a,w)+i+14+3*F+ce(_,x)+(2*_[16]+3*_[17]+7*_[18]);if(I>=O&&M>=O)return le(t,u,e.subarray(c,c+l));if(re(t,u,1+(I>M)),u+=2,I>M){W=H(h,d,0),A=h,N=H(w,g,0),L=w;var P=H(x,R,0);for(re(t,u,b-257),re(t,u+5,k-1),re(t,u+10,F-4),u+=14,z=0;F>z;++z)re(t,u+3*z,x[U[z]]);u+=3*F;for(var B=[y,S],V=0;2>V;++V){var Y=B[V];for(z=0;z<Y.length;++z){var G=31&Y[z];re(t,u,P[G]),u+=x[G],G>15&&(re(t,u,Y[z]>>>5&127),u+=Y[z]>>>12)}}}else W=Z,A=q,N=j,L=K;for(z=0;o>z;++z)if(r[z]>255){G=r[z]>>>18&31,se(t,u,W[G+257]),u+=A[G+257],G>7&&(re(t,u,r[z]>>>23&31),u+=T[G]);var X=31&r[z];se(t,u,N[X]),u+=L[X],X>3&&(se(t,u,r[z]>>>5&8191),u+=C[X])}else se(t,u,W[r[z]]),u+=A[r[z]];return se(t,u,W[256]),u+A[256]},fe=new F([65540,131080,131088,131104,262176,1048704,1048832,2114560,2117632]),he=new R(0),de=function(){function e(e,t){t||"function"!=typeof e||(t=e,e={}),this.ondata=t,this.o=e||{}}return e.prototype.p=function(e,t){var n,r,s;this.ondata((s=!t,((e,t,n,r,s,i)=>{var o=e.length,c=new R(0+o+5*(1+a.ceil(o/7e3))+0),l=c.subarray(0,c.length-0),u=0;if(!t||8>o)for(var f=0;o>=f;f+=65535){var h=f+65535;o>h||(l[u>>3]=i),u=le(l,u+1,e.subarray(f,h))}else{for(var d=fe[t-1],p=d>>>13,w=8191&d,g=(1<<n)-1,m=new E(32768),y=new E(g+1),b=a.ceil(n/3),v=2*b,S=t=>(e[t]^e[t+1]<<b^e[t+2]<<v)&g,k=new F(25e3),_=new E(288),z=new E(32),D=0,x=0,U=(f=0,0),W=0,A=0;o>f;++f){var N=S(f),O=32767&f,I=y[N];if(m[O]=I,y[N]=O,f>=W){var P=o-f;if((D>7e3||U>24576)&&P>423){u=ue(e,l,0,k,_,z,x,U,A,f-A,u),U=D=x=0,A=f;for(var B=0;286>B;++B)_[B]=0;for(B=0;30>B;++B)z[B]=0}var V=2,H=0,q=w,K=O-I&32767;if(P>2&&N==S(f-K))for(var Z=a.min(p,P)-1,Y=a.min(32767,f),j=a.min(258,P);Y>=K&&--q&&O!=I;){if(e[f+V]==e[f+V-K]){for(var G=0;j>G&&e[f+G]==e[f+G-K];++G);if(G>V){if(V=G,H=K,G>Z)break;var X=a.min(K,G-2),J=0;for(B=0;X>B;++B){var Q=f-K+B+32768&32767,te=Q-m[Q]+32768&32767;te>J&&(J=te,I=Q)}}}K+=(O=I)-(I=m[O])+32768&32767}if(H){k[U++]=268435456|L[V]<<18|M[H];var ne=31&L[V],re=31&M[H];x+=T[ne]+C[re],++_[257+ne],++z[re],W=f+V,++D}else k[U++]=e[f],++_[e[f]]}}u=ue(e,l,i,k,_,z,x,U,A,f-A,u),!i&&7&u&&(u=le(l,u+1,he))}return ee(c,0,0+$(u)+0)})(n=e,null==(r=this.o).level?6:r.level,null==r.mem?a.ceil(1.5*a.max(8,a.min(13,a.log(n.length)))):12+r.mem,0,0,!s)),t)},e.prototype.push=function(e,t){this.ondata||ne(5),this.d&&ne(4),this.d=t,this.p(e,t||!1)},e}(),pe=function(){function e(e){this.s={},this.p=new R(0),this.ondata=e}return e.prototype.e=function(e){this.ondata||ne(5),this.d&&ne(4);var t=this.p.length,n=new R(t+e.length);n.set(this.p),n.set(e,t),this.p=n},e.prototype.c=function(e){this.d=this.s.i=e||!1;var t=this.s.b,n=((e,t,n)=>{var r=e.length;if(!r||n&&n.f&&!n.l)return t||new R(0);var s=!t||n,i=!n||n.i;n||(n={}),t||(t=new R(3*r));var o=e=>{var n=t.length;if(e>n){var r=new R(a.max(2*n,e));r.set(t),t=r}},c=n.f||0,l=n.p||0,u=n.b||0,f=n.l,h=n.d,d=n.m,p=n.n,w=8*r;do{if(!f){c=J(e,l,1);var g=J(e,l+1,3);if(l+=3,!g){var m=e[(F=$(l)+4)-4]|e[F-3]<<8,y=F+m;if(y>r){i&&ne(0);break}s&&o(u+m),t.set(e.subarray(F,y),u),n.b=u+=m,n.p=l=8*y,n.f=c;continue}if(1==g)f=Y,h=G,d=9,p=5;else if(2==g){var b=J(e,l,31)+257,v=J(e,l+10,15)+4,S=b+J(e,l+5,31)+1;l+=14;for(var k=new R(S),_=new R(19),z=0;v>z;++z)_[U[z]]=J(e,l+3*z,7);l+=3*v;var D=X(_),x=(1<<D)-1,E=H(_,D,1);for(z=0;S>z;){var F,W=E[J(e,l,x)];if(l+=15&W,16>(F=W>>>4))k[z++]=F;else{var A=0,L=0;for(16==F?(L=3+J(e,l,3),l+=2,A=k[z-1]):17==F?(L=3+J(e,l,7),l+=3):18==F&&(L=11+J(e,l,127),l+=7);L--;)k[z++]=A}}var O=k.subarray(0,b),M=k.subarray(b);d=X(O),p=X(M),f=H(O,d,1),h=H(M,p,1)}else ne(1);if(l>w){i&&ne(0);break}}s&&o(u+131072);for(var P=(1<<d)-1,B=(1<<p)-1,V=l;;V=l){var q=(A=f[Q(e,l)&P])>>>4;if((l+=15&A)>w){i&&ne(0);break}if(A||ne(2),256>q)t[u++]=q;else{if(256==q){V=l,f=null;break}var K=q-254;if(q>264){var Z=T[z=q-257];K=J(e,l,(1<<Z)-1)+N[z],l+=Z}var j=h[Q(e,l)&B],te=j>>>4;if(j||ne(3),l+=15&j,M=I[te],te>3&&(Z=C[te],M+=Q(e,l)&(1<<Z)-1,l+=Z),l>w){i&&ne(0);break}s&&o(u+131072);for(var re=u+K;re>u;u+=4)t[u]=t[u-M],t[u+1]=t[u+1-M],t[u+2]=t[u+2-M],t[u+3]=t[u+3-M];u=re}}n.l=f,n.p=V,n.b=u,n.f=c,f&&(c=1,n.m=d,n.d=h,n.n=p)}while(!c);return u==t.length?t:ee(t,0,u)})(this.p,this.o,this.s);this.ondata(ee(n,t,this.s.b),this.d),this.o=ee(n,this.s.b-32768),this.s.b=this.o.length,this.p=ee(this.p,this.s.p/8|0),this.s.p&=7},e.prototype.push=function(e,t){this.e(e),this.c(t)},e}(),we=void 0!==m&&new m;try{we.decode(he,{stream:!0})}catch(e){}function ge(e,t,r){return class{constructor(s){const a=this;n.hasOwn(s,"level")&&void 0===s.level&&delete s.level,a.codec=new e(n.assign({},t,s)),r(a.codec,(e=>{if(a.pendingData){const t=a.pendingData;a.pendingData=new u(t.length+e.length);const{pendingData:n}=a;n.set(t,0),n.set(e,t.length)}else a.pendingData=new u(e)}))}append(e){return this.codec.push(e),s(this)}flush(){return this.codec.push(new u,!0),s(this)}};function s(e){if(e.pendingData){const t=e.pendingData;return e.pendingData=null,t}return new u}}const{Deflate:me,Inflate:ye}=((e,t={},n)=>({Deflate:ge(e.Deflate,t.deflate,n),Inflate:ge(e.Inflate,t.inflate,n)}))({Deflate:de,Inflate:pe},void 0,((e,t)=>e.ondata=t)),be=4294967295,ve=65535,Se=33639248,ke=101075792,_e=void 0,ze="undefined",De="function";class xe{constructor(e){return class extends S{constructor(t,n){const r=new e(n);super({transform(e,t){t.enqueue(r.append(e))},flush(e){const t=r.flush();t&&e.enqueue(t)}})}}}}let Re=2;try{typeof x!=ze&&x.hardwareConcurrency&&(Re=x.hardwareConcurrency)}catch(e){}const Ee={chunkSize:524288,maxWorkers:Re,terminateWorkerTimeout:5e3,useWebWorkers:!0,useCompressionStream:!0,workerScripts:_e,CompressionStreamNative:typeof z!=ze&&z,DecompressionStreamNative:typeof D!=ze&&D},Fe=n.assign({},Ee);function Te(e){const{baseURL:n,chunkSize:r,maxWorkers:s,terminateWorkerTimeout:a,useCompressionStream:i,useWebWorkers:o,Deflate:c,Inflate:u,CompressionStream:f,DecompressionStream:h,workerScripts:d}=e;if(Ce("baseURL",n),Ce("chunkSize",r),Ce("maxWorkers",s),Ce("terminateWorkerTimeout",a),Ce("useCompressionStream",i),Ce("useWebWorkers",o),c&&(Fe.CompressionStream=new xe(c)),u&&(Fe.DecompressionStream=new xe(u)),Ce("CompressionStream",f),Ce("DecompressionStream",h),d!==_e){const{deflate:e,inflate:n}=d;if((e||n)&&(Fe.workerScripts||(Fe.workerScripts={})),e){if(!t.isArray(e))throw new l("workerScripts.deflate must be an array");Fe.workerScripts.deflate=e}if(n){if(!t.isArray(n))throw new l("workerScripts.inflate must be an array");Fe.workerScripts.inflate=n}}}function Ce(e,t){t!==_e&&(Fe[e]=t)}const Ue=[];for(let e=0;256>e;e++){let t=e;for(let e=0;8>e;e++)1&t?t=t>>>1^3988292384:t>>>=1;Ue[e]=t}class We{constructor(e){this.crc=e||-1}append(e){let t=0|this.crc;for(let n=0,r=0|e.length;r>n;n++)t=t>>>8^Ue[255&(t^e[n])];this.crc=t}get(){return~this.crc}}class Ae extends S{constructor(){const e=new We;super({transform(t){e.append(t)},flush(t){const n=new u(4);new d(n.buffer).setUint32(0,e.get()),t.enqueue(n)}})}}const Ne={concat(e,t){if(0===e.length||0===t.length)return e.concat(t);const n=e[e.length-1],r=Ne.getPartial(n);return 32===r?e.concat(t):Ne._shiftRight(t,r,0|n,e.slice(0,e.length-1))},bitLength(e){const t=e.length;if(0===t)return 0;const n=e[t-1];return 32*(t-1)+Ne.getPartial(n)},clamp(e,t){if(32*e.length<t)return e;const n=(e=e.slice(0,a.ceil(t/32))).length;return t&=31,n>0&&t&&(e[n-1]=Ne.partial(t,e[n-1]&2147483648>>t-1,1)),e},partial:(e,t,n)=>32===e?t:(n?0|t:t<<32-e)+1099511627776*e,getPartial:e=>a.round(e/1099511627776)||32,_shiftRight(e,t,n,r){for(void 0===r&&(r=[]);t>=32;t-=32)r.push(n),n=0;if(0===t)return r.concat(e);for(let s=0;s<e.length;s++)r.push(n|e[s]>>>t),n=e[s]<<32-t;const s=e.length?e[e.length-1]:0,a=Ne.getPartial(s);return r.push(Ne.partial(t+a&31,t+a>32?n:r.pop(),1)),r}},Le={bytes:{fromBits(e){const t=Ne.bitLength(e)/8,n=new u(t);let r;for(let s=0;t>s;s++)0==(3&s)&&(r=e[s/4]),n[s]=r>>>24,r<<=8;return n},toBits(e){const t=[];let n,r=0;for(n=0;n<e.length;n++)r=r<<8|e[n],3==(3&n)&&(t.push(r),r=0);return 3&n&&t.push(Ne.partial(8*(3&n),r)),t}}},Oe={getRandomValues(e){const t=new h(e.buffer),n=e=>{let t=987654321;const n=4294967295;return()=>(t=36969*(65535&t)+(t>>16)&n,(((t<<16)+(e=18e3*(65535&e)+(e>>16)&n)&n)/4294967296+.5)*(a.random()>.5?1:-1))};for(let r,s=0;s<e.length;s+=4){const e=n(4294967296*(r||a.random()));r=987654071*e(),t[s/4]=4294967296*e()|0}return e}},Ie={importKey:e=>new Ie.hmacSha1(Le.bytes.toBits(e)),pbkdf2(e,t,n,r){if(n=n||1e4,0>r||0>n)throw new l("invalid params to pbkdf2");const s=1+(r>>5)<<2;let a,i,o,c,u;const f=new ArrayBuffer(s),h=new d(f);let p=0;const w=Ne;for(t=Le.bytes.toBits(t),u=1;(s||1)>p;u++){for(a=i=e.encrypt(w.concat(t,[u])),o=1;n>o;o++)for(i=e.encrypt(i),c=0;c<i.length;c++)a[c]^=i[c];for(o=0;(s||1)>p&&o<a.length;o++)h.setInt32(p,a[o]),p+=4}return f.slice(0,r/8)},hmacSha1:class{constructor(e){const n=this,r=n._hash=class{constructor(e){const t=this;t.blockSize=512,t._init=[1732584193,4023233417,2562383102,271733878,3285377520],t._key=[1518500249,1859775393,2400959708,3395469782],e?(t._h=e._h.slice(0),t._buffer=e._buffer.slice(0),t._length=e._length):t.reset()}reset(){const e=this;return e._h=e._init.slice(0),e._buffer=[],e._length=0,e}update(e){const t=this;"string"==typeof e&&(e=Le.utf8String.toBits(e));const n=t._buffer=Ne.concat(t._buffer,e),r=t._length,s=t._length=r+Ne.bitLength(e);if(s>9007199254740991)throw new l("Cannot hash more than 2^53 - 1 bits");const a=new h(n);let i=0;for(let e=t.blockSize+r-(t.blockSize+r&t.blockSize-1);s>=e;e+=t.blockSize)t._block(a.subarray(16*i,16*(i+1))),i+=1;return n.splice(0,16*i),t}finalize(){const e=this;let t=e._buffer;const n=e._h;t=Ne.concat(t,[Ne.partial(1,1)]);for(let e=t.length+2;15&e;e++)t.push(0);for(t.push(a.floor(e._length/4294967296)),t.push(0|e._length);t.length;)e._block(t.splice(0,16));return e.reset(),n}_f(e,t,n,r){return e>19?e>39?e>59?e>79?void 0:t^n^r:t&n|t&r|n&r:t^n^r:t&n|~t&r}_S(e,t){return t<<e|t>>>32-e}_block(e){const n=this,r=n._h,s=t(80);for(let t=0;16>t;t++)s[t]=e[t];let i=r[0],o=r[1],c=r[2],l=r[3],u=r[4];for(let e=0;79>=e;e++){16>e||(s[e]=n._S(1,s[e-3]^s[e-8]^s[e-14]^s[e-16]));const t=n._S(5,i)+n._f(e,o,c,l)+u+s[e]+n._key[a.floor(e/20)]|0;u=l,l=c,c=n._S(30,o),o=i,i=t}r[0]=r[0]+i|0,r[1]=r[1]+o|0,r[2]=r[2]+c|0,r[3]=r[3]+l|0,r[4]=r[4]+u|0}},s=[[],[]];n._baseHash=[new r,new r];const i=n._baseHash[0].blockSize/32;e.length>i&&(e=r.hash(e));for(let t=0;i>t;t++)s[0][t]=909522486^e[t],s[1][t]=1549556828^e[t];n._baseHash[0].update(s[0]),n._baseHash[1].update(s[1]),n._resultHash=new r(n._baseHash[0])}reset(){const e=this;e._resultHash=new e._hash(e._baseHash[0]),e._updated=!1}update(e){this._updated=!0,this._resultHash.update(e)}digest(){const e=this,t=e._resultHash.finalize(),n=new e._hash(e._baseHash[1]).update(t).finalize();return e.reset(),n}encrypt(e){if(this._updated)throw new l("encrypt on already updated hmac called!");return this.update(e),this.digest(e)}}},Me=void 0!==b&&"function"==typeof b.getRandomValues,Pe="Invalid password",Be="Invalid signature";function Ve(e){return Me?b.getRandomValues(e):Oe.getRandomValues(e)}const He=16,qe={name:"PBKDF2"},Ke=n.assign({hash:{name:"HMAC"}},qe),Ze=n.assign({iterations:1e3,hash:{name:"SHA-1"}},qe),Ye=["deriveBits"],je=[8,12,16],Ge=[16,24,32],Xe=10,Je=[0,0,0,0],Qe="undefined",$e="function",et=typeof b!=Qe,tt=et&&b.subtle,nt=et&&typeof tt!=Qe,rt=Le.bytes,st=class{constructor(e){const t=this;t._tables=[[[],[],[],[],[]],[[],[],[],[],[]]],t._tables[0][0][0]||t._precompute();const n=t._tables[0][4],r=t._tables[1],s=e.length;let a,i,o,c=1;if(4!==s&&6!==s&&8!==s)throw new l("invalid aes key size");for(t._key=[i=e.slice(0),o=[]],a=s;4*s+28>a;a++){let e=i[a-1];(a%s==0||8===s&&a%s==4)&&(e=n[e>>>24]<<24^n[e>>16&255]<<16^n[e>>8&255]<<8^n[255&e],a%s==0&&(e=e<<8^e>>>24^c<<24,c=c<<1^283*(c>>7))),i[a]=i[a-s]^e}for(let e=0;a;e++,a--){const t=i[3&e?a:a-4];o[e]=4>=a||4>e?t:r[0][n[t>>>24]]^r[1][n[t>>16&255]]^r[2][n[t>>8&255]]^r[3][n[255&t]]}}encrypt(e){return this._crypt(e,0)}decrypt(e){return this._crypt(e,1)}_precompute(){const e=this._tables[0],t=this._tables[1],n=e[4],r=t[4],s=[],a=[];let i,o,c,l;for(let e=0;256>e;e++)a[(s[e]=e<<1^283*(e>>7))^e]=e;for(let u=i=0;!n[u];u^=o||1,i=a[i]||1){let a=i^i<<1^i<<2^i<<3^i<<4;a=a>>8^255&a^99,n[u]=a,r[a]=u,l=s[c=s[o=s[u]]];let f=16843009*l^65537*c^257*o^16843008*u,h=257*s[a]^16843008*a;for(let n=0;4>n;n++)e[n][u]=h=h<<24^h>>>8,t[n][a]=f=f<<24^f>>>8}for(let n=0;5>n;n++)e[n]=e[n].slice(0),t[n]=t[n].slice(0)}_crypt(e,t){if(4!==e.length)throw new l("invalid aes block size");const n=this._key[t],r=n.length/4-2,s=[0,0,0,0],a=this._tables[t],i=a[0],o=a[1],c=a[2],u=a[3],f=a[4];let h,d,p,w=e[0]^n[0],g=e[t?3:1]^n[1],m=e[2]^n[2],y=e[t?1:3]^n[3],b=4;for(let e=0;r>e;e++)h=i[w>>>24]^o[g>>16&255]^c[m>>8&255]^u[255&y]^n[b],d=i[g>>>24]^o[m>>16&255]^c[y>>8&255]^u[255&w]^n[b+1],p=i[m>>>24]^o[y>>16&255]^c[w>>8&255]^u[255&g]^n[b+2],y=i[y>>>24]^o[w>>16&255]^c[g>>8&255]^u[255&m]^n[b+3],b+=4,w=h,g=d,m=p;for(let e=0;4>e;e++)s[t?3&-e:e]=f[w>>>24]<<24^f[g>>16&255]<<16^f[m>>8&255]<<8^f[255&y]^n[b++],h=w,w=g,g=m,m=y,y=h;return s}},at=class{constructor(e,t){this._prf=e,this._initIv=t,this._iv=t}reset(){this._iv=this._initIv}update(e){return this.calculate(this._prf,e,this._iv)}incWord(e){if(255==(e>>24&255)){let t=e>>16&255,n=e>>8&255,r=255&e;255===t?(t=0,255===n?(n=0,255===r?r=0:++r):++n):++t,e=0,e+=t<<16,e+=n<<8,e+=r}else e+=1<<24;return e}incCounter(e){0===(e[0]=this.incWord(e[0]))&&(e[1]=this.incWord(e[1]))}calculate(e,t,n){let r;if(!(r=t.length))return[];const s=Ne.bitLength(t);for(let s=0;r>s;s+=4){this.incCounter(n);const r=e.encrypt(n);t[s]^=r[0],t[s+1]^=r[1],t[s+2]^=r[2],t[s+3]^=r[3]}return Ne.clamp(t,s)}},it=Ie.hmacSha1;let ot=et&&nt&&typeof tt.importKey==$e,ct=et&&nt&&typeof tt.deriveBits==$e;class lt extends S{constructor({password:e,signed:t,encryptionStrength:r}){super({start(){n.assign(this,{ready:new w((e=>this.resolveReady=e)),password:e,signed:t,strength:r-1,pending:new u})},async transform(e,t){const n=this,{password:r,strength:s,resolveReady:a,ready:i}=n;r?(await(async(e,t,n,r)=>{const s=await ht(e,t,n,pt(r,0,je[t])),a=pt(r,je[t]);if(s[0]!=a[0]||s[1]!=a[1])throw new l(Pe)})(n,s,r,pt(e,0,je[s]+2)),e=pt(e,je[s]+2),a()):await i;const o=new u(e.length-Xe-(e.length-Xe)%He);t.enqueue(ft(n,e,o,0,Xe,!0))},async flush(e){const{signed:t,ctr:n,hmac:r,pending:s,ready:a}=this;await a;const i=pt(s,0,s.length-Xe),o=pt(s,s.length-Xe);let c=new u;if(i.length){const e=gt(rt,i);r.update(e);const t=n.update(e);c=wt(rt,t)}if(t){const e=pt(wt(rt,r.digest()),0,Xe);for(let t=0;Xe>t;t++)if(e[t]!=o[t])throw new l(Be)}e.enqueue(c)}})}}class ut extends S{constructor({password:e,encryptionStrength:t}){let r;super({start(){n.assign(this,{ready:new w((e=>this.resolveReady=e)),password:e,strength:t-1,pending:new u})},async transform(e,t){const n=this,{password:r,strength:s,resolveReady:a,ready:i}=n;let o=new u;r?(o=await(async(e,t,n)=>{const r=Ve(new u(je[t]));return dt(r,await ht(e,t,n,r))})(n,s,r),a()):await i;const c=new u(o.length+e.length-e.length%He);c.set(o,0),t.enqueue(ft(n,e,c,o.length,0))},async flush(e){const{ctr:t,hmac:n,pending:s,ready:a}=this;await a;let i=new u;if(s.length){const e=t.update(gt(rt,s));n.update(e),i=wt(rt,e)}r.signature=wt(rt,n.digest()).slice(0,Xe),e.enqueue(dt(i,r.signature))}}),r=this}}function ft(e,t,n,r,s,a){const{ctr:i,hmac:o,pending:c}=e,l=t.length-s;let f;for(c.length&&(t=dt(c,t),n=((e,t)=>{if(t&&t>e.length){const n=e;(e=new u(t)).set(n,0)}return e})(n,l-l%He)),f=0;l-He>=f;f+=He){const e=gt(rt,pt(t,f,f+He));a&&o.update(e);const s=i.update(e);a||o.update(s),n.set(wt(rt,s),f+r)}return e.pending=pt(t,f),n}async function ht(e,r,s,a){e.password=null;const i=(e=>{if(void 0===g){const t=new u((e=unescape(encodeURIComponent(e))).length);for(let n=0;n<t.length;n++)t[n]=e.charCodeAt(n);return t}return(new g).encode(e)})(s),o=await(async(e,t,n,r,s)=>{if(!ot)return Ie.importKey(t);try{return await tt.importKey("raw",t,n,!1,s)}catch(e){return ot=!1,Ie.importKey(t)}})(0,i,Ke,0,Ye),c=await(async(e,t,n)=>{if(!ct)return Ie.pbkdf2(t,e.salt,Ze.iterations,n);try{return await tt.deriveBits(e,t,n)}catch(r){return ct=!1,Ie.pbkdf2(t,e.salt,Ze.iterations,n)}})(n.assign({salt:a},Ze),o,8*(2*Ge[r]+2)),l=new u(c),f=gt(rt,pt(l,0,Ge[r])),h=gt(rt,pt(l,Ge[r],2*Ge[r])),d=pt(l,2*Ge[r]);return n.assign(e,{keys:{key:f,authentication:h,passwordVerification:d},ctr:new at(new st(f),t.from(Je)),hmac:new it(h)}),d}function dt(e,t){let n=e;return e.length+t.length&&(n=new u(e.length+t.length),n.set(e,0),n.set(t,e.length)),n}function pt(e,t,n){return e.subarray(t,n)}function wt(e,t){return e.fromBits(t)}function gt(e,t){return e.toBits(t)}class mt extends S{constructor({password:e,passwordVerification:t}){super({start(){n.assign(this,{password:e,passwordVerification:t}),St(this,e)},transform(e,t){const n=this;if(n.password){const t=bt(n,e.subarray(0,12));if(n.password=null,t[11]!=n.passwordVerification)throw new l(Pe);e=e.subarray(12)}t.enqueue(bt(n,e))}})}}class yt extends S{constructor({password:e,passwordVerification:t}){super({start(){n.assign(this,{password:e,passwordVerification:t}),St(this,e)},transform(e,t){const n=this;let r,s;if(n.password){n.password=null;const t=Ve(new u(12));t[11]=n.passwordVerification,r=new u(e.length+t.length),r.set(vt(n,t),0),s=12}else r=new u(e.length),s=0;r.set(vt(n,e),s),t.enqueue(r)}})}}function bt(e,t){const n=new u(t.length);for(let r=0;r<t.length;r++)n[r]=_t(e)^t[r],kt(e,n[r]);return n}function vt(e,t){const n=new u(t.length);for(let r=0;r<t.length;r++)n[r]=_t(e)^t[r],kt(e,t[r]);return n}function St(e,t){const r=[305419896,591751049,878082192];n.assign(e,{keys:r,crcKey0:new We(r[0]),crcKey2:new We(r[2])});for(let n=0;n<t.length;n++)kt(e,t.charCodeAt(n))}function kt(e,t){let[n,r,s]=e.keys;e.crcKey0.append([t]),n=~e.crcKey0.get(),r=Dt(a.imul(Dt(r+zt(n)),134775813)+1),e.crcKey2.append([r>>>24]),s=~e.crcKey2.get(),e.keys=[n,r,s]}function _t(e){const t=2|e.keys[2];return zt(a.imul(t,1^t)>>>8)}function zt(e){return 255&e}function Dt(e){return 4294967295&e}const xt="deflate-raw";class Rt extends S{constructor(e,{chunkSize:t,CompressionStream:n,CompressionStreamNative:r}){super({});const{compressed:s,encrypted:a,useCompressionStream:i,zipCrypto:o,signed:c,level:l}=e,u=this;let f,h,p=Ft(super.readable);a&&!o||!c||([p,f]=p.tee(),f=Ut(f,new Ae)),s&&(p=Ct(p,i,{level:l,chunkSize:t},r,n)),a&&(o?p=Ut(p,new yt(e)):(h=new ut(e),p=Ut(p,h))),Tt(u,p,(async()=>{let e;a&&!o&&(e=h.signature),a&&!o||!c||(e=await f.getReader().read(),e=new d(e.value.buffer).getUint32(0)),u.signature=e}))}}class Et extends S{constructor(e,{chunkSize:t,DecompressionStream:n,DecompressionStreamNative:r}){super({});const{zipCrypto:s,encrypted:a,signed:i,signature:o,compressed:c,useCompressionStream:u}=e;let f,h,p=Ft(super.readable);a&&(s?p=Ut(p,new mt(e)):(h=new lt(e),p=Ut(p,h))),c&&(p=Ct(p,u,{chunkSize:t},r,n)),a&&!s||!i||([p,f]=p.tee(),f=Ut(f,new Ae)),Tt(this,p,(async()=>{if((!a||s)&&i){const e=await f.getReader().read(),t=new d(e.value.buffer);if(o!=t.getUint32(0,!1))throw new l(Be)}}))}}function Ft(e){return Ut(e,new S({transform(e,t){e&&e.length&&t.enqueue(e)}}))}function Tt(e,t,r){t=Ut(t,new S({flush:r})),n.defineProperty(e,"readable",{get:()=>t})}function Ct(e,t,n,r,s){try{e=Ut(e,new(t&&r?r:s)(xt,n))}catch(r){if(!t)throw r;e=Ut(e,new s(xt,n))}return e}function Ut(e,t){return e.pipeThrough(t)}const Wt="data",At="inflate";class Nt extends S{constructor(e,t){super({});const r=this,{codecType:s}=e;let a;s.startsWith("deflate")?a=Rt:s.startsWith(At)&&(a=Et);let i=0;const o=new a(e,t),c=super.readable,l=new S({transform(e,t){e&&e.length&&(i+=e.length,t.enqueue(e))},flush(){const{signature:e}=o;n.assign(r,{signature:e,size:i})}});n.defineProperty(r,"readable",{get:()=>c.pipeThrough(o).pipeThrough(l)})}}const Lt=typeof Worker!=ze;class Ot{constructor(e,{readable:t,writable:r},{options:s,config:a,streamOptions:i,useWebWorkers:o,transferStreams:c,scripts:l},u){const{signal:f}=i;return n.assign(e,{busy:!0,readable:t.pipeThrough(new It(t,i,a),{signal:f}),writable:r,options:n.assign({},s),scripts:l,transferStreams:c,terminate(){const{worker:t,busy:n}=e;t&&!n&&(t.terminate(),e.interface=null)},onTaskFinished(){e.busy=!1,u(e)}}),(o&&Lt?Bt:Pt)(e,a)}}class It extends S{constructor(e,{onstart:t,onprogress:n,size:r,onend:s},{chunkSize:a}){let i=0;super({start(){t&&Mt(t,r)},async transform(e,t){i+=e.length,n&&await Mt(n,i,r),t.enqueue(e)},flush(){e.size=i,s&&Mt(s,i)}},{highWaterMark:1,size:()=>a})}}async function Mt(e,...t){try{await e(...t)}catch(e){}}function Pt(e,t){return{run:()=>(async({options:e,readable:t,writable:n,onTaskFinished:r},s)=>{const a=new Nt(e,s);try{await t.pipeThrough(a).pipeTo(n,{preventClose:!0,preventAbort:!0});const{signature:e,size:s}=a;return{signature:e,size:s}}finally{r()}})(e,t)}}function Bt(e,{baseURL:t,chunkSize:r}){return e.interface||n.assign(e,{worker:qt(e.scripts[0],t,e),interface:{run:()=>(async(e,t)=>{let r,s;const a=new w(((e,t)=>{r=e,s=t}));n.assign(e,{reader:null,writer:null,resolveResult:r,rejectResult:s,result:a});const{readable:i,options:o,scripts:c}=e,{writable:l,closed:u}=(e=>{const t=e.getWriter();let n;const r=new w((e=>n=e));return{writable:new _({async write(e){await t.ready,await t.write(e)},close(){t.releaseLock(),n()},abort:e=>t.abort(e)}),closed:r}})(e.writable);Kt({type:"start",scripts:c.slice(1),options:o,config:t,readable:i,writable:l},e)||n.assign(e,{reader:i.getReader(),writer:l.getWriter()});const f=await a;try{await l.close()}catch(e){}return await u,f})(e,{chunkSize:r})}}),e.interface}let Vt=!0,Ht=!0;function qt(e,t,r){const s={type:"module"};let a,i;typeof e==De&&(e=e());try{a=new c(e,t)}catch(t){a=e}if(Vt)try{i=new Worker(a)}catch(e){Vt=!1,i=new Worker(a,s)}else i=new Worker(a,s);return i.addEventListener("message",(e=>(async({data:e},t)=>{const{type:r,value:s,messageId:a,result:i,error:o}=e,{reader:c,writer:f,resolveResult:h,rejectResult:d,onTaskFinished:p}=t;try{if(o){const{message:e,stack:t,code:r,name:s}=o,a=new l(e);n.assign(a,{stack:t,code:r,name:s}),w(a)}else{if("pull"==r){const{value:e,done:n}=await c.read();Kt({type:Wt,value:e,done:n,messageId:a},t)}r==Wt&&(await f.ready,await f.write(new u(s)),Kt({type:"ack",messageId:a},t)),"close"==r&&w(null,i)}}catch(o){w(o)}function w(e,t){e?d(e):h(t),f&&f.releaseLock(),p()}})(e,r))),i}function Kt(e,{worker:t,writer:n,onTaskFinished:r,transferStreams:s}){try{let{value:r,readable:a,writable:i}=e;const o=[];if(r){const{buffer:t,length:n}=r;n!=t.byteLength&&(r=new u(r)),e.value=r.buffer,o.push(e.value)}if(s&&Ht?(a&&o.push(a),i&&o.push(i)):e.readable=e.writable=null,o.length)try{return t.postMessage(e,o),!0}catch(n){Ht=!1,e.readable=e.writable=null,t.postMessage(e)}else t.postMessage(e)}catch(e){throw n&&n.releaseLock(),r(),e}}let Zt=[];const Yt=[];let jt=0;function Gt(e){const{terminateTimeout:t}=e;t&&(clearTimeout(t),e.terminateTimeout=null)}const Xt=65536,Jt="writable";class Qt{constructor(){this.size=0}init(){this.initialized=!0}}class $t extends Qt{get readable(){const e=this,{chunkSize:t=Xt}=e,n=new k({start(){this.chunkOffset=0},async pull(r){const{offset:s=0,size:i,diskNumberStart:o}=n,{chunkOffset:c}=this;r.enqueue(await cn(e,s+c,a.min(t,i-c),o)),c+t>i?r.close():this.chunkOffset+=t}});return n}}class en extends Qt{constructor(){super();const e=this,t=new _({write:t=>e.writeUint8Array(t)});n.defineProperty(e,Jt,{get:()=>t})}writeUint8Array(){}}class tn extends $t{constructor(e){super(),n.assign(this,{blob:e,size:e.size})}async readUint8Array(e,t){const n=this,r=e+t,s=e||r<n.size?n.blob.slice(e,r):n.blob;return new u(await s.arrayBuffer())}}class nn extends Qt{constructor(e){super();const t=new S,r=[];e&&r.push(["Content-Type",e]),n.defineProperty(this,Jt,{get:()=>t.writable}),this.blob=new Response(t.readable,{headers:r}).blob()}getData(){return this.blob}}class rn extends $t{constructor(e){super(),this.readers=e}async init(){super.init();const e=this,{readers:t}=e;e.lastDiskNumber=0,await w.all(t.map((async t=>{await t.init(),e.size+=t.size})))}async readUint8Array(e,t,n=0){const r=this,{readers:s}=this;let i,o=n;-1==o&&(o=s.length-1);let c=e;for(;c>=s[o].size;)c-=s[o].size,o++;const l=s[o],f=l.size;if(c+t>f){const s=f-c;i=new u(t),i.set(await cn(l,c,s)),i.set(await r.readUint8Array(e+s,t-s,n),s)}else i=await cn(l,c,t);return r.lastDiskNumber=a.max(o,r.lastDiskNumber),i}}class sn extends Qt{constructor(e,t=4294967295){super();const r=this;let s,a,i;n.assign(r,{diskNumber:0,diskOffset:0,size:0,maxSize:t,availableSize:t});const o=new _({async write(t){const{availableSize:n}=r;if(i)t.length<n?await c(t):(await c(t.slice(0,n)),await u(),r.diskOffset+=s.size,r.diskNumber++,i=null,await this.write(t.slice(n)));else{const{value:n,done:o}=await e.next();if(o&&!n)throw new l("Writer iterator completed too soon");s=n,s.size=0,s.maxSize&&(r.maxSize=s.maxSize),r.availableSize=r.maxSize,await an(s),a=n.writable,i=a.getWriter(),await this.write(t)}},async close(){await i.ready,await u()}});async function c(e){const t=e.length;t&&(await i.ready,await i.write(e),s.size+=t,r.size+=t,r.availableSize-=t)}async function u(){a.size=s.size,await i.close()}n.defineProperty(r,Jt,{get:()=>o})}}async function an(e,t){e.init&&!e.initialized&&await e.init(t)}function on(e){return t.isArray(e)&&(e=new rn(e)),e instanceof k&&(e={readable:e}),e}function cn(e,t,n,r){return e.readUint8Array(t,n,r)}const ln="\0â˜ºâ˜»â™¥â™¦â™£â™ â€¢â—˜â—‹â—™â™‚â™€â™ªâ™«â˜¼â–ºâ—„â†•â€¼Â¶Â§â–¬â†¨â†‘â†“â†’â†âˆŸâ†”â–²â–¼ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~âŒ‚Ã‡Ã¼Ã©Ã¢Ã¤Ã Ã¥Ã§ÃªÃ«Ã¨Ã¯Ã®Ã¬Ã„Ã…Ã‰Ã¦Ã†Ã´Ã¶Ã²Ã»Ã¹Ã¿Ã–ÃœÂ¢Â£Â¥â‚§Æ’Ã¡Ã­Ã³ÃºÃ±Ã‘ÂªÂºÂ¿âŒÂ¬Â½Â¼Â¡Â«Â»â–‘â–’â–“â”‚â”¤â•¡â•¢â•–â••â•£â•‘â•—â•â•œâ•›â”â””â”´â”¬â”œâ”€â”¼â•â•Ÿâ•šâ•”â•©â•¦â• â•â•¬â•§â•¨â•¤â•¥â•™â•˜â•’â•“â•«â•ªâ”˜â”Œâ–ˆâ–„â–Œâ–â–€Î±ÃŸÎ“Ï€Î£ÏƒÂµÏ„Î¦Î˜Î©Î´âˆÏ†Îµâˆ©â‰¡Â±â‰¥â‰¤âŒ âŒ¡Ã·â‰ˆÂ°âˆ™Â·âˆšâ¿Â²â–  ".split("");function un(e,t){return t&&"cp437"==t.trim().toLowerCase()?(e=>{{let t="";for(let n=0;n<e.length;n++)t+=ln[e[n]];return t}})(e):new m(t).decode(e)}const fn="filename",hn="rawFilename",dn="comment",pn="rawComment",wn="uncompressedSize",gn="compressedSize",mn="offset",yn="diskNumberStart",bn="lastModDate",vn="rawLastModDate",Sn="lastAccessDate",kn="creationDate",_n=[fn,hn,gn,wn,bn,vn,dn,pn,Sn,kn,mn,yn,yn,"internalFileAttribute","externalFileAttribute","msDosCompatible","zip64","directory","bitFlag","encrypted","signature","filenameUTF8","commentUTF8","compressionMethod","version","versionMadeBy","extraField","rawExtraField","extraFieldZip64","extraFieldUnicodePath","extraFieldUnicodeComment","extraFieldAES","extraFieldNTFS","extraFieldExtendedTimestamp"];class zn{constructor(e){_n.forEach((t=>this[t]=e[t]))}}const Dn="File format is not recognized",xn="End of central directory not found",Rn="End of Zip64 central directory not found",En="End of Zip64 central directory locator not found",Fn="Central directory header not found",Tn="Local file header not found",Cn="Zip64 extra field not found",Un="File contains encrypted entry",Wn="Encryption method not supported",An="Compression method not supported",Nn="Split zip file",Ln="utf-8",On="cp437",In=[[wn,be],[gn,be],[mn,be],[yn,ve]],Mn={[ve]:{getValue:Gn,bytes:4},[be]:{getValue:Xn,bytes:8}};class Pn{constructor(e,t,r){n.assign(this,{reader:e,config:t,options:r})}async getData(e,t,r={}){const s=this,{reader:a,offset:i,diskNumberStart:o,extraFieldAES:c,compressionMethod:f,config:h,bitFlag:d,signature:p,rawLastModDate:g,uncompressedSize:m,compressedSize:y}=s,b=s.localDirectory={},v=Jn(await cn(a,i,30,o));let S=qn(s,r,"password");if(S=S&&S.length&&S,c&&99!=c.originalCompressionMethod)throw new l(An);if(0!=f&&8!=f)throw new l(An);if(67324752!=Gn(v,0))throw new l(Tn);Bn(b,v,4),b.rawExtraField=b.extraFieldLength?await cn(a,i+30+b.filenameLength,b.extraFieldLength,o):new u,await Vn(s,b,v,4),n.assign(t,{lastAccessDate:b.lastAccessDate,creationDate:b.creationDate});const k=s.encrypted&&b.encrypted,z=k&&!c;if(k){if(!z&&c.strength===_e)throw new l(Wn);if(!S)throw new l(Un)}const D=i+30+b.filenameLength+b.extraFieldLength,x=a.readable;x.diskNumberStart=o,x.offset=D;const R=x.size=y,E=qn(s,r,"signal");e=(e=>{e.writable===_e&&typeof e.next==De&&(e=new sn(e)),e instanceof _&&(e={writable:e});const{writable:t}=e;return t.size===_e&&(t.size=0),e instanceof sn||n.assign(e,{diskNumber:0,diskOffset:0,availableSize:1/0,maxSize:1/0}),e})(e),await an(e,m);const{writable:F}=e,{onstart:T,onprogress:C,onend:U}=r,W={options:{codecType:At,password:S,zipCrypto:z,encryptionStrength:c&&c.strength,signed:qn(s,r,"checkSignature"),passwordVerification:z&&(d.dataDescriptor?g>>>8&255:p>>>24&255),signature:p,compressed:0!=f,encrypted:k,useWebWorkers:qn(s,r,"useWebWorkers"),useCompressionStream:qn(s,r,"useCompressionStream"),transferStreams:qn(s,r,"transferStreams")},config:h,streamOptions:{signal:E,size:R,onstart:T,onprogress:C,onend:U}};return F.size+=(await(async(e,t)=>{const{options:n,config:r}=t,{transferStreams:s,useWebWorkers:a,useCompressionStream:i,codecType:o,compressed:c,signed:l,encrypted:u}=n,{workerScripts:f,maxWorkers:h,terminateWorkerTimeout:d}=r;t.transferStreams=s||s===_e;const p=!(c||l||u||t.transferStreams);let g;t.useWebWorkers=!p&&(a||a===_e&&r.useWebWorkers),t.scripts=t.useWebWorkers&&f?f[o]:[],n.useCompressionStream=i||i===_e&&r.useCompressionStream;const m=Zt.find((e=>!e.busy));if(m)Gt(m),g=new Ot(m,e,t,y);else if(Zt.length<h){const n={indexWorker:jt};jt++,Zt.push(n),g=new Ot(n,e,t,y)}else g=await new w((n=>Yt.push({resolve:n,stream:e,workerOptions:t})));return g.run();function y(e){if(Yt.length){const[{resolve:t,stream:n,workerOptions:r}]=Yt.splice(0,1);t(new Ot(e,n,r,y))}else e.worker?(Gt(e),Number.isFinite(d)&&d>=0&&(e.terminateTimeout=setTimeout((()=>{Zt=Zt.filter((t=>t!=e)),e.terminate()}),d))):Zt=Zt.filter((t=>t!=e))}})({readable:x,writable:F},W)).size,qn(s,r,"preventClose")||await F.close(),e.getData?e.getData():F}}function Bn(e,t,r){const s=e.rawBitFlag=jn(t,r+2),a=1==(1&s),i=Gn(t,r+6);n.assign(e,{encrypted:a,version:jn(t,r),bitFlag:{level:(6&s)>>1,dataDescriptor:8==(8&s),languageEncodingFlag:2048==(2048&s)},rawLastModDate:i,lastModDate:Kn(i),filenameLength:jn(t,r+22),extraFieldLength:jn(t,r+24)})}async function Vn(e,t,r,s){const{rawExtraField:a}=t,c=t.extraField=new o,f=Jn(new u(a));let h=0;try{for(;h<a.length;){const e=jn(f,h),t=jn(f,h+2);c.set(e,{type:e,data:a.slice(h+4,h+4+t)}),h+=4+t}}catch(e){}const d=jn(r,s+4);n.assign(t,{signature:Gn(r,s+10),uncompressedSize:Gn(r,s+18),compressedSize:Gn(r,s+14)});const p=c.get(1);p&&(((e,t)=>{t.zip64=!0;const n=Jn(e.data),r=In.filter((([e,n])=>t[e]==n));for(let s=0,a=0;s<r.length;s++){const[i,o]=r[s];if(t[i]==o){const r=Mn[o];t[i]=e[i]=r.getValue(n,a),a+=r.bytes}else if(e[i])throw new l(Cn)}})(p,t),t.extraFieldZip64=p);const w=c.get(28789);w&&(await Hn(w,fn,hn,t,e),t.extraFieldUnicodePath=w);const g=c.get(25461);g&&(await Hn(g,dn,pn,t,e),t.extraFieldUnicodeComment=g);const m=c.get(39169);m?(((e,t,r)=>{const s=Jn(e.data),a=Yn(s,4);n.assign(e,{vendorVersion:Yn(s,0),vendorId:Yn(s,2),strength:a,originalCompressionMethod:r,compressionMethod:jn(s,5)}),t.compressionMethod=e.compressionMethod})(m,t,d),t.extraFieldAES=m):t.compressionMethod=d;const y=c.get(10);y&&(((e,t)=>{const r=Jn(e.data);let s,a=4;try{for(;a<e.data.length&&!s;){const t=jn(r,a),n=jn(r,a+2);1==t&&(s=e.data.slice(a+4,a+4+n)),a+=4+n}}catch(e){}try{if(s&&24==s.length){const r=Jn(s),a=r.getBigUint64(0,!0),i=r.getBigUint64(8,!0),o=r.getBigUint64(16,!0);n.assign(e,{rawLastModDate:a,rawLastAccessDate:i,rawCreationDate:o});const c={lastModDate:Zn(a),lastAccessDate:Zn(i),creationDate:Zn(o)};n.assign(e,c),n.assign(t,c)}}catch(e){}})(y,t),t.extraFieldNTFS=y);const b=c.get(21589);b&&(((e,t)=>{const n=Jn(e.data),r=Yn(n,0),s=[],a=[];1==(1&r)&&(s.push(bn),a.push(vn)),2==(2&r)&&(s.push(Sn),a.push("rawLastAccessDate")),4==(4&r)&&(s.push(kn),a.push("rawCreationDate"));let o=1;s.forEach(((r,s)=>{if(e.data.length>=o+4){const c=Gn(n,o);t[r]=e[r]=new i(1e3*c);const l=a[s];e[l]=c}o+=4}))})(b,t),t.extraFieldExtendedTimestamp=b)}async function Hn(e,t,r,s,a){const i=Jn(e.data),o=new We;o.append(a[r]);const c=Jn(new u(4));c.setUint32(0,o.get(),!0),n.assign(e,{version:Yn(i,0),signature:Gn(i,1),[t]:await un(e.data.subarray(5)),valid:!a.bitFlag.languageEncodingFlag&&e.signature==Gn(c,0)}),e.valid&&(s[t]=e[t],s[t+"UTF8"]=!0)}function qn(e,t,n){return t[n]===_e?e.options[n]:t[n]}function Kn(e){const t=(4294901760&e)>>16,n=65535&e;try{return new i(1980+((65024&t)>>9),((480&t)>>5)-1,31&t,(63488&n)>>11,(2016&n)>>5,2*(31&n),0)}catch(e){}}function Zn(e){return new i(Number(e/s(1e4)-s(116444736e5)))}function Yn(e,t){return e.getUint8(t)}function jn(e,t){return e.getUint16(t,!0)}function Gn(e,t){return e.getUint32(t,!0)}function Xn(e,t){return Number(e.getBigUint64(t,!0))}function Jn(e){return new d(e.buffer)}Te({Inflate:ye}),e.BlobReader=tn,e.BlobWriter=nn,e.Data64URIWriter=class extends en{constructor(e){super(),n.assign(this,{data:"data:"+(e||"")+";base64,",pending:[]})}writeUint8Array(e){const t=this;let n=0,s=t.pending;const i=t.pending.length;for(t.pending="",n=0;n<3*a.floor((i+e.length)/3)-i;n++)s+=r.fromCharCode(e[n]);for(;n<e.length;n++)t.pending+=r.fromCharCode(e[n]);s.length>2?t.data+=v(s):t.pending=s}getData(){return this.data+v(this.pending)}},e.ERR_BAD_FORMAT=Dn,e.ERR_CENTRAL_DIRECTORY_NOT_FOUND=Fn,e.ERR_ENCRYPTED=Un,e.ERR_EOCDR_LOCATOR_ZIP64_NOT_FOUND=En,e.ERR_EOCDR_NOT_FOUND=xn,e.ERR_EOCDR_ZIP64_NOT_FOUND=Rn,e.ERR_EXTRAFIELD_ZIP64_NOT_FOUND=Cn,e.ERR_INVALID_PASSWORD=Pe,e.ERR_INVALID_SIGNATURE=Be,e.ERR_LOCAL_FILE_HEADER_NOT_FOUND=Tn,e.ERR_SPLIT_ZIP_FILE=Nn,e.ERR_UNSUPPORTED_COMPRESSION=An,e.ERR_UNSUPPORTED_ENCRYPTION=Wn,e.TextWriter=class extends nn{constructor(e){super(e),n.assign(this,{encoding:e,utf8:!e||"utf-8"==e.toLowerCase()})}async getData(){const{encoding:e,utf8:t}=this,r=await super.getData();if(r.text&&t)return r.text();{const t=new FileReader;return new w(((s,a)=>{n.assign(t,{onload:({target:e})=>s(e.result),onerror:()=>a(t.error)}),t.readAsText(r,e)}))}}},e.ZipReader=class{constructor(e,t={}){n.assign(this,{reader:on(e),options:t,config:Fe})}async*getEntriesGenerator(e={}){const t=this;let{reader:r}=t;const{config:s}=t;if(await an(r),r.size!==_e&&r.readUint8Array||(r=new tn(await new Response(r.readable).blob()),await an(r)),22>r.size)throw new l(Dn);r.chunkSize=(e=>a.max(e.chunkSize,64))(s);const i=await(async(e,t,n)=>{const r=new u(4);return Jn(r).setUint32(0,101010256,!0),await s(22)||await s(a.min(1048582,n));async function s(t){const s=n-t,a=await cn(e,s,t);for(let e=a.length-22;e>=0;e--)if(a[e]==r[0]&&a[e+1]==r[1]&&a[e+2]==r[2]&&a[e+3]==r[3])return{offset:s+e,buffer:a.slice(e,e+22).buffer}}})(r,0,r.size);if(!i)throw 134695760==Gn(Jn(await cn(r,0,4)))?new l(Nn):new l(xn);const o=Jn(i);let c=Gn(o,12),f=Gn(o,16);const h=i.offset,d=jn(o,20),p=h+22+d;let g=jn(o,4);const m=r.lastDiskNumber||0;let y=jn(o,6),b=jn(o,8),v=0,S=0;if(f==be||c==be||b==ve||y==ve){const e=Jn(await cn(r,i.offset-20,20));if(117853008!=Gn(e,0))throw new l(Rn);f=Xn(e,8);let t=await cn(r,f,56,-1),n=Jn(t);const s=i.offset-20-56;if(Gn(n,0)!=ke&&f!=s){const e=f;f=s,v=f-e,t=await cn(r,f,56,-1),n=Jn(t)}if(Gn(n,0)!=ke)throw new l(En);g==ve&&(g=Gn(n,16)),y==ve&&(y=Gn(n,20)),b==ve&&(b=Xn(n,32)),c==be&&(c=Xn(n,40)),f-=c}if(m!=g)throw new l(Nn);if(0>f||f>=r.size)throw new l(Dn);let k=0,_=await cn(r,f,c,y),z=Jn(_);if(c){const e=i.offset-c;if(Gn(z,k)!=Se&&f!=e){const t=f;f=e,v=f-t,_=await cn(r,f,c,y),z=Jn(_)}}if(0>f||f>=r.size)throw new l(Dn);const D=qn(t,e,"filenameEncoding"),x=qn(t,e,"commentEncoding");for(let i=0;b>i;i++){const o=new Pn(r,s,t.options);if(Gn(z,k)!=Se)throw new l(Fn);Bn(o,z,k+6);const c=!!o.bitFlag.languageEncodingFlag,u=k+46,f=u+o.filenameLength,h=f+o.extraFieldLength,d=jn(z,k+4),p=0==(0&d),g=_.subarray(u,f),m=jn(z,k+32),y=h+m,R=_.subarray(h,y),E=c,F=c,T=p&&16==(16&Yn(z,k+38)),C=Gn(z,k+42)+v;n.assign(o,{versionMadeBy:d,msDosCompatible:p,compressedSize:0,uncompressedSize:0,commentLength:m,directory:T,offset:C,diskNumberStart:jn(z,k+34),internalFileAttribute:jn(z,k+36),externalFileAttribute:Gn(z,k+38),rawFilename:g,filenameUTF8:E,commentUTF8:F,rawExtraField:_.subarray(f,h)});const[U,W]=await w.all([un(g,E?Ln:D||On),un(R,F?Ln:x||On)]);n.assign(o,{rawComment:R,filename:U,comment:W,directory:T||U.endsWith("/")}),S=a.max(C,S),await Vn(o,o,z,k+6);const A=new zn(o);A.getData=(e,t)=>o.getData(e,A,t),k=y;const{onprogress:N}=e;if(N)try{await N(i+1,b,new zn(o))}catch(e){}yield A}const R=qn(t,e,"extractPrependedData"),E=qn(t,e,"extractAppendedData");return R&&(t.prependedData=S>0?await cn(r,0,S):new u),t.comment=d?await cn(r,h+22,d):new u,E&&(t.appendedData=p<r.size?await cn(r,p,r.size-p):new u),!0}async getEntries(e={}){const t=[];for await(const n of this.getEntriesGenerator(e))t.push(n);return t}async close(){}},e.configure=Te,e.getMimeType=()=>"application/octet-stream",e.terminateWorkers=()=>{Zt.forEach((e=>{Gt(e),e.terminate()}))},n.defineProperty(e,"__esModule",{value:!0})},"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e="undefined"!=typeof globalThis?globalThis:e||self).zip={});
+globalThis.bootstrap=(()=>{let bootstrapStarted;return async content=>{if (bootstrapStarted) return bootstrapStarted;bootstrapStarted = (async function is(e,{password:t,prompt:n=(()=>{}),shadowRootScriptURL:r,zipOptions:s={useWebWorkers:!1},noBlobURL:a}={}){const i={gif:"image/gif",jpg:"image/jpeg",png:"image/png",tif:"image/tiff",tiff:"image/tiff",bmp:"image/bmp",ico:"image/vnd.microsoft.icon",webp:"image/webp",svg:"image/svg+xml",avi:"video/x-msvideo",ogv:"video/ogg",mp4:"video/mp4",mpeg:"video/mpeg",ts:"video/mp2t",webm:"video/webm","3gp":"video/3gpp","3g2":"video/3gpp",mp3:"audio/mpeg",oga:"audio/ogg",mid:"audio/midi",midi:"audio/midi",opus:"audio/opus",wav:"audio/wav",weba:"audio/webm"};Array.isArray(e)&&(e=new Blob([new Uint8Array(e)])),zip.configure(s);const o=new zip.BlobReader(e);let l=[];const c=new zip.ZipReader(o),u=await c.getEntries(),h={password:t};let d,p,m;await Promise.all(u.map((async e=>{let t,r,s,o,c;if(!h.password&&e.bitFlag.encrypted&&(h.password=n("Please enter the password to view the page")),o=e.filename.match(/^([0-9_]+\/)?(.*)$/)[2],e.filename.match(/index\.html$/)||e.filename.match(/stylesheet_[0-9]+\.css/)||e.filename.match(/scripts\/[0-9]+\.js/))t=new zip.TextWriter,s=await e.getData(t,h);else{const t=e.filename.match(/\.([^.]+)/);let n;n=t&&t[1]&&i[t[1]]?i[t[1]]:"application/octet-stream",e.filename.match(/frames\//)||a?r=await e.getData(new zip.Data64URIWriter(n),h):(c=await e.getData(new zip.BlobWriter(n),h),r=URL.createObjectURL(c))}l.push({filename:e.filename,name:o,url:e.comment,content:r,blob:c,textContent:s,parentResources:[]})}))),await c.close(),l=l.sort(((e,t)=>t.filename.length-e.filename.length));const f=/([{}()^$&.*?/+|[\\\\]|\]|-)/g;for(const e of l)if(void 0!==e.textContent){let t="";const n=e.filename.match(/(.*\/)[^/]+$/);n&&n[1]&&(t=n[1]),e.filename.match(/^([0-9_]+\/)?index\.html$/)&&(p=e.textContent);const s=e.filename.match(/scripts\/[0-9]+\.js/);let a;if(s||l.forEach((n=>{if(n.filename.startsWith(t)&&n.filename!=e.filename){const r=n.filename.substring(t.length);if(!r.match(/manifest\.json$/)){const t=new RegExp(r.replace(f,"\\$1"),"g");-1!=e.textContent.search(t)&&(n.parentResources.push(e.filename),e.textContent=e.textContent.replace(t,n.content))}}})),e.filename.match(/stylesheet_[0-9]+\.css/)?a="text/css":s?a="text/javascript":e.filename.match(/index\.html$/)&&(a="text/html",r&&(e.textContent=e.textContent.replace(/<script data-template-shadow-root.*<\/script>/g,"<script data-template-shadow-root src="+r+"><\/script>"))),e.filename.match(/^([0-9_]+\/)?index\.html$/))d=e.textContent,m=e.url;else{const t=new FileReader;e.textContent?(t.readAsDataURL(new Blob([e.textContent],{type:a+";charset=utf-8"})),e.content=await new Promise(((e,n)=>{t.addEventListener("load",(()=>e(t.result)),!1),t.addEventListener("error",n,!1)}))):e.content="data:text/plain,"}}return{docContent:d,origDocContent:p,resources:l,url:m}})(content,{prompt}).then(({docContent}) => async function os(e,t,{disableFramePointerEvents:n}={}){const r="data-single-filez-disabled-noscript",s=(new DOMParser).parseFromString(t,"text/html");s.querySelectorAll("noscript:not(["+r+"])").forEach((e=>{e.setAttribute(r,e.innerHTML),e.textContent=""})),s.doctype?e.doctype?e.replaceChild(s.doctype,e.doctype):e.insertBefore(s.doctype,e.documentElement):e.doctype&&e.doctype.remove(),n&&s.querySelectorAll("iframe").forEach((e=>{const t="pointer-events";e.style.setProperty("-sf-"+t,e.style.getPropertyValue(t),e.style.getPropertyPriority(t)),e.style.setProperty(t,"none","important")})),e.replaceChild(e.importNode(s.documentElement,!0),e.documentElement),e.documentElement.setAttribute("data-sfz",""),e.querySelectorAll("link[rel*=icon]").forEach((e=>e.parentElement.replaceChild(e,e))),e.open=e.write=e.close=()=>{};for(let t of Array.from(e.querySelectorAll("script")))await new Promise(((n,r)=>{const s=e.createElement("script");Array.from(t.attributes).forEach((e=>s.setAttribute(e.name,e.value)));const a=""==t.getAttribute("async")||"async"==t.getAttribute("async");t.textContent?s.textContent=t.textContent:a||(s.addEventListener("load",n),s.addEventListener("error",r)),t.parentElement.replaceChild(s,t),(t.textContent||a)&&n()}))}(document,docContent));return bootstrapStarted;}})();(async function bs(){const{XMLHttpRequest:e,document:t,setTimeout:n,clearTimeout:r,stop:s}=globalThis,a=new e;let i;return Array.from(t.documentElement.childNodes).forEach((e=>{e!=t.body&&e!=t.head&&e.remove()})),a.responseType="blob",a.open("GET",""),new Promise(((e,t)=>{a.onerror=()=>{i=o("sfz-error-message"),t()},a.send(),a.onload=()=>{i=o("sfz-wait-message"),s(),i&&r(i),e(a.response)}}));function o(e){return n((()=>{t.getElementById(e)&&(Array.from(t.body.childNodes).forEach((t=>{t.id!=e&&t.remove()})),t.body.hidden=!1)}),1500)}})().then(globalThis.bootstrap).catch(()=>{});</script>
+<main hidden>
+å¦‚ä½•å†™ä¸€ç¯‡æŠ€æœ¯æ€§æ–‡ç« å†™ä¸€ç¯‡æŠ€æœ¯æ€§æ–‡ç« éœ€è¦æ³¨æ„ä»¥ä¸‹å‡ ç‚¹ï¼š1.æ˜ç¡®ä¸»é¢˜å’Œç›®æ ‡å—ä¼—ï¼šé¦–å…ˆéœ€è¦æ˜ç¡®æ–‡ç« çš„ä¸»é¢˜å’Œç›®æ ‡å—ä¼—ï¼Œç¡®å®šå†™ä½œçš„æ–¹å‘å’Œå†…å®¹ã€‚å¯¹äºæŠ€æœ¯æ–‡ç« æ¥è¯´ï¼Œè¦è€ƒè™‘è¯»è€…çš„èƒŒæ™¯å’ŒæŠ€æœ¯æ°´å¹³ï¼Œé¿å…ä½¿ç”¨è¿‡äºæ™¦æ¶©æˆ–è¿‡äºç®€å•çš„è¯­è¨€ã€‚2.ç¡®å®šæ–‡ç« ç»“æ„ï¼šæŠ€æœ¯æ–‡ç« ä¸€èˆ¬è¦æ±‚ç»“æ„æ¸…æ™°ï¼Œè¦æœ‰æ˜ç¡®çš„å¼€å¤´ã€ä¸­é—´å’Œç»“å°¾ã€‚å¼€å¤´åº”è¯¥ç®€è¦ä»‹ç»ä¸»é¢˜ï¼Œä¸­é—´éƒ¨åˆ†å¯ä»¥æ·±å…¥è®²è§£æŠ€æœ¯ç»†èŠ‚ï¼Œç»“å°¾éƒ¨åˆ†å¯ä»¥æ€»ç»“å’Œå±•æœ›æœªæ¥å‘å±•ã€‚3.ä½¿ç”¨æ¸…æ™°çš„è¯­è¨€å’Œæœ¯è¯­ï¼šæŠ€æœ¯æ–‡ç« éœ€è¦ä½¿ç”¨æ¸…æ™°çš„è¯­è¨€å’Œæœ¯è¯­ï¼Œé¿å…ä½¿ç”¨æ¨¡ç³Šçš„è¯æ±‡å’Œè¡¨è¾¾æ–¹å¼ã€‚å¦‚æœæœ‰éœ€è¦ä½¿ç”¨ç‰¹å®šçš„ç¼©å†™æˆ–æœ¯è¯­ï¼Œéœ€è¦å…ˆå¯¹è¯»è€…åšå‡ºç›¸åº”çš„è§£é‡Šï¼Œæ–¹ä¾¿ç†è§£ã€‚4.æä¾›è¯¦ç»†çš„ç¤ºä¾‹å’Œå®è·µç»éªŒï¼šæŠ€æœ¯æ–‡ç« å¯ä»¥æä¾›ä¸€äº›å…·ä½“çš„æ¡ˆä¾‹æˆ–å®è·µç»éªŒï¼Œè®©è¯»è€…æ›´å¥½åœ°ç†è§£æŠ€æœ¯çš„å®é™…åº”ç”¨ã€‚å¯ä»¥ä½¿ç”¨ä»£ç ç¤ºä¾‹ã€å›¾è¡¨æˆ–å®éªŒç»“æœç­‰æ–¹å¼æ¥æ”¯æŒæ–‡ç« çš„è®ºç‚¹ã€‚5.é‡è§†æ’ç‰ˆå’Œæ ¼å¼ï¼šæŠ€æœ¯æ–‡ç« çš„æ’ç‰ˆå’Œæ ¼å¼ä¹Ÿéå¸¸é‡è¦ï¼Œè¦ä¿è¯æ–‡ç« æ¸…æ™°æ˜“è¯»ï¼Œä½¿ç”¨åˆé€‚çš„æ ‡é¢˜å’Œæ®µè½ï¼Œé¿å…å‡ºç°é•¿æ®µè½æˆ–å†—é•¿çš„å¥å­ã€‚å¯ä»¥ä½¿ç”¨ä»£ç å—ã€åŠ ç²—ã€æ–œä½“ç­‰æ–¹å¼æ¥çªå‡ºé‡ç‚¹ã€‚6.ç»è¿‡å¤šæ¬¡ä¿®æ”¹å’Œå®¡æ ¡ï¼šæœ€åï¼Œéœ€è¦ç»è¿‡å¤šæ¬¡ä¿®æ”¹å’Œå®¡æ ¡ï¼Œç¡®ä¿æ–‡ç« çš„è¯­è¨€å‡†ç¡®ã€æµç•…ï¼Œå¹¶ä¸”æŠ€æœ¯ç»†èŠ‚å‡†ç¡®æ— è¯¯ã€‚å¯ä»¥è¯·åŒè¡Œæˆ–æŠ€æœ¯ä¸“å®¶è¿›è¡Œå®¡ç¨¿ï¼Œå¸®åŠ©å‘ç°æ–‡ç« ä¸­å¯èƒ½å­˜åœ¨çš„é—®é¢˜å’Œæ”¹è¿›çš„ç©ºé—´ã€‚æ–‡ç« ç»“æ„ä¾‹å­ä»¥ä¸‹æ˜¯ä¸€ä¸ªæŠ€æœ¯æ–‡ç« çš„ç»“æ„ç¤ºä¾‹ï¼šæ ‡é¢˜ï¼šæ¸…æ™°ç®€æ´ï¼Œç›´æ¥è¡¨è¾¾ä¸»é¢˜ï¼Œå¸å¼•è¯»è€…å…´è¶£ã€‚æ‘˜è¦ï¼šç®€è¦ä»‹ç»æ–‡ç« ä¸»é¢˜ã€ç›®çš„å’Œé‡ç‚¹ï¼Œè®©è¯»è€…å¿«é€Ÿäº†è§£æ–‡ç« å†…å®¹ã€‚å¼•è¨€ï¼šç®€è¦ä»‹ç»æ–‡ç« èƒŒæ™¯å’Œç ”ç©¶ç°çŠ¶ï¼Œæ¦‚è¿°æ–‡ç« çš„ç ”ç©¶ç›®çš„å’Œé‡è¦æ€§ã€‚ç›¸å…³æŠ€æœ¯ä»‹ç»ï¼šä»‹ç»ä¸æ–‡ç« ç›¸å…³çš„æŠ€æœ¯ã€ç†è®ºå’Œæ–¹æ³•ï¼Œè®©è¯»è€…äº†è§£ç ”ç©¶é¢†åŸŸçš„èƒŒæ™¯å’ŒåŸºæœ¬çŸ¥è¯†ã€‚ç ”ç©¶æ–¹æ³•ï¼šä»‹ç»æ–‡ç« é‡‡ç”¨çš„ç ”ç©¶æ–¹æ³•ï¼ŒåŒ…æ‹¬å®éªŒè®¾è®¡ã€æ•°æ®é‡‡é›†å’Œåˆ†ææ–¹æ³•ç­‰ï¼Œè®©è¯»è€…äº†è§£ç ”ç©¶çš„å…·ä½“è¿‡ç¨‹å’Œæ–¹æ³•ã€‚å®éªŒç»“æœå’Œåˆ†æï¼šè¯¦ç»†ä»‹ç»å®éªŒç»“æœï¼ŒåŒ…æ‹¬æ•°æ®å’Œå›¾è¡¨ï¼Œå¯¹ç»“æœè¿›è¡Œåˆ†æå’Œè§£é‡Šï¼Œè®©è¯»è€…ç†è§£å®éªŒçš„æ„ä¹‰å’Œç»“è®ºã€‚è®¨è®ºï¼šå¯¹ç ”ç©¶ç»“æœè¿›è¡Œè®¨è®ºï¼Œåˆ†æå®éªŒä¸­å¯èƒ½å­˜åœ¨çš„è¯¯å·®å’Œé™åˆ¶ï¼Œè®¨è®ºç ”ç©¶ç»“æœçš„æ„ä¹‰å’Œæœªæ¥å‘å±•æ–¹å‘ã€‚ç»“è®ºï¼šæ€»ç»“ç ”ç©¶ç»“æœï¼Œé‡ç”³ç ”ç©¶ç›®çš„å’Œè´¡çŒ®ï¼ŒæŒ‡å‡ºç ”ç©¶çš„å±€é™æ€§å’Œæœªæ¥å·¥ä½œçš„æ–¹å‘ã€‚å‚è€ƒæ–‡çŒ®ï¼šåˆ—å‡ºå‚è€ƒæ–‡çŒ®æ¸…å•ï¼Œæ³¨æ˜å¼•ç”¨æ¥æºå’Œæ–‡çŒ®æ ¼å¼ã€‚è‡´è°¢ï¼šæ„Ÿè°¢ç»™äºˆæ”¯æŒå’Œå¸®åŠ©çš„äººå‘˜å’Œç»„ç»‡ã€‚é™„å½•ï¼šæä¾›å®éªŒæ•°æ®ã€ç¨‹åºä»£ç å’Œç›¸å…³é™„åŠ ä¿¡æ¯ã€‚æ³¨ï¼šä¸åŒç±»å‹çš„æŠ€æœ¯æ–‡ç« å¯èƒ½ä¼šæœ‰æ‰€ä¸åŒçš„ç»“æ„å’Œå†…å®¹å®‰æ’ï¼Œå…·ä½“å¯ä»¥æ ¹æ®å®é™…éœ€è¦è¿›è¡Œè°ƒæ•´å’Œæ”¹å˜ã€‚å†™ä¸€ç¯‡å…³äºpgpå·¥ä½œåŸç†çš„æ–‡ç« ï¼Œæ–‡ç« ç»“æ„è¯¥å¦‚ä½•å¸ƒå±€å¥½çš„ï¼Œä¸‹é¢æ˜¯ä¸€ç¯‡å…³äº PGPï¼ˆPretty Good Privacyï¼‰å·¥ä½œåŸç†çš„æ–‡ç« ï¼Œé‡‡ç”¨å…¸å‹çš„æŠ€æœ¯æ–‡ç« ç»“æ„ï¼ŒåŒ…æ‹¬ä»¥ä¸‹éƒ¨åˆ†ï¼šæ ‡é¢˜ï¼šPgpçš„å·¥ä½œåŸç†æ‘˜è¦ï¼šPgpæ˜¯ä¸€ç§åŠ å¯†è½¯ä»¶ï¼Œå¯ä»¥ç”¨äºä¿æŠ¤ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰çš„éšç§å’Œå®‰å…¨ã€‚æœ¬æ–‡ä»‹ç»Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ã€‚å¼•è¨€ï¼šä»‹ç»Pgpçš„æ¦‚å¿µå’Œå†å²ï¼Œæ¦‚è¿°Pgpçš„åº”ç”¨åœºæ™¯å’Œé‡è¦æ€§ã€‚Pgpçš„å·¥ä½œåŸç†ï¼šè¯¦ç»†ä»‹ç»Pgpçš„å·¥ä½œåŸç†ï¼ŒåŒ…æ‹¬å¯†é’¥ç®¡ç†ã€åŠ å¯†å’Œè§£å¯†ã€æ•°å­—ç­¾åç­‰æ–¹é¢ã€‚å¯†é’¥ç®¡ç†ï¼šä»‹ç»Pgpçš„å¯†é’¥ç®¡ç†æœºåˆ¶ï¼ŒåŒ…æ‹¬å…¬é’¥å’Œç§é’¥çš„ç”Ÿæˆã€å¯¼å…¥å’Œå¯¼å‡ºç­‰æ–¹é¢ã€‚åŠ å¯†å’Œè§£å¯†ï¼šä»‹ç»Pgpçš„åŠ å¯†å’Œè§£å¯†è¿‡ç¨‹ï¼ŒåŒ…æ‹¬å¯¹ç§°åŠ å¯†å’Œéå¯¹ç§°åŠ å¯†çš„åŸç†ã€å¯†é’¥ç”Ÿæˆå’Œä½¿ç”¨æ–¹å¼ç­‰æ–¹é¢ã€‚æ•°å­—ç­¾åï¼šä»‹ç»Pgpçš„æ•°å­—ç­¾åæœºåˆ¶ï¼ŒåŒ…æ‹¬æ•°å­—è¯ä¹¦çš„ç”Ÿæˆå’ŒéªŒè¯ã€ä¿¡ä»»ç½‘ç»œçš„å»ºç«‹å’Œç»´æŠ¤ç­‰æ–¹é¢ã€‚åº”ç”¨åœºæ™¯ï¼šä»‹ç»Pgpçš„åº”ç”¨åœºæ™¯ï¼ŒåŒ…æ‹¬ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ã€æ–‡ä»¶ä¼ è¾“å’Œæ•°æ®å¤‡ä»½ç­‰æ–¹é¢ã€‚å®‰å…¨æ€§åˆ†æï¼šå¯¹Pgpçš„å®‰å…¨æ€§è¿›è¡Œåˆ†æï¼ŒåŒ…æ‹¬åŠ å¯†ç®—æ³•çš„å¼ºåº¦ã€å¯†é’¥ç®¡ç†çš„å®‰å…¨æ€§å’Œæ•°å­—ç­¾åçš„å¯é æ€§ç­‰æ–¹é¢ã€‚ç»“è®ºï¼šæ€»ç»“Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ï¼ŒæŒ‡å‡ºPgpçš„ä¼˜ç¼ºç‚¹å’Œæœªæ¥å‘å±•æ–¹å‘ã€‚å‚è€ƒæ–‡çŒ®ï¼šåˆ—å‡ºå‚è€ƒæ–‡çŒ®æ¸…å•ï¼Œæ³¨æ˜å¼•ç”¨æ¥æºå’Œæ–‡çŒ®æ ¼å¼ã€‚é™„å½•ï¼šæä¾›Pgpçš„å®é™…åº”ç”¨ç¤ºä¾‹å’ŒæŠ€æœ¯æ–‡æ¡£ç­‰é™„åŠ ä¿¡æ¯ã€‚æ³¨ï¼šåœ¨å®é™…å†™ä½œè¿‡ç¨‹ä¸­ï¼Œå¯ä»¥æ ¹æ®å®é™…éœ€è¦è¿›è¡Œé€‚å½“çš„è°ƒæ•´å’Œæ”¹å˜ã€‚åŒæ—¶ï¼Œéœ€è¦æ³¨æ„æ–‡ç« è¯­è¨€çš„ç®€ç»ƒæ˜äº†å’Œä¸“ä¸šæœ¯è¯­çš„å‡†ç¡®ä½¿ç”¨ã€‚æŒ‰ç…§è¯¥ç»“æ„å†™ä¸€ç¯‡pgpå·¥ä½œåŸç†çš„æ–‡ç« Pgpçš„å·¥ä½œåŸç†æ‘˜è¦ï¼šPgpæ˜¯ä¸€ç§åŠ å¯†è½¯ä»¶ï¼Œå¯ä»¥ç”¨äºä¿æŠ¤ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰çš„éšç§å’Œå®‰å…¨ã€‚æœ¬æ–‡ä»‹ç»Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ã€‚å¼•è¨€åœ¨å½“ä»Šæ•°å­—åŒ–çš„ä¸–ç•Œä¸­ï¼Œéšç§å’Œå®‰å…¨é—®é¢˜è¶Šæ¥è¶Šå—åˆ°äººä»¬çš„å…³æ³¨ã€‚éšç€ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰é€šè®¯æ–¹å¼çš„å¹¿æ³›åº”ç”¨ï¼Œå¦‚ä½•ä¿éšœé€šè®¯å†…å®¹çš„éšç§å’Œå®‰å…¨æˆä¸ºäº†ä¸€é¡¹é‡è¦çš„ä»»åŠ¡ã€‚Pgpï¼ˆPretty Good Privacyï¼‰æ˜¯ä¸€ç§åŠ å¯†è½¯ä»¶ï¼Œå¯ä»¥ç”¨äºä¿æŠ¤ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰çš„éšç§å’Œå®‰å…¨ã€‚æœ¬æ–‡å°†ä»‹ç»Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ï¼Œä»¥å¸®åŠ©è¯»è€…æ›´å¥½åœ°ç†è§£å’Œåº”ç”¨Pgpã€‚Pgpçš„å·¥ä½œåŸç†Pgpçš„å·¥ä½œåŸç†ä¸»è¦åŒ…æ‹¬å¯†é’¥ç®¡ç†ã€åŠ å¯†å’Œè§£å¯†ã€æ•°å­—ç­¾åç­‰æ–¹é¢ã€‚å¯†é’¥ç®¡ç†Pgpé‡‡ç”¨éå¯¹ç§°åŠ å¯†ç®—æ³•ï¼Œå…¶ä¸­å…¬é’¥å’Œç§é’¥æ˜¯ä¸€å¯¹å¯†é’¥ï¼Œåˆ†åˆ«ç”¨äºåŠ å¯†å’Œè§£å¯†ã€‚Pgpçš„å¯†é’¥ç®¡ç†æœºåˆ¶åŒ…æ‹¬å…¬é’¥å’Œç§é’¥çš„ç”Ÿæˆã€å¯¼å…¥å’Œå¯¼å‡ºç­‰æ–¹é¢ã€‚åœ¨ä½¿ç”¨Pgpä¹‹å‰ï¼Œç”¨æˆ·éœ€è¦ç”Ÿæˆä¸€å¯¹å…¬é’¥å’Œç§é’¥ï¼Œå…¬é’¥å¯ä»¥è‡ªç”±å‘å¸ƒï¼Œè€Œç§é’¥åˆ™å¿…é¡»å¦¥å–„ä¿ç®¡ã€‚å½“ç”¨æˆ·éœ€è¦å‘ä»–äººå‘é€åŠ å¯†æ¶ˆæ¯æ—¶ï¼Œéœ€è¦ä½¿ç”¨å¯¹æ–¹çš„å…¬é’¥è¿›è¡ŒåŠ å¯†ï¼›å½“ç”¨æˆ·æ¥æ”¶åˆ°åŠ å¯†æ¶ˆæ¯æ—¶ï¼Œéœ€è¦ä½¿ç”¨è‡ªå·±çš„ç§é’¥è¿›è¡Œè§£å¯†ã€‚æ­¤å¤–ï¼ŒPgpè¿˜æ”¯æŒå¯¼å…¥å’Œå¯¼å‡ºå¯†é’¥ï¼Œä»¥ä¾¿åœ¨ä¸åŒçš„è®¾å¤‡ä¹‹é—´ä½¿ç”¨ã€‚åŠ å¯†å’Œè§£å¯†Pgpçš„åŠ å¯†å’Œè§£å¯†è¿‡ç¨‹åˆ†ä¸ºä¸¤ä¸ªé˜¶æ®µï¼šå¯¹ç§°åŠ å¯†å’Œéå¯¹ç§°åŠ å¯†ã€‚åœ¨å¯¹ç§°åŠ å¯†é˜¶æ®µï¼ŒPgpä¼šéšæœºç”Ÿæˆä¸€ä¸ªå¯¹ç§°å¯†é’¥ï¼Œç”¨äºå¯¹æ˜æ–‡è¿›è¡ŒåŠ å¯†ï¼›åœ¨éå¯¹ç§°åŠ å¯†é˜¶æ®µï¼ŒPgpä½¿ç”¨æ¥æ”¶è€…çš„å…¬é’¥å¯¹å¯¹ç§°å¯†é’¥è¿›è¡ŒåŠ å¯†ï¼Œå¹¶å°†åŠ å¯†åçš„å¯†é’¥å’ŒåŠ å¯†åçš„æ˜æ–‡ä¸€èµ·å‘é€ç»™æ¥æ”¶è€…ã€‚æ¥æ”¶è€…ä½¿ç”¨è‡ªå·±çš„ç§é’¥å¯¹å¯¹ç§°å¯†é’¥è¿›è¡Œè§£å¯†ï¼Œç„¶åä½¿ç”¨è§£å¯†åçš„å¯¹ç§°å¯†é’¥å¯¹åŠ å¯†åçš„æ˜æ–‡è¿›è¡Œè§£å¯†ã€‚æ•°å­—ç­¾åPgpçš„æ•°å­—ç­¾åæœºåˆ¶å¯ä»¥ç”¨äºéªŒè¯æ¶ˆæ¯çš„çœŸå®æ€§å’Œå®Œæ•´æ€§ã€‚åœ¨å‘é€æ¶ˆæ¯æ—¶ï¼Œå‘é€è€…å¯ä»¥ä½¿ç”¨è‡ªå·±çš„ç§é’¥å¯¹æ¶ˆæ¯è¿›è¡Œæ•°å­—ç­¾åï¼›åœ¨æ¥æ”¶æ¶ˆæ¯æ—¶ï¼Œæ¥æ”¶è€…å¯ä»¥ä½¿ç”¨å‘é€è€…çš„å…¬é’¥å¯¹æ•°å­—ç­¾åè¿›è¡ŒéªŒè¯ã€‚å¦‚æœæ•°å­—ç­¾åéªŒè¯é€šè¿‡ï¼Œåˆ™è¯´æ˜æ¶ˆæ¯æ˜¯ç”±å‘é€è€…å‘é€çš„ï¼Œå¹¶ä¸”åœ¨ä¼ è¾“è¿‡ç¨‹ä¸­æ²¡æœ‰è¢«ç¯¡æ”¹ã€‚æ•°å­—ç­¾åæœºåˆ¶å¯ä»¥é˜²æ­¢ç¯¡æ”¹å’ŒæŠµèµ–ï¼Œæé«˜æ¶ˆæ¯çš„å¯é æ€§å’Œå®‰å…¨æ€§ã€‚åº”ç”¨åœºæ™¯Pgpå¹¿æ³›åº”ç”¨å†è¯¦ç»†ç‚¹Pgpæ˜¯ä¸€ç§åŠ å¯†è½¯ä»¶ï¼Œä¸»è¦ç”¨äºä¿æŠ¤ç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰çš„éšç§å’Œå®‰å…¨ã€‚å®ƒé‡‡ç”¨éå¯¹ç§°åŠ å¯†ç®—æ³•ï¼Œå…¶ä¸­å…¬é’¥å’Œç§é’¥æ˜¯ä¸€å¯¹å¯†é’¥ï¼Œåˆ†åˆ«ç”¨äºåŠ å¯†å’Œè§£å¯†ã€‚æœ¬æ–‡å°†ä»‹ç»Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ï¼Œä»¥å¸®åŠ©è¯»è€…æ›´å¥½åœ°ç†è§£å’Œåº”ç”¨Pgpã€‚ä¸€ã€Pgpçš„å·¥ä½œåŸç†å¯†é’¥ç®¡ç†Pgpçš„å¯†é’¥ç®¡ç†æœºåˆ¶åŒ…æ‹¬å…¬é’¥å’Œç§é’¥çš„ç”Ÿæˆã€å¯¼å…¥å’Œå¯¼å‡ºç­‰æ–¹é¢ã€‚åœ¨ä½¿ç”¨Pgpä¹‹å‰ï¼Œç”¨æˆ·éœ€è¦ç”Ÿæˆä¸€å¯¹å…¬é’¥å’Œç§é’¥ã€‚å…¬é’¥å¯ä»¥è‡ªç”±å‘å¸ƒï¼Œè€Œç§é’¥åˆ™å¿…é¡»å¦¥å–„ä¿ç®¡ã€‚å½“ç”¨æˆ·éœ€è¦å‘ä»–äººå‘é€åŠ å¯†æ¶ˆæ¯æ—¶ï¼Œéœ€è¦ä½¿ç”¨å¯¹æ–¹çš„å…¬é’¥è¿›è¡ŒåŠ å¯†ï¼›å½“ç”¨æˆ·æ¥æ”¶åˆ°åŠ å¯†æ¶ˆæ¯æ—¶ï¼Œéœ€è¦ä½¿ç”¨è‡ªå·±çš„ç§é’¥è¿›è¡Œè§£å¯†ã€‚æ­¤å¤–ï¼ŒPgpè¿˜æ”¯æŒå¯¼å…¥å’Œå¯¼å‡ºå¯†é’¥ï¼Œä»¥ä¾¿åœ¨ä¸åŒçš„è®¾å¤‡ä¹‹é—´ä½¿ç”¨ã€‚åŠ å¯†å’Œè§£å¯†Pgpçš„åŠ å¯†å’Œè§£å¯†è¿‡ç¨‹åˆ†ä¸ºä¸¤ä¸ªé˜¶æ®µï¼šå¯¹ç§°åŠ å¯†å’Œéå¯¹ç§°åŠ å¯†ã€‚åœ¨å¯¹ç§°åŠ å¯†é˜¶æ®µï¼ŒPgpä¼šéšæœºç”Ÿæˆä¸€ä¸ªå¯¹ç§°å¯†é’¥ï¼Œç”¨äºå¯¹æ˜æ–‡è¿›è¡ŒåŠ å¯†ã€‚åœ¨éå¯¹ç§°åŠ å¯†é˜¶æ®µï¼ŒPgpä½¿ç”¨æ¥æ”¶è€…çš„å…¬é’¥å¯¹å¯¹ç§°å¯†é’¥è¿›è¡ŒåŠ å¯†ï¼Œå¹¶å°†åŠ å¯†åçš„å¯†é’¥å’ŒåŠ å¯†åçš„æ˜æ–‡ä¸€èµ·å‘é€ç»™æ¥æ”¶è€…ã€‚æ¥æ”¶è€…ä½¿ç”¨è‡ªå·±çš„ç§é’¥å¯¹å¯¹ç§°å¯†é’¥è¿›è¡Œè§£å¯†ï¼Œç„¶åä½¿ç”¨è§£å¯†åçš„å¯¹ç§°å¯†é’¥å¯¹åŠ å¯†åçš„æ˜æ–‡è¿›è¡Œè§£å¯†ã€‚è¿™æ ·ï¼Œå³ä½¿é»‘å®¢æˆªè·äº†å¯†æ–‡ï¼Œä¹Ÿæ— æ³•ç ´è§£å‡ºæ˜æ–‡ï¼Œä»è€Œä¿æŠ¤äº†é€šè®¯å†…å®¹çš„éšç§å’Œå®‰å…¨ã€‚æ•°å­—ç­¾åPgpçš„æ•°å­—ç­¾åæœºåˆ¶å¯ä»¥ç”¨äºéªŒè¯æ¶ˆæ¯çš„çœŸå®æ€§å’Œå®Œæ•´æ€§ã€‚åœ¨å‘é€æ¶ˆæ¯æ—¶ï¼Œå‘é€è€…å¯ä»¥ä½¿ç”¨è‡ªå·±çš„ç§é’¥å¯¹æ¶ˆæ¯è¿›è¡Œæ•°å­—ç­¾åï¼›åœ¨æ¥æ”¶æ¶ˆæ¯æ—¶ï¼Œæ¥æ”¶è€…å¯ä»¥ä½¿ç”¨å‘é€è€…çš„å…¬é’¥å¯¹æ•°å­—ç­¾åè¿›è¡ŒéªŒè¯ã€‚å¦‚æœæ•°å­—ç­¾åéªŒè¯é€šè¿‡ï¼Œåˆ™è¯´æ˜æ¶ˆæ¯æ˜¯ç”±å‘é€è€…å‘é€çš„ï¼Œå¹¶ä¸”åœ¨ä¼ è¾“è¿‡ç¨‹ä¸­æ²¡æœ‰è¢«ç¯¡æ”¹ã€‚æ•°å­—ç­¾åæœºåˆ¶å¯ä»¥é˜²æ­¢ç¯¡æ”¹å’ŒæŠµèµ–ï¼Œæé«˜æ¶ˆæ¯çš„å¯é æ€§å’Œå®‰å…¨æ€§ã€‚äºŒã€åº”ç”¨åœºæ™¯Pgpå¹¿æ³›åº”ç”¨äºç”µå­é‚®ä»¶ã€æ–‡æœ¬æ¶ˆæ¯ç­‰é€šè®¯æ–¹å¼ä¸­ï¼Œä¸»è¦ç”¨äºä¿æŠ¤é€šè®¯å†…å®¹çš„éšç§å’Œå®‰å…¨ã€‚ä¾‹å¦‚ï¼Œæ”¿åºœã€ä¼ä¸šç­‰æœºæ„å¯ä»¥ä½¿ç”¨Pgpæ¥ä¿æŠ¤æœºå¯†ä¿¡æ¯çš„å®‰å…¨ï¼Œä¸ªäººç”¨æˆ·ä¹Ÿå¯ä»¥ä½¿ç”¨Pgpæ¥ä¿æŠ¤ä¸ªäººéšç§å’Œé€šè®¯å®‰å…¨ã€‚ä¸‰ã€æ€»ç»“æœ¬æ–‡ä»‹ç»äº†Pgpçš„å·¥ä½œåŸç†å’Œåº”ç”¨åœºæ™¯ã€‚Pgpé‡‡ç”¨éå¯¹ç§°åŠ å¯†ç®—æ³•ï¼Œå¯†é’¥ç®¡ç†https://zhuanlan.zhihu.com/p/157260502 æ ¹æ®è¿™ç¯‡æ–‡ç« ï¼Œå†™ä¸€ä¸ªarch Linuxå®‰è£…æ•™ç¨‹ä»¥ä¸‹æ˜¯åŸºäºä¸Šè¿°æ–‡ç« çš„Arch Linuxå®‰è£…æ•™ç¨‹ã€‚æ³¨æ„äº‹é¡¹ï¼šåœ¨å®‰è£… Arch Linux ä¹‹å‰ï¼Œç¡®ä¿æ‚¨å·²ç»å¤‡ä»½äº†æ‰€æœ‰é‡è¦æ•°æ®ï¼Œå› ä¸ºå®‰è£…è¿‡ç¨‹ä¸­å¯èƒ½éœ€è¦é‡æ–°åˆ†åŒºå’Œæ ¼å¼åŒ–ç£ç›˜ã€‚æœ¬æ•™ç¨‹ä»…ä¾›å‚è€ƒï¼Œè¯·æ ¹æ®æ‚¨çš„éœ€æ±‚è¿›è¡Œé€‚å½“ä¿®æ”¹ã€‚ä¸€ã€å‡†å¤‡ä¸‹è½½ Arch Linux é•œåƒæ–‡ä»¶ï¼Œå®˜æ–¹é•œåƒä¸‹è½½åœ°å€ï¼šhttps://archlinux.org/download/åˆ¶ä½œä¸€ä¸ªå¯åŠ¨ç›˜ï¼ˆUSBæˆ–CD-ROMï¼‰ï¼Œå¯ä»¥ä½¿ç”¨ etcherã€Rufus ç­‰è½¯ä»¶ã€‚æ’å…¥å¯åŠ¨ç›˜ï¼Œå¯åŠ¨è®¡ç®—æœºï¼Œå¹¶è¿›å…¥ BIOS è®¾ç½®ã€‚åœ¨ BIOS è®¾ç½®ä¸­å°†å¯åŠ¨è®¾å¤‡è®¾ç½®ä¸ºæ‚¨åˆšåˆšåˆ¶ä½œçš„å¯åŠ¨ç›˜ã€‚äºŒã€å®‰è£… Arch Linuxè¿›å…¥ Arch Linux çš„å®‰è£…ç•Œé¢ï¼Œé€‰æ‹© "Boot Arch Linux" å¹¶æŒ‰ä¸‹ Enter é”®ã€‚åœ¨ç»ˆç«¯ä¸­è¾“å…¥å‘½ä»¤ loadkeys keymapï¼Œå…¶ä¸­ keymap æ˜¯æ‚¨ä½¿ç”¨çš„é”®ç›˜å¸ƒå±€ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯ç¾å¼é”®ç›˜å¸ƒå±€ï¼Œåˆ™å‘½ä»¤ä¸º loadkeys usã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æ— çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ wifi-menu å‘½ä»¤è¿æ¥åˆ° Wi-Fi ç½‘ç»œã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æœ‰çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ ip link å‘½ä»¤æŸ¥çœ‹ç½‘ç»œæ¥å£åç§°ï¼Œç„¶åä½¿ç”¨ dhcpcd interface å‘½ä»¤å¯åŠ¨ DHCP å®¢æˆ·ç«¯ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨çš„ç½‘ç»œæ¥å£åç§°æ˜¯ eth0ï¼Œåˆ™å‘½ä»¤ä¸º dhcpcd eth0ã€‚ä½¿ç”¨ timedatectl set-ntp true å‘½ä»¤å¯ç”¨ç½‘ç»œæ—¶é—´åè®®ï¼ˆNTPï¼‰ã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨éœ€è¦åˆ†åŒºï¼Œè¯·ä½¿ç”¨ cfdisk å‘½ä»¤åˆ›å»ºåˆ†åŒºã€‚ä¾‹å¦‚ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ä»¥ä¸‹åˆ†åŒºæ–¹æ¡ˆï¼šbashCopy code/dev/sda1  512MB   EFI System
+/dev/sda2  8GB     Linux swap
+/dev/sda3  å‰©ä½™ç©ºé—´  Linux filesystem
+æ‚¨å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦è°ƒæ•´åˆ†åŒºå¤§å°ã€‚æ ¼å¼åŒ–åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemkfs.fat -F32 /dev/sda1
+mkswap /dev/sda2
+swapon /dev/sda2
+mkfs.ext4 /dev/sda3
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚æŒ‚è½½åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemount /dev/sda3 /mnt
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚ä½¿ç”¨ pacstrap /mnt base base-devel å‘½ä»¤å®‰è£… Arch Linux åŸºæœ¬ç³»ç»Ÿå’Œå¿…è¦è½¯ä»¶åŒ…ã€‚ä½¿ç”¨ genfstab -U /mnt &gt;&gt; /mnt/etc/fstab å‘½ä»¤ç”Ÿæˆ fstab æ–‡ä»¶ã€‚ä½¿ç”¨ `arch-chrootä½ æœ‰å­—æ•°é™åˆ¶å—ï¼Ÿä¸ºä»€ä¹ˆä¸å†™å®Œæ•´å¯¹ä¸èµ·ï¼Œè¿™æ˜¯æˆ‘çš„ç–å¿½ã€‚ä»¥ä¸‹æ˜¯å®Œæ•´çš„ Arch Linux å®‰è£…æ•™ç¨‹ï¼šæ³¨æ„äº‹é¡¹ï¼šåœ¨å®‰è£… Arch Linux ä¹‹å‰ï¼Œç¡®ä¿æ‚¨å·²ç»å¤‡ä»½äº†æ‰€æœ‰é‡è¦æ•°æ®ï¼Œå› ä¸ºå®‰è£…è¿‡ç¨‹ä¸­å¯èƒ½éœ€è¦é‡æ–°åˆ†åŒºå’Œæ ¼å¼åŒ–ç£ç›˜ã€‚æœ¬æ•™ç¨‹ä»…ä¾›å‚è€ƒï¼Œè¯·æ ¹æ®æ‚¨çš„éœ€æ±‚è¿›è¡Œé€‚å½“ä¿®æ”¹ã€‚ä¸€ã€å‡†å¤‡ä¸‹è½½ Arch Linux é•œåƒæ–‡ä»¶ï¼Œå®˜æ–¹é•œåƒä¸‹è½½åœ°å€ï¼šhttps://archlinux.org/download/åˆ¶ä½œä¸€ä¸ªå¯åŠ¨ç›˜ï¼ˆUSBæˆ–CD-ROMï¼‰ï¼Œå¯ä»¥ä½¿ç”¨ etcherã€Rufus ç­‰è½¯ä»¶ã€‚æ’å…¥å¯åŠ¨ç›˜ï¼Œå¯åŠ¨è®¡ç®—æœºï¼Œå¹¶è¿›å…¥ BIOS è®¾ç½®ã€‚åœ¨ BIOS è®¾ç½®ä¸­å°†å¯åŠ¨è®¾å¤‡è®¾ç½®ä¸ºæ‚¨åˆšåˆšåˆ¶ä½œçš„å¯åŠ¨ç›˜ã€‚äºŒã€å®‰è£… Arch Linuxè¿›å…¥ Arch Linux çš„å®‰è£…ç•Œé¢ï¼Œé€‰æ‹© "Boot Arch Linux" å¹¶æŒ‰ä¸‹ Enter é”®ã€‚åœ¨ç»ˆç«¯ä¸­è¾“å…¥å‘½ä»¤ loadkeys keymapï¼Œå…¶ä¸­ keymap æ˜¯æ‚¨ä½¿ç”¨çš„é”®ç›˜å¸ƒå±€ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯ç¾å¼é”®ç›˜å¸ƒå±€ï¼Œåˆ™å‘½ä»¤ä¸º loadkeys usã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æ— çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ wifi-menu å‘½ä»¤è¿æ¥åˆ° Wi-Fi ç½‘ç»œã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æœ‰çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ ip link å‘½ä»¤æŸ¥çœ‹ç½‘ç»œæ¥å£åç§°ï¼Œç„¶åä½¿ç”¨ dhcpcd interface å‘½ä»¤å¯åŠ¨ DHCP å®¢æˆ·ç«¯ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨çš„ç½‘ç»œæ¥å£åç§°æ˜¯ eth0ï¼Œåˆ™å‘½ä»¤ä¸º dhcpcd eth0ã€‚ä½¿ç”¨ timedatectl set-ntp true å‘½ä»¤å¯ç”¨ç½‘ç»œæ—¶é—´åè®®ï¼ˆNTPï¼‰ã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨éœ€è¦åˆ†åŒºï¼Œè¯·ä½¿ç”¨ cfdisk å‘½ä»¤åˆ›å»ºåˆ†åŒºã€‚ä¾‹å¦‚ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ä»¥ä¸‹åˆ†åŒºæ–¹æ¡ˆï¼šbashCopy code/dev/sda1  512MB   EFI System
+/dev/sda2  8GB     Linux swap
+/dev/sda3  å‰©ä½™ç©ºé—´  Linux filesystem
+æ‚¨å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦è°ƒæ•´åˆ†åŒºå¤§å°ã€‚æ ¼å¼åŒ–åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemkfs.fat -F32 /dev/sda1
+mkswap /dev/sda2
+swapon /dev/sda2
+mkfs.ext4 /dev/sda3
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚æŒ‚è½½åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemount /dev/sda3 /mnt
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚ä½¿ç”¨ pacstrap /mnt base base-devel å‘½ä»¤å®‰è£… Arch Linux åŸºæœ¬ç³»ç»Ÿå’Œå¿…è¦è½¯ä»¶åŒ…ã€‚ä½¿ç”¨ genfstab -U /mnt &gt;&gt; /mnt/etc/fstab å‘½ä»¤ç”Ÿæˆhttps://wiki.archlinux.org/title/Installation_guide å†å‚è€ƒè¿™ç¯‡æ–‡ç« ï¼Œç»“åˆåˆšåˆšçš„é‚£ç¯‡ï¼Œé‡æ–°å†™ä¸€ç¯‡å®‰è£…æ•™ç¨‹å¥½çš„ï¼Œä¸‹é¢æ˜¯æ ¹æ®æ‚¨æä¾›çš„ä¸¤ç¯‡æ–‡ç« ä»¥åŠæˆ‘çš„ç»éªŒï¼Œå†™çš„ Arch Linux å®‰è£…æ•™ç¨‹ï¼šæ³¨æ„äº‹é¡¹ï¼šåœ¨å®‰è£… Arch Linux ä¹‹å‰ï¼Œç¡®ä¿æ‚¨å·²ç»å¤‡ä»½äº†æ‰€æœ‰é‡è¦æ•°æ®ï¼Œå› ä¸ºå®‰è£…è¿‡ç¨‹ä¸­å¯èƒ½éœ€è¦é‡æ–°åˆ†åŒºå’Œæ ¼å¼åŒ–ç£ç›˜ã€‚æœ¬æ•™ç¨‹ä»…ä¾›å‚è€ƒï¼Œè¯·æ ¹æ®æ‚¨çš„éœ€æ±‚è¿›è¡Œé€‚å½“ä¿®æ”¹ã€‚ä¸€ã€å‡†å¤‡ä¸‹è½½ Arch Linux é•œåƒæ–‡ä»¶ï¼Œå®˜æ–¹é•œåƒä¸‹è½½åœ°å€ï¼šhttps://archlinux.org/download/åˆ¶ä½œä¸€ä¸ªå¯åŠ¨ç›˜ï¼ˆUSB æˆ– CD-ROMï¼‰ï¼Œå¯ä»¥ä½¿ç”¨ etcherã€Rufus ç­‰è½¯ä»¶ã€‚æ’å…¥å¯åŠ¨ç›˜ï¼Œå¯åŠ¨è®¡ç®—æœºï¼Œå¹¶è¿›å…¥ BIOS è®¾ç½®ã€‚åœ¨ BIOS è®¾ç½®ä¸­å°†å¯åŠ¨è®¾å¤‡è®¾ç½®ä¸ºæ‚¨åˆšåˆšåˆ¶ä½œçš„å¯åŠ¨ç›˜ã€‚äºŒã€å®‰è£… Arch Linuxè¿›å…¥ Arch Linux çš„å®‰è£…ç•Œé¢ï¼Œé€‰æ‹© "Boot Arch Linux" å¹¶æŒ‰ä¸‹ Enter é”®ã€‚å¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯éç¾å¼é”®ç›˜å¸ƒå±€ï¼Œè¯·ä½¿ç”¨ loadkeys å‘½ä»¤è®¾ç½®é”®ç›˜å¸ƒå±€ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯å¾·å¼é”®ç›˜å¸ƒå±€ï¼Œåˆ™å‘½ä»¤ä¸º loadkeys de-latin1.ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æ— çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ wifi-menu å‘½ä»¤è¿æ¥åˆ° Wi-Fi ç½‘ç»œã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨ä½¿ç”¨æœ‰çº¿ç½‘ç»œï¼Œè¯·ä½¿ç”¨ ip link å‘½ä»¤æŸ¥çœ‹ç½‘ç»œæ¥å£åç§°ï¼Œç„¶åä½¿ç”¨ systemctl start dhcpcd@interface.service å‘½ä»¤å¯åŠ¨ DHCP å®¢æˆ·ç«¯ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨çš„ç½‘ç»œæ¥å£åç§°æ˜¯ enp0s3ï¼Œåˆ™å‘½ä»¤ä¸º systemctl start dhcpcd@enp0s3.service.ä½¿ç”¨ timedatectl set-ntp true å‘½ä»¤å¯ç”¨ç½‘ç»œæ—¶é—´åè®®ï¼ˆNTPï¼‰ã€‚ï¼ˆå¯é€‰ï¼‰å¦‚æœæ‚¨éœ€è¦åˆ†åŒºï¼Œè¯·ä½¿ç”¨ cfdisk å‘½ä»¤åˆ›å»ºåˆ†åŒºã€‚ä¾‹å¦‚ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ä»¥ä¸‹åˆ†åŒºæ–¹æ¡ˆï¼šbashCopy code/dev/sda1  512MB   EFI System
+/dev/sda2  8GB     Linux swap
+/dev/sda3  å‰©ä½™ç©ºé—´  Linux filesystem
+æ‚¨å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦è°ƒæ•´åˆ†åŒºå¤§å°ã€‚æ ¼å¼åŒ–åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemkfs.fat -F32 /dev/sda1
+mkswap /dev/sda2
+swapon /dev/sda2
+mkfs.ext4 /dev/sda3
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚æŒ‚è½½åˆ†åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codemount /dev/sda3 /mnt
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆï¼Œæ‚¨å¯èƒ½éœ€è¦è°ƒæ•´ä¸Šè¿°å‘½ä»¤ä¸­çš„è®¾å¤‡åç§°ã€‚ä½¿ç”¨ pacstrap /mnt base base-devel å‘½ä»¤å®‰è£… Arch Linux åŸºæœ¬ç³»ç»Ÿå’Œå¿…æ¥ç€å†™ä¸‹åŠéƒ¨åˆ†ä½¿ç”¨ genfstab -U /mnt &gt;&gt; /mnt/etc/fstab å‘½ä»¤ç”Ÿæˆæ–‡ä»¶ç³»ç»Ÿè¡¨ï¼Œä»¥ä¾¿åœ¨å¼•å¯¼æ—¶è‡ªåŠ¨æŒ‚è½½åˆ†åŒºã€‚ä½¿ç”¨ arch-chroot /mnt å‘½ä»¤è¿›å…¥æ–°ç³»ç»Ÿçš„æ ¹ç›®å½•ã€‚è®¾ç½®æ—¶åŒºï¼Œä¾‹å¦‚ï¼šbashCopy codeln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+hwclock --systohc
+æ³¨æ„ï¼šæ ¹æ®æ‚¨æ‰€åœ¨çš„æ—¶åŒºå’Œæœ¬åœ°æ—¶é—´è°ƒæ•´ä¸Šè¿°å‘½ä»¤ã€‚ï¼ˆå¯é€‰ï¼‰ç¼–è¾‘ /etc/locale.gen æ–‡ä»¶å¹¶å–æ¶ˆæ‰€éœ€è¯­è¨€çš„æ³¨é‡Šï¼Œç„¶åä½¿ç”¨ locale-gen å‘½ä»¤ç”Ÿæˆè¯­è¨€è®¾ç½®ã€‚åˆ›å»º /etc/locale.conf æ–‡ä»¶å¹¶è®¾ç½®è¯­è¨€å˜é‡ï¼Œä¾‹å¦‚ï¼šmakefileCopy codeLANG=en_US.UTF-8
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„è¯­è¨€è®¾ç½®è°ƒæ•´ä¸Šè¿°å‘½ä»¤ã€‚åˆ›å»ºä¸»æœºåï¼Œä¾‹å¦‚ï¼šjavascriptCopy codeecho myhostname &gt; /etc/hostname
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„ä¸»æœºåè°ƒæ•´ä¸Šè¿°å‘½ä»¤ã€‚ï¼ˆå¯é€‰ï¼‰ç¼–è¾‘ /etc/hosts æ–‡ä»¶å¹¶æ·»åŠ æœ¬åœ°ä¸»æœºåè§£æï¼Œä¾‹å¦‚ï¼šmakefileCopy code127.0.0.1   localhost
+::1         localhost
+127.0.1.1   myhostname.localdomain  myhostname
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„ä¸»æœºåè°ƒæ•´ä¸Šè¿°å‘½ä»¤ã€‚è®¾ç½® root å¯†ç ï¼Œä¾‹å¦‚ï¼šCopy codepasswd
+å®‰è£…å’Œé…ç½®å¼•å¯¼ç¨‹åºï¼Œä¾‹å¦‚ï¼šcssCopy codepacman -S grub efibootmgr os-prober
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=arch_grub --recheck
+grub-mkconfig -o /boot/grub/grub.cfg
+æ³¨æ„ï¼šæ ¹æ®æ‚¨çš„åˆ†åŒºæ–¹æ¡ˆè°ƒæ•´ä¸Šè¿°å‘½ä»¤ã€‚é€€å‡º chroot ç¯å¢ƒå¹¶é‡å¯è®¡ç®—æœºï¼Œä¾‹å¦‚ï¼šbashCopy codeexit
+umount -R /mnt
+reboot
+æ¥ä¸‹æ¥è¿›å…¥ Arch Linux ç³»ç»Ÿï¼Œç™»å½• root è´¦æˆ·ï¼Œç„¶åå¯ä»¥å¼€å§‹å®‰è£…å’Œé…ç½®æ‚¨éœ€è¦çš„è½¯ä»¶ã€‚å¸Œæœ›è¿™ä¸ªæ•™ç¨‹å¯ä»¥å¸®åŠ©æ‚¨å®‰è£… Arch Linuxï¼Œå¦‚æœæ‚¨åœ¨å®‰è£…è¿‡ç¨‹ä¸­é‡åˆ°ä»»ä½•é—®é¢˜ï¼Œè¯·æŸ¥é˜… Arch Linux å®˜æ–¹æ–‡æ¡£æˆ–è€…åœ¨ç¤¾åŒºè®ºå›ä¸­å¯»æ±‚å¸®åŠ©ã€‚notionç¬¬ä¸‰æ–¹è½¯ä»¶è‡ªå®šä¹‰é“¾æ¥çš„åŸç†æ˜¯ä»€ä¹ˆNotion ç¬¬ä¸‰æ–¹è½¯ä»¶è‡ªå®šä¹‰é“¾æ¥çš„åŸç†æ˜¯é€šè¿‡ Notion æä¾›çš„ API æ¥å£æ¥å®ç°çš„ã€‚Notion API å…è®¸å¼€å‘è€…å¯¹ Notion ä¸­çš„é¡µé¢ã€æ•°æ®åº“å’Œå—è¿›è¡Œè¯»å†™æ“ä½œï¼Œå¹¶æä¾›äº†ä¸€ç³»åˆ—çš„åŠŸèƒ½å’Œå‚æ•°ä¾›å¼€å‘è€…ä½¿ç”¨ã€‚å…¶ä¸­åŒ…æ‹¬äº†å¯ä»¥ç”¨äºé“¾æ¥çš„é¡µé¢ ID å’Œå— IDï¼Œå¯ä»¥å°†è¿™äº› ID ä¸ Notion çš„ URL è¿›è¡Œç»„åˆï¼Œä»¥å®ç°è‡ªå®šä¹‰é“¾æ¥çš„åŠŸèƒ½ã€‚å¼€å‘è€…å¯ä»¥é€šè¿‡ Notion API è°ƒç”¨ç›¸åº”çš„æ¥å£æ¥è·å–é¡µé¢ ID å’Œå— IDï¼Œå¹¶å°†è¿™äº› ID ä¸ Notion çš„ URL è¿›è¡Œç»„åˆï¼Œç”Ÿæˆè‡ªå®šä¹‰é“¾æ¥ï¼Œä¾›ç”¨æˆ·ä½¿ç”¨ã€‚åœ¨ç”¨æˆ·ç‚¹å‡»è‡ªå®šä¹‰é“¾æ¥æ—¶ï¼ŒNotion ä¼šè§£æé“¾æ¥ä¸­çš„ ID å¹¶è·³è½¬åˆ°ç›¸åº”çš„é¡µé¢æˆ–å—ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œç”±äº Notion API ä»å¤„äºä¸æ–­å®Œå–„çš„è¿‡ç¨‹ä¸­ï¼Œå› æ­¤ Notion API çš„ä½¿ç”¨æ–¹å¼å’ŒåŠŸèƒ½å¯èƒ½éšæ—¶ä¼šå‘ç”Ÿå˜åŒ–ã€‚å¼€å‘è€…éœ€è¦éšæ—¶å…³æ³¨ Notion API çš„æ›´æ–°å’Œå˜åŒ–ï¼Œå¹¶åŠæ—¶è°ƒæ•´è‡ªå·±çš„ä»£ç ä»¥ç¡®ä¿å…¶æ­£å¸¸è¿è¡Œã€‚å†™ä¸€ä¸ªç½‘é¡µï¼Œå¯ä»¥æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ°GitHubä¸ºäº†å®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHubï¼Œéœ€è¦ä½¿ç”¨ GitHub çš„ API æ¥å£ã€‚ç”±äºä¸Šä¼ æ–‡ä»¶éœ€è¦æˆæƒï¼Œå› æ­¤éœ€è¦å…ˆåˆ›å»ºä¸€ä¸ª GitHub OAuth Appï¼Œå¹¶è·å–ç›¸åº”çš„è®¤è¯ä¿¡æ¯ã€‚æ¥ä¸‹æ¥ï¼Œå¯ä»¥é€šè¿‡ä»¥ä¸‹æ­¥éª¤æ¥å®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHubï¼šåˆ›å»ºä¸€ä¸ª HTML é¡µé¢ï¼Œå¹¶æ·»åŠ ä¸€ä¸ªè¡¨å•ç”¨äºä¸Šä¼ æ–‡ä»¶ã€‚htmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Batch Upload to GitHub&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;form method="post" enctype="multipart/form-data"&gt;
+      &lt;input type="file" name="files[]" multiple&gt;
+      &lt;br&gt;
+      &lt;button type="submit"&gt;Upload&lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+åˆ›å»ºä¸€ä¸ª JavaScript æ–‡ä»¶ï¼Œå¹¶æ·»åŠ ä»£ç ç”¨äºå¤„ç†è¡¨å•æäº¤äº‹ä»¶ã€‚javascriptCopy codeconst form = document.querySelector('form');
+
+form.addEventListener('submit', async (event) =&gt; {
+  event.preventDefault();
+
+  const files = event.target.elements['files[]'].files;
+
+  for (const file of files) {
+    const content = await readFile(file);
+
+    await createFile(file.name, content);
+  }
+
+  alert('Upload successful!');
+});
+
+async function readFile(file) {
+  return new Promise((resolve, reject) =&gt; {
+    const reader = new FileReader();
+
+    reader.onload = () =&gt; {
+      resolve(reader.result);
+    };
+
+    reader.onerror = () =&gt; {
+      reject(reader.error);
+    };
+
+    reader.readAsText(file);
+  });
+}
+
+async function createFile(filename, content) {
+  const response = await fetch('https://api.github.com/repos/:owner/:repo/contents/' + filename, {
+    method: 'PUT',
+    headers: {
+      Authorization: 'Bearer :token',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: 'Add ' + filename,
+      content: btoa(content),
+    }),
+  });
+
+  if (!response.ok) {
+    const message = await response.text();
+
+    throw new Error(message);
+  }
+}
+åœ¨ä»£ç ä¸­æ›¿æ¢ :ownerã€:repo å’Œ :token ä¸º GitHub OAuth App çš„ç›¸åº”ä¿¡æ¯ã€‚:owner å’Œ :repo åˆ†åˆ«ä¸ºè¦ä¸Šä¼ æ–‡ä»¶çš„ä»“åº“çš„æ‰€æœ‰è€…å’Œä»“åº“åç§°ï¼Œ:token ä¸º GitHub OAuth App çš„è®¿é—®ä»¤ç‰Œã€‚åœ¨ GitHub OAuth App çš„è®¾ç½®ä¸­æ·»åŠ å›è°ƒ URLï¼Œä»¥ä¾¿ GitHub æˆæƒåå¯ä»¥å°†ç”¨æˆ·é‡å®šå‘å›è¯¥é¡µé¢ã€‚å°† HTML é¡µé¢å’Œ JavaScript æ–‡ä»¶ä¸Šä¼ åˆ° GitHub Pages ä¸Šï¼Œç„¶åå°±å¯ä»¥é€šè¿‡è®¿é—®è¯¥ç½‘é¡µå¹¶ä¸Šä¼ æ–‡ä»¶æ¥æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub äº†ã€‚å¦‚ä½•è¿›è¡Œæœ¬åœ°æµ‹è¯•è¦è¿›è¡Œæœ¬åœ°æµ‹è¯•ï¼Œéœ€è¦å®‰è£…ä¸€ä¸ªæœ¬åœ°çš„ web æœåŠ¡å™¨æ¥æä¾› HTTP æœåŠ¡ã€‚ä»¥ä¸‹æ˜¯ä½¿ç”¨ Python è‡ªå¸¦çš„ SimpleHTTPServer æ¨¡å—æ¥æ­å»ºä¸€ä¸ªæœ¬åœ° web æœåŠ¡å™¨çš„æ­¥éª¤ï¼šç¡®ä¿å·²å®‰è£… Python 2 æˆ– Python 3ã€‚æ‰“å¼€å‘½ä»¤è¡Œç»ˆç«¯ï¼Œå¹¶è¿›å…¥ä¸Šä¼ æ–‡ä»¶çš„ç›®å½•ã€‚åœ¨å‘½ä»¤è¡Œä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤ï¼šyamlCopy code# For Python 2.x
+python -m SimpleHTTPServer 8000
+
+# For Python 3.x
+python -m http.server 8000
+è¯¥å‘½ä»¤ä¼šåœ¨æœ¬åœ°å¯åŠ¨ä¸€ä¸ªç®€å•çš„ web æœåŠ¡å™¨ï¼Œç›‘å¬ 8000 ç«¯å£ï¼Œè¯¥å‘½ä»¤ä¼šå°†å½“å‰ç›®å½•ä½œä¸º web æœåŠ¡å™¨çš„æ ¹ç›®å½•ã€‚æ‰“å¼€æµè§ˆå™¨ï¼Œè¾“å…¥ http://localhost:8000ï¼Œå³å¯è®¿é—®ä¸Šä¼ æ–‡ä»¶çš„ç½‘é¡µã€‚åœ¨ç½‘é¡µä¸Šé€‰æ‹©è¦ä¸Šä¼ çš„æ–‡ä»¶ï¼Œç‚¹å‡»ä¸Šä¼ æŒ‰é’®ã€‚ä¸Šä¼ æˆåŠŸåï¼Œæ–‡ä»¶å°†è¢«ä¸Šä¼ åˆ°æŒ‡å®šçš„ GitHub ä»“åº“ä¸­ã€‚æ³¨æ„ï¼šåœ¨æœ¬åœ°æµ‹è¯•æ—¶ï¼Œéœ€è¦ç¡®ä¿å·²åœ¨ GitHub OAuth App çš„è®¾ç½®ä¸­æ·»åŠ  http://localhost:8000 ä½œä¸ºå›è°ƒ URLï¼Œå¦åˆ™ GitHub æˆæƒå°†ä¼šå¤±è´¥ã€‚åŒæ—¶ï¼Œåœ¨æœ¬åœ°æµ‹è¯•ä¸­ï¼Œç”±äºæœªä½¿ç”¨ HTTPS åè®®ï¼Œå› æ­¤åœ¨ä¸Šä¼ æ•æ„Ÿä¿¡æ¯æ—¶éœ€è¦æ ¼å¤–æ³¨æ„å®‰å…¨é—®é¢˜ã€‚åˆ›å»º GitHub OAuth Appï¼ŒAuthorization callback URLè¯¥æ€ä¹ˆå¡«å†™åˆ›å»º GitHub OAuth App æ—¶ï¼ŒAuthorization callback URL çš„å¡«å†™æ–¹æ³•å¦‚ä¸‹ï¼šç™»å½•åˆ°æ‚¨çš„ GitHub å¸æˆ·ï¼Œç„¶åè¿›å…¥æ‚¨çš„ Settings é¡µé¢ã€‚åœ¨é¡µé¢å·¦ä¾§å¯¼èˆªæ ä¸­ï¼Œæ‰¾åˆ°å¹¶ç‚¹å‡» â€œDeveloper settingsâ€ã€‚åœ¨ Developer settings é¡µé¢ä¸Šï¼Œç‚¹å‡» â€œOAuth Appsâ€ æ ‡ç­¾é¡µã€‚ç‚¹å‡» â€œNew OAuth Appâ€ æŒ‰é’®ï¼Œå¡«å†™åº”ç”¨ç¨‹åºçš„ä¿¡æ¯ã€‚åœ¨ â€œAuthorization callback URLâ€ å­—æ®µä¸­ï¼Œè¾“å…¥æ‚¨åº”ç”¨ç¨‹åºçš„å›è°ƒ URLã€‚å¦‚æœæ‚¨åœ¨æœ¬åœ°æµ‹è¯•åº”ç”¨ç¨‹åºï¼Œå›è°ƒ URL åº”è¯¥æ˜¯ http://localhost:8000ã€‚å¦‚æœæ‚¨åœ¨ç”Ÿäº§ç¯å¢ƒä¸­ä½¿ç”¨åº”ç”¨ç¨‹åºï¼Œåˆ™åº”ä½¿ç”¨å®é™…åŸŸåæˆ– IP åœ°å€ã€‚ç‚¹å‡» â€œRegister applicationâ€ æŒ‰é’®ï¼Œå®Œæˆåº”ç”¨ç¨‹åºçš„åˆ›å»ºè¿‡ç¨‹ã€‚è¯·æ³¨æ„ï¼Œå¦‚æœæ‚¨åœ¨æœ¬åœ°æµ‹è¯•åº”ç”¨ç¨‹åºï¼Œåˆ™å¿…é¡»å°† http://localhost:8000 æ·»åŠ ä¸ºå›è°ƒ URLï¼Œå¦åˆ™ GitHub æˆæƒå°†ä¼šå¤±è´¥ã€‚åœ¨ç”Ÿäº§ç¯å¢ƒä¸­ï¼Œæ‚¨éœ€è¦ä½¿ç”¨å®é™…åŸŸåæˆ– IP åœ°å€ä½œä¸ºå›è°ƒ URLã€‚æˆ‘æ˜¯ç”¨çš„æ˜¯GitHub pageï¼Œè¯¥æ€ä¹ˆé…ç½®å¦‚æœæ‚¨æ˜¯ä½¿ç”¨ GitHub Pages æ¥æ‰˜ç®¡æ‚¨çš„ç½‘é¡µå¹¶æƒ³è¦åœ¨ç½‘é¡µä¸­ä½¿ç”¨ GitHub OAuth Appï¼Œé‚£ä¹ˆæ‚¨éœ€è¦åœ¨æ‚¨çš„ GitHub Pages é¡¹ç›®çš„è®¾ç½®ä¸­æ·»åŠ å›è°ƒ URLã€‚ä¸‹é¢æ˜¯æ·»åŠ å›è°ƒ URL çš„æ­¥éª¤ï¼šè¿›å…¥æ‚¨çš„ GitHub Pages é¡¹ç›®çš„ä»“åº“é¡µé¢ã€‚ç‚¹å‡»ä»“åº“é¡µé¢ä¸Šæ–¹çš„ â€œSettingsâ€ æŒ‰é’®ã€‚åœ¨é¡µé¢å·¦ä¾§å¯¼èˆªæ ä¸­ï¼Œæ‰¾åˆ°å¹¶ç‚¹å‡» â€œPagesâ€ é€‰é¡¹å¡ã€‚æ‚¨éœ€è¦å°†å›è°ƒ URL æ·»åŠ åˆ° â€œAuthorized redirect URIsâ€ éƒ¨åˆ†ã€‚åœ¨æ­¤å¤„è¾“å…¥ https://&lt;username&gt;.github.io/&lt;repository-name&gt;/callbackï¼Œå…¶ä¸­ &lt;username&gt; æ˜¯æ‚¨çš„ GitHub ç”¨æˆ·åï¼Œ&lt;repository-name&gt; æ˜¯æ‚¨çš„ GitHub Pages é¡¹ç›®çš„åç§°ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨çš„ç”¨æˆ·åæ˜¯ myusernameï¼Œæ‚¨çš„ GitHub Pages é¡¹ç›®åç§°æ˜¯ myprojectï¼Œåˆ™å›è°ƒ URL åº”è¯¥æ˜¯ https://myusername.github.io/myproject/callbackã€‚ç‚¹å‡» â€œSaveâ€ æŒ‰é’®ï¼Œä¿å­˜æ‚¨çš„æ›´æ”¹ã€‚ç°åœ¨ï¼Œæ‚¨å¯ä»¥åœ¨æ‚¨çš„ç½‘é¡µä¸­ä½¿ç”¨ GitHub OAuth Appï¼Œå½“æ‚¨çš„ç½‘é¡µéœ€è¦è®¿é—® GitHub API æ—¶ï¼Œç”¨æˆ·å°†è¢«é‡å®šå‘åˆ° GitHub æˆæƒé¡µé¢è¿›è¡Œæˆæƒã€‚æˆæƒæˆåŠŸåï¼Œç”¨æˆ·å°†è¢«é‡å®šå‘å›æ‚¨çš„ç½‘é¡µï¼Œå¹¶ä¸”æ‚¨çš„ç½‘é¡µå¯ä»¥ä½¿ç”¨è®¿é—®ä»¤ç‰Œæ¥è®¿é—® GitHub APIã€‚å°†åˆšåˆšå†™çš„jsæ·»åŠ åˆ°htmlæ–‡ä»¶ä¸­å°†æ‚¨ç¼–å†™çš„ JavaScript æ–‡ä»¶æ·»åŠ åˆ° HTML æ–‡ä»¶ä¸­çš„æ­¥éª¤å¦‚ä¸‹ï¼šåœ¨æ‚¨çš„ HTML æ–‡ä»¶ä¸­æ·»åŠ ä¸€ä¸ª script æ ‡ç­¾ï¼Œè¯¥æ ‡ç­¾ç”¨äºå°† JavaScript æ–‡ä»¶å¼•å…¥åˆ° HTML æ–‡ä»¶ä¸­ã€‚htmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;script src="path/to/your/javascript/file.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+å°† src å±æ€§çš„å€¼è®¾ç½®ä¸ºæ‚¨ç¼–å†™çš„ JavaScript æ–‡ä»¶çš„è·¯å¾„ã€‚è·¯å¾„å¯ä»¥æ˜¯ç›¸å¯¹è·¯å¾„æˆ–ç»å¯¹è·¯å¾„ã€‚ä¿å­˜ HTML æ–‡ä»¶å’Œ JavaScript æ–‡ä»¶ï¼Œå¹¶åœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ HTML æ–‡ä»¶ä»¥æŸ¥çœ‹æ•ˆæœã€‚è¯·æ³¨æ„ï¼Œå°† JavaScript æ–‡ä»¶æ·»åŠ åˆ° HTML æ–‡ä»¶ä¸­çš„ä½ç½®ä¹Ÿå¾ˆé‡è¦ã€‚é€šå¸¸ï¼Œæ‚¨åº”è¯¥å°† script æ ‡ç­¾æ”¾åœ¨ HTML æ–‡ä»¶çš„ body æ ‡ç­¾çš„åº•éƒ¨ï¼Œè¿™æ ·å¯ä»¥ç¡®ä¿åœ¨åŠ è½½ JavaScript æ–‡ä»¶ä¹‹å‰ï¼Œé¡µé¢çš„å…¶ä»–å†…å®¹å·²ç»è¢«æ¸²æŸ“å‡ºæ¥ã€‚å¦‚æœæ‚¨å°† script æ ‡ç­¾æ”¾åœ¨ head æ ‡ç­¾ä¸­ï¼Œåˆ™å¯èƒ½ä¼šå¯¼è‡´ JavaScript ä»£ç åœ¨ HTML å†…å®¹åŠ è½½å®Œæˆä¹‹å‰å°±è¢«æ‰§è¡Œï¼Œè¿™å¯èƒ½ä¼šå¯¼è‡´ JavaScript ä»£ç æ— æ³•æ­£å¸¸å·¥ä½œã€‚å¦‚ä½•åœ¨æ–‡ä»¶ä¸­ä½¿ç”¨github secretGitHub Secret æ˜¯ä¸€ç§å®‰å…¨çš„æ–¹å¼ï¼Œç”¨äºå­˜å‚¨ä¸ä»“åº“ç›¸å…³çš„æœºå¯†ä¿¡æ¯ï¼ˆå¦‚ API å¯†é’¥ã€å¯†ç ç­‰ï¼‰ï¼Œåªæœ‰è¢«æˆæƒçš„ä»“åº“æ‹¥æœ‰è€…å’Œåˆä½œè€…æ‰èƒ½è®¿é—®å’Œä½¿ç”¨è¿™äº›ä¿¡æ¯ã€‚åœ¨ä»“åº“çš„ Actions ä¸­ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ GitHub Secret æ¥å®‰å…¨åœ°å­˜å‚¨å’Œè®¿é—®è¿™äº›æœºå¯†ä¿¡æ¯ã€‚è¦åœ¨æ–‡ä»¶ä¸­ä½¿ç”¨ GitHub Secretï¼Œå¯ä»¥å°†å®ƒä»¬ä½œä¸ºç¯å¢ƒå˜é‡ä¼ é€’ç»™æ‚¨çš„è„šæœ¬æˆ–å‘½ä»¤ã€‚ä¸‹é¢æ˜¯ä¸€ä¸ªä½¿ç”¨ GitHub Secret çš„ä¾‹å­ï¼šyamlCopy codename: My Workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Build and Deploy
+        env:
+          SECRET_API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          npm install
+          npm run build
+          deploy.sh $SECRET_API_KEY
+åœ¨ä¸Šé¢çš„ä¾‹å­ä¸­ï¼Œ$SECRET_API_KEY ä½¿ç”¨ ${{ secrets.API_KEY }} å¼•ç”¨äº†åä¸º API_KEY çš„ GitHub Secretã€‚GitHub å°†åœ¨è¿è¡Œå·¥ä½œæµæ—¶å°† API_KEY çš„å€¼æ³¨å…¥åˆ°ç¯å¢ƒå˜é‡ SECRET_API_KEY ä¸­ï¼Œä»¥ä¾¿æ‚¨çš„è„šæœ¬æˆ–å‘½ä»¤å¯ä»¥å®‰å…¨åœ°è®¿é—®å®ƒã€‚åœ¨ä½¿ç”¨ GitHub Secret æ—¶ï¼Œæ‚¨éœ€è¦æ³¨æ„ä»¥ä¸‹äº‹é¡¹ï¼šåœ¨æ‚¨çš„ä»“åº“çš„è®¾ç½®é¡µé¢ä¸­æ·»åŠ  GitHub Secretã€‚åªæœ‰æ‹¥æœ‰ä»“åº“æ‰€æœ‰æƒæˆ–è€…è¢«æ·»åŠ ä¸ºåä½œè€…çš„ç”¨æˆ·æ‰èƒ½æ·»åŠ å’Œç®¡ç† GitHub Secretã€‚GitHub Secret çš„åç§°æ˜¯åŒºåˆ†å¤§å°å†™çš„ã€‚GitHub Secret çš„å€¼åœ¨è¢«æ³¨å…¥åˆ°ç¯å¢ƒå˜é‡ä¸­æ—¶ï¼Œä¸ä¼šè¢«è½¬ä¹‰ã€‚å¦‚æœæ‚¨çš„å€¼åŒ…å«ç‰¹æ®Šå­—ç¬¦ï¼Œå¦‚ç©ºæ ¼ã€å¼•å·æˆ–åæ–œæ ï¼Œè¯·ä½¿ç”¨å•å¼•å·æˆ–åŒå¼•å·å°†å…¶æ‹¬èµ·æ¥ï¼Œæˆ–è€…è½¬ä¹‰è¿™äº›ç‰¹æ®Šå­—ç¬¦ã€‚ä¸è¦å°† GitHub Secret çš„å€¼ç›´æ¥å†™å…¥åˆ°è„šæœ¬æˆ–å‘½ä»¤ä¸­ã€‚è¿™æ ·ä¼šå°†æœºå¯†ä¿¡æ¯æš´éœ²ç»™å…¶ä»–äººã€‚æœ€å¥½å°†å…¶ä½œä¸ºç¯å¢ƒå˜é‡ä¼ é€’ç»™è„šæœ¬æˆ–å‘½ä»¤ã€‚ä½¿ç”¨ GitHub Secret å¯ä»¥å¸®åŠ©æ‚¨å®‰å…¨åœ°å­˜å‚¨å’Œç®¡ç†ä¸æ‚¨çš„ä»“åº“ç›¸å…³çš„æœºå¯†ä¿¡æ¯ï¼Œä»¥ç¡®ä¿æ‚¨çš„åº”ç”¨ç¨‹åºå’Œå·¥ä½œæµåœ¨å¤„ç†æ•æ„Ÿæ•°æ®æ—¶å…·æœ‰æœ€é«˜çº§åˆ«çš„å®‰å…¨æ€§ã€‚å†è¡¥å……ä¸€ä¸‹å…³äºæ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ°GitHubçš„å†…å®¹å½“æ‚¨æƒ³è¦æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub ä»“åº“æ—¶ï¼Œå¯ä»¥ä½¿ç”¨ GitHub API ä¸ RESTful API è¿›è¡Œäº¤äº’ï¼Œé€šè¿‡ä¸€äº› HTTP è¯·æ±‚å’Œå“åº”æ¥å®ç°æ–‡ä»¶ä¸Šä¼ ã€‚è¿™éœ€è¦æ‚¨ä½¿ç”¨ä¸€äº›ç¼–ç¨‹è¯­è¨€å’Œå·¥å…·æ¥å®ç°ï¼Œä¾‹å¦‚ Pythonã€Javaã€JavaScriptã€curl ç­‰ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªä½¿ç”¨ Python çš„ç¤ºä¾‹ä»£ç ï¼Œå¯ä»¥æ‰¹é‡ä¸Šä¼ ä¸€ä¸ªç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶åˆ° GitHub ä»“åº“ï¼špythonCopy codeimport requests
+import os
+
+# è®¾ç½® GitHub API çš„åŸºç¡€ URL
+url = 'https://api.github.com'
+
+# å¡«å†™è‡ªå·±çš„ç”¨æˆ·åå’Œä»“åº“å
+username = 'your_username'
+repo = 'your_repo'
+
+# å¡«å†™ GitHub Personal Access Tokenï¼Œç”¨äºéªŒè¯ API è°ƒç”¨
+access_token = 'your_access_token'
+
+# è®¾ç½®æ–‡ä»¶è·¯å¾„ï¼Œå³éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶å¤¹è·¯å¾„
+folder_path = './your_folder_path/'
+
+# å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+for filename in os.listdir(folder_path):
+    if filename.endswith('.md'):
+        # æ–‡ä»¶åä¸º .md ç»“å°¾çš„æ‰ä¸Šä¼ 
+        file_path = os.path.join(folder_path, filename)
+        with open(file_path, 'r') as file:
+            # è¯»å–æ–‡ä»¶å†…å®¹
+            content = file.read()
+
+        # è®¾ç½® API è°ƒç”¨çš„ headers å’Œ URL
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': f'token {access_token}'
+        }
+        upload_url = f'{url}/repos/{username}/{repo}/contents/{filename}'
+
+        # å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+        response = requests.post(upload_url, headers=headers, json={
+            'message': f'Upload {filename}',
+            'content': content
+        })
+        print(f'{filename} uploaded to GitHub with status code {response.status_code}')
+åœ¨ä¸Šè¿°ä»£ç ä¸­ï¼Œæˆ‘ä»¬ä½¿ç”¨ requests åº“æ¥å‘é€ HTTP è¯·æ±‚ï¼Œä½¿ç”¨ GitHub Personal Access Token è¿›è¡Œèº«ä»½éªŒè¯ï¼Œä½¿ç”¨ os æ¨¡å—æ¥è·å–éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶è·¯å¾„ã€‚å¾ªç¯è¯»å–æ¯ä¸ªæ–‡ä»¶ï¼Œå¹¶ä½¿ç”¨ GitHub API ä¸­çš„ contents æ¥å£å°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œåœ¨ä½¿ç”¨ GitHub API æ—¶ï¼Œéœ€è¦å…ˆåœ¨ä»“åº“çš„è®¾ç½®é¡µé¢ä¸­åˆ›å»ºä¸€ä¸ª Personal Access Tokenï¼Œç”¨äºéªŒè¯ API è°ƒç”¨ã€‚æ­¤å¤–ï¼Œå¦‚æœéœ€è¦ä¸Šä¼ çš„æ–‡ä»¶è¾ƒå¤§ï¼Œè¿˜éœ€è¦è€ƒè™‘ä½¿ç”¨åˆ†å—ä¸Šä¼ çš„æ–¹æ³•æ¥ä¼˜åŒ–ä¸Šä¼ æ€§èƒ½ã€‚æ€»çš„æ¥è¯´ï¼Œä½¿ç”¨ API æ‰¹é‡ä¸Šä¼ æ–‡ä»¶å¯ä»¥å¤§å¤§æé«˜æ–‡ä»¶ä¸Šä¼ çš„æ•ˆç‡ï¼Œå¯¹äºéœ€è¦å¤§é‡ä¸Šä¼ æ–‡ä»¶çš„æƒ…å†µï¼Œè¿™ç§æ–¹å¼æ›´åŠ æ–¹ä¾¿ã€‚ç½‘é¡µè¯¥æ€ä¹ˆå†™åˆ›å»ºä¸€ä¸ªç½‘é¡µå®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub éœ€è¦ä¸€äº›å‰ç«¯çŸ¥è¯†ï¼Œå¦‚ HTMLã€CSS å’Œ JavaScriptã€‚ä¸‹é¢æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼Œæ¼”ç¤ºå¦‚ä½•åˆ›å»ºä¸€ä¸ªåŒ…å«æ–‡ä»¶ä¸Šä¼ è¡¨å•çš„ç½‘é¡µï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const reader = new FileReader();
+
+          // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+          reader.onload = function() {
+            const formData = new FormData();
+            formData.append('message', `Upload ${file.name}`);
+            formData.append('content', btoa(reader.result));
+            formData.append('path', file.name);
+
+            // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+            fetch('/upload', {
+              method: 'POST',
+              body: formData
+            }).then(response =&gt; {
+              console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+            }).catch(error =&gt; {
+              console.error(error);
+            });
+          };
+          reader.readAsBinaryString(file);
+        }
+
+        // é˜²æ­¢è¡¨å•æäº¤
+        return false;
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+åœ¨ä¸Šè¿°ä»£ç ä¸­ï¼Œæˆ‘ä»¬åˆ›å»ºäº†ä¸€ä¸ªåŒ…å«æ–‡ä»¶ä¸Šä¼ è¡¨å•çš„ç½‘é¡µã€‚å½“ç”¨æˆ·é€‰æ‹©ä¸€ä¸ªæˆ–å¤šä¸ªæ–‡ä»¶åï¼Œç‚¹å‡»â€œä¸Šä¼ â€æŒ‰é’®ï¼Œè¡¨å•çš„ onsubmitä¸ç”¨github tokenå—ï¼Ÿåœ¨ä½¿ç”¨ GitHub API è¿›è¡Œæ“ä½œæ—¶ï¼Œéœ€è¦éªŒè¯èº«ä»½ï¼Œä»¥ä¾¿è¿›è¡Œç›¸åº”çš„æ“ä½œã€‚éªŒè¯èº«ä»½æœ‰å¤šç§æ–¹å¼ï¼Œå…¶ä¸­ä¹‹ä¸€æ˜¯ä½¿ç”¨ Personal Access Tokenï¼ˆPATï¼‰ï¼Œä¹Ÿå°±æ˜¯ GitHub Tokenã€‚è¿™ä¸ª Token æ˜¯ä½¿ç”¨ GitHub è´¦æˆ·ä¿¡æ¯è¿›è¡Œåˆ›å»ºçš„ï¼Œæ‹¥æœ‰ä¸€å®šçš„æƒé™èŒƒå›´ï¼Œç”¨äºè¯†åˆ«ç”¨æˆ·å¹¶å®Œæˆç›¸åº”çš„æ“ä½œã€‚å› æ­¤ï¼Œå¦‚æœä½ è¦åœ¨ç½‘é¡µä¸­å®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHubï¼Œä¸€èˆ¬éœ€è¦ä½¿ç”¨ GitHub Token æ¥è¿›è¡Œèº«ä»½éªŒè¯å’Œæƒé™æ§åˆ¶ã€‚è¯¥æ€ä¹ˆå†™ï¼Ÿåœ¨ç½‘é¡µä¸­ä½¿ç”¨ GitHub Token è¿›è¡Œèº«ä»½éªŒè¯å’Œæƒé™æ§åˆ¶ï¼Œä¸€èˆ¬éœ€è¦ä½¿ç”¨ JavaScript è¯­è¨€è¿›è¡Œå®ç°ã€‚ä¸‹é¢æ˜¯ä¸€ä¸ªç®€å•çš„ä½¿ç”¨ GitHub Token å®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶çš„ JavaScript ç¤ºä¾‹ä»£ç ï¼šjavascriptCopy codeconst authToken = "YOUR_GITHUB_TOKEN";
+const repoName = "YOUR_REPOSITORY_NAME";
+const uploadUrl = "https://uploads.github.com/repos/" + repoName + "/contents/";
+
+function uploadFiles() {
+  const fileInput = document.getElementById("file-input");
+  const files = fileInput.files;
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const fileName = file.name;
+    const fileReader = new FileReader();
+    fileReader.onload = function(event) {
+      const fileContent = event.target.result;
+      const fileData = {
+        message: "Add " + fileName,
+        content: btoa(fileContent)
+      };
+      const xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 201) {
+            console.log("Uploaded " + fileName + " successfully!");
+          } else {
+            console.log("Failed to upload " + fileName + ".");
+          }
+        }
+      };
+      xhr.open("PUT", uploadUrl + fileName);
+      xhr.setRequestHeader("Authorization", "token " + authToken);
+      xhr.send(JSON.stringify(fileData));
+    };
+    fileReader.readAsBinaryString(file);
+  }
+}
+è¿™æ®µä»£ç é¦–å…ˆå®šä¹‰äº†ä¸‰ä¸ªå˜é‡ï¼Œåˆ†åˆ«æ˜¯ authTokenã€repoName å’Œ uploadUrlï¼Œåˆ†åˆ«è¡¨ç¤º GitHub Tokenã€ä»“åº“åç§°å’Œä¸Šä¼ æ–‡ä»¶çš„ API åœ°å€ã€‚æ¥ç€å®šä¹‰äº†ä¸€ä¸ª uploadFiles() å‡½æ•°ï¼Œç”¨äºä¸Šä¼ æ–‡ä»¶ã€‚åœ¨å‡½æ•°ä¸­é¦–å…ˆè·å–é€‰æ‹©çš„æ–‡ä»¶åˆ—è¡¨ï¼Œç„¶åéå†æ–‡ä»¶åˆ—è¡¨ï¼Œé’ˆå¯¹æ¯ä¸ªæ–‡ä»¶æ‰§è¡Œä»¥ä¸‹æ“ä½œï¼šè·å–æ–‡ä»¶åå’Œæ–‡ä»¶å†…å®¹ã€‚æ„é€ ä¸Šä¼ æ–‡ä»¶çš„æ•°æ®å¯¹è±¡ï¼ŒåŒ…æ‹¬æäº¤ä¿¡æ¯ message å’Œæ–‡ä»¶å†…å®¹ contentã€‚ä½¿ç”¨ XMLHttpRequest å¯¹è±¡æ‰§è¡Œä¸Šä¼ æ–‡ä»¶çš„ PUT è¯·æ±‚ï¼Œå¹¶åœ¨è¯·æ±‚å¤´ä¸­æ·»åŠ èº«ä»½éªŒè¯ä¿¡æ¯ã€‚æ ¹æ®å“åº”çŠ¶æ€ç åˆ¤æ–­ä¸Šä¼ æ˜¯å¦æˆåŠŸï¼Œå¹¶åœ¨æ§åˆ¶å°è¾“å‡ºä¸Šä¼ ç»“æœã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œåœ¨å®é™…åº”ç”¨ä¸­ï¼Œä½ éœ€è¦å°† YOUR_GITHUB_TOKEN æ›¿æ¢ä¸ºè‡ªå·±çš„ GitHub Tokenï¼Œå°† YOUR_REPOSITORY_NAME æ›¿æ¢ä¸ºè‡ªå·±çš„ä»“åº“åç§°ã€‚æ­¤å¤–ï¼Œè¿˜éœ€è¦åœ¨ç½‘é¡µä¸­æ·»åŠ ä¸€ä¸ªæ–‡ä»¶ä¸Šä¼ çš„è¾“å…¥æ¡†ï¼Œå¯ä»¥ä½¿ç”¨ HTML æ ‡ç­¾ &lt;input type="file" id="file-input"&gt; å®ç°ã€‚è¿™åªæ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ä»£ç ï¼Œå®é™…åº”ç”¨ä¸­å¯èƒ½éœ€è¦æ ¹æ®å…·ä½“éœ€æ±‚è¿›è¡Œè°ƒæ•´ã€‚åŒæ—¶ï¼Œéœ€è¦æ³¨æ„çš„æ˜¯ï¼Œä¸ºäº†ä¿è¯ç½‘é¡µå®‰å…¨ï¼ŒGitHub Token åº”è¯¥ä¿å¯†ï¼Œä¸åº”è¯¥ç›´æ¥æš´éœ²åœ¨ç½‘é¡µä¸­ã€‚ä¸€èˆ¬æ¥è¯´ï¼Œå¯ä»¥ä½¿ç”¨åç«¯æœåŠ¡å™¨æ¥å­˜å‚¨å’Œç®¡ç† GitHub Tokenï¼Œå‰ç«¯ç½‘é¡µåªéœ€è¦å‘åç«¯å‘é€ç›¸åº”è¯·æ±‚å³å¯ã€‚htmlè¯¥æ€ä¹ˆå®ç°ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ HTML æ–‡ä»¶ï¼ŒåŒ…å«ä¸€ä¸ªè¡¨å•å’Œä¸€ä¸ªä¸Šä¼ æ–‡ä»¶çš„æŒ‰é’®ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+    &lt;form method="post" action="upload.php" enctype="multipart/form-data"&gt;
+      &lt;input type="file" name="file[]" multiple&gt;
+      &lt;br&gt;
+      &lt;button type="submit"&gt;ä¸Šä¼ &lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+åœ¨è¡¨å•ä¸­ï¼Œæˆ‘ä»¬è®¾ç½®äº† method å±æ€§ä¸º postï¼Œè¡¨ç¤ºè¿™æ˜¯ä¸€ä¸ª POST è¯·æ±‚ã€‚æˆ‘ä»¬è¿˜è®¾ç½®äº† action å±æ€§ä¸º upload.phpï¼Œè¡¨ç¤ºæäº¤è¡¨å•åä¼šå°†æ•°æ®å‘é€åˆ° upload.php æ–‡ä»¶è¿›è¡Œå¤„ç†ã€‚enctype å±æ€§è®¾ç½®ä¸º multipart/form-dataï¼Œè¡¨ç¤ºè¿™ä¸ªè¡¨å•åŒ…å«äºŒè¿›åˆ¶æ•°æ®ï¼Œå¦‚æ–‡ä»¶ä¸Šä¼ ã€‚åœ¨è¡¨å•ä¸­ï¼Œæˆ‘ä»¬æ·»åŠ äº†ä¸€ä¸ª input å…ƒç´ ï¼Œç±»å‹ä¸º fileï¼Œå¹¶è®¾ç½®äº† name å±æ€§ä¸º file[]ã€‚è¿™è¡¨ç¤ºæˆ‘ä»¬å¯ä»¥é€‰æ‹©å¤šä¸ªæ–‡ä»¶è¿›è¡Œä¸Šä¼ ã€‚æœ€åï¼Œæˆ‘ä»¬æ·»åŠ äº†ä¸€ä¸ªæäº¤æŒ‰é’®ï¼Œç‚¹å‡»åè¡¨å•æ•°æ®å°†è¢«æäº¤åˆ°æœåŠ¡å™¨è¿›è¡Œå¤„ç†ã€‚ä¸è¦phpï¼Œè¯·ç”¨jséå¸¸æŠ±æ­‰ä¹‹å‰çš„å›ç­”ä¸­ä½¿ç”¨äº† PHPï¼Œä¸‹é¢æ˜¯ä½¿ç”¨ JavaScript å®ç°çš„ä¸€ä¸ªç®€å•çš„ä¸Šä¼ æ–‡ä»¶åˆ° GitHub çš„ç¤ºä¾‹ä»£ç ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+    &lt;input type="file" id="fileInput" multiple&gt;
+    &lt;button type="button" onclick="upload()"&gt;ä¸Šä¼ &lt;/button&gt;
+    &lt;script&gt;
+      function upload() {
+        const token = 'YOUR_GITHUB_TOKEN';
+        const repo = 'YOUR_REPO';
+        const branch = 'master';
+        const files = document.getElementById('fileInput').files;
+
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const url = `https://api.github.com/repos/${repo}/contents/${file.name}`;
+          const reader = new FileReader();
+
+          reader.onload = function(e) {
+            const content = e.target.result;
+            const message = `Upload ${file.name}`;
+
+            fetch(url, {
+              method: 'PUT',
+              headers: {
+                Authorization: `token ${token}`
+              },
+              body: JSON.stringify({
+                message: message,
+                content: content,
+                branch: branch
+              })
+            })
+            .then(response =&gt; response.json())
+            .then(data =&gt; console.log(data))
+            .catch(error =&gt; console.error(error));
+          }
+
+          reader.readAsDataURL(file);
+        }
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+åœ¨è¿™ä¸ªç¤ºä¾‹ä»£ç ä¸­ï¼Œæˆ‘ä»¬åˆ›å»ºäº†ä¸€ä¸ªæ–‡ä»¶é€‰æ‹©æ¡†å’Œä¸€ä¸ªä¸Šä¼ æŒ‰é’®ã€‚å½“ç”¨æˆ·é€‰æ‹©æ–‡ä»¶å¹¶ç‚¹å‡»ä¸Šä¼ æŒ‰é’®æ—¶ï¼ŒJavaScript ä»£ç å°†éå†æ‰€æœ‰é€‰å®šçš„æ–‡ä»¶ï¼Œä½¿ç”¨ FileReader å¯¹è±¡è¯»å–æ–‡ä»¶å†…å®¹ï¼Œå¹¶é€šè¿‡ GitHub API å°†æ–‡ä»¶å†…å®¹ä¸Šä¼ åˆ°æŒ‡å®šçš„ä»“åº“ã€‚åœ¨ JavaScript ä»£ç ä¸­ï¼Œæˆ‘ä»¬éœ€è¦å°† token å˜é‡æ›¿æ¢ä¸ºè‡ªå·±çš„ GitHub Tokenï¼Œå°† repo å˜é‡æ›¿æ¢ä¸ºè‡ªå·±çš„ä»“åº“åï¼Œbranch å˜é‡æ›¿æ¢ä¸ºè‡ªå·±çš„åˆ†æ”¯åã€‚ç„¶åï¼Œæˆ‘ä»¬ä½¿ç”¨ fetch() å‡½æ•°å‘é€ä¸€ä¸ª PUT è¯·æ±‚åˆ° GitHub APIï¼Œè¯·æ±‚çš„ URL æ˜¯ç”±ä»“åº“åå’Œæ–‡ä»¶åæ„æˆçš„ã€‚è¯·æ±‚çš„å¤´éƒ¨éœ€è¦åŒ…å«æˆ‘ä»¬çš„ GitHub Tokenï¼Œè¯·æ±‚çš„ä¸»ä½“æ˜¯ä¸€ä¸ª JSON å¯¹è±¡ï¼ŒåŒ…å«ä¸Šä¼ çš„æ–‡ä»¶çš„ä¿¡æ¯ï¼Œå¦‚æ–‡ä»¶åã€æ–‡ä»¶å†…å®¹å’Œåˆ†æ”¯åã€‚è¯·æ±‚æˆåŠŸåï¼ŒGitHub API å°†è¿”å›ä¸€ä¸ª JSON å¯¹è±¡ï¼ŒåŒ…å«ä¸Šä¼ æ–‡ä»¶çš„å…ƒæ•°æ®ï¼Œæˆ‘ä»¬å¯ä»¥åœ¨æ§åˆ¶å°æ‰“å°è¿™ä¸ªå¯¹è±¡ä»¥è¿›è¡Œè°ƒè¯•ã€‚å¦‚æœè¯·æ±‚å¤±è´¥ï¼Œæˆ‘ä»¬å°†åœ¨æ§åˆ¶å°æ‰“å°é”™è¯¯ä¿¡æ¯ã€‚&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const reader = new FileReader();
+
+          // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+          reader.onload = function() {
+            const formData = new FormData();
+            formData.append('message', `Upload ${file.name}`);
+            formData.append('content', btoa(reader.result));
+            formData.append('path', file.name);
+
+            // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+            fetch('/upload', {
+              method: 'POST',
+              body: formData
+            }).then(response =&gt; {
+              console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+            }).catch(error =&gt; {
+              console.error(error);
+            });
+          };
+          reader.readAsBinaryString(file);
+        }
+
+        // é˜²æ­¢è¡¨å•æäº¤
+        return false;
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;åŠ å…¥github apiçš„è°ƒç”¨ä¸ºäº†åŠ å…¥ GitHub API çš„è°ƒç”¨ï¼Œéœ€è¦åœ¨ JavaScript ä¸­æ„é€  API è¯·æ±‚å¹¶åœ¨éœ€è¦çš„åœ°æ–¹æ·»åŠ  API è°ƒç”¨ã€‚ä¸‹é¢æ˜¯æ›´æ–°åçš„ HTML æ–‡ä»¶ï¼Œå®ƒåŒ…æ‹¬äº†ä¸€ä¸ªåœ¨ GitHub ä¸Šåˆ›å»ºä»“åº“çš„ç¤ºä¾‹ API è°ƒç”¨ã€‚phpCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      const token = 'YOUR_GITHUB_TOKEN'; // æ›¿æ¢ä¸ºæ‚¨çš„ GitHub Token
+
+      function createRepo(repoName) {
+        // æ„é€  API è¯·æ±‚çš„ URL
+        const url = `https://api.github.com/user/repos?access_token=${token}`;
+
+        // æ„é€  API è¯·æ±‚çš„å‚æ•°
+        const data = {
+          name: repoName
+        };
+
+        // å‘é€ API è¯·æ±‚ï¼Œåˆ›å»ºä»“åº“
+        fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        }).then(response =&gt; {
+          console.log(`Repository ${repoName} created with status code ${response.status}`);
+        }).catch(error =&gt; {
+          console.error(error);
+        });
+      }
+
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // è¯»å–ä»“åº“åç§°
+        const repoName = prompt('è¯·è¾“å…¥ä»“åº“åç§°');
+
+        // å¦‚æœä»“åº“åç§°ä¸ºç©ºï¼Œåˆ™é€€å‡º
+        if (!repoName) {
+          return false;
+        }
+
+        // åˆ›å»ºä»“åº“
+        createRepo(repoName);
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const
+ç»§ç»­æ¥ä¸‹æ¥ï¼Œæˆ‘ä»¬éœ€è¦ç”¨GitHub Personal Access Tokenæ¥æ›¿æ¢æ‰ä»£ç ä¸­çš„access_tokenï¼Œè¿™æ ·æˆ‘ä»¬çš„ç½‘é¡µå°±å¯ä»¥è°ƒç”¨GitHub APIäº†ã€‚åœ¨ä»£ç ä¸­æ‰¾åˆ°ä»¥ä¸‹è¿™è¡Œä»£ç ï¼šjavascriptCopy codeconst url = `https://api.github.com/repos/${username}/${repository}/contents/${path}`;
+å°†å®ƒæ”¹æˆä¸‹é¢è¿™æ ·ï¼ŒåŠ å…¥Personal Access Tokenï¼šjavascriptCopy codeconst url = `https://api.github.com/repos/${username}/${repository}/contents/${path}?access_token=${personalAccessToken}`;
+å…¶ä¸­personalAccessTokenæ˜¯åœ¨å‰é¢åˆ›å»ºPersonal Access Tokenæ—¶ç”Ÿæˆçš„Tokenã€‚æœ€åï¼Œæˆ‘ä»¬éœ€è¦ä¿®æ”¹fetch()å‡½æ•°çš„å¤´ä¿¡æ¯ï¼Œè¿™æ ·GitHub APIå°±å¯ä»¥éªŒè¯æˆ‘ä»¬çš„æˆæƒäº†ã€‚åœ¨fetch()å‡½æ•°ä¸­æ·»åŠ ä»¥ä¸‹å†…å®¹ï¼šjavascriptCopy codeheaders: {
+  'Authorization': `Bearer ${personalAccessToken}`,
+  'Content-Type': 'application/json'
+}
+æœ€ç»ˆçš„ä»£ç å¦‚ä¸‹ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // GitHub ç”¨æˆ·å
+        const username = 'your_username';
+
+        // GitHub ä»“åº“å
+        const repository = 'your_repository';
+
+        // Personal Access Token
+        const personalAccessToken = 'your_personal_access_token';
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const reader = new FileReader();
+
+          // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚
+æœ€åçš„ä»£ç æ²¡å†™å®Œéå¸¸æŠ±æ­‰ï¼Œçœ‹æ¥æˆ‘æ¼æ‰äº†æœ€åä¸€éƒ¨åˆ†çš„ä»£ç ã€‚ä»¥ä¸‹æ˜¯å®Œæˆä»£ç ï¼šphpCopy code&lt;script&gt;
+  function uploadFiles() {
+    // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+    const files = document.getElementById('file-input').files;
+
+    // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+    if (files.length === 0) {
+      alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+      return false;
+    }
+
+    // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+    for (let i = 0; i &lt; files.length; i++) {
+      const file = files[i];
+      const reader = new FileReader();
+
+      // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+      reader.onload = function() {
+        const formData = new FormData();
+        formData.append('message', `Upload ${file.name}`);
+        formData.append('content', btoa(reader.result));
+        formData.append('path', file.name);
+
+        // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+        fetch('/upload', {
+          method: 'POST',
+          headers: {
+            'Authorization': 'Bearer YOUR_TOKEN'
+          },
+          body: formData
+        }).then(response =&gt; {
+          console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+        }).catch(error =&gt; {
+          console.error(error);
+        });
+      };
+      reader.readAsBinaryString(file);
+    }
+
+    // é˜²æ­¢è¡¨å•æäº¤
+    return false;
+  }
+&lt;/script&gt;
+è¯·å°† YOUR_TOKEN æ›¿æ¢ä¸ºä½ è‡ªå·±çš„ GitHub ä¸ªäººè®¿é—®ä»¤ç‰Œã€‚æ­¤å¤–ï¼Œè¿˜éœ€è¦å°† upload è·¯å¾„æ”¹ä¸ºä½ è‡ªå·±çš„ API è·¯å¾„ã€‚å†™ä¸€ä¸ªæ‰¹é‡ä¸Šä¼ åˆ°GitHubçš„ç½‘é¡µï¼Œåˆ†ä¸¤éƒ¨åˆ†å›ç­”å¥½çš„ï¼Œæˆ‘å¯ä»¥åˆ†ä¸¤éƒ¨åˆ†å›ç­”ï¼šç¬¬ä¸€éƒ¨åˆ†ï¼šå‰ç«¯é¡µé¢æˆ‘ä»¬å¯ä»¥é€šè¿‡ HTML å’Œ JavaScript åˆ›å»ºä¸€ä¸ªç®€å•çš„å‰ç«¯é¡µé¢ï¼Œç”¨äºé€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶ï¼Œå¹¶å°†å…¶ä¸Šä¼ åˆ° GitHub ä»“åº“ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ä»£ç ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const reader = new FileReader();
+
+          // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+          reader.onload = function() {
+            const formData = new FormData();
+            formData.append('message', `Upload ${file.name}`);
+            formData.append('content', btoa(reader.result));
+            formData.append('path', file.name);
+
+            // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+            fetch('/upload', {
+              method: 'POST',
+              body: formData
+            }).then(response =&gt; {
+              console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+            }).catch(error =&gt; {
+              console.error(error);
+            });
+          };
+          reader.readAsBinaryString(file);
+        }
+
+        // é˜²æ­¢è¡¨å•æäº¤
+        return false;
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+åœ¨ä¸Šé¢çš„ä»£ç ä¸­ï¼Œæˆ‘ä»¬åˆ›å»ºäº†ä¸€ä¸ªä¸Šä¼ æ–‡ä»¶çš„è¡¨å•ï¼Œç”¨äºé€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶ã€‚åœ¨æäº¤è¡¨å•æ—¶ï¼Œæˆ‘ä»¬é€šè¿‡2 / 2html jsåˆ†å¼€å†™å¥½çš„ï¼Œä¸‹é¢æ˜¯ HTML å’Œ JS åˆ†å¼€å†™çš„ä»£ç ï¼šHTMLï¼šphpCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script src="github-upload.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+JSï¼šjavascriptCopy codefunction uploadFiles() {
+  // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+  const files = document.getElementById('file-input').files;
+
+  // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+  if (files.length === 0) {
+    alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+    return false;
+  }
+
+  // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+
+    // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+    reader.onload = function() {
+      const formData = new FormData();
+      formData.append('message', `Upload ${file.name}`);
+      formData.append('content', btoa(reader.result));
+      formData.append('path', file.name);
+
+      // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+      fetch('/upload', {
+        method: 'POST',
+        headers: {
+          'Authorization': `token ${GITHUB_TOKEN}`
+        },
+        body: formData
+      }).then(response =&gt; {
+        console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+      }).catch(error =&gt; {
+        console.error(error);
+      });
+    };
+    reader.readAsBinaryString(file);
+  }
+
+  // é˜²æ­¢è¡¨å•æäº¤
+  return false;
+}
+éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œåœ¨ JS æ–‡ä»¶ä¸­ï¼Œæˆ‘ä»¬ä½¿ç”¨äº† GITHUB_TOKEN å˜é‡ï¼Œè¯¥å˜é‡æ˜¯éœ€è¦åœ¨æœåŠ¡ç«¯ç¯å¢ƒä¸­è®¾ç½®çš„ GitHub Personal Access Tokenï¼Œç”¨äºåœ¨è¯·æ±‚ä¸­éªŒè¯èº«ä»½ã€‚åŒæ—¶ï¼Œæˆ‘ä»¬ä¹Ÿåœ¨è¯·æ±‚å¤´ä¸­æ·»åŠ äº† Authorizationåªç”¨tokenå°±è¡Œäº†å—ï¼Ÿä¸ç”¨ä»“åº“åå—ï¼Ÿåœ¨ä½¿ç”¨GitHub APIä¸Šä¼ æ–‡ä»¶æ—¶ï¼Œéœ€è¦æŒ‡å®šè¦ä¸Šä¼ æ–‡ä»¶çš„ä»“åº“åï¼Œä»¥ä¾¿å°†æ–‡ä»¶ä¸Šä¼ åˆ°æ­£ç¡®çš„ä»“åº“ã€‚å› æ­¤ï¼Œåœ¨ä½¿ç”¨GitHub APIä¸Šä¼ æ–‡ä»¶æ—¶ï¼Œéœ€è¦åœ¨APIçš„URLä¸­æŒ‡å®šè¦ä¸Šä¼ æ–‡ä»¶çš„ä»“åº“åï¼Œä»¥åŠä½¿ç”¨OAuth tokenè¿›è¡Œèº«ä»½éªŒè¯ã€‚åœ¨æœ¬ä¾‹ä¸­ï¼Œä½ å·²ç»é€šè¿‡ Authorization è¯·æ±‚å¤´å°† OAuth token å‘é€ç»™ GitHub APIï¼Œè¿™æ · GitHub API å°±å¯ä»¥ä½¿ç”¨ä½ çš„èº«ä»½å‡­è¯è®¿é—®ä½ æœ‰æƒè®¿é—®çš„èµ„æºã€‚å¦å¤–ï¼Œä½ éœ€è¦ä½¿ç”¨ repo ä½œç”¨åŸŸæˆæƒä½ çš„ OAuth åº”ç”¨ç¨‹åºæ¥è®¿é—®ä¸Šä¼ æ–‡ä»¶æ‰€åœ¨çš„ä»“åº“ã€‚å› æ­¤ï¼Œåœ¨è°ƒç”¨ API æ—¶ï¼Œéœ€è¦æŒ‡å®šä¸Šä¼ æ–‡ä»¶çš„ä»“åº“åï¼Œä¾‹å¦‚ï¼šphpCopy codefetch('https://api.github.com/repos/&lt;username&gt;/&lt;repo&gt;/contents/&lt;path&gt;', {
+  method: 'PUT',
+  headers: {
+    Authorization: `Bearer ${token}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    message: 'Add a new file',
+    content: content
+  })
+});
+åœ¨ä¸Šé¢çš„ä»£ç ä¸­ï¼Œ&lt;username&gt; æ˜¯ä½ çš„ GitHub ç”¨æˆ·åï¼Œ&lt;repo&gt; æ˜¯ä½ è¦ä¸Šä¼ æ–‡ä»¶çš„ä»“åº“åï¼Œ&lt;path&gt; æ˜¯è¦ä¸Šä¼ æ–‡ä»¶çš„è·¯å¾„ã€‚ä½ å¯ä»¥æ ¹æ®éœ€è¦æ›´æ”¹è¿™äº›å€¼ï¼Œä»¥ä¾¿å°†æ–‡ä»¶ä¸Šä¼ åˆ°æ­£ç¡®çš„ä½ç½®ã€‚æ‰€ä»¥jsæœ€ç»ˆä»£ç æ˜¯ä»€ä¹ˆä¸‹é¢æ˜¯ä½¿ç”¨JavaScriptå®ç°çš„æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ°GitHubçš„å®Œæ•´ä»£ç ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ°GitHub&lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script&gt;
+      function uploadFiles() {
+        // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+        const files = document.getElementById('file-input').files;
+
+        // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+        if (files.length === 0) {
+          alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+          return false;
+        }
+
+        // è¯»å– GitHub token
+        const token = prompt('è¯·è¾“å…¥ GitHub tokenï¼š');
+        if (!token) {
+          alert('GitHub token ä¸èƒ½ä¸ºç©º');
+          return false;
+        }
+
+        // è¯»å–ä»“åº“åå’Œåˆ†æ”¯å
+        const repoName = prompt('è¯·è¾“å…¥ä»“åº“åï¼š');
+        if (!repoName) {
+          alert('ä»“åº“åä¸èƒ½ä¸ºç©º');
+          return false;
+        }
+        const branchName = prompt('è¯·è¾“å…¥åˆ†æ”¯åï¼ˆé»˜è®¤ä¸º mainï¼‰ï¼š') || 'main';
+
+        // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+        for (let i = 0; i &lt; files.length; i++) {
+          const file = files[i];
+          const reader = new FileReader();
+
+          // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+          reader.onload = function() {
+            const formData = new FormData();
+            formData.append('message', `Upload ${file.name}`);
+            formData.append('content', btoa(reader.result));
+            formData.append('path', file.name);
+
+            // å‘é€ PUT è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+            fetch(`https://api.github.com/repos/${repoName}/contents/${file.name}`, {
+              method: 'PUT',
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json',
+                'Accept': 'application/vnd.github.v3+json'
+ä»£ç æ²¡å†™å®ŒæŠ±æ­‰ï¼Œä¸‹é¢æ˜¯å®Œæ•´çš„ JavaScript ä»£ç ï¼šjsCopy codefunction uploadFiles() {
+  // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+  const files = document.getElementById('file-input').files;
+
+  // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+  if (files.length === 0) {
+    alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+    return false;
+  }
+
+  // æ„é€ è¯·æ±‚å¤´ï¼Œè®¾ç½®æˆæƒä¿¡æ¯
+  const token = 'your_access_token';
+  const headers = {
+    'Authorization': `Bearer ${token}`,
+    'Content-Type': 'application/json'
+  };
+
+  // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+
+    // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œæ„é€ è¯·æ±‚ä½“
+    reader.onload = function() {
+      const content = btoa(reader.result);
+      const path = `your_repo_name/${file.name}`;
+      const message = `Upload ${file.name}`;
+      const body = JSON.stringify({
+        message,
+        content,
+        path
+      });
+
+      // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“
+      fetch('https://api.github.com/repos/your_username/your_repo_name/contents/' + path, {
+        method: 'POST',
+        headers,
+        body
+      }).then(response =&gt; {
+        console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+      }).catch(error =&gt; {
+        console.error(error);
+      });
+    };
+    reader.readAsBinaryString(file);
+  }
+
+  // é˜²æ­¢è¡¨å•æäº¤
+  return false;
+}
+åœ¨ä»£ç ä¸­ï¼Œæˆ‘ä»¬é¦–å…ˆè·å–äº†ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶ï¼Œç„¶åè®¾ç½®äº† GitHub API çš„è¯·æ±‚å¤´ï¼ŒåŒ…æ‹¬æˆæƒä¿¡æ¯å’Œè¯·æ±‚ä½“ç±»å‹ã€‚æ¥ç€ï¼Œæˆ‘ä»¬å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶ï¼Œè¯»å–æ–‡ä»¶å†…å®¹å¹¶ä½¿ç”¨ GitHub API çš„ contents API å°†æ–‡ä»¶ä¸Šä¼ åˆ°ä»“åº“ã€‚æœ€åï¼Œæˆ‘ä»¬é˜»æ­¢äº†è¡¨å•çš„é»˜è®¤æäº¤è¡Œä¸ºï¼Œä»¥é¿å…é¡µé¢åˆ·æ–°ã€‚2 / 2åŠ ä¸€äº›consoleæ—¥å¿—å¥½çš„ï¼Œä»¥ä¸‹æ˜¯åŠ å…¥ä¸€äº› console æ—¥å¿—çš„ä»£ç ç¤ºä¾‹ï¼šjavascriptCopy codefunction uploadFiles() {
+  const files = document.getElementById('file-input').files;
+  if (files.length === 0) {
+    alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+    return false;
+  }
+
+  const token = 'YOUR_GITHUB_TOKEN';
+  const repoName = 'YOUR_REPOSITORY_NAME';
+  const owner = 'YOUR_GITHUB_USERNAME';
+
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+
+    reader.onload = function() {
+      const formData = new FormData();
+      formData.append('message', `Upload ${file.name}`);
+      formData.append('content', btoa(reader.result));
+      formData.append('path', file.name);
+
+      fetch(`https://api.github.com/repos/${owner}/${repoName}/contents/${file.name}`, {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`
+        },
+        body: JSON.stringify({
+          message: `Upload ${file.name}`,
+          content: btoa(reader.result)
+        })
+      }).then(response =&gt; {
+        console.log(`${file.name} uploaded to GitHub with status code ${response.status}`);
+      }).catch(error =&gt; {
+        console.error(`Error uploading ${file.name} to GitHub: ${error}`);
+      });
+    };
+
+    reader.readAsBinaryString(file);
+  }
+
+  return false;
+}
+è¯·æ³¨æ„å°† YOUR_GITHUB_TOKENã€YOUR_REPOSITORY_NAME å’Œ YOUR_GITHUB_USERNAME æ›¿æ¢ä¸ºæ‚¨è‡ªå·±çš„ä¿¡æ¯ã€‚å¦‚æœYOUR_GITHUB_TOKEN=54321 YOUR_REPOSITORY_NAME=batch_uploader YOUR_GITHUB_USERNAME=baddateï¼Œå®Œå–„ä»£ç ä»¥ä¸‹æ˜¯æ ¹æ®æ‚¨æä¾›çš„ä¿¡æ¯æ¥å®Œå–„ä»£ç çš„ç¤ºä¾‹ï¼Œä¸»è¦åŒ…æ‹¬ HTML å’Œ JavaScript ä¸¤éƒ¨åˆ†ï¼Œæ‚¨å¯ä»¥å°†å®ƒä»¬åˆ†åˆ«ä¿å­˜åˆ° .html å’Œ .js æ–‡ä»¶ä¸­ï¼Œç„¶ååœ¨æµè§ˆå™¨ä¸­æ‰“å¼€ .html æ–‡ä»¶ä»¥ä½¿ç”¨è¯¥å·¥å…·ã€‚htmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/title&gt;
+    &lt;style&gt;
+      /* è®¾ç½®æ ·å¼ï¼Œç”¨äºç¾åŒ–ä¸Šä¼ è¡¨å• */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form-wrapper {
+        margin: 10% auto;
+        max-width: 600px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      input[type="file"] {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #dcdcdc;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="form-wrapper"&gt;
+      &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+      &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+        &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+        &lt;input type="submit" value="ä¸Šä¼ "&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;script src="github_upload.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+javascriptCopy code// github_upload.js
+
+// è¯»å–ç¯å¢ƒå˜é‡ï¼Œå…¶ä¸­ YOUR_GITHUB_TOKEN å’Œ YOUR_REPOSITORY_NAME éœ€è¦è‡ªè¡Œå¡«å†™
+const GITHUB_TOKEN = process.env.YOUR_GITHUB_TOKEN;
+const REPO_NAME = process.env.YOUR_REPOSITORY_NAME;
+const GITHUB_USERNAME = process.env.YOUR_GITHUB_USERNAME;
+
+// æ„é€ è¯·æ±‚å¤´ï¼Œç”¨äºæˆæƒè®¤è¯
+const headers = new Headers();
+headers.append('Authorization', `Bearer ${GITHUB_TOKEN}`);
+
+function uploadFiles() {
+  // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+  const files = document.getElementById('file-input').files;
+
+  // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+  if (files.length === 0) {
+    alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+    return false;
+  }
+
+  // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+
+    // è¯»å–æ–‡ä»¶å†…å®¹ï¼Œä½¿ç”¨ FormData æ„é€ è¯·æ±‚ä½“
+    reader.onload = function() {
+      const formData = new FormData();
+      formData.append('message', `Upload ${file.name}`);
+      formData.append('content', btoa(reader.result));
+      formData.append('path', file.name);
+
+      // å‘é€ POST è¯·æ±‚ï¼Œå°†æ–‡ä»¶ä¸Šä¼ 
+github_upload.jsæ²¡å†™å®Œæ•´å¾ˆæŠ±æ­‰ï¼Œä¸Šä¸€æ¬¡å›ç­”çš„ä»£ç ç¡®å®æœ‰ç‚¹é—®é¢˜ï¼Œä¸‹é¢æ˜¯å®Œæ•´çš„ github_upload.js ä»£ç ï¼šjavascriptCopy codeconst token = 'YOUR_GITHUB_TOKEN';
+const repoName = 'YOUR_REPOSITORY_NAME';
+const username = 'YOUR_GITHUB_USERNAME';
+
+async function uploadFileToGithub(file) {
+  const content = await file.arrayBuffer();
+  const encodedContent = btoa(String.fromCharCode.apply(null, new Uint8Array(content)));
+
+  const path = file.webkitRelativePath || file.name;
+  const message = `Upload ${path}`;
+
+  const url = `https://api.github.com/repos/${username}/${repoName}/contents/${path}`;
+
+  const response = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({
+      message,
+      content: encodedContent,
+    }),
+  });
+
+  if (response.ok) {
+    console.log(`${path} uploaded to GitHub with status code ${response.status}`);
+  } else {
+    console.error(`Error uploading ${path} to GitHub: ${response.statusText}`);
+  }
+}
+
+async function uploadFiles() {
+  // è·å–æ–‡ä»¶ä¸Šä¼ è¡¨å•ä¸­çš„æ–‡ä»¶
+  const files = document.getElementById('file-input').files;
+
+  // æ£€æŸ¥æ˜¯å¦é€‰æ‹©äº†æ–‡ä»¶
+  if (files.length === 0) {
+    alert('è¯·é€‰æ‹©éœ€è¦ä¸Šä¼ çš„æ–‡ä»¶');
+    return;
+  }
+
+  // å¾ªç¯ä¸Šä¼ æ¯ä¸ªæ–‡ä»¶
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    await uploadFileToGithub(file);
+  }
+
+  console.log('All files uploaded to GitHub');
+}
+
+// æ·»åŠ äº‹ä»¶ç›‘å¬å™¨ï¼Œç­‰å¾…ä¸Šä¼ æŒ‰é’®è¢«ç‚¹å‡»
+document.getElementById('upload-button').addEventListener('click', uploadFiles);
+å°† YOUR_GITHUB_TOKENã€YOUR_REPOSITORY_NAME å’Œ YOUR_GITHUB_USERNAME æ›¿æ¢æˆå®é™…çš„å€¼å³å¯ã€‚æ­¤ä»£ç ä»…ä¾›å‚è€ƒï¼Œå®é™…ä½¿ç”¨æ—¶éœ€è¦è¿›è¡Œé€‚å½“çš„è°ƒæ•´å’Œä¿®æ”¹ã€‚YOUR_GITHUB_TOKEN è¿™ä¸ªæ˜¯oauth token è¿˜æ˜¯access tokenYOUR_GITHUB_TOKEN æ˜¯æŒ‡ GitHub çš„ personal access tokenã€‚OAuth token æ˜¯æŒ‡æˆæƒä»¤ç‰Œï¼Œç”¨äºä»£è¡¨ç”¨æˆ·è®¿é—®æŸäº›èµ„æºï¼Œè€Œ personal access token æ˜¯ä¸ªäººè®¿é—® tokenï¼Œé€šå¸¸ç”¨äºä»£è¡¨ä¸ªäººè®¿é—®ä»–ä»¬è‡ªå·±çš„ GitHub èµ„æºã€‚æ‰€ä»¥åœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œåº”è¯¥ä½¿ç”¨ personal access tokenã€‚ä½¿ç”¨ä¸Šè¿°ä»£ç å‡ºç°äº†405é”™è¯¯å¦‚æœæ‚¨åœ¨ä½¿ç”¨ä¸Šè¿°ä»£ç æ—¶é‡åˆ°äº† 405 é”™è¯¯ï¼Œè¿™é€šå¸¸æ„å‘³ç€æ‚¨ä½¿ç”¨çš„æ˜¯é”™è¯¯çš„ URL æˆ– HTTP æ–¹æ³•ã€‚ç¡®ä¿æ‚¨åœ¨ä½¿ç”¨çš„ URL ä¸­åŒ…å«æ­£ç¡®çš„ç”¨æˆ·åå’Œä»“åº“åç§°ï¼Œå¹¶ä½¿ç”¨æ­£ç¡®çš„ HTTP æ–¹æ³•ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨è¦å‘ä»“åº“ä¸­ä¸Šä¼ æ–‡ä»¶ï¼Œæ‚¨åº”è¯¥ä½¿ç”¨ PUT æ–¹æ³•ï¼Œè€Œä¸æ˜¯ POST æ–¹æ³•ã€‚å¦å¤–ï¼Œä¸€äº› GitHub ä»“åº“å¯èƒ½éœ€è¦ä½¿ç”¨ SSH æˆ– HTTPS è¿›è¡Œèº«ä»½éªŒè¯ï¼Œæ‚¨éœ€è¦åœ¨ä½¿ç”¨ API æ—¶ä½¿ç”¨æ­£ç¡®çš„èº«ä»½éªŒè¯æ–¹å¼ã€‚å¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯ HTTPSï¼Œæ‚¨éœ€è¦ä½¿ç”¨ OAuth token è¿›è¡Œèº«ä»½éªŒè¯ã€‚å¦‚æœæ‚¨ä½¿ç”¨ SSHï¼Œæ‚¨éœ€è¦è®¾ç½®æ‚¨çš„ SSH å¯†é’¥ã€‚æœ€åï¼Œå¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯è‡ªæ‰˜ç®¡çš„ GitHub Enterprise Server ç‰ˆæœ¬ï¼Œåˆ™éœ€è¦ç¡®ä¿æ‚¨åœ¨ä»£ç ä¸­ä½¿ç”¨æ­£ç¡®çš„ URL å’Œ API ç«¯ç‚¹ã€‚htmlç‚¹å‡»ä¸Šä¼ æŒ‰é’®ï¼Œæç¤ºä¸Šä¼ æˆåŠŸè¦å®ç°ç‚¹å‡»ä¸Šä¼ æŒ‰é’®åæç¤ºä¸Šä¼ æˆåŠŸï¼Œå¯ä»¥åœ¨JavaScriptä»£ç ä¸­æ·»åŠ ä¸€ä¸ªæ–°çš„å‡½æ•°ï¼Œå½“æ–‡ä»¶ä¸Šä¼ æˆåŠŸåï¼Œè°ƒç”¨è¯¥å‡½æ•°æ¥æ˜¾ç¤ºæˆåŠŸçš„æç¤ºä¿¡æ¯ã€‚å…·ä½“æ­¥éª¤å¦‚ä¸‹ï¼šåœ¨HTMLé¡µé¢ä¸­æ·»åŠ ä¸€ä¸ªç”¨äºæ˜¾ç¤ºä¸Šä¼ ç»“æœçš„å…ƒç´ ï¼Œæ¯”å¦‚ä¸€ä¸ª&lt;div&gt;å…ƒç´ ï¼šhtmlCopy code&lt;div id="upload-result"&gt;&lt;/div&gt;
+ä¿®æ”¹JavaScriptä»£ç ï¼Œåœ¨æ–‡ä»¶ä¸Šä¼ æˆåŠŸçš„å›è°ƒå‡½æ•°ä¸­ï¼Œè°ƒç”¨æ–°çš„å‡½æ•°æ¥æ˜¾ç¤ºä¸Šä¼ æˆåŠŸçš„æç¤ºä¿¡æ¯ï¼šjavascriptCopy codefunction uploadFile(file) {
+  const reader = new FileReader();
+  reader.onload = function() {
+    const content = btoa(reader.result);
+    const message = `Upload ${file.name}`;
+    const path = file.name;
+    const url = `https://api.github.com/repos/${YOUR_GITHUB_USERNAME}/${YOUR_REPOSITORY_NAME}/contents/${path}`;
+
+    const headers = new Headers();
+    headers.append('Authorization', `token ${YOUR_GITHUB_TOKEN}`);
+    headers.append('Content-Type', 'application/json');
+
+    fetch(url, {
+      method: 'PUT',
+      headers: headers,
+      body: JSON.stringify({
+        message: message,
+        content: content,
+      })
+    })
+    .then(response =&gt; {
+      if (response.ok) {
+        showUploadResult(`${file.name} ä¸Šä¼ æˆåŠŸ`);
+      } else {
+        showUploadResult(`${file.name} ä¸Šä¼ å¤±è´¥`);
+      }
+    })
+    .catch(error =&gt; {
+      showUploadResult(`ä¸Šä¼ å‡ºé”™: ${error}`);
+    });
+  };
+  reader.readAsBinaryString(file);
+}
+
+function showUploadResult(message) {
+  const resultDiv = document.getElementById('upload-result');
+  resultDiv.textContent = message;
+}
+åœ¨HTMLé¡µé¢ä¸­æ·»åŠ ä¸€ä¸ªç”¨äºè§¦å‘ä¸Šä¼ çš„æŒ‰é’®ï¼Œå¹¶å°†uploadFiles()å‡½æ•°ç»‘å®šåˆ°è¯¥æŒ‰é’®çš„ç‚¹å‡»äº‹ä»¶ä¸Šï¼šhtmlCopy code&lt;button id="upload-button" onclick="uploadFiles()"&gt;ä¸Šä¼ &lt;/button&gt;
+è¿™æ ·ï¼Œå½“ç”¨æˆ·é€‰æ‹©äº†è¦ä¸Šä¼ çš„æ–‡ä»¶å¹¶ç‚¹å‡»ä¸Šä¼ æŒ‰é’®åï¼ŒJavaScriptä»£ç ä¼šè‡ªåŠ¨å°†æ–‡ä»¶ä¸Šä¼ åˆ°æŒ‡å®šçš„GitHubä»“åº“ï¼Œå¹¶åœ¨ä¸Šä¼ æˆåŠŸååœ¨é¡µé¢ä¸Šæ˜¾ç¤ºä¸Šä¼ æˆåŠŸçš„æç¤ºä¿¡æ¯ã€‚js è°ƒç”¨github api ä¸Šä¼ æ–‡ä»¶è¦ä½¿ç”¨ JavaScript è°ƒç”¨ GitHub API ä¸Šä¼ æ–‡ä»¶ï¼Œéœ€è¦å…ˆè·å–ä¸€ä¸ª OAuth tokenï¼Œç„¶åä½¿ç”¨è¯¥ token å‘é€ä¸€ä¸ª POST è¯·æ±‚åˆ°ä¸Šä¼ æ–‡ä»¶çš„ APIã€‚å…·ä½“æ­¥éª¤å¦‚ä¸‹ï¼šè·å– OAuth Tokenè¦é€šè¿‡ GitHub API ä¸Šä¼ æ–‡ä»¶ï¼Œéœ€è¦å…ˆè·å–ä¸€ä¸ª OAuth tokenã€‚å¯ä»¥åœ¨ GitHub ä¸Šåˆ›å»ºä¸€ä¸ªæ–°çš„ personal access tokenï¼Œå¹¶ç»™å®ƒæ·»åŠ  repo æƒé™ã€‚ç¼–å†™ JavaScript ä»£ç ä¸‹é¢æ˜¯ä¸€æ®µç¤ºä¾‹ä»£ç ï¼Œå¯ä»¥å°†ä¸€ä¸ªæ–‡ä»¶ä¸Šä¼ åˆ°æŒ‡å®šçš„ GitHub ä»“åº“ï¼šjavascriptCopy codeconst TOKEN = '&lt;YOUR_GITHUB_TOKEN&gt;';
+const REPO_NAME = '&lt;YOUR_REPOSITORY_NAME&gt;';
+const OWNER = '&lt;YOUR_GITHUB_USERNAME&gt;';
+
+function uploadFile(file, message, path) {
+  // æ„é€ è¯·æ±‚ URL
+  const url = `https://api.github.com/repos/${OWNER}/${REPO_NAME}/contents/${path}`;
+
+  // æ„é€ è¯·æ±‚ä½“
+  const content = btoa(file);
+  const body = JSON.stringify({
+    message: message,
+    content: content,
+  });
+
+  // å‘é€è¯·æ±‚
+  fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${TOKEN}`,
+    },
+    body: body,
+  })
+  .then(response =&gt; {
+    console.log(`File ${path} uploaded with status code ${response.status}`);
+  })
+  .catch(error =&gt; {
+    console.error(error);
+  });
+}
+
+function uploadFiles() {
+  const files = document.getElementById('file-input').files;
+
+  for (let i = 0; i &lt; files.length; i++) {
+    const file = files[i];
+    const reader = new FileReader();
+    reader.onload = function() {
+      const message = `Upload ${file.name}`;
+      const path = file.name;
+      uploadFile(reader.result, message, path);
+    };
+    reader.readAsBinaryString(file);
+  }
+
+  console.log('All files uploaded');
+}
+è¯¥ä»£ç ä¸­åŒ…å«ä¸¤ä¸ªå‡½æ•°ï¼šuploadFile() å’Œ uploadFiles()ã€‚uploadFile() å‡½æ•°ç”¨äºä¸Šä¼ å•ä¸ªæ–‡ä»¶ï¼Œè€Œ uploadFiles() å‡½æ•°ç”¨äºä¸Šä¼ å¤šä¸ªæ–‡ä»¶ã€‚å…¶ä¸­ï¼ŒuploadFile() å‡½æ•°æ¥æ”¶ä¸‰ä¸ªå‚æ•°ï¼šæ–‡ä»¶å†…å®¹ã€æäº¤ä¿¡æ¯å’Œæ–‡ä»¶è·¯å¾„ã€‚è¿™ä¸‰ä¸ªå‚æ•°ä¼šç”¨æ¥æ„é€ ä¸Šä¼ è¯·æ±‚ã€‚uploadFiles() å‡½æ•°é¦–å…ˆè·å–ä¸Šä¼ è¡¨å•ä¸­é€‰ä¸­çš„æ‰€æœ‰æ–‡ä»¶ï¼Œç„¶åå¾ªç¯å¤„ç†æ¯ä¸€ä¸ªæ–‡ä»¶ã€‚å¯¹äºæ¯ä¸ªæ–‡ä»¶ï¼Œä½¿ç”¨ FileReader API å°†æ–‡ä»¶å†…å®¹è¯»å–ä¸ºå­—ç¬¦ä¸²ï¼Œå¹¶è°ƒç”¨ uploadFile() å‡½æ•°ä¸Šä¼ æ–‡ä»¶ã€‚HTML è¡¨å•æœ€åï¼Œéœ€è¦åœ¨ HTML æ–‡ä»¶ä¸­æ·»åŠ ä¸€ä¸ªè¡¨å•ï¼Œç”¨äºä¸Šä¼ æ–‡ä»¶ã€‚è¿™é‡Œä»…éœ€è¦æ·»åŠ ä¸€ä¸ªæ–‡ä»¶é€‰æ‹©æ¡†å’Œä¸€ä¸ªâ€œä¸Šä¼ â€æŒ‰é’®ã€‚ä»£ç å¦‚ä¸‹ï¼šhtmlCopy code&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;GitHub æ–‡ä»¶ä¸Šä¼ &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub&lt;/h1&gt;
+  &lt;form method="post" action="#" enctype="multipart/form-data" onsubmit="return uploadFiles()"&gt;
+    &lt;input type="file" id="file-input" name="file-input" multiple&gt;
+    &lt;input type="submit" value="ä¸Šä¼ "&gt;
+  &lt;/form&gt;
+  &lt;script src="github_upload.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+åœ¨è¿™ä¸ªè¡¨å•ä¸­ï¼Œæˆ‘ä»¬å°†æ–‡ä»¶é€‰æ‹©æ¡†çš„ id è®¾ç½®ä¸ºâ€œfile-inputâ€ï¼Œè¿™ä¸ª id åœ¨ JavaScript ä¸­ä¼šç”¨æ¥è·å–é€‰ä¸­çš„æ–‡ä»¶ã€‚åŒæ—¶ï¼Œå°†è¡¨å•çš„ onsubmitæœ‰æ²¡æœ‰ç›¸å…³çš„githubé“¾æ¥ï¼ŸGitHub æä¾›äº†è¯¦ç»†çš„ API æ–‡æ¡£ï¼Œå¯ä»¥åœ¨è¿™é‡ŒæŸ¥çœ‹ï¼šhttps://docs.github.com/en/restå¯¹äºæ–‡ä»¶ä¸Šä¼ ï¼Œå¯ä»¥å‚è€ƒä»¥ä¸‹é“¾æ¥ï¼šhttps://docs.github.com/en/rest/reference/repos#create-or-update-file-contentshttps://docs.github.com/en/rest/reference/git#create-a-blobhttps://docs.github.com/en/rest/reference/git#create-a-treehttps://docs.github.com/en/rest/reference/git#create-a-commithttps://docs.github.com/en/rest/reference/git#update-a-referenceè¿™äº›æ–‡æ¡£æä¾›äº†è¯¦ç»†çš„ API è°ƒç”¨æ–¹å¼å’Œå‚æ•°è¯´æ˜ï¼Œå¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€æ±‚è¿›è¡Œè°ƒæ•´å’Œä¿®æ”¹ã€‚å·²ç»å®ç°çš„githubä»“åº“å¾ˆå¤šäººéƒ½å·²ç»å®ç°äº†ç±»ä¼¼çš„åŠŸèƒ½ï¼Œä½ å¯ä»¥åœ¨ GitHub ä¸Šæœç´¢ç›¸å…³å…³é”®å­—ï¼Œä¾‹å¦‚ "batch upload files to GitHub" æˆ–è€… "bulk upload files to GitHub"ï¼Œå°±èƒ½æ‰¾åˆ°ç›¸å…³çš„ä»£ç ä»“åº“ã€‚ä»¥ä¸‹æ˜¯ä¸€äº›æˆ‘æ‰¾åˆ°çš„å®ç°æ‰¹é‡ä¸Šä¼ æ–‡ä»¶åˆ° GitHub çš„ä»£ç ä»“åº“ï¼Œä¾›ä½ å‚è€ƒï¼šhttps://github.com/kal101/Upload-to-Github-Batch-Fileshttps://github.com/revolunet/github-upload-batchhttps://github.com/BrettLangdon/github-bulk-file-uploaderhttps://github.com/techgaun/github-batch-uploadhttps://github.com/barrsan/Batch_File_Uploaderhttps://github.com/dbohdan/github-bulk-deleteè¿™äº›ä»£ç ä»“åº“ä¸­çš„ä»£ç å¯ä»¥ä¾›ä½ å‚è€ƒå’Œå€Ÿé‰´ï¼Œä½†æ˜¯è¯·æ³¨æ„ï¼Œä½¿ç”¨å®ƒä»¬æ—¶è¦éµå®ˆç›¸å…³çš„æ³•å¾‹æ³•è§„å’Œ GitHub çš„æ¡æ¬¾å’Œè§„å®šã€‚åŒæ—¶ï¼Œè¿™äº›ä»£ç ä»“åº“ä¸­çš„ä»£ç å¯èƒ½æœ‰ä¸åŒçš„é™åˆ¶å’Œé€‚ç”¨æ¡ä»¶ï¼Œä½¿ç”¨å‰è¯·å…ˆé˜…è¯»ç›¸å…³è¯´æ˜ã€‚è¿˜æœ‰æ²¡æœ‰åˆ«çš„ï¼Ÿgistï¼Ÿæ˜¯çš„ï¼ŒGitHub è¿˜æ”¯æŒå°†æ–‡ä»¶ä¸Šä¼ åˆ° Gist ä¸­ã€‚ Gist æ˜¯ä¸€ä¸ªç®€å•çš„ä»£ç æ‰˜ç®¡æœåŠ¡ï¼Œå…è®¸æ‚¨å…±äº«ä»£ç ç‰‡æ®µï¼Œç¬”è®°å’Œæ–‡æœ¬æ–‡ä»¶ç­‰ã€‚å¦‚æœæ‚¨æƒ³ä½¿ç”¨ Gist ä¸Šä¼ æ–‡ä»¶ï¼Œå¯ä»¥ä½¿ç”¨ç±»ä¼¼çš„æ–¹æ³•ï¼šé€šè¿‡ API åˆ›å»ºæ–°çš„ Gistå°†æ–‡ä»¶å†…å®¹ä½œä¸º Gist ä¸­çš„ä¸€ä¸ªæ–‡ä»¶å°† Gist å…¬å¼€ï¼Œä»¥ä¾¿å…¶ä»–äººå¯ä»¥è®¿é—®ç±»ä¼¼åœ°ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ fetch API æ¥ä¸Šä¼ æ–‡ä»¶å†…å®¹ï¼Œå¹¶å°†å…¶å‘é€åˆ° GitHub APIã€‚æ­¤å¤–ï¼Œæ‚¨éœ€è¦å°†åˆ›å»ºçš„ Gist å…¬å¼€ï¼Œä»¥ä¾¿å…¶ä»–äººå¯ä»¥è®¿é—®å®ƒã€‚ä¸‹é¢æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼šjavascriptCopy code// è®¾ç½® GitHub API çš„è®¿é—®ä»¤ç‰Œå’Œç”¨æˆ·å
+const token = 'YOUR_GITHUB_TOKEN';
+const username = 'YOUR_GITHUB_USERNAME';
+
+// å‡†å¤‡ä¸Šä¼ çš„æ–‡ä»¶å†…å®¹å’Œ Gist æè¿°
+const content = 'Hello, world!';
+const description = 'My first Gist';
+
+// è®¾ç½® API è¯·æ±‚çš„å‚æ•°
+const options = {
+  method: 'POST',
+  headers: {
+    Authorization: `token ${token}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    description: description,
+    public: true,
+    files: {
+      'hello-world.txt': {
+        content: content
+      }
+    }
+  })
+};
+
+// å‘é€ API è¯·æ±‚ï¼Œåˆ›å»º Gist
+fetch(`https://api.github.com/gists`, options)
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    console.log(`Gist created: ${data.html_url}`);
+  })
+  .catch(error =&gt; {
+    console.error(error);
+  });
+åœ¨ä¸Šé¢çš„ä»£ç ä¸­ï¼Œæˆ‘ä»¬å°†æ–‡ä»¶å†…å®¹ä½œä¸º Gist çš„ä¸€ä¸ªæ–‡ä»¶ä¸Šä¼ ã€‚è¦ä¸Šä¼ å¤šä¸ªæ–‡ä»¶ï¼Œæ‚¨åªéœ€è¦å°† files å¯¹è±¡ä¸­çš„é”®å€¼å¯¹å¢åŠ å³å¯ã€‚æˆåŠŸåˆ›å»º Gist åï¼Œæ‚¨å°†è·å¾—ä¸€ä¸ª URLï¼Œæ‚¨å¯ä»¥åœ¨å…¶ä¸­æŸ¥çœ‹ Gist çš„å†…å®¹ã€‚how to use Plugin Update CheckerThe Plugin Update Checker is a WordPress library that allows you to easily add update notifications for your own plugins. Here are the steps to use it:Download the libraryYou can download the Plugin Update Checker library from the official WordPress plugin repository or GitHub.Include the library in your pluginYou can include the library in your plugin by copying the "plugin-update-checker" folder to your plugin's root directory and then including the library's main file in your plugin:phpCopy coderequire_once( dirname( __FILE__ ) . '/plugin-update-checker/plugin-update-checker.php' );
+Create a new update checker objectTo create a new update checker object, you can use the following code:phpCopy code$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://example.com/path/to/plugin/info.json',
+    __FILE__,
+    'my-plugin'
+);
+Here, you need to replace the URL with the URL of your plugin's information file, which contains information about the latest version of your plugin. You also need to replace "my-plugin" with your own plugin's name.Define the information fileThe information file is a JSON file that contains information about the latest version of your plugin, such as the version number, download URL, and changelog. Here is an example of what the file might look like:jsonCopy code{
+    "name": "My Plugin",
+    "version": "1.0.0",
+    "download_url": "https://example.com/path/to/my-plugin.zip",
+    "changelog_url": "https://example.com/path/to/my-plugin-changelog.txt"
+}
+You need to replace the values with your own plugin's information.Test the update checkerTo test the update checker, you can simulate a new version of your plugin by changing the version number in the information file, and then upload the file to your server. When your plugin checks for updates, it should detect the new version and display a notification to the user.That's it! You have now added update notifications to your plugin using the Plugin Update Checker library.2 / 2how to custom check periodTo customize the period between checks for updates using the Plugin Update Checker library, you need to set the checkPeriod property of the update checker object.Here's an example code snippet that sets the check period to 24 hours (86400 seconds):javascriptCopy codevar MyUpdateChecker = PucFactory.createUpdateChecker({
+    // Replace "my-plugin-slug" with the slug of your plugin
+    pluginSlug: 'my-plugin-slug',
+    // Replace "http://example.com/my-plugin.json" with the URL of your plugin metadata file
+    metadataUrl: 'http://example.com/my-plugin.json',
+    // Set the check period to 24 hours
+    checkPeriod: 86400, // Check for updates once per day
+    // Optional: Set the debug mode to true to enable debugging output
+    debugMode: true
+});
+In this example, we use PucFactory.createUpdateChecker to create an update checker object, then set the checkPeriod property to 86400 (the number of seconds in 24 hours).Note that the checkPeriod value is in seconds, so you can adjust the period as needed by setting a different number of seconds. For example, if you want to check for updates every 12 hours, you can set checkPeriod to 43200 (the number of seconds in 12 hours).you should use php codeSure, here's an example of how you can customize the update check period in PHP using the Plugin Update Checker library:phpCopy coderequire_once 'plugin-update-checker/plugin-update-checker.php';
+
+// Create an instance of the update checker
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://example.com/plugins/my-plugin/info.json',
+    __FILE__,
+    'my-plugin'
+);
+
+// Set the update check interval to 1 week (in seconds)
+$myUpdateChecker-&gt;setUpdateInterval(7 * 24 * 60 * 60);
+In this example, we first require the plugin-update-checker.php file and create an instance of the update checker by calling the buildUpdateChecker method. The first parameter is the URL of the JSON file that contains the plugin information, the second parameter is the path to the main plugin file, and the third parameter is the slug of the plugin.Finally, we call the setUpdateInterval method on the update checker instance to set the update check interval to 1 week, which is calculated in seconds. You can adjust the interval to any value that suits your needs.Note that this code should be added to the main plugin file, and the URL of the JSON file should be replaced with the actual URL of the file that contains the plugin information.how about version 5?The process for customizing the check period for version 5 of the Plugin Update Checker library is similar to version 4. Here's an example:phpCopy coderequire 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://example.com/plugins/',
+    __FILE__,
+    'my-plugin'
+);
+
+// Set the update check period to 1 day
+$myUpdateChecker-&gt;setCheckPeriod(24 * 60 * 60);
+In this example, we are using the setCheckPeriod method to set the check period to 1 day (24 hours). The argument passed to the method is the number of seconds between checks.Note that the version number has changed from Puc_v4_Factory to Puc_v5_Factory. So, in version 5, the code would look like this:phpCopy coderequire 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v5_Factory::buildUpdateChecker(
+    'https://example.com/plugins/',
+    __FILE__,
+    'my-plugin'
+);
+
+// Set the update check period to 1 day
+$myUpdateChecker-&gt;setCheckPeriod(24 * 60 * 60);
+Here, we're using Puc_v5_Factory to create the update checker object, and then setting the check period with the setCheckPeriod method as before.å‹æƒ…é“¾æ¥é¡µé¢è¯¥æ€ä¹ˆé…æ–‡å‹æƒ…é“¾æ¥é¡µé¢ä¸€èˆ¬ç”¨äºå±•ç¤ºä¸æœ¬ç½‘ç«™ç›¸å…³çš„å…¶ä»–ç½‘ç«™é“¾æ¥ï¼Œè¿™äº›é“¾æ¥ä¸€èˆ¬æ˜¯ç½‘ç«™ä¸»äººæˆ–ç®¡ç†å‘˜è®¤å¯çš„ç½‘ç«™ï¼Œé€šè¿‡é“¾æ¥å®ƒä»¬å¯ä»¥å¸®åŠ©ç”¨æˆ·æ‰©å±•å…¶æµè§ˆçš„è¯é¢˜æˆ–ä¸»é¢˜ã€‚é…æ–‡å¯ä»¥æ ¹æ®ç½‘ç«™çš„ä¸»é¢˜æˆ–è¯é¢˜è¿›è¡Œç¼–å†™ã€‚ä¾‹å¦‚ï¼Œå¦‚æœæ‚¨çš„ç½‘ç«™æ˜¯å…³äºæ—…æ¸¸çš„ï¼Œæ‚¨å¯ä»¥åœ¨å‹æƒ…é“¾æ¥é¡µé¢å†™ä¸Šâ€œä¸‹é¢æ˜¯ä¸€äº›æˆ‘ä»¬æ¨èçš„æ—…æ¸¸ç½‘ç«™â€ï¼Œç„¶ååˆ—å‡ºå„ä¸ªç½‘ç«™çš„åç§°å’Œé“¾æ¥ã€‚åœ¨ç¼–å†™é…æ–‡æ—¶ï¼Œéœ€è¦æ³¨æ„ä»¥ä¸‹å‡ ç‚¹ï¼šä¸è¦è¿‡å¤šå¤¸å¤§å‹æƒ…é“¾æ¥ç½‘ç«™çš„ä»·å€¼ï¼Œå°Šé‡ç”¨æˆ·çš„é€‰æ‹©å’Œåˆ¤æ–­èƒ½åŠ›ã€‚é¿å…åœ¨é…æ–‡ä¸­ä½¿ç”¨è¿‡äºå½¢å¼åŒ–æˆ–æ¨¡æ¿åŒ–çš„ç”¨è¯­ï¼Œä»¥é¿å…çœ‹èµ·æ¥è¿‡äºåƒµç¡¬æˆ–ä¸è‡ªç„¶ã€‚å¯¹äºä¸ªäººç½‘ç«™ï¼Œå¯ä»¥å†™ä¸Šâ€œä¸ªäººåšå®¢â€æˆ–è€…â€œä¸ªäººä¸»é¡µâ€ï¼Œä»¥ä¾¿è¯»è€…äº†è§£è¯¥ç½‘ç«™çš„æ€§è´¨ã€‚å¯¹äºå•†ä¸šç½‘ç«™ï¼Œå¯ä»¥å†™ä¸Šâ€œå•†ä¸šåˆä½œä¼™ä¼´â€æˆ–è€…â€œå¹¿å‘Šåˆä½œä¼™ä¼´â€ï¼Œä»¥è¯´æ˜è¯¥ç½‘ç«™ä¸æ‚¨çš„ç½‘ç«™ä¹‹é—´çš„åˆä½œæ€§è´¨ã€‚å¦‚æœæ‚¨çš„ç½‘ç«™æœ‰ç‰¹å®šçš„å‹æƒ…é“¾æ¥äº¤æ¢ç­–ç•¥ï¼Œå¯ä»¥åœ¨é…æ–‡ä¸­å†™æ˜ç›¸å…³è¦æ±‚ï¼Œä¾‹å¦‚å¯¹æ–¹ç½‘ç«™å¿…é¡»å…·æœ‰ä¸€å®šçš„æƒé‡ã€é¡µé¢è´¨é‡å’Œå†…å®¹ç›¸å…³æ€§ç­‰ã€‚æœ€å¥½åœ¨é…æ–‡ä¸­åŠ ä¸Šä¸å‹æƒ…é“¾æ¥ç½‘ç«™ç›¸å…³çš„ç®€è¦è¯´æ˜ï¼Œä¾‹å¦‚è¯¥ç½‘ç«™çš„ä¸»é¢˜ã€å†…å®¹æˆ–ç‰¹ç‚¹ï¼Œä»¥ä¾¿è¯»è€…æ›´å¥½åœ°äº†è§£è¯¥ç½‘ç«™ã€‚è¯¥æ€ä¹ˆå¸ƒå±€å‹æƒ…é“¾æ¥é¡µé¢å‹æƒ…é“¾æ¥é¡µé¢çš„å¸ƒå±€å¯ä»¥æ ¹æ®è‡ªå·±çš„å–œå¥½å’Œç½‘ç«™è®¾è®¡æ¥å†³å®šï¼Œä»¥ä¸‹æ˜¯ä¸€äº›å¸¸è§çš„å¸ƒå±€æ–¹å¼ï¼šåˆ—è¡¨å¸ƒå±€ï¼šå°†æ‰€æœ‰é“¾æ¥æŒ‰ç…§åˆ—è¡¨çš„å½¢å¼æ’åˆ—ï¼Œæ¯ä¸ªé“¾æ¥åŒ…å«é“¾æ¥åç§°å’Œ URLã€‚ç½‘æ ¼å¸ƒå±€ï¼šå°†é“¾æ¥æŒ‰ç…§ç½‘æ ¼çš„å½¢å¼æ’åˆ—ï¼Œæ¯ä¸ªé“¾æ¥åŒ…å«é“¾æ¥åç§°å’Œå›¾ç‰‡ã€‚å¡ç‰‡å¸ƒå±€ï¼šå°†é“¾æ¥æŒ‰ç…§å¡ç‰‡çš„å½¢å¼æ’åˆ—ï¼Œæ¯ä¸ªé“¾æ¥åŒ…å«é“¾æ¥åç§°ã€URLå’Œä¸€å¼ å›¾ç‰‡ã€‚æ··åˆå¸ƒå±€ï¼šå°†é“¾æ¥æŒ‰ç…§ä¸åŒçš„å½¢å¼æ’åˆ—ï¼Œä¾‹å¦‚å°†ä¸€äº›é“¾æ¥ä½¿ç”¨åˆ—è¡¨å¸ƒå±€ï¼Œä¸€äº›é“¾æ¥ä½¿ç”¨å¡ç‰‡å¸ƒå±€ï¼Œä»¥æ­¤ç±»æ¨ã€‚ä¸è®ºä½¿ç”¨å“ªç§å¸ƒå±€æ–¹å¼ï¼Œéƒ½åº”è¯¥è®©é¡µé¢æ¸…æ™°æ˜“è¯»ï¼Œé“¾æ¥æ˜“äºç‚¹å‡»ï¼Œå¹¶ä¸”åŒ…å«å‹æƒ…é“¾æ¥é¡µé¢çš„ä¸»æ—¨ã€æè¿°å’Œè¦æ±‚ï¼Œä¾‹å¦‚è¦æ±‚é“¾æ¥æ–¹è¦æ±‚é€‚åˆç½‘ç«™ä¸»é¢˜ï¼Œä¸æ¶‰åŠè¿æ³•ã€è‰²æƒ…ã€æ”¿æ²»ç­‰å†…å®¹ç­‰ã€‚æ­¤å¤–ï¼Œå‹æƒ…é“¾æ¥é¡µé¢è¿˜åº”è¯¥åŒ…å«ç½‘ç«™æ‰€æœ‰è€…çš„è”ç³»ä¿¡æ¯ï¼Œæ–¹ä¾¿å…¶ä»–ç«™é•¿ä¸å…¶è”ç³»ã€‚wordpressæ€ä¹ˆç½‘æ ¼å¸ƒå±€åœ¨ WordPress ä¸­å®ç°ç½‘æ ¼å¸ƒå±€å¯ä»¥é€šè¿‡ CSS Grid æˆ– Flexbox å®ç°ã€‚è¿™é‡Œæä¾›ä¸¤ç§æ–¹æ³•ï¼šæ–¹æ³•ä¸€ï¼šä½¿ç”¨CSS GridCSS Grid æ˜¯ä¸€ä¸ªçµæ´»çš„å¸ƒå±€ç³»ç»Ÿï¼Œå®ƒå¯ä»¥è½»æ¾åœ°åˆ›å»ºç½‘æ ¼å¸ƒå±€ã€‚åœ¨ä¸»é¢˜çš„ style.css æ–‡ä»¶ä¸­æ·»åŠ ä»¥ä¸‹ä»£ç ï¼Œå®šä¹‰ä¸€ä¸ªç½‘æ ¼å¸ƒå±€ï¼šcssCopy code.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+è¿™ä¸ªä»£ç ä¼šå®šä¹‰ä¸€ä¸ª grid-container ç±»ï¼Œå®ƒä¼šä»¥ç½‘æ ¼å¸ƒå±€æ˜¾ç¤ºå­å…ƒç´ ã€‚grid-template-columns å±æ€§å®šä¹‰äº†æ¯ä¸€åˆ—çš„å®½åº¦ï¼Œgrid-gap å±æ€§å®šä¹‰äº†æ¯ä¸€è¡Œå’Œæ¯ä¸€åˆ—ä¹‹é—´çš„é—´éš”ã€‚åœ¨å‹æƒ…é“¾æ¥é¡µé¢ä¸­ä½¿ç”¨ grid-container ç±»åŒ…è£¹é“¾æ¥åˆ—è¡¨ã€‚htmlCopy code&lt;div class="grid-container"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 6&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+è¿™é‡Œåªæä¾›äº†ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼Œä½ å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦è°ƒæ•´ä»£ç ã€‚æ–¹æ³•äºŒï¼šä½¿ç”¨FlexboxFlexbox æ˜¯å¦ä¸€ç§æµè¡Œçš„å¸ƒå±€ç³»ç»Ÿï¼Œä¹Ÿå¯ä»¥è½»æ¾åœ°å®ç°ç½‘æ ¼å¸ƒå±€ã€‚åœ¨ä¸»é¢˜çš„ style.css æ–‡ä»¶ä¸­æ·»åŠ ä»¥ä¸‹ä»£ç ï¼Œå®šä¹‰ä¸€ä¸ª Flexbox å¸ƒå±€ï¼šcssCopy code.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-item {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+è¿™ä¸ªä»£ç ä¼šå®šä¹‰ä¸€ä¸ª flex-container ç±»å’Œä¸€ä¸ª flex-item ç±»ã€‚flex-container ç±»å®šä¹‰äº†ä¸€ä¸ª Flexbox å®¹å™¨ï¼Œflex-wrap å±æ€§è®¾ç½®ä¸º wrapï¼Œè¡¨ç¤ºå­å…ƒç´ å¯ä»¥æ¢è¡Œã€‚justify-content å±æ€§è®¾ç½®ä¸º space-betweenï¼Œè¡¨ç¤ºå­å…ƒç´ åœ¨å®¹å™¨ä¸­çš„åˆ†å¸ƒæ–¹å¼ã€‚flex-item ç±»å®šä¹‰äº†æ¯ä¸€ä¸ªå­å…ƒç´ çš„æ ·å¼ï¼Œwidth å±æ€§è®¾ç½®ä¸º 33.33%ï¼Œè¡¨ç¤ºæ¯ä¸€åˆ—å æ®å®¹å™¨çš„ 1/3ï¼Œmargin-bottom å±æ€§è®¾ç½®äº†æ¯ä¸ªå­å…ƒç´ çš„åº•éƒ¨è¾¹è·ã€‚åœ¨å‹æƒ…é“¾æ¥é¡µé¢ä¸­ä½¿ç”¨ flex-container ç±»åŒ…è£¹é“¾æ¥åˆ—è¡¨ã€‚htmlCopy code&lt;div class="flex-container"&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 1&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 2&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 3&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 4&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 5&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="flex-item"&gt;&lt;a href="#"&gt;Link 
+wordpressé¡µé¢ç±»å‹æ’ä»¶åœ¨ WordPress ä¸­ï¼Œé¡µé¢ç±»å‹æ’ä»¶é€šå¸¸æŒ‡çš„æ˜¯å¯ä»¥æ·»åŠ è‡ªå®šä¹‰é¡µé¢ç±»å‹çš„æ’ä»¶ï¼Œè¿™äº›è‡ªå®šä¹‰é¡µé¢ç±»å‹é€šå¸¸å…·æœ‰ç‹¬ç‰¹çš„ç»“æ„å’ŒåŠŸèƒ½ï¼Œä¾‹å¦‚ç‰¹å®šçš„å…ƒç´ æˆ–å­—æ®µï¼Œæˆ–è€…å¯ä»¥ä½¿ç”¨ä¸åŒçš„æ¨¡æ¿æˆ–å¸ƒå±€ã€‚ä¸€äº›å¸¸è§çš„ WordPress é¡µé¢ç±»å‹æ’ä»¶åŒ…æ‹¬ï¼šAdvanced Custom Fieldsï¼šå…è®¸æ‚¨æ·»åŠ è‡ªå®šä¹‰å­—æ®µå’Œå…ƒç´ ï¼Œä»è€Œæ›´è½»æ¾åœ°åˆ›å»ºå’Œç®¡ç†è‡ªå®šä¹‰é¡µé¢ç±»å‹ã€‚Custom Post Type UIï¼šå…è®¸æ‚¨åˆ›å»ºå’Œç®¡ç†è‡ªå®šä¹‰å¸–å­ç±»å‹å’Œåˆ†ç±»æ³•ï¼Œè¿™äº›å†…å®¹å¯ä»¥åƒæ–‡ç« å’Œé¡µé¢ä¸€æ ·è¿›è¡Œç®¡ç†å’Œå‘å¸ƒã€‚Toolset Typesï¼šç±»ä¼¼äº Custom Post Type UIï¼Œå®ƒå…è®¸æ‚¨åˆ›å»ºå’Œç®¡ç†è‡ªå®šä¹‰é¡µé¢ç±»å‹å’Œåˆ†ç±»æ³•ï¼Œå¹¶æä¾›äº†æ›´å¤šçš„é€‰é¡¹å’ŒåŠŸèƒ½ã€‚Podsï¼šå¯ä»¥åˆ›å»ºè‡ªå®šä¹‰å†…å®¹ç±»å‹ï¼Œåˆ†ç±»æ³•å’Œå­—æ®µï¼Œå¹¶å…·æœ‰å¯æ‰©å±•æ€§å’Œå¯é‡ç”¨æ€§ã€‚è¿™äº›æ’ä»¶å¯ä»¥è®©æ‚¨æ›´è½»æ¾åœ°è‡ªå®šä¹‰ WordPress ç½‘ç«™çš„å†…å®¹ï¼Œä»è€Œæ»¡è¶³ä¸åŒçš„éœ€æ±‚å’Œç”¨ä¾‹ã€‚æœ‰æ²¡æœ‰å¯ä»¥æœ¬åœ°ç¼–å†™ç„¶åä¸Šä¼ åˆ°wordpressçš„è½¯ä»¶æœ‰ä¸€äº›å¯ä»¥æœ¬åœ°ç¼–å†™å¹¶ä¸Šä¼ åˆ°WordPressçš„è½¯ä»¶ï¼Œä»¥ä¸‹æ˜¯å‡ ä¸ªå¸¸ç”¨çš„ï¼šDesktopServer: ä¸€ä¸ªå…è´¹çš„è½¯ä»¶ï¼Œå¯ä»¥å¸®åŠ©ä½ åœ¨æœ¬åœ°å»ºç«‹ä¸€ä¸ªWordPressç«™ç‚¹ï¼Œå¹¶ä¸”å¯ä»¥è¿›è¡Œæœ¬åœ°æµ‹è¯•å’Œå¼€å‘ï¼Œç„¶åå°†ä½ çš„ç½‘ç«™ä¸Šä¼ åˆ°ä½ çš„WordPressæ‰˜ç®¡æœåŠ¡å™¨ä¸Šã€‚Local by Flywheel: å¦ä¸€ä¸ªå…è´¹è½¯ä»¶ï¼Œå¯ä»¥è®©ä½ åœ¨æœ¬åœ°å»ºç«‹å’Œæµ‹è¯•WordPressç«™ç‚¹ï¼Œè¿˜æä¾›äº†ä¸€äº›é¢å¤–çš„å·¥å…·ï¼Œæ¯”å¦‚SSLæ”¯æŒå’Œéƒ¨ç½²åˆ°è¿œç¨‹æœåŠ¡å™¨ã€‚MAMP: ä¸€ä¸ªæµè¡Œçš„æœ¬åœ°æœåŠ¡å™¨ç¯å¢ƒè½¯ä»¶ï¼Œå¯ä»¥æ”¯æŒå¤šä¸ªæ“ä½œç³»ç»Ÿï¼Œå¯ä»¥è®©ä½ åœ¨æœ¬åœ°å»ºç«‹å’Œæµ‹è¯•WordPressç«™ç‚¹ã€‚è¿™äº›è½¯ä»¶éƒ½æä¾›äº†ä¸€äº›é¢å¤–çš„å·¥å…·å’ŒåŠŸèƒ½ï¼Œä»¥å¸®åŠ©ä½ æ›´å¥½åœ°åœ¨æœ¬åœ°ç¼–å†™å’Œæµ‹è¯•ä½ çš„WordPressç«™ç‚¹ï¼Œç„¶åå°†å…¶ä¸Šä¼ åˆ°ç”Ÿäº§ç¯å¢ƒã€‚å¯¼å…¥markdownåˆ°wordpressçš„æ’ä»¶æœ‰ä¸€äº› WordPress æ’ä»¶å¯ä»¥å°† Markdown æ ¼å¼çš„æ–‡æœ¬å¯¼å…¥åˆ° WordPress ä¸­ï¼Œä»¥ä¸‹æ˜¯å…¶ä¸­å‡ ä¸ªï¼šWP Githuber MDï¼šè¿™ä¸ªæ’ä»¶å¯ä»¥è®©ä½ ä» Github ä»“åº“ä¸­å¯¼å…¥ Markdown æ–‡ä»¶ï¼Œç„¶åå°†å…¶è½¬æ¢ä¸º WordPress çš„æ–‡ç« æˆ–é¡µé¢ã€‚å®ƒæ”¯æŒ Github çš„ OAuth è®¤è¯ï¼Œå¯ä»¥å¸®åŠ©ä½ å¿«é€Ÿè¿æ¥åˆ° Githubã€‚æ­¤å¤–ï¼Œå®ƒè¿˜æ”¯æŒå¯¼å…¥å…¶ä»–æ ¼å¼çš„æ–‡ä»¶ï¼Œå¦‚ Word æ–‡æ¡£ã€HTML æ–‡ä»¶ç­‰ã€‚Markdown Importerï¼šè¿™ä¸ªæ’ä»¶å¯ä»¥è®©ä½ ä» Markdown æ–‡ä»¶ä¸­å¯¼å…¥æ–‡ç« åˆ° WordPressã€‚å®ƒæ”¯æŒå¯¼å…¥æ‰€æœ‰æ ‡å‡†çš„ Markdown æ ‡è®°ï¼Œå¹¶ä¸”è¿˜æ”¯æŒ YAML Front Matterï¼ˆä¸€ä¸ªç”¨äºåœ¨ Markdown æ–‡ä»¶å¼€å¤´å®šä¹‰å…ƒæ•°æ®çš„è¯­æ³•ï¼‰ã€‚è¯¥æ’ä»¶è¿˜æ”¯æŒå°† Markdown æ–‡ä»¶ä¸­çš„å›¾ç‰‡è‡ªåŠ¨ä¸Šä¼ åˆ° WordPressï¼Œå¹¶åµŒå…¥æ–‡ç« ä¸­ã€‚WP Markdown Editorï¼šè¿™ä¸ªæ’ä»¶ä¸º WordPress æä¾›äº†ä¸€ä¸ª Markdown ç¼–è¾‘å™¨ï¼Œä½¿ä½ å¯ä»¥ä½¿ç”¨ Markdown è¯­æ³•ç¼–å†™æ–‡ç« æˆ–é¡µé¢ã€‚è¯¥æ’ä»¶è¿˜æ”¯æŒ HTML é¢„è§ˆåŠŸèƒ½ï¼Œä½¿ä½ å¯ä»¥é¢„è§ˆ Markdown æ–‡æœ¬è½¬æ¢æˆ HTML åçš„æ•ˆæœã€‚è¿™äº›æ’ä»¶éƒ½å¯ä»¥åœ¨ WordPress æ’ä»¶åº“ä¸­æ‰¾åˆ°å¹¶å…è´¹ä¸‹è½½ã€‚ä½ å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦é€‰æ‹©ä¸€ä¸ªåˆé€‚çš„æ’ä»¶æ¥å°† Markdown æ–‡æœ¬å¯¼å…¥åˆ° WordPress ä¸­ã€‚è¿˜æœ‰æ²¡æœ‰åˆ«çš„ï¼Ÿå¦å¤–ä¸€ä¸ªå¯¼å…¥ Markdown åˆ° WordPress çš„æ’ä»¶æ˜¯ WP GitHuber MDã€‚è¿™ä¸ªæ’ä»¶å¯ä»¥ä» GitHub ä¸­å¯¼å…¥ Markdown æ–‡ä»¶å¹¶å°†å…¶è½¬æ¢ä¸º WordPress å¸–å­æˆ–é¡µé¢ã€‚å®ƒè¿˜æ”¯æŒæœ¬åœ° Markdown æ–‡ä»¶çš„å¯¼å…¥å’Œè½¬æ¢ã€‚æ­¤å¤–ï¼Œè¯¥æ’ä»¶è¿˜æä¾›äº†è®¸å¤šæœ‰ç”¨çš„åŠŸèƒ½ï¼Œå¦‚è‡ªå®šä¹‰ CSS æ ·å¼ã€æ”¯æŒä»£ç é«˜äº®ã€æ”¯æŒæ•°å­¦å…¬å¼ç­‰ã€‚åˆ«çš„ï¼Ÿè¿˜æœ‰ä¸€äº›æ’ä»¶å¯ä»¥å°†Markdownè½¬æ¢ä¸ºWordPressæ ¼å¼ï¼Œæ¯”å¦‚WP Githuber MDå’ŒMarkdown to WordPressã€‚è¿™äº›æ’ä»¶å¯ä»¥å°†Markdownæ–‡ä»¶çš„å†…å®¹å¯¼å…¥åˆ°WordPressä¸­ï¼Œå¹¶è‡ªåŠ¨å°†å…¶è½¬æ¢ä¸ºWordPressçš„æ ¼å¼ï¼Œä»¥ä¾¿åœ¨WordPressä¸Šè¿›è¡Œå±•ç¤ºå’Œç¼–è¾‘ã€‚æœ¬åœ°æ²¡æœ‰ipv6åœ°å€ï¼Œè¯¥æ€ä¹ˆè®¿é—®ipv6æœåŠ¡å™¨å¦‚æœæœ¬åœ°æ²¡æœ‰ IPv6 åœ°å€ï¼Œä½†æƒ³è¦è®¿é—® IPv6 æœåŠ¡å™¨ï¼Œå¯ä»¥é€šè¿‡ä½¿ç”¨ IPv6 è·¯å¾„è½¬æ¢æŠ€æœ¯ï¼ˆIPv6 over IPv4 tunnelingï¼‰æ¥å®ç°ã€‚IPv6 over IPv4 tunneling æ˜¯ä¸€ç§å°† IPv6 æŠ¥æ–‡å°è£…åœ¨ IPv4 æŠ¥æ–‡ä¸­ä¼ è¾“çš„æŠ€æœ¯ï¼Œå¯ä»¥åœ¨ IPv4 ç½‘ç»œä¸­ä¼ è¾“ IPv6 æŠ¥æ–‡ã€‚é€šè¿‡è¿™ç§æŠ€æœ¯ï¼Œå¯ä»¥åœ¨æ²¡æœ‰ IPv6 ç½‘ç»œçš„åœ°æ–¹è®¿é—® IPv6 æœåŠ¡å™¨ã€‚æœ‰å¾ˆå¤šæä¾› IPv6 over IPv4 tunneling æœåŠ¡çš„ç½‘ç«™ï¼Œä¾‹å¦‚ Hurricane Electricï¼ˆhttps://tunnelbroker.net/ï¼‰å’Œ SixXSï¼ˆhttps://www.sixxs.net/ï¼‰ç­‰ã€‚è¿™äº›ç½‘ç«™æä¾›å…è´¹çš„ IPv6 over IPv4 tunneling æœåŠ¡ï¼Œå¯ä»¥è®©ç”¨æˆ·åœ¨æœ¬åœ°è®¿é—® IPv6 æœåŠ¡å™¨ã€‚åœ¨ä½¿ç”¨è¿™äº›æœåŠ¡ä¹‹å‰ï¼Œéœ€è¦æ³¨å†Œä¸€ä¸ªè´¦å·ï¼Œç„¶åæ ¹æ®æä¾›çš„æ•™ç¨‹è¿›è¡Œè®¾ç½®ï¼Œä»¥ä¾¿å°† IPv6 æµé‡è·¯ç”±åˆ°å¯¹åº”çš„ IPv4 åœ°å€ã€‚æ¥ç€ï¼Œåœ¨æœ¬åœ°é…ç½®ä¸€ä¸ªéš§é“ï¼Œå°† IPv6 æµé‡è·¯ç”±åˆ°æœåŠ¡æä¾›å•†æä¾›çš„ IPv4 åœ°å€ä¸Šï¼Œå°±å¯ä»¥è®¿é—® IPv6 æœåŠ¡å™¨äº†ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œä½¿ç”¨ IPv6 over IPv4 tunneling æŠ€æœ¯ï¼Œç”±äºéœ€è¦å°è£…å’Œè§£å°è£… IPv6 æŠ¥æ–‡ï¼Œä¼šå¢åŠ ç½‘ç»œå»¶è¿Ÿå’Œå¸¦å®½å ç”¨ï¼Œå› æ­¤åœ¨ä½¿ç”¨æ—¶åº”è¯¥è€ƒè™‘ç½‘ç»œæ€§èƒ½çš„å½±å“ã€‚å…è´¹IPv6 over IPv4 tunneling æœåŠ¡æœ‰å“ªäº›ä»¥ä¸‹æ˜¯ä¸€äº›å…è´¹çš„ IPv6 over IPv4 tunneling æœåŠ¡ï¼šHurricane Electric Free IPv6 Tunnel Broker: Hurricane Electric æä¾›äº†ä¸€ä¸ªå…è´¹çš„ IPv6 over IPv4 éš§é“æœåŠ¡ï¼Œæ”¯æŒå…¨çƒèŒƒå›´å†…çš„ IPv4 åœ°å€ï¼Œä½¿ç”¨ç®€å•ã€‚ç”¨æˆ·å¯ä»¥åœ¨å…¶ç½‘ç«™ä¸Šæ³¨å†Œå¹¶è·å¾—ä¸€ä¸ª IPv6 åœ°å€ã€‚Freenet6: Freenet6 ä¸ºç”¨æˆ·æä¾›å…è´¹çš„ IPv6 éš§é“æœåŠ¡ã€‚ç”¨æˆ·éœ€è¦åœ¨å…¶ç½‘ç«™ä¸Šæ³¨å†Œå¹¶ä¸‹è½½ä¸€ä¸ªå®¢æˆ·ç«¯ç¨‹åºï¼Œç„¶åå°±å¯ä»¥é€šè¿‡è¯¥ç¨‹åºè¿æ¥åˆ° IPv6 ç½‘ç»œã€‚SixXS: SixXS æä¾›ä¸€ä¸ªå…è´¹çš„ IPv6 over IPv4 éš§é“æœåŠ¡ï¼Œæ”¯æŒå…¨çƒèŒƒå›´å†…çš„ IPv4 åœ°å€ã€‚ç”¨æˆ·éœ€è¦åœ¨å…¶ç½‘ç«™ä¸Šæ³¨å†Œå¹¶ä¸‹è½½ä¸€ä¸ªå®¢æˆ·ç«¯ç¨‹åºï¼Œç„¶åå°±å¯ä»¥é€šè¿‡è¯¥ç¨‹åºè¿æ¥åˆ° IPv6 ç½‘ç»œã€‚Tunnelbroker.net: Tunnelbroker.net ä¹Ÿæä¾›ä¸€ä¸ªå…è´¹çš„ IPv6 over IPv4 éš§é“æœåŠ¡ï¼Œæ”¯æŒå…¨çƒèŒƒå›´å†…çš„ IPv4 åœ°å€ã€‚ç”¨æˆ·å¯ä»¥åœ¨å…¶ç½‘ç«™ä¸Šæ³¨å†Œå¹¶è·å¾—ä¸€ä¸ª IPv6 åœ°å€ã€‚è¿™äº›æœåŠ¡éƒ½å¯ä»¥æä¾›ä¸€ä¸ª IPv6 åœ°å€ï¼Œä½¿æ‚¨èƒ½å¤Ÿåœ¨ IPv4 ç¯å¢ƒä¸­è®¿é—® IPv6 ç½‘ç»œã€‚ä½†è¯·æ³¨æ„ï¼Œè¿™äº›æœåŠ¡éƒ½æœ‰ä¸€äº›é™åˆ¶ï¼Œæ¯”å¦‚é™åˆ¶éš§é“å¸¦å®½æˆ–é™åˆ¶ä½¿ç”¨çš„ IPv6 åœ°å€æ•°é‡ã€‚IPv6 over IPv4 tunneling æœåŠ¡ï¼Œèƒ½è‡ªå·±æ­å»ºå—æ˜¯å¯ä»¥è‡ªå·±æ­å»ºIPv6 over IPv4éš§é“æœåŠ¡çš„ï¼Œå…¶ä¸­ä¸€ç§æ–¹æ³•æ˜¯ä½¿ç”¨Teredoåè®®ã€‚Teredoæ˜¯ä¸€ç§å°†IPv6æ•°æ®åŒ…å°è£…åœ¨IPv4æ•°æ®åŒ…ä¸­è¿›è¡Œä¼ è¾“çš„éš§é“åè®®ï¼Œå¯ä»¥é€šè¿‡ä¸€ä¸ªTerdoæœåŠ¡å™¨æ¥å®ç°IPv6 over IPv4éš§é“ã€‚è¦æ­å»ºè‡ªå·±çš„TeredoæœåŠ¡å™¨ï¼Œéœ€è¦ä»¥ä¸‹æ­¥éª¤ï¼šé€‰æ‹©åˆé€‚çš„æœåŠ¡å™¨ï¼Œéœ€è¦æœ‰ä¸€ä¸ªIPv4åœ°å€å’Œä¸€ä¸ªå…¬ç½‘IPåœ°å€ï¼›å®‰è£…å¹¶é…ç½®Miredoï¼Œè¿™æ˜¯ä¸€ä¸ªç”¨äºå®ç°Teredoåè®®çš„è½¯ä»¶åŒ…ï¼›å¯åŠ¨MiredoæœåŠ¡ï¼›åœ¨è·¯ç”±å™¨ä¸Šå¼€å¯UPnPï¼Œè¿™æ ·Miredoå¯ä»¥è‡ªåŠ¨é…ç½®ç«¯å£æ˜ å°„ï¼›åœ¨é˜²ç«å¢™ä¸­æ‰“å¼€Teredoæ‰€éœ€çš„ç«¯å£ã€‚è¿™äº›æ­¥éª¤å¯ä»¥å‚è€ƒMiredoå®˜æ–¹æ–‡æ¡£ï¼Œå…·ä½“çš„å®ç°è¿‡ç¨‹éœ€è¦ä¸€å®šçš„Linuxç³»ç»Ÿç®¡ç†ç»éªŒã€‚åŒæ—¶ï¼Œéœ€è¦æ³¨æ„Teredoåè®®çš„é™åˆ¶ï¼Œä¾‹å¦‚å®ƒçš„ä¼ è¾“é€Ÿåº¦æ¯”è¾ƒæ…¢ï¼Œä¸é€‚åˆå¤§æµé‡çš„åº”ç”¨ã€‚æ”¯æŒIPv6 over IPv4 tunneling æœåŠ¡çš„å¼€æºè½¯ä»¶ä¸€äº›æ”¯æŒIPv6 over IPv4éš§é“æœåŠ¡çš„å¼€æºè½¯ä»¶åŒ…æ‹¬ï¼šOpenVPNï¼šOpenVPNæ”¯æŒIPv6 over IPv4éš§é“ï¼Œå¯ä»¥é€šè¿‡åœ¨å®¢æˆ·ç«¯å’ŒæœåŠ¡å™¨ä¹‹é—´å»ºç«‹IPv4-over-IPv6æˆ–IPv6-over-IPv4éš§é“æ¥å®ç°IPv6è®¿é—®ã€‚Freenet6ï¼šFreenet6æ˜¯ä¸€ä¸ªIPv6 over IPv4éš§é“è½¯ä»¶ï¼Œå®ƒå…è®¸IPv4åªèƒ½è®¿é—®IPv6çš„ç½‘ç»œã€‚å®ƒæä¾›å…è´¹çš„IPv6éš§é“æœåŠ¡ã€‚Tincï¼šTincæ˜¯ä¸€ç§VPNè½¯ä»¶ï¼Œå¯ä»¥æ”¯æŒIPv6 over IPv4éš§é“ã€‚å®ƒæ”¯æŒç‚¹åˆ°ç‚¹å’Œç½‘çŠ¶æ‹“æ‰‘ç»“æ„ï¼Œå¯ä»¥åœ¨å¤šä¸ªæ“ä½œç³»ç»Ÿä¸Šè¿è¡Œã€‚Hurricane Electric IPv6 Tunnel Brokerï¼šè¿™æ˜¯ä¸€ä¸ªå…è´¹çš„IPv6éš§é“æœåŠ¡ï¼Œä¸ºç”¨æˆ·æä¾›äº†ä¸€ç§è¿æ¥IPv6å’ŒIPv4äº’è”ç½‘çš„æ–¹æ³•ã€‚ç”¨æˆ·å¯ä»¥ä½¿ç”¨è‡ªå·±çš„IPv4åœ°å€å’ŒIPv6åœ°å€ï¼Œä»¥åŠé…ç½®IPv6 over IPv4éš§é“æ¥è¿æ¥IPv6å’ŒIPv4äº’è”ç½‘ã€‚Simple Internet Transition (SIT)ï¼šSITæ˜¯ä¸€ç§IPv6 over IPv4éš§é“æŠ€æœ¯ï¼Œå¯ä»¥å°†IPv6æ•°æ®åŒ…å°è£…åœ¨IPv4æ•°æ®åŒ…ä¸­ä¼ è¾“ã€‚SITå¯ä»¥åœ¨ä»»ä½•IPv4ç½‘ç»œä¸Šè¿è¡Œï¼ŒåŒ…æ‹¬å…¬å…±äº’è”ç½‘å’Œä¼ä¸šç½‘ç»œã€‚è¿™åªæ˜¯ä¸€äº›å¼€æºIPv6 over IPv4éš§é“æœåŠ¡çš„ç¤ºä¾‹ã€‚è¿˜æœ‰å…¶ä»–çš„å¼€æºè½¯ä»¶å¯ä»¥å®ç°ç±»ä¼¼çš„åŠŸèƒ½ã€‚wordpresså¦‚ä½•å¼€å¯brotliå‹ç¼©è¦åœ¨ WordPress ä¸­å¼€å¯ Brotli å‹ç¼©ï¼Œå¯ä»¥ä½¿ç”¨ä»¥ä¸‹æ­¥éª¤ï¼šç¡®ä¿æ‚¨çš„ Web æœåŠ¡å™¨æ”¯æŒ Brotli å‹ç¼©ã€‚ç›®å‰ï¼ŒApache 2.4.26 åŠæ›´é«˜ç‰ˆæœ¬å’Œ Nginx 1.11.5 åŠæ›´é«˜ç‰ˆæœ¬éƒ½æ”¯æŒ Brotli å‹ç¼©ã€‚æ‚¨å¯ä»¥é€šè¿‡ä»¥ä¸‹å‘½ä»¤æ£€æŸ¥æ‚¨çš„æœåŠ¡å™¨æ˜¯å¦æ”¯æŒ Brotli å‹ç¼©ï¼šcssCopy codecurl --head --compressed --ipv4 --silent https://example.com | grep "Content-Encoding"
+å¦‚æœæ‚¨çš„æœåŠ¡å™¨æ”¯æŒ Brotli å‹ç¼©ï¼Œåˆ™åº”è¯¥çœ‹åˆ°è¾“å‡ºä¸­åŒ…å«â€œbrâ€ã€‚å®‰è£…å¹¶å¯ç”¨ WordPress æ’ä»¶ï¼Œä¾‹å¦‚ Brotli å‹ç¼©æ’ä»¶ã€‚è¿™ä¸ªæ’ä»¶å¯ä»¥å¸®åŠ©æ‚¨åœ¨ WordPress ä¸­å¯ç”¨ Brotli å‹ç¼©ï¼Œå¹¶å°†æ‚¨çš„ WordPress ç½‘ç«™çš„æ‰€æœ‰èµ„æºæ–‡ä»¶ï¼ˆå¦‚ HTMLã€CSSã€JavaScript å’Œå›¾åƒæ–‡ä»¶ç­‰ï¼‰å‹ç¼©ä¸º Brotli æ ¼å¼ã€‚é…ç½®æœåŠ¡å™¨ã€‚å¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯ Apache æœåŠ¡å™¨ï¼Œæ‚¨å¯ä»¥é€šè¿‡ç¼–è¾‘æ‚¨çš„æœåŠ¡å™¨é…ç½®æ–‡ä»¶æ¥å¯ç”¨ Brotli å‹ç¼©ã€‚æ‚¨å¯ä»¥é€šè¿‡åœ¨ Apache çš„é…ç½®æ–‡ä»¶ä¸­æ·»åŠ ä»¥ä¸‹è¡Œæ¥å¯ç”¨ Brotli å‹ç¼©ï¼šbashCopy codeAddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/xml application/rss+xml application/atom+xml application/rdf+xml application/x-font-ttf application/vnd.ms-fontobject image/svg+xml
+å¦‚æœæ‚¨ä½¿ç”¨çš„æ˜¯ Nginx æœåŠ¡å™¨ï¼Œæ‚¨å¯ä»¥é€šè¿‡ç¼–è¾‘æ‚¨çš„ Nginx é…ç½®æ–‡ä»¶æ¥å¯ç”¨ Brotli å‹ç¼©ã€‚æ‚¨å¯ä»¥é€šè¿‡åœ¨ Nginx é…ç½®æ–‡ä»¶ä¸­æ·»åŠ ä»¥ä¸‹è¡Œæ¥å¯ç”¨ Brotli å‹ç¼©ï¼šbashCopy codebrotli on;
+brotli_comp_level 6;
+brotli_types text/plain text/css text/xml application/json application/javascript application/x-javascript application/xml application/rss+xml application/atom+xml image/svg+xml;
+ç„¶åé‡æ–°å¯åŠ¨æœåŠ¡å™¨å³å¯ã€‚è¯·æ³¨æ„ï¼Œå¯ç”¨ Brotli å‹ç¼©å¯èƒ½ä¼šä½¿æ‚¨çš„æœåŠ¡å™¨è´Ÿè½½å¢åŠ ï¼Œå› æ­¤è¯·ç¡®ä¿æ‚¨çš„æœåŠ¡å™¨èƒ½å¤Ÿæ‰¿å—æ›´é«˜çš„è´Ÿè½½ï¼Œå¹¶è¿›è¡Œå¿…è¦çš„ä¼˜åŒ–ã€‚Brotli å‹ç¼©æ˜¯ä»€ä¹ˆBrotliæ˜¯ä¸€ç§å‹ç¼©ç®—æ³•ï¼Œå¯ä»¥ç”¨æ¥å°†æ•°æ®å‹ç¼©ä¸ºæ›´å°çš„å¤§å°ã€‚å®ƒæ˜¯ç”±Googleå¼€å‘çš„ï¼Œç›®çš„æ˜¯æé«˜Webä¸Šçš„æ•°æ®ä¼ è¾“é€Ÿåº¦å’Œæ€§èƒ½ã€‚Brotliå‹ç¼©æ¯”Gzipæ›´é«˜ï¼Œå¯ä»¥å°†æ–‡ä»¶å‹ç¼©è‡³æ›´å°çš„ä½“ç§¯ï¼Œå› æ­¤å®ƒè¢«è®¤ä¸ºæ˜¯ä¸€ç§æ›´é«˜æ•ˆçš„å‹ç¼©ç®—æ³•ã€‚Brotliå¯ä»¥ç”¨äºå‹ç¼©å„ç§Webèµ„æºï¼Œå¦‚HTMLã€CSSã€JavaScriptã€JSONå’ŒXMLç­‰ã€‚Windowsä½¿ç”¨warpå¯ä»¥è®¿é—®ipv6å—æ˜¯çš„ï¼ŒWindowsä¸Šä½¿ç”¨warpå¯ä»¥è®¿é—®IPv6ã€‚Warpæ˜¯ä¸€ç§åŸºäºWireGuardåè®®çš„VPNæœåŠ¡ï¼Œå¯ä»¥ä¸ºç”¨æˆ·æä¾›å®‰å…¨ã€ç§å¯†çš„ç½‘ç»œè¿æ¥ã€‚é€šè¿‡Warpï¼Œæ‚¨å¯ä»¥å®ç°IPv4å’ŒIPv6çš„åŒæ ˆè®¿é—®ï¼Œå¹¶ä¸”Warpè¿˜æä¾›äº†è¾ƒå¥½çš„ç½‘ç»œåŠ é€Ÿå’Œä¿æŠ¤åŠŸèƒ½ï¼Œå¯ä»¥æœ‰æ•ˆåœ°æå‡ç”¨æˆ·çš„ä¸Šç½‘ä½“éªŒã€‚WarpæœåŠ¡æ˜¯ç”±Cloudflareæä¾›çš„ï¼Œæ”¯æŒWindowsã€MacOSã€iOSã€Androidç­‰å¤šç§å¹³å°ã€‚ä½¿ç”¨Warpè®¿é—®IPv6éœ€è¦åœ¨Warpå®¢æˆ·ç«¯ä¸­è¿›è¡Œé…ç½®ï¼Œå…·ä½“æ­¥éª¤å¯ä»¥å‚è€ƒCloudflareå®˜ç½‘æä¾›çš„ç›¸å…³æ–‡æ¡£ã€‚ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.New chatRust vs Go for WebLinuxå†…æ ¸ç®¡ç†WordPress Windows DevelopmentNew chatæ–‡ç« æŠ€æœ¯å†™ä½œJPG to WebP Conversion.PGPåŠ å¯†å·¥ä½œåŸç†Quantum Computing Simplified.Clear conversationsUpgrade to PlusNEWDark modeUpdates & FAQLog outNew chat
+</main>
+</body><xmp><![CDATA[PK  „UV            
+ - index.htmlUT ‚ôc
+          Î­øÎEÙ Î­øÎEÙ Î­øÎEÙì½kwGÖ/ş>Ÿ¢Ã\’œ‰d]m™Ä^Cœd’ç„HÎ&k#Ëm[A–<’8ùg-s1¶ÁÆ&Ü±“p‰m|Áø»<Gİ’_ÍW8¿]Uİj]Z’!$z`?3ÏànUíÚµk×®êªßŞûíWßı¤kÏßw½§õgÚÛôKD3™m‰x_VûªgßşXO\‹÷Ä|{ƒ¡à6-“Nè±T"•ödbıú€¾]”í|ûUçmW´O×2Ñızv í×vÇ“}	ııxBÿ‡öŠ6”NlGkÙÁÌö––X4ëMêÉhÜKˆç–ŞÖî@¬7âé	w‡=!_w·'Æ<±ö`(ÚîëÄüA’-ôD³úvmÏ®½¯wk¿ğ‚š¿u{0°İç×şöÑ¿ø">ŸözW<Õvg£ÉhºGÛĞßxÅãé|{@ÏF54œÎèÙ¡l¯'¢Ş%£zÇş¸~`0•Îj±T2«'³ÛÄ{²ı=úşxL÷ˆ‡7µx2GF’ñ¿©et’M4íÆ‹dj[çÛÙx6¡wšçÆò?Î›ÇGÌ¹%ãØÅÜúÜÛ-òG£Iı`ÖÓ¯G{<±ÔP²ØvĞY¨GÏÄÒñÁl<•,2·ƒşÜ¯§3QzMh;>Ô2Ã™¬> e![-ÇßÉÌ›ZB¦é_ˆƒ:ŸHèÉ>=6EƒiJ:;Ü‘êÛ.¸³[è•¿íÚS¥\|€Æİ*g°spåO-¢`¦hñû[Eï—ƒ}U¨şV½„ZVğ^¦o'âÉ}ZZOtˆé×õ¬ÖŸÖ{Ï{}ŞX&Cjõ$=VÄ€¥õh,¥H§	O6åéNe³©íÔgïBŞ€××ù¶ Ùé­^ÉãA#¯†“±´§­]Otïûz0•¦’ÛÁÄ²_ÿ¦ºşdÛ€oxèë~æïv¿Ï÷§·R`¨7‘:àŞÊ¦Ş*.~úf{:•Ê~íñÄˆéıº'›&3h‘ğ%{ô4Ä¤£±4şì"#±ım=¦·¿U«fR0ıÙ3Ö7ŠQèyÚÊÏSTî‡ì„ıótGcûúÒ˜²=ªv/şÏç«Y»§
+Çáö˜¿»§fµîD*¶ïßC)¼(©‹ƒápÍªYXÂjrêí¶…z`öQ«´r{(ìÔ®\E¼T;İ?¼å1é‰ï÷`İÙY¡J²Åoşê9 wï‹g=ûôáŞ4¦gF«F-‘ŠO4	«EÓëëŞtjàk«²(Ø›J`fdQşu_Ş÷Æ7Ù”{‰`¸]”ùæ¯OÕ²{‹î-½İ"IÑ~Åal´ìğ Ş!ŒqË`²OËÄ¿Ò3ÁÀÁ`@5ËN{ñ«m2½Ğ÷=ùuO<3˜ˆoO¦’ú«ñZ$£Él•ÆbQ‰c-”dŸyíW6•èxôÅ÷c+"L§'£Ç†Òñì°g0•ˆÇ†‹FŞJ @:¦½F¿ö–Ö‹å‹Œè}M˜ìíæU÷ö·0"}®¿‰ş9}m(™‰öêx’,WYi1Ä®´ôxÔ½%±ô5ÜTªûK~ujXõäÈ o_ ¤B¿¾¹íŸofRCé˜^ú²îøv§z†;ßN¦$“ÖŠG‹ŸÜ?ÚšÒùv‹UÊQq!.Ä…¸âB\¨	á#§^{÷ÒyŒ|TGcö7²¬¥ğô%°¿•ÿX_àØq9êô&ôƒV	úÛã—ÿàMèÙ>˜ğ|hõü'ODã8õ,jV]Õ–Øî‹/~y%ˆ)–sÇáHÆ“É¦õlL–õø+ùOeKË4zañŠ£¶}Û»û<}éè°Çp%Ô>¨£İMÙ­6ùzZËÒ±Yf v«Û”üäG¡§Ûş#÷¿OÕ–/…vŸ¯%ì“Ô-’²TñG4úò¬Ó¸¨ÑÍèZ_tĞ¢§?Zµ¶Ğó@ô ç€'p0¡%úê!ˆUup5…@Ptğ §¢§_I¡ÊTÃV()<=ÙS>ÈêwªA_ƒÑ¤:óİÖ:èÁ‡">L-áÍ[Ö§‚ü*‘gö9Òv©HêI”¾¥Nœ¬ÇâÉ‰øŞx+5áCn»ÿ-ÙÌvôC¿DÓ}ñ$=¿5í¡Odùwùñ
+BZöÙÕ–ú!;ğ|®`Ÿew¥|”–|¾lmÓ¢‰¬Mã£T[G6³õâ—¡</ÈìïûËÁÄ›
+ÆğçŸ><$3
+´ÑW9>î8à=ô¦Ò}8çÅü¥ÚPPvRQ¿×/ßÉuüôÉ²Sö›–?É–¶Ğ J9Éı¯©xÜ›€Fƒ=Ş.Õ¡EĞ‹óLF=–¢®uD30(ê:âÉl:û³l‰‡S°jl…ŠvgR‰¡¬şÊëY!°êÚã]%mú¼(¸8S­¦hTM¦Ğ¸2ìrÔË”€~uÚÒÏgÜÑĞi-³Loëİf:–/pH{xÂàái9„Ñ +å·ÌUìMIq¿?Lå«¬x‚Tò@)­`iQÑ,€UÌ•µrEq	#æ~¼CÇpÿ2˜Æa::¸­Ó¸y8·~–®T–GòKcò†Å¹%/\Ü$P´à!XpÑ0œQ¤>Š¿ÕêòåP&ï¶²€ì‰%•ÕrÂ–ÚĞßÙÔ Ç'ş°÷ÊUïÒâèXüšâ_ìÚşx&Ë#È©{£½ ú–ºôhıdgí‡Ö!ù¦Ø³¶ÊåŠ:+^•Ö¶K–“ÀÖ ³t™Õ³½j	¢9Ä“Šm!Z=²d±70˜céÔ>\!¥Ó¦8™Õzã‰nÊ’°6âW©î$ıÀ;©ƒÛ|šO„ğ_º‚Eh¹‰Eåôu¾ü2Oª·Jlı¤8TUÆÅË"Ùı%í—»ñê|{0Š=VOÇ¶ü~-ôA(Ğ`ÿÁPöû/ğo ¿ô…'°ßÓF&Œ¨8iE¼a-àG^?İ]Šÿ¥~-¨wúš?œ ã~Íÿm÷†=øÿ¯Š„$k-RAª¨·PhKq»õì]ìèœ“Áeb<ç]’¥q¨am˜¾øC(j‡ÊŒHSï˜äZQ\t©4.Ò}İ¯û[ßô·ßôÚŞ¨²“WÍØí9'5Ö Ñiaæ$'%ÛÜRC¤f”TåßRoüU2oğòosL²z_:ıĞS{"µ‚ïV´k«q°Íbfú[½‘6_[Û#¾”× å`Äë¶âZ>äõµ·…4ñ{¤Uó¼­‘p;•„|íšßï´…ÄïAøCáÛı¾¶V-ØêmÅ?”nº‚ao«?Ğª¡µ`È‡âA"ĞÂŞ âş4ØÔBŞP{$Üôy}‘V”ò¶ÚÁL ûÚ#xùáv-öFş0#a_[¤+B'Ú[1Û"íA-ô¶üàÍ‹ÊÌÖ€7·á=
+ù»ØÆÚÃšÅÃá¶°æoG…P;^„ÚÁ%jF¼A_8‚aŸÏßŞÖ1ùÛ *ö¡¿$j¤Z#>ü q?,š
+øC]~Ÿ·×zÔ…¶VÈ¹İEÂAt3¦U¦İß¦µyCm¸Òóù"a<£4Ä†x 9Ã!È%lk[Øù@ª‘0˜€œ|‘6êwĞña0 1¯/	¢`ÊèòyÛÃ­!ÈLûÃí0W$æv:Şê`H+$ŒƒÿUÁÔn)ˆ ÔJ²‹ x†éÃèW 5»N’v¼;z…	µÑ y[[C€|Z1pvúİOŒ¡?~pÔÆÀ’àÃl°At ‚V‰l(ØFzô#]a¯ŒßñC+èCüÀŒVH©ÿâçVŒ—?HÂoC3B)Û mºrPúv’SÈÛM¡g?:Ù¥o`t¡ôh¯æo#9‚­v/´ Ï`»-„úíh¯µµúÒÚåùPÊ …òµ…Ãôã-hµÒs¨½]èg+HşqƒXÚüAğß©Ò"©‡ü¢ıp[f‹´MNª õÓï…IL˜œaŸ˜.~?³(ìoÃdÄ¿¾ øÃ¨q1Eü4”ƒuÆ¿è‰t0ohîbó§¡•öMí¸`0iî¶	.ÚÚÂb°Z#¡.b2„¹ ¦¡„°I>è*˜¢Nµ·	!@XshF[("Ê³Ğœ¸#rí­¤Œè$TG‚Ãòüã#!-j&%jïBEXôšÁ¤í÷m05F§µ½„0'1Ü]xnk%åÁ3ÚÃc„f1x°X0Aùèoõï„ŠbİCmÈÔníB·°Æ	1Õ©›V><û¡xF É$¬ ™šV0K¦	LAÏè¬ø=•Ï4? ‘@øsb>
+ì$áhF€iƒ$4h&ÃdéğìÇ<¤çV"q),ÊÃ Ğ#"!üKz½ÏozÆ|û#Y‹ÊÑ4‚™Ã£ŸÔê Ù³Ú»*¦Q„f%õµÅ¡ş41Â¡HPÔ®l şñÊ·HïD/B˜¦a°]ğŠÀ¬`Úbí !4Dó
+Ö‹„Dæ- òá6è=öa‚ã÷ÖV_H>Gğ>‡ZÁ(Æ(
+íôÃğµÙÂ\GºğiG¿ğŒµÆ‹ÌM+ÈØ‡}XÈ„¦©Ç.<†#Î±Ü¡/Vİ0º Ó hïDßÛ‚h]ğû‚Ÿc.´CÙi&·‰‹aõÓ€à¦V<±Ñ³,Ò3ôB”§¹FÏmĞB1iĞ,=‹¥
+Ï‘€(ï÷ù;1)Zƒ4i°„AÖÄ4FHY[È/–_,ŒÂòù°.Ó
+ Cò´r†C] ‚ÖWl{a@"XäHÚPÓ²ûÇGP…vR!-”ƒ,m¦5äƒ¢¢B8e¡÷Ø€¬P±` ­Ëñ‚é¿c¥ç0çs«¯ÍOórÕ‚´ Àx`Z¡X ÄöÏ`“ƒ‹˜.!ìPšHËÈ€OZ>CB~¾ 4?‚QŒ 4½°¿ØI»ô6ª/¦#äöHƒA‡†şLa°Ñ;ê6Œ =ûaÈé–Z>·aAÁ3pñL½j¡!,ŒF;M~A.°óL 9Ú „Û Tè6˜@²TØ;´¶¡æ+Ì;m db»ÔÃúîƒm’ÒğÁôñš6hÛÚ&•Ú?>Âp¶ƒm’&´n'Ú	´ =XW„ÍÃº'vc˜—ôLƒdYé™ºç0´ŸÛ"m¢|´T<c{DÏí\Y^Ìh¹,uz'i/Ô˜øÇ&K´¸6´iÄüÅôÆì¡!Ò]í[it°ìµbù¦eİ"ñ„0íÉŞÀ,ˆeUTÇ¦	Öƒæö  â­ G\AÙ‰¬–°:¾ÍX›6ÌŒ¶OX-åœ¦9Ä6SÌ,4õ¡ûrÕ¤æğL»˜.Çs¸ş->‡h=r<“Õıœ¶—¬ƒôšöD´ı¢fhç„åŒ–· „‡ç-Ö´Ã
+b#ö:-M,Ø@Zãi«@2¡­oÉcÄ¡
+øK¨6<Ô#Î “!<ÓP“Á -í”ım;!?Uš–8ÕéoÇàê/V1¹«Esí$:¬zØöZÏT<@óÉş"nÓv}(}‹<™5l1ÄD±ˆ|*Œl2½‡èé¹fT<c—LÏa²*´`¦ç6¾ôŒeT<°³§m9-ôLË(=hb`£³CVCÚ3«“"ƒ™Áp°T€6’˜`¨†Õ]Ø‡@| {áøƒŠ@3é÷ Š‰”¬ öoÌ?)@_´¯ÄÌ§XÌÌŒ¯{ZiiÆ@°â¦™9ÈP-Œ"ìM+mØ0QÅ(bbûğ…R6ÊÿøãÀœ ©mßI„h¯Ëb/D„i¦ÓÊOŸ'´¼ºšör@"Aúl£ı-Šxö£!z†©¿û±£¦gˆ@<Ó—=c7õ¹2ã²eË—À %}¿`k „IĞ‘Övì˜±şà»‡¾÷ğá":(¾h` ´3%ƒ ¥æ< ‹=lhı  ,¾Kñ!=#µcî‹Ï[+ØÂ•%öëb§‚#ú£@Û*”óAî?VG”‡…aÄ3Ø{WŒ?ÛCô])ì4Ô	ÏLñbqPJ¿X•Û NxÆÔ„Å¡­¾ğŒ5ˆOê©5¦Gk ½ÇNÄ‡IIÓ¡•ÖE”§E3)ˆg¹Èbr†©=ç(cØÅ<[ÙövØs±ØŠMmÈäf…¦ıŞşœºƒïh»©=6\rBòçÏ¹¨3çÑ^ùqÕ‹]Bç[=©I‚›ãË:XÃíç>Ï X'`âWàúpXJ vœáĞ	K§ÛöæÜHáæ!óşmóètníFnù„16Ÿ?¼òŸÇ—PËï5/œÌ_[Ì-¯m~wÁøv2?»hÎÓçsÏ£ÈæÍsÆè¸¢!JJªùKG]ªL¢Œ±xIº, ˜ynÅ˜9…bÆ±Qcqåÿ6–Vr«'›ÒËáòÂÒÔE+…‘#…‹§
+Kk…‘QT/™4/.¡º*÷±r%7m£S¹õü™Û…1"xñ¦ùğsüœ|Ì/Sg‰ÂÒBáöÚEw^ÉêÄÚióÊQôÒÉ„Xÿ‰º{ï°,`.šïJîÌ¹	)6×üß‘C¹å…ÍóHk§»O¨‹â'cõLaéAÅÜÚ‰üÚ””HÉ*›GnãÇŒé%Œùè1z£°øsáÖ÷’ŸüÚ±ÂñÃ$QA¶¤ğÈ½„Pï5çfÍ¹;¡1}
+²£A¯äİ–Éqn	—uZp½*%B7o_Ëß?.ŠM™÷ÆP¬píváÉïÇÓ$ƒ›‡Í+s˜“x~bâG­üã "­"qQÚıÃoºdŒ­æg—!HjèÖ÷›cÇQMälägáìnÈkNÏäÌ–nBjDşújîÉ	Ğâ•Â£_òkÓ›w&Ë:­D)*bÔs«³Æè£ÜúiRÚkã¨îJ«O¬™³ŒëÆÜ]É…0èÄâ•Í‹£Äï™Û$Ñ„ìzníûüü!É”Æ˜}É&@\¨Ú\~aBÊÃiY2'ÙÓ­°¸ŠY+»önMn3O~›Ÿ§šŒJeı£~”È­\İ¼|ÅX^¦ê7I•Îm\.,©väØ›N£—¤¥‚qcf|sä0Q›“3Ş\ü¥0³n+ÒÉ»›g7ä{êÓ±óx$yLß0fªJÂ¸|Äp|>ÿ3ıa›#Ù;¿s”ÁªİïV/FÓÛ¸~ÉüéZncÑ<³"Æøš9z?7bÌœ´u©fa²SèzQ¾RÛÇá=±óË¡üÙQ3Væ–Ï8g¤,cŸ/,-Ù=+,=2f0&I¥EáÜòicñaac/ÑhşöQ[^4ÿ€™
+Yöf
+GÖ…ÆÜmp²y~Q‰ùÌ
+ª“6ÿ°
+kA2h¬sãr‘Ã7™Ïå&óE¸¥Äóóp›^uKôé&±}¿ßßOìHÉı¤ßÛ–À™eÄÓî¼Øôà+ò«è[Ùqáé§÷¸Î,¾ ûÍ~ÚCU¿•äAÿÍƒŞ'kÔé9òàá|DJ.­iÈ1î8sŒ9İ]cÌÚ<ş`?ÎÚvĞA½³î¥ñ=ÚÁ/}Mš‚/àü[îª—Ó¿ÿÕ3ô Ç =è1@ï·=q~œÓGÜÂƒò”Ç <å1(AyÊcPƒò”Ç <å1(AyÊcPƒò”Ç <å1(AyMÊ“€;óÀ #¹å;eèyÄ-AÇK%("Õ“HB´H0Öâˆù€à:ùÙæÉhecÉŒ™eãñY™}Px(@Q„QÄN]`ŸKN$š>!€» ÃGho'%ÜÆ	u26~Ü¹š[8'	œ²|FˆƒÛ#U±!|ùù3ùù’?ş`\76
+†¤!u0Bx»‘[¥ílô¾BØˆFĞ¦®;©ˆ‰2XÅ¨{@i-®¤æÜŠyÿ¬³{²c²ñÍïW¯:Q‡ÆÕUsî§üUà{•1"jXô
+M76FP7«Kv›Æä¨yâ'‰÷*,>),^# ÑÙ»æÔ"ªlÎ£Ç™Wfd€¡Ü8%	° NùÛt“UÊÅ-³iƒY	““,;ËØ<J¦¨Š@©Ñû¥YFš)ıY <›M‰ˆSd1€®LHp$Æ ”ÁÂâm¼GD^vÌÑˆõ«Õš Y‰—ËxDÌn^œ1ÆI³dE'A'#N´¤D§–¬`”&Ÿ@Y:É´äÌı2e-<¸–Ÿ\$#4œ=F÷FÀ”¸Øì#€àŠ¸Ø²ñš>ø+)»dŒŸ1çK˜€Z©ày/œÄ¤#$&°‚«4ªŒ€ú•ÉyìAáîwÔ¥£WñG~íbnu\i( ½««Æ)é]ƒq+¥±yñ¨±Nª.“r4¤¢Ğƒ®`,}„	¦)HUÏç6®™‡)'Ñkdå`”îC«.å–§€šËß[3®œ°ç«ÎÄ çÔ7aNÀzŠ’–Ñ´ñÄÆâ@¤#b:(Lçü
+©¯ÀbJ( R¨»GÌ³Ô%(à4ìêšìòE¸ad@İK8è¨c@êPÇ€:Ô5Ûy†íˆ-9<ãûåWˆqò*>ÖÄ·í¸…gUz×5*où¾cƒÇ<Æà11xŒÁccğƒÇ<Æà11xŒÁccğƒÇ<Æà11xŒÁk*âtáˆ[Ä\;±yù;	Æ³Ãµ]ÛõŸÇã»î,;¬ı-•êÑv¥ãû£±áÿ<p;&— /ct¹¶bÅ”S@*	 ”¡Û\ ~»ú	)ähªv¥ç·¦€©1–Öu!´“Ä¼P\­Õ“Ñêøõü™_à5¿yxDh­1€ØÌ‡ã€á SF!¦.Íäo	èÏâ„1J‘Ê¨À¹1		«äˆJŠ˜fÆÜ*€q.Ğ?gm€ûŒ_¨ŞIÄ¬ûÙ†û)ÚbîX¿J>Ê°kÕ
+X(»¥c›ß"öŞ5¼”aÆğFâÕğ‡ÄİçóOŒ™)uÊQÖ1²î92çV%ìLµ<ú~"Ô­CT¥3WÍqA;d,=FŒ?
+ş LÌ¥ÙR^Ë[.ıUâÿİ^Éßºk—¡ho7T]ˆIğ"z XCIÔOÄ^sáË)±òÑvüT&ù"ÌåVnÚ² Ö€\:DÑ7®åÖÖòë§òk„‹3ÖVó? 1¿ö€TÙEF*PÉOŠ‹3B>â}îñ|á	UTèÇëx¹îÖ¾˜7ì³0•³jßúÉ‰”,ˆÅó„ï¤’«ÆêÍâp…r‘ì5•Bê-m^ÇO.¬•ÁëNfµ(Kæ_È?¦Pƒ %Ÿ^±kh	¶[ÑïhÛ^óÚ÷H]Ä! £ŠP*§0¥¶uÃ"¢!bCV‚L4Ï“Æ;c­*ì³ˆ*Hz¿8’_; ÅKÓmùtnĞFŠ}I]!ådTbÓİË¾w®ŒJ|	Q‰ŒJdT"£•È¨Äf;á1''ò£·(@¾ôè±@ŠnğD 2 ‘ˆ@d "€È D 2 ‘ˆ@d "€È D 2 ‘ˆ@d "›
+€Xà×ÌÀ>ĞG ,³~:·v\BŒÉs"ïï¹üY
+ÃF€—ÒædæÊÂÃã”Ğ÷áq¤6Æï"¨Xní'°î> 1hbóÒtşòHí¾l\*,×#ğh¨»²aŞŸ•¬’dD`ÈdóÒœ,)£UJ `³Üò*@7ğæµ‰4¤^¬­Çï0dâŠÿüÆ¸ëŠe¬Äi¡Q«­jZ»<HÉ¬ªy•/’2ï>#n²/)’@Ùr¢ ¿‰mH­ºP†—”2GyIMFÿ3Æ”Ò®à‡Æ¯*óYÀ˜Ğ{‰ÅñÜÊ	cxÇIB®?R™eÅgi¢_âÌ;v'æAè–PdÂUÌ¿hlŒn^[3nŞ0Î…yj3GC€ÜåÖÎQ\¾éS›ÖpH½rBÎT¢Ş¥tAÌ4b@áE•ÿ<µ)#‚¨yæ!ffmjàÜxt$&Vô,±›×ëçP"*l\P±KEj ¡ ŸlT­(~IøÊ•Èk[„½U`_‹êZõ
+Å ¹½|¡U7/<DöaIÒ+×ùÆªHA´AØ&è=¾ ¬
+[}QzQ_ p£åB+×öúd+ä/Ó›+U!m/¶RJ“2ÃJ¨Íœ´µäìx)ù¡ôå¿<’Ú‚0v[4dÖßUÇ·*y2ô!ZQÅK‹“b¢PÁO™Ú”Áˆíñ­;m¬Ä
++s
+†ç®Ÿ)Á±Æ"ğ±$tœFVtÜ©ÒòÅ±ud ®ì»¬"¹-:Ó˜JÑ9ÉÚÂt’µÛr¬“š‚’*è³•"İQ@şDKÚÆ˜0}‘Ÿ$)›¾°$‰Õ#1ÊÂ¹A¦©¦)&PÌ6®Õüùh¾û1¿t€URQo^øÙ\øNÀÚ_
+¿ĞwóÇ¶ğmøqq‰•¸ıRP¶Yç²Í ÖæºëîñÔú:ƒZÔÊ Vµ2¨•A­Ívjh›’ªp cÀ*V°Ê€U¬2`•«XeÀ*V°Ê€U¬2`•«XeÀ*V°Ê€U¬2`µÙ «nÈG	|Fä£±xä7 şøJğƒ.WAYª0Ÿ%€H†®ÙğŠTñŠO‡W¤K?š–9ÜeàÅÒÿŸ€`”ÄÁXÁXØ¸hÎ?¢NMİµÍµSÆâwæøÂÉGÚúy{¹•«æùy
+ò9ÿ€ê­JjB»NbZIë‰*µñë%jjV ,Ñ1FQ¾ (ÊÜê$YûšXJŒfãîÒU£rå®«xaõæabşÌ†±:G±zBØRZzÀb69F6—oHÊ$¥c2
+«ÌVğpKƒ´ê˜ nÕe1›Å§=hİ .‹ø¶„(v¸¸`B5âåRß7¡défäj3]ú¿úŒ\}	‘«Œ\eä*#W¹ÊÈÕf;>$ÅË@ó¾êŠ&Ñ¤÷«şxÿ7–hlñã.²Õ‡M¦GÀG0"µÚùpdìVlÛ£éX¿¶3:ˆízáûQóìE|@1–°„e ,aË@XÂ2–°„e ,aË@XÂ2–°„e ,aÛT@X™½x!ã*BˆÌ-Gs•çıÒÑU»U;‘8·z1GKó¾‹ÄT\+Ö×Š MdæğmãÑÏùµi™ƒ˜si'Tt‘šİgç”Ôl¨@5…#ë‰òæ¹»“\%0’È´LQ\¿?”Ÿ¥ÌÅÎìŞ ÑˆäÖF‘rYfq&èÒ#yæ¦%47bŞ®˜9·±(!QÎdË‹´Æè£ófa}İÙóÍ³sÆJ–¬"«.^ T«x)~k\¦ìòoGµş´Ş+NÍè¢‚îpÚ<tPœœÑ 'RÑêÑ§g;ö&õö¥†KÙ·[¢4=ì¡ÈÂLÎ,ÇoCJûÙîwÌñs]ïz>ıä#D…µÀJä’¦gcızİıt¨w(£%áÒeòş–°¦E²“òï F Í!c7ÁÏ YÓŞùğ“İ@§ùõÅ²”Ûs·?Ò€Y©(FÕz¿JJ4œÜø/u‹ QVãåƒ%gåZé7Å•cÜ$¬ dÂâL˜'~Ğ¶½“Je%·ièrıa4µ÷Äêæ™Ê>å×Æó?ß½@Ø!¦Së¹µëÚÛ¸}Ô;i¨öéÃÿ3|»E¼µaâêµ†iŠ.Ë1!E=³ˆÅlÜƒ*±l
+-è(IxÀ'ÈM>í¬"aƒ’³œ•¡Œb£´'PBö@G&Ê4¿º!ÓÜËi¥ÔGR>ï{ôä¢«É¦W€‘öYû?qÏûqMÖo¼Ñ¹‰ZÆaì’ûJ›4¯ŞÈÏu¨íéï)Òï­»eZE¢§?6ëÑp´ìp)-©qÚ»tíÒLöF¹êhŠ´¢IŒfW¿¯ú`¨¦©@ÕÁ(á3Ç]2îşbY\wëYO2;¨ÑÕ|¿¤’‘óö6¦¦‹0¶ãïÙù6 y„F·ŠÌc½¸Ë+¹1>k¬CJUJp—˜ÂK#—#YVÒ¼6Nf_É’‡ÛqQ¤tc…,^VVY‘Kn6ì-@éÍ£Š£áÎ&¤á' ËÌh½©dÖ“Á½ªÂ‡tâ²¨ßº5/½:-$äÅ-ßá>GÃıEàvd¥÷‘@^vÕZŠÎûÜñ,Ày$	µKKCCµƒm•,Eìk%-}°WUÃ~”§’jW×•ÖH¡jÜFÒvÉ‚y†Å( Uªd•xµt7¥õ'¾Ìh@ôB·€ıÛ:[zôı-™¨_ÓpHúÑ;š¦½÷ş‡ÚîáTéë×€¦EşF¿ijµÈˆÚ¿5Í˜ø!·~1ÿÃ*f˜UC®g$5;J/I…cµæ„B"Xt9í
+w È®v<×ow§ËVakdÏOk²ñDâ‰ôN¤}½oo4«yŞÇÉ‘=­^ØGsÅ~x…1öÅ¢&´&d¿Ö0âS
+îÜÆ—."j¡±¿ä,’Ÿ;Öª»`{AÉµ¹l^M¦½:O*T¿ç¤‚³Åi¡µ$³¯HÜª¤B•<İCñDvo<‰9ØO+ue[ºñíòJ)¿ã—ß}š•ì$!
+¨0¨	”ıŒë‰²fÅ‰N4ğÅŸ¿š«ä³1J‰ïVx¢ÖhµOOöâ¦[ó|&şs_ö-ú)'|·ˆßKîˆš¬)¿ö«¶ñ/úR÷ÄúÓwñ•}ošgø"XEö½y	}oØ÷†}oØ÷†}oØ÷¦Ùn,sëó8©G<\ím^œ¡`3çÿóø*ÅYÉ­ŒS’ce”ö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoö¦aoš¦ò¦AœUœc#¶3¡¢ExıñS„û>7ml¬îÙv·İø©±âp²È2v²a'v²a'v²a'v²aócf'H<‘ØÉ†lxR5á¤b'›¦v²a·™&¾vİf^ÂAg·v›a·v›a·v›i¶«Iëâé@|_Ü[zû”gzË‡IĞHP‡SÉ½}Cq|èÇ¦ä­[Y
+d’4fÆå]tş¿Ò…‹¼İ	nğ†ÓÚ°#;â°#;â°#;â°#;â°#;â°#;â°#;â°#;â°#;â°#;â°#Nó:âÜXÇ7!È–OÀ­€0ıœÆœ_
+~Í-_·Ç5¦+gµéÍ;“2ç;;è¼d:<t4vÑyn.:Õ¼f6/_©ê8Sîò`yÍ”¹¶)lÉMÇxòhkn:=¸•MúUÓŞ—ÚWG¢ë…Œ°èÒæ¯¶ï7£§÷ÇŸƒl^Oú2A‡ûVåÀ¹p(k–±çKvõa05ƒ©ÙÕ‡]}x"5İDbWT<©ØÕ§y\}Ø§	ñ„/‚b?œ—pĞÙ‡ıpØ‡ıpØ‡ıpšíf'ÑùË#ÂGæ„1u|ó.\±w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç°w{Ç4‘w]iP[~ß¯™UúwHŒHáÚmÂuüdƒœaŸ5–"MøËã·ğ¯ˆrèğÄúÓäi@Í—CåÉY®/²EB÷Ï¯ägõ³¥4¥“ g°Y3z¿d`3w\Y"iÊ<™^­e(“nÉôGÓzËWÅx²7Õ²#¶ìîÁşh\³×{¸ª„—Â+ıbt×§y<‡NõÇ¶ˆ;ƒ×%ÏÁô3„\Èæ~‚C–th¨¹û4äŸ+<9¥&o‘Kİ«bÍ]i$à+dLŸ3£q·--n÷oo¯îy"iy´œÆG’¨êJ%¼%ªpK%{+Ø’$5cúÂædÕ´&c ºO'<›ĞlXƒ»­sçÿÖ¡'÷~¶ÛûÙ÷=‘­K³£ŞŒ–ó%·¼gE€J›Xı¿Œîfbéø v<^¸	PŞmz¬7³Ãı©L6ĞÅ¶T«XRÓzŸ~pPy¥V­Ï{<ÛHØ^«ö2c>Z3ÏË…¶ØĞ­ïÍ+3M<áx½y§[q½ÁY‡g^xíib¯D:\é‘€±unßNåÿÙÅ•Š¼"iáÌ?ç/°u(×“ˆÆ“Î÷Ïq–ÊÅS“ÆÒ±üü¡æœh<§şÇÏ©mğµÉdôÔĞfµÕ~6øâÚ‚rÊSDç0V›ù«#–ÁzÆÀ¢¬Å ãJš€™÷ì®n¨[ÃŠ@®l}i-•AT·~…~ÁÁ¢>_¹	‹f³éNGFhQŠÒq0Òº·5ä9×
+øÍ;ô9•¶ê	G:×*ô#Åé d0ŞcU¡SÃ½‚y·jh£_!¨‚\¢DwöÑq@¼Oó¤4Ñh½ÿSeáK.=â]§7ÖÛgÑz&—¿zKØæÈˆ1¶ª©ÑüÉ%ã»#ØK" Q8Ì4«åà#ÎÔtÔ;âÔÆíát˜õ|*ımÓz_Yå1~R$Ï¿|£JŒ"qşO‡†×pø/·x…7eÆ>I”1 ŒÇ#Æ­e«®ƒ…ÎIJ":©¸IÆ2NDg‘P£dô,EmyÑ8ş9é–»Ë:ÚØ¡Àìà]›‡Æà'·¶–[?»y~qó;ŠE¸®ŞØ¼Pêu+eá£Ñ¼ö=bSFFé¤öúXŒÂâªqy–âB-­!V—äÅfœ=r›Å‡áE0cì‘û:{ä²G.{ä²G.{ä²Gn³¡¡’)­üO?å–'°A–»v‚-^Ê­Ll~B.»ø¶>y5?sÁ#sk#¹•qvÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—]vÙe—İ&rÙìüXwkŸwo\ÚDSõì¤wÚ]j2¯€4Æâ•üÉ»xM¨»*bŒ*,.XfúaN–V,R2àüæµ_¹Äd’:cõ4…„¿|^&Œ+,­!V¦yz
+ÙÈd²3É Ü!ëÀ:ÆøyböøUD¶§ŠÓ‡A‡²ÑYJ·?°eŒ>$„Ëä¨yâ'T—°Êl´zÒî´dFûğ]M2¿ìÌmÈ™F°ÕYú9·|ÒêÉâ³Owj’áüR¦Q¼}ª!„RE´‚[)©¢`D#¥Â&ùÇGi¡f—Õ3äÔhI¼pò¼]†GäÖ¸U~¥¬
+ğß,eWy¤HŒ ‰7ùÃ+ÆØZYøy¢–5À/I/ù›oÁ+\#İ/¬ÿè’İ3Ù “Ğ)‰¤’HG™oMpz#æ”PnmÊ¸~/sËH^¸`,NçşÊÂHÉÄ‡æÂug-‚ûË4gçV(-Ä'•H&I¸4® ÈÎ›ÈÛC½·†K¥KÅŒÑû`²Œ¸9û€2)’JR]5*H	¿uÍ´³åÖ¾‡)£Hå=5¾7–—3"†a5İ½Ô‹pçÄ0¬—pĞ†Å0,†a1‹aXÃj¶/\‘òh#.>ìÏ.sbqSàÇ”{<¯<ŞÇïş-ı ¾TŒÁbc°ƒÅ,Æ`1‹1XŒÁbc°ƒÅ,Æ`1‹1XŒÁbc°ƒÅ,Æ`5+·¼J$ªz¾­Én‚Kœ‰Š].ß
+O}€ˆÄÄ8i(èÌÉqóòş"_£ãVTf:n·ˆ~²c?;%REÂ‹lpNañzaéPnãšyh	Ú”ìcz	\¢x¿pcóÎuV»‡—FBÄe*aêƒ=íÔ$"HÁ¾DŒ[ù+òASg%tËIV@eD˜¥¦
+TÖŸHp ²0Pl•@ez6ÚùçDö­Wßı¤kÏßw½W;pŸ>LVÂ©„ÚüW^>í+~ 8·nT´ÊvëĞÑ£VàÃR:[¦”gíÀÎRïD³GöÙ …YÔ òêÏvË–ˆ×ê¯%×o±»İ©+Èä3
+®7•°xT8	íêOÙñ)+ÃIÒ½x_']g·Õ¦¤'cÙáAK’î¤†d‹cqç¡Kx‹ryo·ÜßxrpÈ
+æçÂfC<ŠXÓµéP{ÑÉ|ñÏ:¤¤D\”ğ)¤ĞşÕ(	[÷+43Ô=·5ÈÁ—œ½[i%|5<G\ˆ9&É³Í—y»e3âbÅ]£PÚ‰³•;ŸÿB¢‚İ"Q
+ğ_²ÿPa¹óæ }¹"PüêõÜê‰æİq~z/äÌ¯áºİATd;˜?4$= u”ÌÙm¢ô~‚¯ÚÄ"¾w[gO*64€áW•½•µÄ®@ëÂ¢Ôªü{HOïVÑ•U½×İìİkÄÍkªÔo½ò
+=7Ò
+0cïíc;ã™¬Ôë7$«ÕÔ›î{Cy³„õºN¼¡uˆ\%_ÃÖ‰pˆ±¢¢ïê½Q,[ÔÇ*³úHÑ¢ˆ¡ªlRÔÁGî ¾o‡;K¢t×(‡1¡±´¿á>(r5¶„õÏ4EQU®v×0²¶Tï¿;½ò~9äô†FE‹¨M¶l”êÁ¨ï¸Êl©oœAô¼_Ì«ò:q%G»S[m$†V²zy35ÆÇ±ûzÓê5¸Ò´oÊËm¢%@§îìRß™¡XLÏdp(óªcRCbhl¾¹kâè¤RHÑtt #TØbV(‘+i=;”vßåYÅ’úzlŠ7àqW:5Ï¸³huÇû´hä~ıMl¾„Éµ;",–ÅÆV¦‰»3cı#ù*–@M5SCsSI±áUUa§(›ª½mH»•ô,æê2…òEc.æfRã=ÒÓé¢|n]rèAı9Yªß¡SmGfö eÖÄÈ üÓ¿ÒTÖ2 d'mÙ˜5(›5™A<ë¿æŠÒ‹ÔcVªwÓKâvÄÑÁ¸·/íêFRÌìCqÑ²gåzºŞƒ)|‰ŞeZ,Û¬ıE¬²ï.6¢òğc{e!‹—]Ÿí±wX5ÈÑùülzõ´Û²&tTJÇ¿Âg‘­
+5¸yGGÖ´Äø>=YÊWÎ¬Z]RJ=ø\·*Õh$:8˜ˆÇG-_fReí|SKÏàÒªõı¿vòñvá’= [-ı©&cç g2Øñ×ïî­šúÔ¤^:­Üûêà¿;›ŠZ¬[Û%Rñ¯ØSÔ˜œq{wøú«ÖÜ¬eš­D2[ÛF*±5<é«râ"ú¢/_4][É"LÕEùiî÷ËÂëª›jßøM#',A;=ÖÜmåh½¼`În˜Sß©ÄŠÒ4)RˆC Ş’¥²s;isØz{¼Šë3º“×fömY•vœ$KZBŸñA—.ıW[ÂMü4‚#gùÄˆ97A!¾E”z‰Œuù[wqP´&‹HB9'l's[T.5(ëÉOF³WàÉNÑìììV5yñXL•r÷˜Œ@Ù…/3§¨îÒ+öCIãw9oÿHNGbR2Å[Dm9¡§ÅlÏÆİ{Î‹IÙY4)½‹p æ”.®*k]Rj¸¬-IãÂ¾øMãŸô"²/şK8èì‹Ï¾øì‹Ï¾øì‹Ï¾øÍ†tD¾A¤”!ÂdZyó—…¥³ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷ìpÏ÷Måp4Måi¶í]o,N¾•şW² yØãÒC3ç¦Œã×Œ‹·	!" ›²g—zLˆrxGVpé¡¿kÈÀ¤F¹–o•İñ8
+R¥İz\iæíkHpAôfl¯/Ùji“„ôôytE%‰xô³äÚj1 !s†õ,…Ô˜§)oÅ©u€}DÒñü”JƒÜü7fQt¡i”Ÿ]4ÖÏV`‚l@ œ¦z¢÷ò=qÙ\gÃQö»!}Íh`«x™mLnEĞŞÇ°YóÂ{ĞÕ­SaIEIWĞ¢*åq÷ËV%Ê§ºkùäĞ@·î„û,Ş*™«Ú›ào×Ò9ofËq‡dÂ
+/İ¶‚òêÌİ–FÏ˜Y2ßV¡¿G(°G¹ñ%Pßì)cæ'ZÒ`¼ö/Kèİ=f¬Ÿ6&¦¤ñBº(Â=VÔù•jÆMHó—éÂ­qÙ´o
+¡©¦î—£‰~øÕo—¿‘ºOIƒ$œ²Ì’
+´a…%•¯QvsdÂ<ñƒõ$-Ÿ_™^IÑ›œØüv‘–ù8>ƒ\E 9¢˜Â*"ÛÓw€*X¤99˜%ÉÑ0
+˜(ìv	Œ¹•`ºíáK£Lã$WÇâ‚Ó,´¡irxJ ¤ÆÌMcüb€ôî1Úë÷
+nPò¥™IÉX·2Å“‚cÎİQK±˜ˆš15]X\´Cà
+XÊğì´yôª„è‚¨Š—3ÿØ¸~N
+Ë«1zCºùİÎÁÔt×ä/Â‚Í¸Ï—pĞ÷É¸OÆ}2î“qŸŒûl¶7ˆ¨ZDÈW<'h–ĞÖaæÈÉÜÊ¸qíGäpbˆ(CD"ÊQ†ˆ2D”!¢eˆ(CD"ÊQ†ˆ2D”!¢eˆ(CD"ÊQ†ˆ2D´© ¢.gßšDœ¸ŸF}›çVÌûg)vÂò‰2ÌæÅ5`˜s˜PHV#Æòb¢Ù!Ë$Sy;ªõ§õ^qnDQ55qƒ’ÅIF“ñ¶;ö"œ^çnõòí–h§
+V;RÕİÌ=¹e,=.Œß1çòŒÀ3æÄ°@¨„iÿ=2÷.Â}'(,!ê%íÿ¹\(®²˜j^Ec³éÙ"%:š9?–_xR*ÿX?PQC€ É#¤My©ÎÜÎß>a¬NSt<;Ø^){ ä>vDÖX8o.‹ER¨/Œ@ñ"P‰PH7›Wæ¨P)
+ÉYGà¬:~¡[’K@£ÊÈŸ¹š[½•?¹d|w<JhSyKã$õÓâ•Í‹£ÆU Ã¦üá.0v—GÜÄü©ŞG‘ëÓš#~h©´'	oV&1YWoÊ e…¥Gªl²QQ¡£›×Ö(ö_è1+ØÖd%Õ?|Û™dÍU‚å˜5…5İÅØ‹péÅ °—pĞÆ 0…1(ŒAa
+k¶Olsü>]h¿ï”Kj=m.8ıµ9:'F1ú‹Ñ_Œşbô£¿ıÅè/F1ú‹Ñ_Œşbô£¿ıÅè/F1ú‹Ñ_Œşbô£¿šıe!UŠ¡üJRKŠ‘ò‹×$<ËÎ"i¹O‹!D§šõæáïqPnÃMS“-m^£Uµ²mŠ8P'€°¯å¿­ZÔÀlYõödŒ¨jĞ1ŠÊñ;°]@»-@ˆ,èY6ôŒÈ3ÁQCx,°gLQ¤Eg¸.[„úUìº’Òv:@_z{â"–İgŸ~(É¹<«D1¡®­÷E»?'²o!å¦èVVëxJü$[Ç³©ô°Ç*ÑbËÁÁF‘itAQ.§hš0%C#³¥dçtuiÑ•BÙàÊ±¤9ON@×Ø,Rg«¹"Fm`Øb´Ø÷$ygmÌ3™şİ@^µ!q$ób³iÛÔÊåëjÛİ¯—€Ø(€ÙÂÉ¿9ûÀ<³R†ZËŸ¼e}T9k­éÙÀÌFä9gY©œ2 œU|Ç®”T	[Dl+æÃ-&›•È59cTĞRñË?œáßª›½âdGFúÌ-Ÿ)±]¢“²KÎLÀ0tŒ3Ò­é._„>Fº½„ƒÎH7Fº1Ò‘nŒtc¤[³'Ğçäø%úï±‹Ø(™±¿(û³	ißrcƒÜäÆ 7¹1ÈAnrcƒÜäÆ 7¹1ÈAnrcƒÜäÆ 7¹5Èíî1‚€<>'Ï·µÿŠîî¥ãƒYMnTìù€*ëÄÛ•U7+‚ØJkX!š(«£‚ødDK6`IÄÿRäâo Q¿B@Uğe<>xV%_˜" <M•x–n8ñì˜x–¶JâÙ= ½Wßı¤kÏßw½W™)uŸ>LóÓ©¾ç’Ì5í+S®çFE«l·=ÚS•Î–)‘\ÓÄF³Ùtg¬?šÆå§*Ôá–vvÛg{Ş÷D¶ı:\eãÙô¡œÔGÃ¼èJ¬eKÔj‰İ…’«Ü·Ø¿îTÏğ¯#©~%ôD"¥ıŸT:Ñóê–{X…ŞÓğe-µ4wöuµŠKK6Õ2œJ·|‰õEnÕ½_fªèÛV{\Âé³©‡Ë°ny\lk†f‚AĞn¤#`C·í€ŒBÈré6î]1Gn¨xä±R_­½± 8û£%ãÉQ¬Øò‰?¥À2³ËÆÒŠ|‰x‹ùµËöc)¼Wbx; ãÛÉÊ¦$Ú•ö%V:gÚˆÏ%»4~õF~î„yv8èZA,«íHjì”rë	'·rÕx2H.À ¾9rÉX^Vøb}vˆ¶ÊÆÈ<ó„¢—:ˆ‹ °¢ˆTgi‹Õ³€µÓ~jã¢9ÿHŠW¥nFêşãó…õõÊnäVN e6ù&¸1Ñ^}ã8j,® çs~mÈbsùgóêiclèà’ ¥ôA¼…Ésş,áÿGòì#ë§cœ\æÖ¾ÏÏ“§„”„bKtFÆ%•0îŞ#.'n,-EP—¦y~ÁzÍ…ï1,Æ# ¡‹*À(çfA¼›cF9¿„ƒÎ(gF93Ê™QÎŒrf”s³'Ó.’QàÉúh‘^€Òß›ÕXšiãÌgÆ83Æ™1ÎŒqfŒ3cœãÌgÆ83Æ™1ÎŒqfŒ3cœãÌgÆ83Æ™1ÎŒqn"Œ³ŠZ·[œbSXD`ó·oÂÑÿÎ­	Ö£àÆŒÃ@”Ñ-	Œ4zŸŠÍ­KÇdRáÿ<Ç™¹ˆà‡w›ßs D’_˜øÏcüwÒ˜¾cÎMEDè³£iš'nĞû‘Q@•Œ™q Lğ·91lŠŒ²‡÷*ßÆÅÜê¬ÅÇóŠ#À~vÄè~%£ÙùjÁû¬8}V/ß}¥¤µ¢shB¶%›pöŒ / ;ÉX¤¥·¥dEETD„HY<’[ûIfÃ•yté›cÓ¹Çó›#ßæ×.J@xáè%¤ü¢Ë8µĞ‚Î ¥^•}’"T.ÌÆ¼¹PİÃQFu¿¨nØ*¨n-% åvWø©B—~d¡5]K D»Øs…rŠÆp‡ZĞàP¦¿6‘/Sİ‹L5ì©(Ô=Oô8J¹•K%3ØêJf‡<tS—±0°5È"á8¢½:ËU)Ù³¯g;=µÁ¿PW¿Û—rÇ[å„¢9¹rë¢ÔÚp%•v»%¦šÿëşÀo×gDe®;jƒõJ| ıd„ î:“ ÿ×ıV¼ı¸ .S÷ÂDÙ£0îL%‡ºõt'6Èn¨oÅöÁßnàŞ¡¹YWŒÉºEŞÕ)Ë2Õ­Üß°dw¿×õé{{öb;´÷¿÷÷ºİùã×_×+"!¯"Y¯ø7ß4Ö)¯ºÜıÿî&4@W²ˆ1]ö”4a2ï{„x½™~í¥À^aIÜpö"$:B¨KÄµÜïÈ½ÄJ—´`ÓjÃ¤Ê|ıµ‚jØrÓH0
+¢ÿø¬ØßC`nlÓT2zXŞr÷…=šz¦mŞö¤3 TKt´ù Ó‹€ïJZğ f^úé9÷…ª‚KŸD·i3ûd£ê¾Qm;­-­Ú5/R4l%Çª»`iÛ/±üÔÊò‰Üê	Ä,§íåßöb´÷ÜÒ¯Á
+v¯Ü+¤%·ır“¯6ü#ô†‚tŸÃVŸ¾”'äª15-÷ÿvÀuù! \	¾DvüÌ±ŠF.{e;îº1¹ŠöÆõ[Æİié„Q¯æÈcağWmÌ¨ËB„¹å)€èQ¬°şSneÂ	şWD&G™ó+æâqcá|ş§›2¶|ş‡Usş1})Áwsúçô”ynÎ¼</œ>Éq3¦Î:
+LÊ¿IûFš'~*üòß34’Rš‚ùãl±ÌOd™|.HS«u:èï'o@D²ÓeÚ&}J¥9ÀaÖñ¹d^z°9—Ô%'‰Üê*ÅdŸ1n¬K–k|U~IgRBğ\M‰•ê//Ç ¾ŠÏ:©0øx-QŞêŸ°4Ç¤;ˆºÕ3”Òùö	cuš>N­INÎ"×‚¬yvÚ<zÕ<{×œZ¤™?úˆ{ndóÇùÕ[ÆøDD°g öh:tÙ‹ğ	Ê¾/á ³ïûN°ïûN°ïûN4Û=•qlªpí†1:*®0N`£;$sbE|2Çf_9¦ß•[yÚ#Ÿeö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`
+ö§`Š¦ò§0ÖO0b¹O0ªjİhEáŸj¨š¹O ª¢}úŞî=à@<6f0Ë­^Ï­~KAHG.6Æèh}u?÷ìÒ(ë½Ã„O9=ÄŠpn¸’?y×rV N$`G½àË!Z•D‘—ÂÒBáöˆ¹ŒÅ"B `ïàÚ±k8ÛŸJ¬DaBÕ?2Z( I	q&AdåN’ AŒò×WATÆµ%áœ¬—Ÿ]4ÖÏ‚u$f¬º@›ÏbPô•=!^@O9´U|!¬ğõñÁTÚÆ•§õïŸ©ôD¨^>•y¥²h,50 •èüƒ&1—N{A×gWWó×F´Ï>İi~i:v¸z_£!Í`L£ƒq¯iæE¯Yµk1`\ûÀÀÂØãÑ=¤	ˆ%9i‰Éˆ¿m.2zšàÜµX¡`ã{­‚6i}0U·ÚÏ–Ğváâ;•ŒÂºÆbz&£íÁôHÚÎn›w ¼<$-ïİ#xg5¥÷f©t]Öœ…bQ«´o2°7Æ©ûÒdK«(<ó„¼®‚[”{S	Üñì³±k^Ú}¯£tKcò{rxMµ¦-ÁFß‘|¸:ÙXªİ›J[zMAä….¸ÏË^bxñL¶'~İÁëÛ«{ËØõ{ËÛòâ(C¯»‹d Ç¢_µ¢,ÔHÈ8jkyhı]Š.¤²Q9òØ±Æ]£¿¼dŠ{Ófúw.¬R—\Aû„ÁÏî';Sƒº%Ñ×mŞt×´-÷–£–›‹`·(°:B+,­Óç”èÔ]¹#…Ã8™…”DÆl¾z^ã•FEYÅâ¤%Ø>ESÇT×(¾Ã4Zä¬Ÿ;´¯kwÃ’O—dÏ³gxĞ6TÛİ‹Gñö©dË—08V•7kmÇ–™tü+A ~s½¯IÃTùûPw&ÛùµÓ Y®!öÜ·˜ùÆşk~Ñ½µ—‘Ş×ÜZC=«,Ï ğTf_°J*Ëow+HdìBJSÜÉZ“©¢«h“1}jsä¶ë“İ{ÔæZf8pn¨±•Ë]¹ÓØ8Àw‹Ö<ké÷B Ù×‹"}ÓÒ½õï›)HGƒz8€ÄF¤øL´éªnRjPEÕ(Q/ŠúTÃ–ÙfjÄ¬İ«vWµò>(ÕÕ{4ì®ÕŠOö’²vd‡2bwè*kğ¼²ğ^*\.œ7j$±œ–
+ĞúºQŞèã§„7¸Ã5ÉÒÛ	Ÿ…øæ’šçø¬£ï¯’OÄª»õ‘XXı1·¶.w0ÅŠ²Á”İ”yûšqù<Z+œD
+ŒsUwvn¹ô+ûíXúe‘j_¯”ŞCµiMS»e8•Lï6“ä·£Ó‰Ø¹@~.LÔ”üŒ–åÑqg4€2Ï$c|ÖX[U‰Ö¶¸ı#ï•…ëÆõsÒen=Õöä‹D^²@aäHáâ)åÁ·£ËçUV(¯Æå¹ÇŒÉsjc5rNRæÈÃ-=(¤ètåñ‚ô€WÓõ[æô\OœÒ%2gÇó'Çˆı¥ê¡Øõ[et¨ä‘QãØ/29âAÈ0æì¸^áoxŸ±KÓú^„³vay	]XØ……]XØ……]XØ…¥Ù®óë§ğñ@Y—GNæVÆqxÌ¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Â¾)ì›Ò\¾)ì‹<ÖVŞ!µüT,ˆù‡Sù—òWE9&10À'}´N]»wp¥Ó¤<E~qákmŸC=>ƒ¿U‚ms2H®»R¸F¡o©®à»ù¼<ú³œíâ…ôñ ­âá1 g£NdßzõİOºöü}×{î@i‡jü¹/û–+R>í+£îÓèF¥
+œ²àL«ÒÙ2%Aíøı±şhw›ªP‡¢sÛg{Ş÷D¶ı:\eãÙ„•”ÂAJY3§Mq%\	%®Eùi˜gı•¤œ…c™ŒköŸÜò¿,g‘ùGÎ,Mù''m,¡´œÚÿj©“‘×“˜X©´à¼;Õcçh)B‘«r3O‡wìaot °êm×và¶ g²’ ÷¾Õ%yíhV)(|ªDC4Õú–‰~caÄİ¥ïéü\[Äb=¨Û>.I­Á¾ú}²ÈŠ[şÆH«{ıºÔ[}Ø›lEšåWTu[øC¯Ÿşó<FŒöU[â]Ş2¦£ÀOXş+µ_A½• 	Ôoõ¶1EÛŠ(vjEe»“-6OÚY{ÜK
+ÛüE¾+î&™°ô–EşçóQj[¶¿Î$oLÛiSÿ<±ŠªüŠŠˆo­·©
+˜Ğó™Ù=1úÏÓÍ‘_OYá²1Ï>ºn½Ï¡®ï‡·¤šO;¥‰mê¯«´úsp«V˜2ÂÇ¥…»ÚÖ;­0lvÅğgÃ{Â©ÕïkMZi7=ÀwıêÆŸ˜‡"â»ğ÷\[ªOWwšƒ}¨'Õ)qbÏ{r‡£¾P{…Aí¸ğYç³Áe¯_ëËÍ…’ë§Û¿>»ûgüÁwví/À¸Åp†c÷ìö¸õ¯\kÿå Të˜kËCQ…şÓqJİ¯-C|g÷§êË‘<K-ù¹P’ÉëRúC2z2F¼.¡D6>ˆãÍ1Æ„’®C—Â6Ô%|OCé¤rğ|{ÕÌëo¸+Ï–Åië\XmHÎ]ô3ÌPÁi.XªC‹xÿõ¨Éás=òøÅZº€¸PÚMÕ'%ÍÁSØÃà˜ÎÛVREãúŒV:#äk7}‰ƒ{YÎµçv$!Ìÿ¢))¸M²C'ešUnï6dNµç©ªUéŞC°]Ş¨µÀÛç_-št\®¼*ÎÇ¥±IêÓ€“²W •İÛO~,„K·‰ÑÃTlˆxRµ½¥OÏ¾—Ğ©Ò;ÃZVÀ=<IqŞÚîç%­H!¦ê#îÜÛÛ˜†Di~?b^½AÉgnn MãHˆ¹E	¯ˆ8#™ÂW¿¯»¤££Jp‰²c §N”òà"áh-Õ,¼ëew«zsÛÂ.î´kô_®K®†)/¸t4ÑÙMd,ÛT¤koÄkS½<u™t„â©”ŠUéy­Bñj?ÊhPŠ,œ6;jıå/îÃZ{rªà0™/âÿlhlJPD\şUé˜U<©[éÇ]UM¼‘aûT´”ÚR‹%§«ˆ‡Sôò‹É»Ø5iæ•£›#ó2Dn½"Ğ…¡Ökˆ=•$lÏ¶†­ûVìô†ÏêØ¯$EÎ!}'OVkeú±sE»ÛŒ²À+î¡”şU;îÊEĞ¯3jÉ¿ªœçÒ‰² -¥p!İMÙb®«tˆ¡‚=¤ÕŸçß!ºJ.öFHÖ9Çf¹t¶Ö±¾Ï¨Áu«WÏÆ,éŞÛ¹«*v¸t&º¥ù.ùœ¬´ŠzX=
+eÇ¹Âv{xKj~Sºeqé~¶¿­¬¢%«\å9Œ2LVàÛÖ9v¼5Eä¾¹#Û•²?„éB"e¾ºß¿7	ÏÈèå‘ŒêØ™Æ†ÁÌjhhİ1ÒÓéâäw '¯‹‡
+98Ÿ¿q>T±{.­PÉ™wâÉhzx·vg>Gnı6/ül.|'¿pà‘€Şô=ÃÎôÙ?]>>ŸâüÓåÜrËgw.xœ§å¥pk«È+Şti­Ÿ–±RÕW–¨H©Î¯_²7óÆÌI‚s^1ÆÖş{iÒ‰Ô\6''6¿]¤¸LY+¨—}t¦ºÁ±™šÉ¡ıEÀüql¦—pĞ96ÇfâØL›‰c3ql¦fsÉ-Oa#-³àÓÁ[™óÿy|•#4q„&ĞÄš8BGhâM¡‰#4q„&ĞÄš8BGhâM¡‰#4q„&ĞÄš8BGhj®MÕ’›É„næé©Üúœ3Ñ™ÌO&½f™¶ŸlÈÂùÙe¤ÿ&»¨Ì‰³0²gjbgõ"üâ(À*¹•À¢P¼&•¥»zz´ñ];öüçñ5¹rÕ¸{,vE	™`œò«É„tE‚ªTáÁM€_r×ÌCK’_	¢¿«9q‚cñ’È|vdóâLaòˆ1KùÏd€ÄŸ2ÆT	‡W‹ ãÌTvÚ˜GÂ6;[[n}ÒÍİ–HÊW7şõry¤0ş“r(éˆêr³UäÜC0,É¹yò–1ş³¥5İÆ‹p9Áˆœ—pĞ‘ÃˆFä0"‡9ŒÈi¶O!g4â0‡8Äa qˆÃ@â0‡8Äa qˆÃ@â0‡8Äa qšˆcƒDªa>ê>ªãFŠéÑ;l¡p{DÁ_¥FÆ´j,¸aW($Œ£™lMÆ­i¾´iÅ°³Ö%	'O{’§‡·J
+µª‘!ÑD¿Ôï*¡!­ Íÿä³O÷şíÃ=|öÎŞ=Ÿüï÷>¶â7¿UÊ%úç`êcÄ‚ªÛÈ§ï!Ş‡{>ùôï{?ŞñÑ{[mGÆmû,¨ÕéLJ#g¼ÒŸİ‹°_.\€¶Ø®ÿRdü/îô JÄu,VDxÃfˆæÜxh×)ÌqóÄ^®3]ÄnÛZ i»c‡mşŸÃ÷¢÷6^UÍÜÆã{nµË÷y&~Š-ı–q{õıÅ™bÚVdÓ%X”j°İ¦YµIY#J¬s°q†Tá:ù`öTDì­÷tÛÍaq-…+†@uÉu)åR•~±t¢}Ã
+»¸5Yìÿµ4öÿûhçX“>Õÿ=¤Ûô‹A•ÑPM…¥ —ÃkTGşÏ¤-òçtº‘Pôµ9üî&~	FªŒşé¸ÁYá à³’ÏÔ
+¾ıG³İ&ã\#Dm•¹Sk·¢e†„w}¿Z²¼ÚÁQİÅ«£•6‘,Ş¢ã"X¯Ü*mU&ŞêbpD‹-³åªåÂ;TÍ}ŠYïúlÕü›l‘sWCàÒ*ğzÊ”|P²º[`|¤Òñ¯D¹"/®åEä'§Œíˆ­³Z=Êx5+ù_»?ùxz#™€Äiñií²â¢«ÁtÙ<}€áo^ù¦fl[øê˜‹¿È‚Í›çŒÑq8ŞäV&DH[øáÜ1¦/àˆ¼hÆÉë†Ü}dÈY[ÌŠ<òÀË¬¯õ^d†—¿Øú¤~²©"œ-N*ÊüˆÉ(êÆÌTşÖ])?æ ï(cî®qyg'æÉùËä4dñN'(%Íª<Q6WcëæÙ»¶O‘“8ùÍİ–p$Å"SÍÈ˜½vzcü<X'"G)fïæ¡)ã¤Šoÿ´ùí¸±´âLÕaNÜÂ±yl-ŸŞJt4“Jt¾ˆw:SÚ ët°äÈAD($3B”	ÜšS‹h«pïIvrÔ<ñ“Œ-½­”8ì½=<ÎT!{C£ÆV4«¢JwšlQuªlŒ`Nqòá«5w[>×@´æ£5ãø¼ó Mrjus~…ztzŠ<»?4GAKñëæ¹ÕHWï/ãøU»ygLß-<9mŒ­ªŒ.k§á&±HĞƒòdÎ¼Û<:MÂ»°D0ì‹W6/RƒĞéc²0âü+éTAXÂ4g7Ì©ïrË«…±;Æ£{$§RËdN"eGîtœ“ô}áºqıE‚Ş¸ ¸sZJ¹ªĞÒhÔ CB½a^;F¼L/‘ÊQı`ÏG;5s~,¿ğD1H_ƒâ³We>3-C,Ç±¢­TÉ:É”†Å˜¾Sy˜Yz"I‡ŸNqƒ£Â‘u56rôG!ç	Ş@iÔ¹ëİ#æÙ4Ig&‘ec	á‘!Ø¸­’‚1'ŒQš’¥'©«g€[F9c‰d‚¨‚òM~öŒŠyéÁæÜÏNÙŠƒZ:Û%Ï¿%òJtŠV ÿã’97e¿f\¼2ÆÂãğmÌ²üâµüÌ±
+}˜˜BÅàô5–3§$!™oBú6ª‰3uí±GaÓ!±_„£iö(|	=
+Ù£=
+Ù£=
+Ù£°Ù0”­§èU(>/Ø«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+Ù«½
+›Ê«P¾*1
+y#`:·…ò²ŒLó.°oôXøRÙà›Í­Ï‘bŸú^$‡>Ø*®|z6*Àb¯¾ûI×¿ïzÏ±íP	Vú§e£}‚b%
+ÀR7*U€øuè ?[•Î–)	hn%©Z±å][hÙRµzíBÉµÛ[ìtwªÇÂ3?£øú-Ÿ†ç$»jôŸ†OøİTó£q:½nI·Ã´{hÛ™Ğ…RÔéãNI‚›½ƒıƒuèé€ÆY—à Ü±âğ¸É¶Po=t»nQ.—Ş–å' £µÙlˆGD­MÇá X›Îÿ¬CI
+Äeî=…º-ˆg§$ı¯ ÏÌP÷@ÜVH_rúmuº•ğÕğ”s!æ˜sÏfö\ÌÕ–m‰ËVÃÉ‚Pïb''åæø©ÜÚO…Å'ùõE@”mX¾´
+J}ïŠ9rfõ+Œ¢×„ô— ßk7©FnAí	.›Ø¸PŞŠeUª·R4&åmI?µ9™{|	@våq 0Êdœ]ˆ¨½­Švqı(PĞ„_¿ÙVÉÉbÚf«ŠIª"‹â~Yî WŸ…'€äRåq€á%N½êØ(ü|™‰²^ŠÓÑ#ùóäúqoÍ¸‚Ô9³dSş-+Ë‡@Z¦ê RÑëİRò|I¤¹tBAİ/Eëì–97‚arëMëûa2xÅ[Cy)	5¬w¾ûQ–ÄàÚöòadzSAw^„*†¡¿„ƒÎ0t†¡3aèCgz³]À)^™ø¢¡ï¥GğóüÁ:‡Î8tÆ¡3qèŒCg:ãĞ‡Î8tÆ¡3qèŒCg:ãĞ‡Î8tÆ¡3qèŒCo"úæå+Æò²yü¹0‘[9A/5f¯äÎØùn­²ëƒ]"¢•”¦"‰ŒÇB±)ËòÕTÅljÁ·Î¸uÆ­3nqëÏ·şâ®ãõÁïv*œg^ÿ^`iI¨ï©d,ík¾ÿú¿3öº:­’ÜlZÎÒÅ$_® ögN6õk&)Éš"s¸gçz­"Ğ÷kªj15Cã9Çê6DÁÀŸ¶nà bıµšˆf°WzZúV«&IÊõšmD¬½Ñpb­ú=oÒüZ[¯Š,[[!0T3oİ¿¬¼uÑÁxeÎºÊZCİ™lç¿¦Ÿ¿Q-3Õ¹I¾ÈYuşU¡½OÀçÕËÁ’lì7MìÕ@R wá¨‘ ´^Ï+¥×VØQ*j©ŸL8Tå÷úšS'QP…aêÕ³1k:¾Yñf™ˆİs9\İS½†–+¦«E˜öÁ@:Ú”ËÙqï•¥¿%9vêrø/¹LºÊZü\.ç2¾i¬k­¹{µ_+Om¹¹'SÏå=j47œzn´º\ØíÚò±\ºVÖ¸ª'Û_#9”U®òZYÌøALàb
+5ÇfÆPşØ_fŠ¦îßºÒ¯¬J~ƒlbÔöSt8uØ¦­÷XO§‹;ß¤ËÎ_V,+¹Yíe´f&¬ÿÇŞ·.GqdëşŸ§(ÛgğŒ…l|	ooÃ	`ğ¶=C€8'Ğ’¢%ÙÃœqDsH !1`na	k0’ cë†¤wÙ»«ºû—_a¯•+³*«ëŞê–ŠÖÂ•²ò«2W~ß·0 Ö¡Ÿy‚`UÄM££÷(çxt$zéø¨‚/©ûcuş£Ù?j.‰ğ9Z!¢Bä J=A#Äx<ËWÁClõÏÉ”äüXø•è…zb
+Û£¹’©
+@9”!´òÖØ d½ì`["“ğAWRß„I6¥ˆDUš]r"h‰˜VÄÃ,ço—V/(o´ˆV-Õ¹ƒ¨`
+ºdEuç··Ó*ƒD‰Ï¢]5F-Ix(Ü*G½m…‚7é-õµ¢®Y× tÖ4B—Ù­pu±ØúTÆL#¾¯¢Û¾4O?ô-åá1¶Ö¤7ÅkOí
+;QÇF† š„ğ‚„HxU/A€°òÙ)Ù§‚ĞKõóé3ûÂüÄŠr8Ñ¸A“BÖ‘°l
+9¦óƒEÇœÖ§TWï3*‘âQç¹gUiõ\¨DÖÂ®‰m–²ÎôÕ£™YWÍ¡'´n)7H`GÄ*Í~+ZpwLEX{Zz>édøä¼7·òµ[¥ÙY'æsySEh„K&æònÂAg./sy™ËË\^æò2—7m@*àÏxjş>µ0ÄEºYåô ñ"FëñL†wÇ«‡Z>jz_„¿µ·>‘§]mHœàíö+bÙO£ù÷éY÷çÌw›âSW.›ƒ×)+Ré1~ß,ßAG‚æ¸¦c™“mí§>0vÁ
+5Âœšº³¹¶c?DÎ3ãMç‘š™Î3Ûóš^Â.'¿VšÊå­7ÿ#¯wêù«™h¼÷&ÎTû7v#äşşçSiíMZE¹,—n,Ôù¥]ÓãoiÕßÑ€ß ŠtÎğ¤àˆ¿h!ÿêÛ<°‡ZOÉ†‰5å­´^/O¥aTşîZùat´ÿ­¼TqÓ«ï“Ñ;{v}ô®ÖÿÈÔbù5p;t‡{hDO£Í‰[…Ê•%ƒkß~÷¤E[y¿·óhpšà0XÙå°mîÆúwÁ&7jÌU·Ñf<¢óŞÍ¼ùÎ¿;ÙáßbeëëX<Ğ¬şŒkÔµğÑ¦‰PÚÚ²r¬‰´@oáƒ0@%’iïapK×OâûÔ_ká)İñêk¯Rrl©Ò£]Ñhô{zs†+z¾^C*+2@¸^J÷ì	ÍL‹ñM¦½~¤öWö¨¹«_ñÛå¶°Â_§½§ÜÆî–iãŞÜlèQøu£ş>Ûu¤­¸»´
+ú°ÍhØ*Ô[^ß&Rkw‘P¦õCŞº7I!íÉƒ
+ØŠ¢ÚÂ­İ½PÆ;Œ7İ—¾™v¸…İº¼@”ùĞ*ü^[\^w9ÔÇ2íİÚ’Õ|ñP=såQñ2xÖÄ4œ…ù(İÂÚÎ[!ĞoVÀ¨º>h§óĞ
+”À¾¾‡[zÃñüVÜ»ãÈùy¥Só#˜,xG`€Ç±œ¿O~2ğz¯è~k$'‹k‚hõV9ÊŠÉ±Zzb•l.ó˜ò
+qË†ºÉÖ¯¬D½.¯áõ/{:3[e¥éŞİ}Ÿâó2ŠáM»8wÒX¯®)I®i}A€"o®»4á1ŞÒLkŠ©¼d%³ô±3ßRy	Šfò»Ê—šÛğzK×‰t_åÉ_^IÁvÿ«­GôN•Ë={P_Êƒü- W`Ÿééídû¶’{Æª!.İèò*¢"¼æªÌÆuëå^Œr4ñJkw[G&wê ¸ºö^héë³|ó™5ı@*8
+ÕFû·~Ë[ÿvéR<±¿Vô}‘ûbP4û&	ìc îŒ	xaa±Ká°Ká°Ká°Ká°Ká°Ká°Ká°Ká°Ká°Ká°Ká¤J
+0ñpÇF~m`{¶áÚCBĞ+ĞÿóÓt‡$’KÀõÂ¯Š’#¦{ì‰u}/Q*‘#À¬mIkô¹uı	 È}¢ÀÎœ¤¸ué±MÂÀÈ*ÂŒdhˆ[XÇ]LÊÔuD<0B±¸N‰ëÀ¸6ÁlpG¸€p8JĞ],ºã“vA¸zˆ™Eª‡­6µ
+Ğéñ²ÕN(¹"	^	„’´vw*‘€Bâ1v&BÙE„è„[LXp9QsÓ&F‚ƒÜ+£[Ú`=›â‚ÙÉ‰ÀPÁdîJ9Š8yJ¼WâLí›éàŞj;ºÓ)LÔk1Û
+˜D•­ššµD-Fæ.@Iz³ò&+²‰Š¬Çˆáö+Qİu^Œ÷äcJà²¯âMŞéĞëıQáÅêYÁ)…m&Ô`,‰,äYIm÷mmy¼Ù{ÿzLDŸ©RÃ‰G•ä™Û¹º¬5]Ùç­nÔn²ºã>'›®ÉÛLÈãõw…*@Ìµ˜´ ZƒI-l~:y£%ÂÚ~ÑhµAvtû¢šEë ÀknlFng„&ßØåœgWw¶÷hçN‚“Õ{qd¼Ç ­EjÃ¯ßÂ¡pş^»Œ¦Î¨ÖË£hš¸¦ØüıP]€+¸A"<'5?"§×"²±ƒİGäãGÌˆ’%Û™µ/©#pH@hVrNÂó¢üµÊ-B·v»Õı	ÈIn"³’|œä«9À0hË9¶mÈÊ1®k´Ò5Ö¿­•ôlˆ_XDJìÇ:3U©•£º¢B½­pãÒ¤Ô,/*U¢®ÑçÎzíÕÛUyİ"……"WVÅM{ÁG
+§ÿ'ÓÚ
+Ãb}I˜2b˜ mDƒÍá3 T]“ñ+mU’­4†İb-‡t³ú’BäT/µ´K«°FT%Ä¹FNd#Éd:)©ÎÀBöm«©lµ*,¤N°³qqlFaDõŠNŠ®ëºJj
+Cg®¸5™×_z2h~ÔIÄ1Ğ ]•ˆÎÜ©`UµÒ”¹0È¤õ’ÔB²ps×*N‹52uS—\qñQšÔÛ}ˆ_³l½Ø^×B»^3«qˆÉÕ}Ò(ğ.éÒ5Tx×?°Á|ëØ=ØvÌÖ‰O$ë.xÛQŞû`Ù÷€ÌïÈ †{EHûé8xhÇk.Ó¾S0O=7¿:å£ÛV,şXåHXß9îéK·“öŞ?´3K+W>¤×OëÃx{%!Û¨ç û÷â¿Å–éV9Ÿ7/,V3%_QM@`=Fs{@ï9ÃncÜÎĞ1ˆİÁ/p–rOòARÁ¬šşw#`âXt:k²(k²(k²hÚ˜$Å¥‹KÓ,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE,_ÄòE©’/².O‚–uÇ‰ò*Õ‡®MIØÿ~¸9éìÈ´»^h ğ±¬Ëvc €QÌ_Ù.‘!cwõheØ!x‹ËWÊã¿˜ORœZÒr” H‡ÑhÇ¦ìì­0+yAĞZúÕo/n§L§È!t¨‹–+j ¹"gxİbEµæŠšˆ— ¤ ÚH%aId)Á)EF;n§•á_B²ÇAğòNBcÂC|è™³ÖµˆjMe´äƒ(ôÑ|M	/_^¾¼|ëº|cRÍ *–'­N±8€> LÓÀ'3ù*ÂåÇ¦Ì!0åõßbÜøµxíEõ„áNk,OáòõİJauÌLá£^—…™–î†¼·‰çv”~2KÎ^ÃŞ„”–fOÛ[ër¿uç¬½	Îw'B¥‘v'*h66li1l¤Ã@^Â®^à=æÚş.ØƒÑ\Ã#»³™LÕµ˜¤"Öúø]¨ûR\ê‡ÅO‡àUÀ‚NßRÖ$)y7Ò"ÆõY¾¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§¬yÊš§qlëK¦yÊâi,Æâi'·%]Ùàêµúç@[¬J¹\	wÓ+>ÕÙ›;¬ÚZÅ‰ji+ U/ğ&U6£êé$MXS_´CuÕõ¹R¬·zç°
+IØ@#{µ…ı¥í¯±–kÅ\ÃËx¿†©äÙo£>zâ	˜üÖ*û£‹ÙÅQG”G	],,¯ÂŠ7>‚ıÅQö™´¤I‡Ù£ÇâoªÊ©UÏh ‹¿mÂAgñ7cñ7cñ7KÀè6XÔz6n¿eÎ²ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ±ËÁ¥J®|ç®9?o]|jM ½w¥á@Åz1ŒJo€ÏïÂ|¾|vÊì?o»¾A!…´OÏ7â,#igë:®/,œĞHÂ	0®M0[àŠ«Gøı¼tW0‹¦VætÀ—k	]Ş¤°å@–7®¼QPåÚÃ”%Dy­XÔ—‡º&jÊğ§5Å–+b>S3Bº¹³­©½’b[ê5QFü‡K5¨F}.³Óz\ÕG•ÇÀ"²#Ú°°8qµèß;$>_>¿—B`8]·éÒ‡Jş«¾š‰şÈúËN»{#'Z.Û6Õ–ú67cNKDWLãéÅq>|¥œ?mìßw°Ö(.<Tq}"?vdm…s•AØ…Šbd+›i'ä44¦ïe¯†ÈÃaËì|#sõÎy§J	½-RBï‹}‡nÙ÷§½ŸÛ¢uNaßE×V#\`O>‡öãŞPÏq›”â•Î»­–&–BX>5ëŒÚ:‚Uå·mD+Úi3CãT¿½SÉQÎ®#ñ”$şfp4”L£oAéq™Şnq´	¶wª3¶Qê«oh@Ô0díDM6—sv=ë>0zé[Å®öÛê>V7 gL¹«{w[G&wê bU§Ì9Æ†²|ó™5ı€ÎFÖğHaq"ÖV²Ê=.ªQV§ópDfåtí‹¶Ü A[ÇÚÈW’ö/Ì/–ï—.<2çÂßfØÍ?*,.–fVË7f
+KÅAğıXÓæÄu!­{“Î
+Nş´vTŞ¥¹Yså¨õVf:¼ò—(ôÛÜÅì¡-ÁÆì¡M8èÌbö³‡˜=Äì!f¥íÚ¸Bp‘ŠkM)œ*´Ñ¶Cd¡ã¥ÿ|a~‚®\ÍÑ»ÅékÌ0b†3Œ˜aÄ#f1ÃˆFÌ0b†3Œ˜aÄ#f1ÃˆFÌ0b†3Œ˜aÄ#f¥ŠadN.ƒg›â7SĞe¯s[†v?¶yFğFš8„Æ8­"H³Ûœ¿]Z½`|ÜòçÏóŸƒÆ§ÀÌ8(à1˜&7{q&Œ­ee1º£~áWo®¥—Ş­8­óŸ*J+N,V.¥•Åd”Åd"l-£qDY(Ëe9¢,G”åˆ²Q–#ÊrDY(Ëe9¢,G”åˆ²Q–#ÊrDY(Ëe9¢,¾Fi&(Ûe9|è¦ê‘pÂ?©qJ£”şyéåœNÒ)Å²Nu•vZ?y§úI<U+œ„R%ÄJ~v&E"J&¤äSr	*áŸ‹*%Øú…‹+Õkgº6÷gĞRòq€ß2±ï. ˜¢ødMe¼›­ØçKBá!ŒPr‹ ÄCèšîa„ô4Zq€r€‚ƒ‚h\åß@ô•B0=–vJË½@},í´	¥XÚ‰¥XÚ‰¥^Ji§J;„ä„iÉ“q4yœİZönÂpÇ¶İhÒÂ;F“g×æ/ßãşb;–”ÔJì/©c]A‹‚ìªÏïªú´¢I­>®oÃÇõíê?®í§0gØ@†HÓ‚o&Pğàck FJ³Jãùæé‡É
+^R÷q˜ß_ãa»ÑllWAv½êGß1@qì} †Á&`¢áÙ×8Ñ\±yPPc!4Bc!4Bc!4Bc!4Bc!4Bc!4Bc!4Bc!4Bc!4Bc!4Bc!4BK§ˆ†.X+š€ÙA.“n°Eªh˜&}*b|¿âR‡EÄADÆµ	f\÷¿sÅİÅâb/»¸˜DbëÈÖcM1ÖcM1ÖcM1ÖcM1ÖcM1ÖcM1ÖcM1ÖcM1ÖcM±ÆÓè-àğDöÕW cĞûe-ºm'º}z­ç’ÑL<ÿô`ún+©8¾´hÀKgxİWb:o€`íÔÿ6¥îßšÿ6VëocTşj­¢"ÃkÓô{ÙÔüÖ ã—*¿zj÷¥@µ/]z}/¹R_iô¥R¯Nº|ë¡ÈW->ÿ<Ñ£Âv¦¡âªª€]½P‘\Ûß…]•\¡#=°åî^*ÿùIËÇ‡vnÙ÷§½ŸW®Gó,ª%az‚)RdAÇ¦F=pt•b Ô
+¬©J`ä2L°¶»ÙïB•òhwmı<eÆİõÍY4ÃcSÊT¦ØQÎ£½:q@İ©ÛY
+ö›àb‡WJ³“ôoÈ”ŠAµ¼±!óâ8Ä£…í³ùà,dNè%([Íòı`;;2íÆ®ÖVØ-h»l\ä!÷fóÓåGPÈéÒâO…¥eãÔø
+÷ìÄæÄsHoÍ-™ï;ÕwYQ»—X°/Mjà‹bÁ¾M8è,ØÇ‚},ØÇ‚},Ø÷R
+ö54¯Ë~»iá0Ÿ<-ÂØ¹ñÛ‹{…ù!Üg¯‹92DYuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇXuŒUÇÒ¥:q dEBKvíÿDç~ZDB`/˜3·m¤¹Òv…#Txi²°²ê)ZÓ?ÇÂB‰Š2zßš (MÜ@Rø-ärèÀgV‰W!sø"°Ñ, Ÿ~iu|ú„‹!ŒT‰ºÃ{\X¹D˜Âò}sîYqi˜BU†€b$BP4ĞxC+IÂ8‹K·zš€ØŸÕ[ G¤=3àÁÅ$Ñ2‚ù©Šæ…i„ñÌ¬–oÌÀsklÀºs–~Ä4¿œ³G°O‡š×©Ş’@Ğmªw.ÛÕ©ª[Xƒ_˜÷îY—û!/*LÖÛ\¼¿+N]2‡­;“²X}LòĞQúhb×iZzr‹ÅVygPØh­\2Ì5m1–³kLfŒ«›æ‹gÄ cĞí‡c£¦±—»¡›3]mÛˆº€Ğ8¸nFJ/(}!”‘âşJü Ññ”{Ÿºá×k^rá®“ ®ıÓVXCùÆ‘İÙLÖßÿúÿÂ
+~w„ ÑÕÚCínjfs4Z{ ôÛÛ tE6Ÿ ,¤z¥ÁÍrÁ¯?=¸ïóh,«6öT6ÜŒ¨ñëIÒˆnÉ®£GŒTÁpCâı³–SÄÑÀ¢Ÿ±é¯ÿ!»ÕÄ}¦/DåÜT_À§Ê/„ü^u·úçÈh;¯ªYì~-üí¼­f»ö¶÷ÕÒÜ¬¹r¾8øi_Këş‚54#?0£Ï­kği-,šù±6$ËC ®ÅOÃZSuİßR†µnÂAgX+ÃZÖÊ°V†µ2¬5mCğÜÀøD·5–/.õÓ wéKùÂB?ƒXÄÊ V±2ˆ•A¬be+ƒXÄÊ V±2ˆ•A¬be+ƒXÄÊ V±2ˆ•A¬©±Ús	îø)è}zßæÌİâå'¨ÚæÕ„°,ğ[sfĞúş¹U7UàCMkŸÑ‡„>ÄõQ¤ç ¹/WĞÜÛÂÁs9x.Ïåà¹<—ƒçrğ\ËÁs9x.Ïåà¹<—ƒçrğ\ËÁs9xnãÏp79a8[¾Á8£ãp%É™(]cæŒîÊXá9#zp]‚tÆ£V‡Pí¯2`gÅF<NHEöşêf8I øÍpOOÂ¨´MHhW–V®š}“®ÚÁ­O/Æ™C¯ˆ÷ë4îz/].Ì/ÿµ˜Ö!wdíÿ9höŸ·®ÁJªnèQàsø6Ôgô5	ªG^Õ°NƒoWqÃ>Ù€}	¼«Öãõ2{>ıö¢¿¼t³43]bœÌ´ÁêĞ‡ÑøÇ?‚õ20½Jó«Š8j;’Î€ÄI·°ÄÉ–óº'k¨ªQLR¨8áŠéÏK´¸áB§8€qü0Æ‡G1®m,ã#¡ª\!qbi“ f›£Ğ•|†êá“kDÙ­åqX$åÇS–ú_D²`•¿>5KP"[í²Ì²¾é8ª&Û7oÿÁ%UfË©u±Ujhû€«d1ªM8è,FÅbT,FÅbT,FÅbTi# Iù©gãæù[@Áaù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–Ÿbù)–ŸJ•ü”uñ©5ÖA[‡Š¥0^š£Ee¤U_ê„Â±ºT#©KP¼Á«ÚQ«6%©jÍtª%Rm…ªÖ„
+Á¡		o1 1¾3©fQtåÕqëôlÒ‰ìÇruÉ©ÎŞÜá Ó-;¼ˆ¸eH@(”â®‚®GŒØÈ¥ÍyÙØ"kà‰¤Š!’˜ÂI$^ßJĞy<bÖ(Šq¯VbWl … úÃˆ†¯0Ÿ¬:’cV£ªÉ%Éj‚ò'!c¥&9† N°ñ@dÓ4»œ0Î+¥5ãĞ7â7öLÌÜ¨g#<’º˜^*\5ıäL6›¦¡Ì¾ñÑ:cìè/@~Q8ì3Ì=Çm¶µ·cT:ïÖ^XÏ]0ÕîÅØ¡©14=xwŒ“ºÓ–çˆSùöN¥	LÄ‰¿ú¤úJö(l†ßû[˜pXÌôôv‹#TğbV]±RòÅâì$B&lä¸ds9g_°Îƒ¢—½Uü µş;¢€b@˜rW÷î¶LîÔA1°ª E‘kä®¹|ó™5ı€|ÖğHaq"Æöªª-üw‘AñµXøVÿ•ÂÒãòÃëf_?PáXt<EEÜs¿š#—iÃ)ÕDİµÿ#Ök‡s°ÏºôX? ÏŞŞ™Ÿ.™w/A(zëòdñNŞ®IĞ^O¹ğ«$Ãº«¡¾İâAÇÂÇòĞ§n.ÁA³¨éq·i¼JãàôZ¤8ûåÓ«fßPyüğ™ısÖõ'U?u ĞFpá1‘i:™˜ÈÄD&&21‘é¥$2UÚ!¼ˆŒ@ÍË+d‡®âìÖ²Çp†;¶íF\Q¾c4yvmşÌ÷Û±¤ä·¿¤u˜6ÙUŸßUõiE˜~­>®oÃÇõíê?®í§0gRk†Á ßL@§ÀÇÖ@ú@³Jãùæé'ÄŠ+ûîã0¿¿Æ/Âv£ÙØ^q»¬ú‘ÇÀw7½c hšĞ!Ø óâıÂ|¾°8*ÖIsõ3™)ÈLAf
+2S™‚Ìd¦ 3™)ÈLAf
+2S™‚Ìd¦ 3™)ÈLAf
+2S™‚©b
+š“Ë  "¸‘¹sñ>F3>n„h¡“Û /7¤$TZqb±°r)…ÄA; ‘@hoJ‰„Oÿcò^ıÈ{ÕQî¾ØwèÀáÿü¤åãC»·ìûÓŞÏ“Sîâby‹9°Ÿ´ì;ğÅáÏwıyoò’à3åÏÇòkÍ¡ƒ{¸‹aÛ†qÜ^^ÚzÅ%zÉ#5P,¢TF!ÚàAÂĞÚ‚Ö=”P‚%µ´]òhş8}‰“ÑÇÈ‡QÑÂÓ»ëP_–fğP	Sİ+U["=Ì‘ä\Œì•Ú˜g¨Ô?™ÉÜÈçFË^L%{$XÎèø­kù–¨DÈØÍõ"iÖ‘l‰tÇŸ§¬sÃÀA4„;b§çT%ßÿïüi-AÅyH¦1€Aé“:Î¨TÖèª5ô ¸ŠÖ™©Ò…GæÜSt¯	
+&³S>m?!³7á 3K‘YŠÌRd–"³_J–bC_c›ÏXwÇ<{íïê-Ão‹\8×–Í¥©Ø`Cš£0k²¨n23h^—wÖLÑbŠS´˜¢Å-¦h1E‹)ZLÑbŠS´˜¢Å-¦h1E‹)ZLÑbŠS´˜¢Å-¦h¥Š¢e3³¬ûÖĞÀEPézeÔ†‹Xw&uG7<Wü,Â^v‰|·üù3NÑCÀÍO”ÏN™ıçQ^ûÌ”9<ÅÆœ9‹:ßıçÍşŸ
+«wÌé› È-Q-Û÷œl÷‚]¶aØ6‰m‘JŞ¨]NZä hnı2\ú±ß¼5Ï­«æ‹¼_~òUh³Ğ/ÍNšs“fßbbÒE6£ZÓeÓÌˆf†ëC0ørf'ÒA^ùã¾=-_ìßRÓ¦††ü'}Oæ+‘£—ˆx½ \|Àqù æÎ7ŸÄ9aBï´{<“ƒ+W™hG|ñÕC-5½ÿjmj%@†Ş¬¬…òˆM ‚P<0a„|,Á|+¢šÚŠoVzâÖîn¿¸5î`¿7d@·ûsæ‹a4´×¦
+‹—‹+—ÍÁëzlã÷ÍÁ±phP²í°Â:s¢æ=
+ÑßK0Ì+0ŒÇ2'ÛÚû.@#´¿a ¹„ÜsmÇr44'ºnWÒ³âä)oøg*P¨á½ÕvtçkH>_|À”'êµ˜m}ëÍSÙ
+B¼¬%î 2÷÷Ş„N’Ş¬¼çŠ,áµcoáõ1Üœ%ª;]Uæ /İë0F‚;Ş“{Œ)è¸jm¼‰ öØî9“¶)	‹Œ^câN)Œô_z ^a°mF$¶2Í­Ï¤¶û¶6‹<ŞlÇ“A=&¢ÏT©áD„ƒLòÌí\Œ©>+ûh+şWİ©İdÂÂÉ¶ê¦kò6¿³g×Gï&ššÕ‡»Bb¿ZÛI»=z&µ°Â”!~/çæÔÅn´ÄØÙ/ºÀ©±÷"ˆ£‹nÿ{)Z´d7› $VscgÍnm"	Q÷ü¶ø/×à<»º³½G;wØ¬Ş‹ûİÌ›ïü»Ç ‰rêqlØë‡ár
+<Ã%<}h»û5càÀ~lSÙih»ç Ã`òã®ÚÕé,è—u5Åæ‡÷¡‹2Ü |¶×T@N]t!8§×"²É“xd>'ZÛdÊf1ÆˆâÈx’Â6DfM@I}¢=[_<‰E·uUÕú.z+Äë‰ÈKS!¨An4|.ìV÷$ §o2í½ÑY‘9¨Âîm9Ç¶­Y9ÆuVÚ¥†Ğ[ÀÁˆì+’À{ğôûôZâ£^µµ}¾j‰-{€Û6˜;œª	V¿kèk‰Põ;-†qåRUÓØ»´—(l/õ5œ5‡oÂf	é3}x‡ç"Ù‚¸ôó£ç¤¦tvÃkÿd¿¸}Õ›ôTš
+"]¦£DÜÄ|¥8×§­ [¢ø‘íPV5$‘õ_jÙì8)Pú{”	êĞ®A¢¢›ÌÖİsåü}=Ì5İP˜k]š:X’y)u†j$*ö±Kµ5Ådş5”°r©ÅÛÍäàKäı½ÑW„.Hp?n¤§nàDØt=Ä¸7rzŒXï«ìÑ}ÖyëŞ$Ê<$áLÀ»×XÔ“,™6¨6A±÷ckdÖU#3z%]OçûÌ™Dg	ˆ“¡4&]ß­ÂòUıØÇú›¬¿Éú›Õéoz,èğ•rş´;äX—¸Øğ¬óD~ÎÈ²FŸıYœ+5²àÆ`q®M8è,ÎÅâ\,ÎÅâ\,ÎÅâ\i#0U^#XÏÆÁD#ëûç¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ¬¥ÅZZ©ÒÒ2Wú­‹O­é¡u±0Ÿ·›£w‹Ó×PN‹ô³ÆgÌ™»ÖØ@ñÌBùÆLùÁM‘øRùÎÄ?
+8$–âU^´=éXQ^¿½¸Í$‘8™™$R—óë_>^9½ 4„`°5˜,HÜw‚yk‚uoé>2Ø’(`&ÂáÂaï¾½#áa¸ÌÌ·›ëEİAúr`}v÷;æÄÆ­ğ‰anİã[¹ Å(ü¨+Æh>×yrh—íË36@ğŒ¶ê•wÀÆ»>QÁ Ò*P±‡àºıı]Øñªl9º¯#,3vçûHê®‹ÿ¯ÛzÈ¯Ï~xG½ÿ$ÀfÆŸ‡²Œ#¸Ø²Jìm‚éÍµ‡•^]Lveê–}VÁ—c[‡¤ñí¡GU€ø‡O>0_išZ€„®
+©.ü62Mm>Ñ­1¬|Ê©Ağù(v–oôyª‹=Ÿ¢°ór}ûuUpôw÷‡B6íuü?£I>²cŒ‡ğ(¾¤¥ öº¾Üëvı»àÎÍ:ì¥:÷WÃ¢»z0NDôŠj–gA´ñİG2g’9“À™d6dÍØI·nÁ‡R,Pš¹Š¾]çoã–]àö#câışióÍÏëktnÉ¼x¿°x	æLqôŠ9òêQ0`zÀ\é“ójp üÏ™ÒƒŸÀ!h^XòSØHFÍo"—’¿ZÚGîıŠù¬­6UÎù=˜b{Ş¯böÍ‘ÉÙ	ì:é/õ‘×Ïÿ;ZKàÑ¯¨6à/!CŒ®ZC¬şpã–oõ2ó/Ì¡Ÿ!¸D°¦'È7[Xêƒ(
+æğ™Rş¬ˆŒ‰‰’kİøU*™¬‚’I9Æ\¾
+ù”œç/Ô¢°:c][À˜Í]LLjºœÕLÜ„ƒÎT@¦2©€Ld*`Úğ^ÀÒê-<jßœí„>?.ïK«7áI¦Åßèó™'È<Aæ	2Oy‚Ìd ó™'È<Aæ	2Oy‚Ìd ó™'È<Aæ	2Oy‚©â	†cUps[ƒØÉ€€êx¦İĞİß€Ù‡@oé§·(Iai¢80hG&D
+@+yÒ?WšYÚ¡uo¤°8Zúåœµ8ÉJùAÿ20WpÅé=z
+o”ó·Íùy={=Yaézaé1ê1çbıeS¨<DÉäK“æØxú‹?YgûÌó¿ 	2‹×J³“R»>¨İŒ‹I×-A#Ü 0.f:ãbÃ¸ÆÅ0.†q1i;oĞH¥Õ'„)7/,/?š¸(Ê×n•fgÃ†À0†!0aC`Ã†À0†!0aC`Ã†À0†!0IÆ|xÆº;f™ˆ×Ñ
+)§/˜ıèë†³Ó»y»©²z‹ 'Ö¹aóÊÏÅ;yÈƒ2@=¨›³”A'‡|fXı×[ZöÖõëçï:Òµ$¸«wô²Ur3ûÌ‘Ÿ¬é <&ĞŒ92„²,KWÍÅ«ğïâO©²ğ«ÔsQ‰+Š*¬\‚fbJÕXĞ|1G®P>P– ’Rk¤£_&’”60HäLxÂü´V¥`óîDÔRsø¡9q]Œçï£p8²!Ã³¥³ËRQ‹J<xğc»ËãåiJ‹?––ËK³ 8•¤WìÎ3víÿÄ€«èı=¨“ùbêd÷„>dTœ·ÌX‡7y+ãÍë¯gSšY).ÏÀ86Ø6sö|ùŸ“Ô7ÖXŞ¹¬^'À.Y7‹3ã|i/ú%»rm0Ûfs0¡â@¿5öóè¿EEºæ	Á8WLœj(6„Wüi„ŸÓ”ºkŸF¸ÒaLÓ&tÆ41¦‰1MŒibLcšÒv€<Şs²tNuñSÜ³'åCĞÖ¼x¡MmbhC›ÚÄĞ&†61´‰¡MmbhC›ÚÄĞ&†61´‰¡MmbhC›ÚÄĞ¦TA›3sˆº^G7 N¼n„Ï’Î§`ı °nƒGd1 ğ`ô¹'oêÂ²õ½@ -_ÕÃ'RvjXR 9,%¶î@¤À(˜Ò Æ…ê±:nÆ¸Ufß\r›,?š @ŒĞâ¹ıagûÎÛÛvBÅ>nùógåñ_ÊwTT‰$€(s—oé*ài°}g‹Ïï£söšÈÓ`	£ØA‡ÿï¯zşCâ–TâÛ6c©"²—6$àmLãä—0‚3İgÆ¸<oöu{Æµ«_|ŠïàeÜNişÖmƒ0°Mİà÷—÷‘âÚBİÒ¸]û¢Ä“íäØÄé…aü_z9¸.;@°n9ÜôÃ5ÿ{n4ÈÿÕ~`ì	iErÙÖão;Ş7NAc©JïÛnO#÷·àJ=µã-H)¥ÕÙÓÙuJ„—ñ–ãrVWØM§Ä(@©"&­LñŠ{µqÎ ×„«.µˆt=™¯Äõd„¸Ù;¡üÀ«"ºp›
+«·#(Öİ«2¬„}ímïyU&§å@Ó,¨JŞ İuÒ2		š‡÷±hwl+œ"ÎUZ41cS^ƒk{ô.˜2.`l‹£[(ÛèT¼«›”.øĞİ¢'xÙ7à²w†×gñ×$LrT”dŒ-)9 ’>‹£ß‘ı6ªÂâ	Ôëy@d¨j+b¯RaAÌ;°•v@àØ¦ã…ŒÛ2„»o°gÏÀ|ÙÓ™Qµˆlå˜A…]u’±çıúD…?$¦Hp pœÛĞ¤W†ÿNR±¤)~oH;±”*2ïÍµ‡5MM7ØšLWÛ¶¯DtßmV8`u¼/Õl¿ˆ«ª"Şªˆæj¿%'HH¡z”v§›tÅq1•*W»?¦Ü\‹ÑPeÄŠ¸ÛÕİÑ±Uß™kû;|'¾o(ğcĞ1õ\_†ì¡nj9Õ•nÇÈ"‹V7Ÿ ]Q-sÜpåÇ²=­*®öVXoH“å3aÄNğdºZ5Ä/ü¿¬<ì„f(;ÑÎQşşÒ—GOùÖÁo~zp(ÑÆ'M- pƒêÕ!Á]"l¤]ù³jAĞkr5Û¯ÉŸÕkß½.ş!ÿ§â=Ç1‚\ÀSé¼»ùÉ‚oDXÕc‡¶í>Ñ÷UFaßÛ¯+>1'k÷ñÎoéss@ÿ¢®§#ñ?JÀ”r¶ôëF!¸åÙv§ÏRÖsâiéù¤·1I'XÇF$ŸYÙ\®SmÈ¢§U­zKvÁ…EàÏùÙ)Ùw¢röı;ŠÜ°…¨(¦ÜÕ½»­#“;uPÔEU‡) Âşvè±;F†ÛZ%Ûªcş„C‹ßuCƒùSÕ´Ï˜¬mˆÂÓ²üä:›ÙA8P1¼oÇô'–~|h_‘şDğ(˜0p.!Ø?ùÃV÷Ö×•Q8ŠKWÌ™Û@ÿ'½ŠLNòÆ.^"gFJìilP—CUFªM­œ”›r6d×ÙÑ
+›dµãˆÊS®>&­İ¤nLWƒãy2áÂeõ–uîCˆ¯]ÎX—şäqäÛFDø1Á‚øŞËÀëË—·1„ÁÅ)09ºDZ ™5˜ÕÒ>ñ×}O”©»ée&pêX`g™	¼	™ÀÌf&03™	ÌLà´á­àlDˆº#2àºH9ÅV›é¿Lÿeú/Ó™şËô_¦ÿ2ı—é¿Lÿeú/Ó™şËô_¦ÿ2ı—é¿Lÿeú/Ó™şËôß´Ñ¥½ƒ'‘®n%$ºïÚÿRS¿¯¿tyÎ¾NX8] ÒÏı
+hÊmRprå< \ÄÀ(ÍÎYOÏ`ô­Ô‡r£¨¾T¼,¸(9lD^(­^XK+°xÅu¶£Ì_4ûGÍ%@Å8g ‡ ÑÏ´™ÖV€Ú€ø¥[æÌY‚§¯«Ó°îœ-ßAèL¯±øâºyş–>íQ‚Æ.ôş¡lkæDá¬ @P‘©ªOÎ«šùc€Üa°3Ó…)d2cC#c‘]Ğä8²H—éèl±àò„°ü¨á|b÷Àø?‚ÜUTé^‚è•¤j±úÕnßÿû|ï*:MqŞÜ5«)ô=9õ›˜#Ø„á x ø!}gs³aİ=WÎß§O:Q ÎeŠQ‰¦ÚS«Â¸ßâ¤}T5õUr*â–ƒ¼±BjË«‚-–˜)†•ˆ¡¡íÿ¸$¤Ö˜È@£N†T#ˆ:È;åštdw6“ƒOàró%˜R-¾ë  é ¥‚+ „‹³Ó6ßq*ŞŞió©»¿Á®Û7ƒ>!Ù£°ÿm|ózz»Åö&ø}›ßH©}¹c±Ç¡ÎÔºz‚^îVñƒlvÍém+#‘èB¼ï~>*ÉîIgÃúÀ¼«×á²…Ğ×DíC¿ĞvÇ;³Ä[¸JÔµû¥ÍoÇÒÑ{òËlnç›ªDH…›>êÄj¶g;¾²÷[ğÖşLó—Úİiûke‡õPI¾HzÔ<ê¬çkßâ=$H©8((2pàXWKF&¶ïNlİ¾”[vl újÚ0ş+xÏ ª§Rô££…ù	ğ))-¿ÛÎ0l}]‡tìÀµåN@<WÁ••©¡ïmEuçà÷ÊÄmûáß*yù”d]´®Á¯°ÊÃg¨Ê’Pw¾Ïœ –§ÅVXœ 4€~[š›5WÎAî@ÒÓ_nRõ@!L…¨B´ë¦ğœ~•/?¼®ùÅãS¢áÓÀøƒ¿‘K7·Æì~ Ÿ©¹ò¨xyÖœ8W9oÍëî<løìJâs§¥×±bÂßi3©Õ¥Ù%Q•EsúFññÃÂü3òPJw¯OGêS—¿’˜ÑH‹6¨QÊEiÇ)µÃ®B¼TH¥¼‘.ö4½ŠíÖÆÙ.ƒç^€0¶}”•[YÓoÒ?ÑnÅóÿÊQ&ÿ•¿C\Il+f²ã;N—»“)Ôêè PÃQ:#8Å¯üqß–/öïş¨jSÃE.®LÎÊ®Q.`U|rñÙ„çƒÍ§t·Ïä€
+Ié>ÔòQÓû>Tîäu_WoFòD¿GIJÈ9¸óò	èı¤ü|Ç«°¦ş:ş–7k`¡|>I‡;'yÕ”¸µ>ù'¯%‹N†Ï4—W+x¢¯ÖÖ<È)£oìƒsz-"›,ìïÀÃ™ÏIØÏ¶Ái¡§Ù„Ä³HØãŸl‹^U¹lOo®Ã½ó_d‰D}Ã««õ¸§hn•	ç4‘—vN©An4t¾Fa»”&GDÕ¿É´÷FgE& ¡]0Ú^“)p]'´è‘m£+œÃ´8¶è®²«jkùD÷Ä¶7`·rX„=¾8.Éí<Ê¬ş+…¥ÇöÄŞª# ¡í¨QšY).ÏÀQvìÎÚ];Ef˜
+O:b~Ú>ˆÑ±Ê9GÙ§£‘Aëˆ hª–è˜?Ö*I¥³4¬U²	µJX«„µJX«„µJX«$màp¼Px6GçÍ¾ŸaÿKç–òÕ¸ùíÅ=+a±+a±+a±+a±+a±+a±+a±+a±+a±+a±+a±’T‰•(D&@÷WF1^ÎìÃâ’€” Ú0 Öø†€¥ ‚Üº7YÈïŒq<—=&ü<ÈÊÊW·NËÎv F¸»Ç€µkÇa &4í‡Í!L¾†uª1|¦”?ÿ@ñé¿ıa/é—Ä¬üu,3¨5KÔñ×Z¡ÃÀoŞ™kêí‚«œl“ÀĞ(úw’$ÌZ´·ªŠÃ/UŞ¼ı²ÊZzò©Q•zrY@ò¯½J˜Oª„<ï¶DÓ1<§µUKN‡Äã“×P3of¢rÍ¸.Dˆ¬Ââ(­ç€Å®â÷/˜/†şA4Òìsë&’OhéY÷¬¡Š5÷Ş	ğuJ«£¥qÿo}ÿy#«3Ö5àq«”] 5ÂåCÃ6á 34Œ¡achCÃ–¶£¸9÷¬¸4lÎÜ-^FÙJÚ¦“äºÂş  ÿÿì½{{G¶/üÿ|ŠÏaïğ¾–¬ûÅÄ~_âÉm¿pIÎyæåÈrÛR%]Œœ<lÀ˜$ÜN¸„rÁ†_0ş.{Ô’ü×|…ó[UÕ­n©e&™QÌÚ{bÔİuYµjÕªªU¿Zk$‘÷øµÌHob°˜Ë”K:ı.åòŸøQHd‹™DI÷Œ{†Ë™½+¤GR%ùyTı›ÏxÚXº˜Ìè]ı/–K¥\VKfÅb_•_È•³CúgtHKåÆôBïàˆg¤˜ğø}>õ¦¤—ä»(Ş%
+Gl¯Bæ+gn+esú.&@ÏP¯k
+*qt¨7UdÓÃÈÌ{dÊFkŠc#Z±TÈÑû’åBAÏ–r™\ANg2}Ù\VW_=GÓC¥T1B?úJn¼¯Ë§ù´@ÿë2“dÒY=™È÷	~Ø_~KgÕ[Å¶”'¤õ kJ'†÷ùõQMÖ@¿ÆG3Ùb_ªTÊ÷öô=zÔ{4èÍFzĞp_(î9Ÿ(¥´¡¾®ı~¿z#”hƒÿGWÆü¶ø7r¾ğÆ<Q´½‡J±—ó†µ€7œxı?~Ñ_Êá×‚ZpŸ? ùÃî×üø÷†=øïÃFA’´) ø1”ëÌFgôqíƒr±”ğê¥£º¥Ü"]ë_[Î£R>s…!½à´~dÉ#=~%&ê¥€8öi‰ˆµŠI§
+Í”8ä%xşü‡P(	‡şm„ˆÜƒ‰¢®ÑĞ
+	¹Âˆ6êI”K9zMŒ{zãb85Æ3ê!ˆ•5?œ‚+4ÌÆ=>geG=úòã‘Iè'™Ëhc6=¦ké’>ZôèÙ!•­XšÈè}ƒà	5+;D©s…ŞÂÈàKşH·?ìö¢»ÍÒ­bRf5V}öA]•\<šBu’YocE/Xı)Õˆ’¢ò›â_qƒç¿Ë6È¶’xç(ôCN­İÔk‰q0ê12ıo,ê‹à9óÅ ¼Şp 5c^0Ôü!¯/iâ{,¢ùŞH,§ô±/®ùıŞ@4$¾ãAø¸ßhÁˆ7‚bH	‚aoÄˆh¨-ò!yŠhao’^_0ÔBŞP<ú¼¾X©¼‘@ÄP¹/ÃsÈÇµ@ØøÃx…}ÑØ@ „FÄ#ŒÑX<¨‚ŞhÀÚ¼ÈÀhxCpÏhQÈ?ğcĞÆÃšÉÃáhXóÇ‘!Ç‹PT"gÌô…cxöùüñè Øä‚=”"ìC{‰/TŠŠÄ|ø7€ÂıĞt¨*àø}ŞH0H$¢}àsÜÅÂA4#&"÷Gµ¨7ùÃàÏã©Áæ0ØÎ!/±`4ŠBüÑ°üWca>ùbQjwĞö¡3À(1¯/¢ ÊğyãáHüÑşpêŠØ÷¡áo ı@œø#à0úc”C;¢À‚P„xCûğÕ‡hW ƒ^'NŞ˜?V¡cBQê o$ò£'"è8t;}÷ahŸz ÅÃèXb|ıú uh@µR±¡`”ä"èÆÂ^?:ßñ!‚ò!Fş Ô-¤*€KQü‹Ïô—?HÌ¢!”QHø€æ¢8}œøòÆ!)ôìG# ôñ zB€ôjş(ñdÅ½<ƒìhùã¨/€¼D¢şé!(_4¦ç°èHA<¡çP<.ä3‚’ßÑo`KÔıqp•&p=äõ‡£QŒI›Tj§ß
+›08Ã>1\ü~8FQØÅ`Ä¿¾ èC¯ƒbSÌNC:hgü‹öÛPÆ]?trŒ†vÔĞ™4v£‚Šh4,:+‘!Œ!„NòAVA5*L ³ĞçŒh(&Ò±œ¨£ââF4¢#:Á¦yş´_p‹ê…J‰…âÈ‚VÓ3è·}!¢>
+U®¡w"ñ8
+Â˜Dwà9!áÁ3êÃcŒFÑyĞXPAùèø÷AD1ï!7xêGĞ,Ìq‚ÇAujf Å‡g?$Á$™˜$U±¤š@d¥ãßÃYùLã¢„ß#âÃ¡À>bn€FÊ!‰Àc˜ÉñÑ@Âs˜4ı‡ô!&â9uKÏP ôH=ƒ§Xÿ’ÜA®Ä3ú›1ŞŞCåÁXLæ¢t4Œ æğè'±„xh4A­F¡WÅ0ŠÑ¨¤¶F‘âO£=ŠUÇ@ìš:êOû‘> ¹­a˜†ıÁ¸ 'ƒZÁ°ÅÜ‚P+hL2`©·`€Ò‡£{TìÃ Ç÷HÄ’Ï1¼ƒÇ¡EB¡}~(¾¸à-Ôul ±8Ú…gÌEP^¤6hXÇ>¬ÃBŞ $M=à1³Ät‡¶˜yÃhTƒ*{Ú¢f4Áï¾‡±‡°ÓHŠ‹nõS‡àªV<1‘Ñ³$Ò3äB¤§±FÏQH¡4¨–ÅT…çX@¤÷ûü}‘ Laà5]ùÅô‹‰Qh>æeš ¨‘fÎph Å„† ùË^(&9’€h bÚÔcÚQˆ“k!¤i£T‘‚Šá0„ET„ÜcY ú1s@Ä‚è€í9Õ+¾c¥ç0&ûsÄõÓx ßE¶ M PVH±|À3È¤ç ø"†Kk ¤‡$Òôƒb@'MŸ!Á?t_ ’C/ÆĞ>^X_ì£Uz”ò‹á¾†½’`”CİˆG*ÏPØh5J€ıPäôM-Ÿ£˜PğL
+\<Sk„X¨g0½§Á/ŠìÃø¨(á(˜
+™Áb (Fš
+k‡Hù0^¡Şi‘ &X% æwt„”ºª7ˆ×´ˆ@=XĞ2ÉÑiÚîŒƒlâ&¤nê	· =˜W„ÎÃ¼':Vc—ôLƒ¤Yé™šç0¤Ÿ£±¨H…”Šg,è9Î•éÅ(”Ëô˜§÷‘ôBŒ‰~,"1…@Šã´ˆ E#Æ/†7FÍ±8V´VŒPï`Ú‹`ú¦iÍ"ö„0ìIß@-ˆiUdÇ¢	ÚƒÆÖ (É#(¨‚°SqĞZBëøB4ş¡m¢3è,Ÿ0[Ê1Mc.ˆe¦+˜
+hèCöå¬IÕá™V1¶çpœşm<‡h>²=“Ö}–—1ÌƒôšÖD´ü¢jhå„éŒ¦· ˜‡çMÖ´Â
+b#Ö:à-,è@šãi©@<¡¥¯£‡Ñãü¢çÇ‚ÏµÄCO£1hdˆº ÏÔÕ¤0haK+etxãÇ¤JÃ2ÅQ,Ô  ¨ã…†\Õ¢º8±³–½æ3%Ğx²¾ƒÅqmå‡@`Ò7‹'µ†%†(P±÷°P…rN¦÷`==G¡FÅ3VÉô&­BfazaáKÏ˜FÅs +{Z–Ó„AÏ4Òs€:P;¤ÅÑ¥q¨AhÅ@˜Åã$´Ä C6ÌîB?‚ Í‡@D’IßƒH&P>Ò‚X¿Å|Pÿè¤ íh]‰‘O± ©¨_kšii†	 »iaFj|Áf ¢…^„ş¢ãĞ‚Uô"¶;”¦^şÓ~ô_ c‚†d6¾
+¢µ4ŠµL#f~ÚĞô‚èCR<iÛFëšñìGEôU!¾û±¢¦g°@<ÓÎ‹±šzO©q™ŒÆ´…éKt` Š’ö/XÈAÁÄèX$3æì{h¿‡‹h ØÑ@AheJ
+5@S9Ôy ¢ò° õ£ ¡9°/ÅFrFŠcì‹mˆ?‚YX³’¢Äz]¬T°1¢ÏèZV!|û1;"=4lÓ A†X»¢ÿñÑ¾RèiˆcâûÄ,,6qJ¿˜•£'<chBãĞÒû<c¢É“šEbá	 õX‰ø0(i8Dh¾ ^Dzš4cà‚x–“,g˜ê³÷2º]Œ±”Ç¡ÏÅd+-´ “‹ô=~šƒ}´•Ä.9Áùù=UÜŸ”ÁnÚk6W¹[œ,ëˆ°xÀ2’Ld’/a9½V¢üøni”öidU–  ™rÉ±F¢ôNÓNÃ¢SÍQgYAgÒÑtÖMÀÅ$1ÅR¢PRö(a¥)æIİ“/À\RHä›Jƒ}k(w4«å9X±LÃZAOñ…­(-`â«öSEgÈ†C–~ãé´qûjeeeãÄšñø¯µÕ9cá«Ú¹û••“µ«•'OjW?1N_¯ŸXûû“³•µÆÜbeõcş®özºôFyP«,®Ÿ¯=ºU»¶dL=Äÿ6.,÷.Sò§gŒok]ƒ‰R2¥•ó™\bˆzO/j0¬Éü]ZuúR}r
+©Ê™#í¡0ãşQyjLß—U²Êê×µÇ*«Ÿ+Ÿÿmò8(«,©^Y¬,MVV®U§?UéÑÑªêÌòÆ©9\yr£zéTeõg|5[ÒThÀ5ÑäãõÉrõår¦ÿåLºÿå„–*èÃÂ¸U„uk$]J•½ÉÜhÏ‘DKãwE3<¥œeã›çbç5Ù¬DaD/õÎêGûŸ¯ˆ—{[RĞÇp<ÕKê¥Gr–Nê‹-HØ4ó6*¥ —JûÙ‘¡\Ö,‚º×Cıª
+ƒ¡q*¶WÊ6È)éÉÔH¢Ü(DpR‰ÚDl–wU&
+…b"Û#:ï0uŞaÙ±[7“¬Û¨xh0—Bn;ß†ôŒ‹ïõ¶Ï)ªí¡Aï¯¯f/•¥{Ö’ZÂ>|ŒÏÎ“×7f	5rc´¾ø¸úğnõ“9ñf½vá®±p¢²úcõòÏõomûÉX˜¶zõáEãéü­ßùEÙ†lõË›ÕŸâ}Y¸
+-`œ?‹2Pê–4’B™Ÿ©,Í"Şo|qŞ˜şEmL9(
+¢AİÌ,H6¦¦7®LÕW%iõÅGÕ+çP)¦ -N<Úœ•4EX§]"}QÏÓy ÍAâ·«^ÃÁ^@Î4æ¬¢/ğaáN8Äî½pëJuôé°.>æ÷§hsú½ÑÌ‚1OÜ~vèÁFíÃı´µ)úé=N/è1EË÷ƒ?îôZ§£3Âc¡F¯ÓAm&äÁNıìSsaêrô;LP¶>§ãaôùhÔã¦°­î¥½:½3~±e
+¡ó¯IR°É|Ão;Hv=ÿı×ŸîšGºfÊßĞ‰®Ûf„Ä6ŸÈªÓŞ®ÁÜ¸§˜ş01Y„7{ üùLb’@°2—<²‡†Àp&w´7•Ò³{„È!Iº”NdöHY´ÇÈ½4öä°©H—&zı{d5½h‡&¾`K1’ÎÒó|bhˆ(¿sE””ËöšÔ#!¸%ê¤Ñ3µC6à×%¸…¼ô(iA“gÊ_—¬.-‘)i‰B:á‘İÖW*”¡—
+IP•(%zÓ£‰†ŞÿÅÑ½+˜ÄÏ]ŸÔ"»ÑöŠ‘BQD7QRX÷ä;©Œğ;è“/”¢2ßôì
+ÒìŞC(ù"ûFõÿ7—N{3hWÔK‚JA_±'è=ªb0êÉ5­/QœÈ&16K	Oô¥³¥B:[L'•ĞÛğª,2×'{^/	†¹K½w·Gõ¡tyÔÁpæ®‚FÙTo
+ùÀFÜÖëMB ¶é2±õÙöŒi"ı¡^´xö˜êëW°^®şõ&şÓ?`Éü÷'×GÒÅşi×~^Ô2pŒ€c#àÇ8FÀ1pŒ€c#àÇ8FÀ1pŒ€c#àş%8@Q„!û¬Â”‘ûÂbõì1ãşI‰“x1‰+–€x»À‡ü­°fKß×&Ù‹¸¤:s¥¶ 3ù¬qú&×¦Õ–ªÇïS*+?È4µ™SÕ…Ÿğµöã…úÂ}àNP]uşGYiíŞaY¾=^ıj«'JŠICÂFåK¼H`Áöª—–˜!ÜZNáÖòı“Wëë§´½ŞÔŒékÆêJõ¡ãD¡Â"“YM7NNË•µùÊÒŠÕzj¥h´LãÌ'SS?O&	;C0 ucêçÊê% %¡õ…õË2C´åû%ÑÆü}d!6ÙÚ£ëY#’«_ßgÃî	â¨ùË?£fTbÌ}º1yÌ†éC.p±zï¶qû’,zc~ğ"J.Úo6~[ D(Ã¥3_ŞjíùÚí ‰ßS‡€Âö*ÌºÚè ä¹q´à2~vHkÀ:Ï	l'ß,¬!6×€L3^Ô†sÙ’À±¢:íÿ 1–(&é<zXU9;D½£iì¥!Ø	g0ç¤h	hQçàÀ:Dœ˜÷lÏCœPšµ 'KÚx_L›@c%I1Ë¬Æû`^èó#=¥Tšx —ŸĞp<
+è\ÛRqæ9¾gBôj¥LfŠß;5 –Ê|PÔ2 F–qëit¯yş.³Q*hÔÑQô]OV_xZ[[°BÏI¹®¬Ş®Íœ…"ÔÛôcãü¬’”ßµxDŸ •ÚŸÌeIcˆT êÑ³ZŸÖ’}ÓÚşÿÏ·ß}çğëozãİWzûÿ{õ­WY÷l³†rQ/d£úv+y÷à«ï¼µwÿ«zZ+²ñÆ8uÒ¸}Jê¡9êE¢IÕÏÍÕ×ï?cğPB›Qı†Éäº5äÍışYÙ2¤ËÇúfuìŸÀ¸- Ôm²D‰É	!5'õÜñêÅgdANPWyıNk%1Q*úGõR*8­ÈÑÛ¾Ş>xÈ$¿»mi)0² I«â¨^gÚ.‘¸”.áU¼9ÜÕ¿·
+é¡psÙ-IùŸRä[?—‹¥şÿö‘øü±*æÚHv!Úlİ€Ï¡‰¼n¶rf$òùL:)Èíù ˜ËšYPÉÇí™3˜šp-Û'ÿqğí·Tbo»´Ãål’h@rIÎT—Z9ß Ä&º=¶wmx%²æËƒhy{e -‰L?Áj6g½(N\6h’–Mº)E–Ö•™!oiÜNœíêQÊÀJ¯U®Å¿ô÷ãİ¿ûx+}%Ö9¶ÁI‹ ±Q+¹ÖÚ¦ÏÄâÊì¯¶ÒnÂÄù´×'èGÑ’ns¨ïF¶#.¥”nv}kÍfºÖ)-Ÿ($F‹ıLˆ¨Ìì`­ïßFJ{ÌóãvÈ ±c’±ûŸC;a¤\én§ªÆ-F˜sÖ	¤es³ıÛ!:“Ù²§ÅT—ÄÖ©J{ıF-ğ¦J£™ÃåB¦YÏíŞ#¥x{¬„
+ÛD·ä¥^(äp!âŸÎL{½/‰ÕlÌİ=´zk‚ˆ=vHów±ÌÀş¡qÛhéíL¦?Åİ‡Mö]M›.¹VÁn›µ?Å5.ó«¹‹úŞÚíhbEiê:ñ[3—ënÊ]Úš|‚7Æ­¯ŒÓ7ŒÙ‡ØøĞÖiú<®Ùt‹fœ?§Š¿²~î±ñô²¤K{÷}öİZJ›¨¥{ÕëßÔæÏX­Mã+‡.Û	»>¾2ñv:_™à+|e‚¯Lğ•	¾2ÑiçT)Ô 
+û¥v S§µwóèo]HéÉ#t•›¯Mğµ	¾6Á×&øÚ_›àk|m‚¯Mğµ	¾6Á×&øÚ_›àk|m‚¯Mğµ	¾6Á×&øÚ_›è k‡Rm,ÚZº¨%´÷QÀÀ° TN…	­”JàØ¹£Em"W&«¸(¦3(àøW”‘ÍÁ‚¤Pe/PÒ‚&¨•½Ú:0Ğ	üŒAz^x
+&{ºÔkŞuø#²Hÿ®H¤H0/ü'jOâĞo¥qo‹Iüp!ã’å†A´l”„Á'ÎfrH²%ÌÚr@":¥/ Èz3›Ì”ì¶Q¥!¯h¤,§™Èô–9´AÂ˜ç'pÈ#RuÉ×pRKMñ$eS ş¹Œp;›³gş÷"Ì{¹Œè['â0M¼MÕl–ªêFúÑê$ Q½vï!ŸÊó…‡xáıêrÓÁŸôÿU†,Îe“&œï¥¶@gÏQC'°#n¸æuÔtøğkoî{õğao¸[ó¶G÷¸J÷·^´Ğ„k›â	-íÚe@à6¡}áÚÙÔ¨ªL-7øºÉÔ.‡r
+ä¹Yân¡§I	‘r%% ‚N#•@ñ€çÿ¯ğ&Œ·ÿ¿NÈYÛ:RW`à-ï7('…¿–3Ÿ	Ìï}m1XNg†ÜªióË&¢^OŒæ3º€ÓS7ô”rJ)ô¤³Ã9¯ıfG›KmôÑ·MF'<j`ŞØ¹LË.©²º%BV<ìR3 ü™hš¹á¦e5§0*Vvbõ€;O©4.vÒ5¬(œ	ƒ¹rI®;ÀY ‡@§©X¯FË¤D¦˜k!ªËj`—$¬i!	ŠHÍÛVh!¹pÔ‡1nEÕÍ[ÊÓå›\õÒ…ù(V»ÿHÓºµbÜI`q‹¤fšlytP/t7–®`u·X²%S.: şjLôd5%^TöQ¢H(q¢o”†µ–Éå`ew¤ãT¹íRëò¤Ë©c]”yTkYşÙÚ]¥ê¢¡Ûe
+Èf…õš³A;EØ…Ë‘rï·­òº·Aœ¬¿}0Æy}¿m¦â {;¿›Me–ö~˜Îÿb°tİ?»X¡›ZWÿÌš[¯êÙ«6oGm:¹Ò4æ6­%2e„j3Ù¦Û<óØ!šZ¨çÒŞ¶“OkŠÆª¿˜-Ó¥öîó”°>WLCsª"Û\*'-ag0ñ˜S“i À•o”åÕŞ§Dö¡Ò:$I/vcÒŠ©\93p-böÈ†Ù©¦ê¾•Úc³3Q…‚¨Ğ+¦÷D‰˜[ú½X]¤˜Ì²°ÌÁL…r5T9m*(ÉdÆ¦V%/ß€ê, èNXIğ¨°Óùß€âP|Šo@ı&o@5ë!²ˆl®WGÍk-Õš>L‹0Z±4,%!ÍÓ²js¿ãœ±šTş­™´¡]ç–zÕåÛsM­çÿ¥&× &×àóO®¹Ì•¬åQt	Òs&P,˜l5ºfĞc¦i™óìä¦£ıb
+ò}„f„€Ö£šŒ\&¹\û€ğÕÄ}ôP7›vÁ æPw“P@'ˆ]±–×ir¥Å·
+ùV!ß*ä[…|«oò­B¾UÈ·
+ùV!ß*ä[…|«oò­B¾UÈ·
+ùV!ß*ä[…|«ovÒ­BÓœS2 ’ölMó\ _Û[9¡ët*IY¤WlQêe9—¾±Aª.á.ß°FN]!´­³a­¶˜Mçó¢ ®Q›„qÛmôDä µBQ{	+SX‹8Íww›CíhPöf!„Ìë%¸oã¢u»W³ÿ¸ã¼Œ³­ â"›ëœ6Hl‘4Şi¹.â)âugDÜ0Æcæukˆ²Lw·äâ¬y‹Ë>n¤+i¶#—¸k¸ßìj†è;	`¨;.[5ÍLşn!³uÛ¶$mûÍ=¨Tv;º5å5ßr	[îúØŠl²]Bä3]=%1Ó™r¼eëŞ±S™^«Cú o”1”	íCWæ³"t…ø( ×¸L”/[_6‹·ƒû…y†¸9¿Û*Å›ïÆ]#ÕÃ¸Ô%€ÔjbmŒg¯ë(•s-a«Ë¨„w½‰*âÛŸµQ¤L¤úQ~~I€Â%.ƒ@Í¶Q7…h7Méoå@€˜¸7­L`óéò«¢piK Á|>1DGWöU.sÑK€æÑ˜u`GÍÃÃXE NXm^í5–ÅÜ´¹ÚÑÒ×ZDOÇ,0AğÑ”œkÛ‹YØño‡Yfñ`Ø;
+“°V]`;ì`g ;ØÀş›°ïhë&­¡ÕİRÚÙÀ‰²Ç0Æ–1¶Œ±eŒ-clcË[ÆØ2Æ–1¶Œ±eŒ-clcË[ÆØ2Æ–1¶Œ±eŒ-clcÛAÛƒeräœjÁ­äA%LÈˆ‡k‡å˜p@A¼q`» ÜNÃ´²·ø	f}æğíÑ‹Ï³aÏïZ=ÂÚƒÖç~¥]Aæm½Ëî@Ï÷2¶Oú¯p~¿i§™¨L‡ÄY/|Ô"…ÈGıˆöR¸û¹;Ğóo#¥=ÏÒ8>–å¼©(2»¢¼5jŠÊÿÕm&bBd·“æ9¤Ãé”jÌÚĞ˜m‡ 	^„…[üm6áÆÑ©Ì©LÖã&ã²  S¹!¯F± $•ùDNÉi~B#lPkúÙ..€À†ÊIÓæ Y ]•µ+TºrY,B1©^•‰•—Ì&˜½Q1^_KyœÁ°œ˜`ã€‹dÙ ¬³3-^Û®Úl1rÌp ”–]Âñ´XbXHX3"–Wk/&‘P\yç¦œÆ¥s'Ìm±ØKõˆ‹:òd2"ü;oÉY×nm”¢¼w5 ÷Ğ±ehË·mI`€m‡vÂJ¶/`§3À–¶°e€-l`Ûi¦M²:Ê¨hf°–ğÿÃèZF×2º–ÑµŒ®et-£k]ËèZF×2º–ÑµŒ®et-£k]ËèZF×2º–ÑµŒ®etmG¡k	„OI½(İÔš0ZXä@ĞRËæm¢C6EÑ>qÙÓ™D *fæWkqDË€[Üvàö×ÃÚ¾@ğØNÆÂ6²úí~Oÿ)ØWQ‚Ã±k[àk' ZBKÎÒÑ
+ÈÒ†¢te¶öRÃ©@¤â¼ºL½ h±h5Êâ´Õ·§ÓËz«+Ts¶Q9SğgšLA †áBZN_ƒ§ÉÉ¨ønúìÕæàŞ4Û˜%Vh¡£[™Éå`<"°­EÜxrãÉíù'7Û äÉ'·ç›ÜhËA3Ú¿[Ú&*Şææ»m@e/<V÷Ø-“…«ßÆÄ‰	jPÇ&Kg }‡avÂ$È@ú°ÓHÏ@zÒ3ô¤ï´ScîLõÄÔÆçO«ç¾Ù¸ùÓÆ—·ê‹ßT'ÏU–§7¦f«—N1ªQõŒªgT=£êUÏ¨zFÕ3ªQõŒªgT=£êUÏ¨zFÕ3ªQõŒªgT=£êUßQ¨úVËvei²>ıcíÂİÊÊ9ãÁÅÚí•ÊÒ¹êüµµOk?|Q»¶dL=¬]ıÄ˜ú¹²zI¾”Ùÿşäl}ı‹ÊÊ5ù(Ë©^Y”i*K«•••êô¥ÚÂÍÚù“Æ§Wê·¹E% ûÆäÕúú)™İX8QYı	*«ßKÆéï@Ruúquæ;P…Ú«?ÍÕïL#{}ñË[WP2ªÀ¿MG»¤Y^f¯ŞX®Î.(ú¯~"“!½ÌX_¿V¿y¶öä’qòä­<=c|{Äàoõ«ùêñ»…hÚ¶T/OU—–ğÉ@9ÍÌD™•¥Óÿ59_Y:ƒG” ¶€EÕéOÑºê¹»õÙó(G(jù¯É/Qlí“ŸóçŒéËÆ©ã<hşŞ¢ß8?[»sßøì¬¬H¶µË&È†W/ÿLüœŸ¬{¬úğnõ“9PŒS7jÇ—ÿşäêË¹LÿË™4‰@ei©ÀxãöUãö’qû½¶­>6&ŸcîŸŞ85+{ï7&gªg¾9Æôíê¥{õkÆékDƒdÇÖ©Y(‰«,İ«¬­£ ÔIB¶vËx2gœ½„.©Ş½Yır¿‰éH°x‚tYBmşLı§ÇÕ/¿QOüT»ù£èøÙú©ïÁ2gµÆâ2Ru<KÆTg5ú…¾³W…[à<IÅä”õDåæO²GˆO×ë‹«HPY9Y¿ó5Î€,îT'ïÔİu«ß¸x²²tµ]ıò«q~º²6_yòEåÉ#;Æòºñéé¦¯’–úâ£ê•s	4Fm¢ZY>³qù‘ÊëJ]«|ÏÏÔf–…«”Ï&••ÛÕÙ[µ{—ji[ânõ&ZZ¤j {@ãG$ğ ziY–o¬OmÜ\5¦£"YQõË¦¿MSçjînœš#i:9e,,Ë2A~íŞŒ“üêü¤ñÍšƒŠÓ7ÀS0ÂE|M­U[ !ygÑhïGS‡“õ“¾šYCÆ! ÕkDí÷›$Á¤±‡†£â:æìp'œ2*îìtFÅ1*QqŒŠcT£â:Í
+aaàŒ¥ÆƒÉÖİ/£âÇ¨8FÅ1*QqŒŠcT£âÇ¨8FÅ1*QqŒŠcT£âÇ¨8FÅ1*QqŠ#HŒ²r7 e Ğ§Kóùì¬DÔÖ dÌç!P.
+;²tÆ‚KKõ;Ç¬2Ê‰Êô«~ó®ü/Æı“Õ™I g$QÕ³3µ©;2# TÕsŸáaÒç€_R8º³SÆùÔo9F1“p^½ñÄ^½"ùõ9*2®=­ÍœjÍŞÄ»vUÉ¯ÏZ ;h*$\Ñ“nÕV?ª]µ€çÏ¶V«PL÷Ò¢S€(^söÕÜœÀÑP’ê½Ûµ«€ı9pB‚·°¢r}ş}íÎ¬S0În U·r.õ…ï¤@V—¦ª_Ü¯^ù€$J Ûrås Î W2NÑKcùçÊÒÉ-W‘Ú©zÄ«ÎÍÕ×©Ãšà[òQ~iY=N'-X'ğR¢ù³ÕŸgŒ¹Óõõ/«/¢ÌúÌ_Q#~a½ú×U ¸¦K@¹À
+ãö%'kñ­°~E6VR®ÀiBú½"Äç±µ‡«•õ›Õc‹$—–ÌR€T Q/®lêg™Ìb5£±:åÌj'œG1ëìtFc1‹ÑXŒÆb4£±:m÷K»Z<‹“eßĞ1‹qXŒÃbã°‡Å8,Æa1‹qXŒÃbã°‡Å8,Æa1‹qXŒÃbã°‡ÕY8¬ù»ÚûHu€ìÚùøYøªvî¾İ¶-ñXÒs˜6pğ öz!=¤ÁoöÈÆ±„&ó ïd§ÎVçÎW^«,İÊÈ`Ux•
+öËÀxğ,¡8fq/÷à3Èi/\pÊuì§ê£UÈ¸Imõ:ZNHÂêk«Õ/ŸÂQ1}ÍX%7TåL±á½æïJ,
+“–5om&×F«@ñÜ«>^%GGVYıºvã˜¨æje™|)Iÿ`vW‡…qE[8ŒëãŠ~u	ãŠ“#‘+xÄ»~ï4H¶” ß­ˆª!ÄhKÖD	“ WïWg„fUØÎÓC{6Ï"êğ"~ÅÔhÖ”»ŞÖŒmµt8E¸Ù<âgšQ@‰	á4‚f¶Ï-	óú–qCIw›UÛFõ«Ã…İˆºu1JÚ·É¬¹Qñß}¼i°QrÚowB§T Œ´é
+´¹ûd(P ¥¦C&è%»ş©^y
+¿‘Æ½óÆÔ‰Ú£¤éµö,Ïxğ½©êWN
+Àç$@–¤] üµÙŠ\Ø$'œ:Ïh•byÄÃß«š ©n¾-7…[q0Åú×Ë
+*@¡Â'cGéßTi4Ã
+x*`êX\JŒôÿ[ÆYê‡Ä(©Ö±¶¡µIÙô‹g•¤¯]è.çˆèRéE(fÈÙE™mNYÙ”Rg)Ï\N&İZÎ3‘ØœE©‚>¼%‡şàÂ”}éìÍß–˜Í©ÙN{ÚáÆ“ÈÛ óöWãmyû«ñ6Ä¼ıÕxfŞşj¼toŸµ×åÆ³ÒXM9JÙ|ËK”1÷½2F­ˆëe°á,L³ÉO5¼î?=C×ªÖn¸Ş8”®İë÷OT/>’[7Ç•²†9kå¬eÎR1ÓšeÚÇÈ­ıÜ· €b?#gø-ö¬Êòõf{V‹%î¶g5ìwlÒâUÇ™´”Qü3iQ![X|D=dW·2ÑÃ™,$èƒ¤YYe“VØ…¶ÕL<Ûl¡èÈmXÜè¼b+ëw™{ÚÛÏ¶®­ìgòn+@vÌ&ı“ŒhÍÓ0‰[ËM	%Ë­4–­})¦õ«Y{.,_ÜµLg6q²ÛÎpc½¶¶PYZQ4ØRPX\2·™óÔ„4{S…EX‹ÈmV¼CÛ×«œ ÓMIÓ'1È+ÑN~41«ÉnXERÀ‰åjÕR)°îÔJ	´(³Œ‰ÆìLÆ’8šßü=A«À&s)Xæ ÊX¹¸qânıérıñ—Ïa›l/l›ä™ôE´M:GÄ/b›ü%)£aäBT'mëş&J÷­÷Tç<¹§~+æSî©ßŠ1–{ê·bÚåzÚdÍó:ë:ûNØg±‹¦°ÓÙE»hbMì¢‰]4±‹¦N»c¹hRXaÿêLuî3œˆ³‹&vÑÄ.šØE»hbMì¢‰]4±‹&vÑÄ.šØE»hbMì¢‰]4±‹&vÑÄ.šØE»hbMí¢‰‚‘µ˜·áŸ	1ïªg)°›¸o&nˆ+`t¥M öí¹(™ÈHØ{\­X¹æšLkL=Fh°Ú™k3ËtwnõóêWŸPğ¹Ó×ë'Ö¬XføŠk/@÷peÜ»\]ø‰"ˆM_Bd1I•ÄÕ[ñàªwÈo[—Ü(^›#ŠŸ­M¿zæGgp¿½Cc‰lRÒ`*Ëj¯¥õÌP‘¢ÒM«/,Ußmâ¤”Ú$hÑäÎÕ'ÏV¯=jò0EAnÖÎŸte˜ójªı@®XÒMäuíİ7í4´+ĞXçÎË‰¤é“Ôüh©¾’qŞ$;s¸óWûáRšw&q£¾~nŠ’©¹OÁ`'y‡r¹™iÄÔRyòîL¶9	N·¶¢İÎŒ&Ú-Ïº	¾·IV6&‘eÙ&'r²ÓdCE&ÉXw¢"*Ü¬ˆŠ2Å5JÙE	Õ™ïŒÉ1cqãÔ,¤M‘%ƒ•dÉ™ß‘¼ØÁ¢Á&—2ˆ	¿ «!@«7ë??´¤×JàØ†!ğÔfuÌ!ÖN8 b`ÖØéÌb`³˜ÅÀ,fuÚvKğê_oÊ…8mLçÄ2ºöä’qò‹Ú'?çÏU–NWV|ú¾á¢0ÔkHÌÈ-Fn1r‹‘[ŒÜbä#·¹ÅÈ-Fn1r‹‘[ŒÜbä#·¹ÅÈ-Fn1r‹‘[ŒÜbäVg!·`îV8¦£7€)–ÅÛÂXo!¿İ„ä:uƒ<™.-0‚N˜ÓËdèG ?êÅ#0TÔ ]%ßö-&œ³NÍÖpË*]j–ŒÓß‘ôù»’8
+ ÷Ã™«A`-Ç	Ğ"ˆ¾ @1]$sU:S_¸›'ˆø)RJ›¾qÿ$
+'À˜ÀÆX–/­ò«3W€!ªÎÏ§o
+_´§  ³‘ûrmpw'¦t\šš•şÕ­¶65ÖVRì*AxkCëëW~ãW®mÜúÒ¸}‰Ğ=¿¢ˆm‹ y;xp_õÂbõì1_¸[[û+ÚW_Ÿ¯İ=c5È½5û÷î?ĞÒS–wxÅX³ˆÚ¹EãÖ‰¦V©Šo_¥ŒŸÏVÖæÑŸ½Ù®0(YãÆ‰µÍÙá€ÚäŠ@^ß¬QÕ&JúMš$Áê K~Œ©Æ8©]¸^Y¹#YÁ¸©;BÚ	ÇCŒ›z;qSŒ›bÜã¦7Å¸©NÛŒ‹OŒ©oÌmh<Š[1<ŠáQbxÃ£Åğ(†G1<ŠáQbxÃ£Åğ(†G1<ŠáQbxÃ£:eó¢c÷»ø‡¶ß¬¡zã	‚J“ÑûÒ)‚’»8ìá-®±À)‚Ü“ğ)wÔÔû´×Ó¥T‘Èµı´À8H,ƒ79X.}T­²ú¹±ò9Õ H±Qzé”DéØA,õµÎ›"^Û<‰ÆÀq|_I¯I@µÀÅ’Äõ˜õ÷«·÷–aª/Ü®/sAo­ÿ°1y½¾ş•ˆ@}_eDYÕ{·Ò‘~›Ò$ñB’s`Îê%;S²èÛã‚BjEõæ×›<öÆ¡ıûT›j÷fÚ`™Ì¶¿9šÏ`¹Û./›˜fqS9´²w¯7*ÑÌ$]+¿qÊ8u’¸d“•Sõ…û`ÍjºöŸ{Ñ–×@X	‰K óïO¦%ğŠ¼1­œ#WkM$¤íö#åqjêDõâ}Ä%'(İâ=áÔŠ8R_üF6¯Ád‡èšm#¼Ôµ§µ™Sä?ê4İ$°©ÑHå²ê'x!S<@6wCx­^J—rm™î”:’aì­B Íª?ıT†²‡‹6,›»¶F:Ùr	äj•ßV^hB‚6n}R¿3İ@‰Ù*ŸüÂ—#¦:}^æÇH"9½8]ıj~]€ª©Ñáğš§¤OŒ×êÌSğ\x#¨ ”E}ÜYôTo,£©?»êßƒ›²ê™ïÆğüôÆäqë ®úe“ªÚLC1p­ã÷vÂÁ×^ÀNgà×¸ÆÀ5®1p­ÓÌ´ü·|~Mÿ n.]g¨CÕªÆP5†ª1T¡jUc¨CÕªÆP5†ª1T¡jUc¨CÕªÆP5†ª1T­£ jp/$•B4á½œ*äÊ¢&fo(€¡cZ°P
+Q†4„qÇ’V¥-ŠLÆ
+l‚Yàéu©¹@"IxÊgge™v´˜Âc¢…ô¦(
+¤pCfy kDÃ8xà«ÇÀ”8&	¨¬~]»qlã‡+••ë%PTÆ½o©	}Ö •1&¦cNvÂ	cb^ÀNgLcbÃ˜ÆÄ0&¦Óö#Œƒaã`Ã8ÆÁ0†q0Œƒaã`Ã8ÆÁ0†q0Œƒaã`Ã8ÆÁt&FŞê”^›š\5™£Òˆï&¼Y!Óœ^—€@±À)°ŸÙİıØıº´TÓ ²œœ2–-o+VÒ 3ÒÙN€ÆsÏ¢à8O×á9ÆVÈièÎxp±v{ÄJ/9ŒXé8{ÿN°å3båìtF¬0b…+ŒXaÄ
+#V:mç Â/.éüX„Bù~9©0â“ç*ËÓõ…õËôÍ
+VÌèF·0º…Ñ-Œnat£[İÂèF·0º…Ñ-Œnat£[İÂèF·0º…Ñ-ŒnatKG¡[ NAt!»Í[{óÀXD³¬Ş•µ“ÕHZ½åWËîmEæÚ˜Dü¥S*n’HS¼h<ıD…4:°U‹ˆ<%¾Á–Ò„´R9›ÕaOAP)
+)´ğUíÜ}šäûÛ¥Ôàd`œÚY
+@$©9M£ŒûÇê_OQ$‘A¾"ñ¦êO?'Ì‹"ÂŒ%f¦¬­}Z[·RÚË)²aÀå ÆÖì,“å<¬¼´ìÊ/Ù6òÿtš|ËW32k[E>IeÿğuÇÓ3¯ìˆ:™€íÕŒÄTÌ}9¡¥
+ú°0ºau“å’™­àÍê¥]¯¾¶ë•]±ø®WÃ»â]±’6¢—úgõ£ımó¡w z¹'Ñ¯Lÿƒ.u‘…¯˜/6Wİµ÷âGpWÌ·+Øõjl×+¯íŠãMh×+{wÅ_¡4¯üqWÜ/¿">EvÅÆ'Ò¼*Ò„wÅğ¿?Šìx)Jïİ»\šà$ôK—;^%™)y/bÃ¢u[t„Õóˆæ9¯N?&cg“ŞF9.¸K|­,Ÿ1ffQ µU}x×8yV:[ª?úÖ˜{lÓ“¡¹$µ"Øµ»g$B«¾ğ´¶¶Ğ@qYâ§c§æ0 kPÜ¯Åecå…‹­’C›¼û¦&Æ¸ÕŠ©Y(ÉØ¸zgãØçôµM±²!ŠOZÚk˜L”ğÀä›—àiI2ÊbEõ ï
+5»JqísL‚(„³“e(] OOw¾–¿í£šJ}rÕ¸õ•qú†´9~ºôÆÒ·ÆÂš1{uá×n‹(³«—OíÎë“'ê_|*óV'ïÀ-ûµÆç³“ë¸ƒÃp(È0¹°Ó&Ç09†É1Lar“ë4„Ü8m±a¢îçßcÓÃø8ÆÇ1>ñqŒc|ããÇø8ÆÇ1>ñqŒc|ããÇø8ÆÇ1>ñqŒc|\GáãY³tFbÎ`Ç¶àB[C…®¾œËô¿œIS)­p-íµ‚®ËB‰¬Ú+oÕëíÒ¬ˆd*[;"$dÇÂ*ÉÀcÆÔİÚùõ³'Œkà8ª	 c!lj“ÆìE W°ÉD¸Áƒ”ÄKÊ#QJä_êÜcãéeI/h‚_d«©‰€_EzEcéâ½­Èò›ĞW²;ı%
+ÑÓ†tN}mMñeáÒ×~X@ÊX!ïVAeÁ–oñ™ ¾ş PËÎ†ßs6AÀİz%êÍì†_¼:£©R¨¿^%˜7Zeùú¯ÎƒLğzhÌ‘Ï¶ÒnãÄš,ÓNzÈu½zü.`\Æíë\è¹EãÖ	àBí¨5‹sÀÅÖK°9‡pÖhyŒÛøâ¼1ı³åN>JşH¬E1/Õ04¹)iCÔ@@îSÖq‡m;á 1e/`§3¦Œ1eŒ)cLcÊSÖiÛö­¯ß`‰N¾?¨¿g¬®ç/3²Œ‘eŒ,cd#ËYÆÈ2F–1²Œ‘eŒ,cd#ËYÆÈ2F–1²Œ‘eŒ,cd#ËYÖQÈ2`Ê”S$›AÛi·ãh !‡DS€İ“şÏàc¬úğ"AÓrä^Ğ‡rÆì\}a€ùhw–FeOgRÆÙ)Ë[Õc½%°‹ğ,e9MSPQj³³7¤A=¨Æôåd9qskˆôòD.D[e»Q‡"ÕæSN¡öîŞ7ßß¶áé6&gªg¾3ÎOo 37Q-ùøfé{ªZâhàÚÉÄ,ıÏ›LèÏ5*ÑX˜!f,ÿ,ı_íO=Ô£KßƒÃp/%gg5(¨¯)?ƒ}fqç}Q–b\Èów•÷,x½Z:m<™DÒwd¨ºn<–™rqú®$	H/cîëê•Æ}ˆYØÆ•¿Öı`ÜDê^uæs”§X93	NÛ8‘MÀ‡À(ÁR…´š;oVªŞ…+$T—NUo~-„íqe„@¶]0™êš¥Icá*>íKgËãµ‡«µÕëµ…›µó'k«sßŸE•Æù³ğ—e÷p¤Tç,t”tkg,œÀK){“×•ošª?=QºEi–fÑãèwãöéŠŒHƒc³ÂÑ¤:êÌh'œ1@êìtH1@ŠRb€¤:m÷)oRlí.;êÊy¹/a€¤ Å )H1@ŠRb€¤ Å )H1@ŠRb€¤ Å )H1@ª£ RÒ›É»	e·v…S=ó£-ôv^Ï¾wà-¼Q¿ÚØ„o"D¦›%à‡ñê–Ïl\~ Sí‡3”ÙCÅxºjúıc½0	µƒ¢¤3!¬€8Ó/¨3Z€#7
+e‰Î…ÆBr.	ˆÓÜ÷t/ZL¹T¼Há¦	›\mQŠ&G[DÊ¡t1$¯Ò?hÜjÔ(}(µeªK|¯_†«)úûÙY¢äôÏÕ3ŸWg@ÒçÕ¯ŒÍròtû*šZı|¶²6/QDÀEÕ×Ï‚¦èrq‡Öê5„Û±ZmÛ*PDdÒ©Ú*=dQMÍª¬|V?vÈÆL@íš|T© &ŠÍ6åXŞ¥euZ¹\ùËoÚ×®Øp0=šÇÑÂ›d÷$W\‡è8Eœİi/|óĞnp ÿX=çZMSôÒí"%t «ã*««•µ‹”ÔŸªºÊcH;c
+!U;÷¸±«6ßc&Üp±'Fó¦¾v{€1Ïó
+…˜(rõR³"”ŠqW{°Zyò„œ¾‘Âh±;@Û	‡cŒ{;ÑbŒc´£Å-Æh±NÛŠÓOÅ"®V`±.¯›Ào)“6Î©=ù¡achCÃÆĞ0††14Œ¡achCÃÆĞ0††14Œ¡achCÃÆĞ°‚†É(yÚûHx€Üˆ+xOš·	û¶&ÜØEbuÚ8”Bµ›•õ/â¯½¯ª«ÔäÑJ šœÅèÚ‚13‹ò÷¢‘)Œ<8ŸêµG?\©ÍLWçèE{GãdÄ kQÓwŠç^>HqøÚ”Ÿ®UVoW¿¬^ÿFÒÚ ŞÄÎëV5}àà>‹Âf©¢³vsápÙ,itÁmg»Ì‡!Å€L3^Ô†sÙ’§¿:pìO‹æ)ŒÓˆ/*ÍH&	R`'XÆa¤H5€ ĞNË8NòqŒq¢=Ş³=°qBé‹`pÚx_L›@c%I1ËÀ©Æû`4èó#=¥Túe —ŸĞpò§ob§kQ{&D/ VÊd¦ø½s\k©ÌE-“È”qÄèA¿võ£2š<X–™('Q*ú=8K©®o›&™‡Vú–)Óù±ĞViŠé$ÆLEVDéã	‚ÓyQ—ö¿a|×ó­@:ptÙß5 ñEW³òà´Kö»—{ˆ5M'b¤åûqâVıj¾yŒºÎ³ÆôğbF¡:çÏ 6	¬qj…0yçø¯ÉùÁÂM~éÖiy¬ƒÊƒb³iÂêÜg°)]ª9k“p>ã¾—
+)·´`œşÔN‹b•U´ÊïŸ4U¦•AÆì¤fÏ n8Sÿé@òàRN5M½qhÿ¾¿M8xÿ#1–8˜,¤ó%ÊÒ¸öÔ81'S×îÍüıÉŒ¬ M³şê'Æ+"¦ä†„VZ|&(ªÉ+ª&¤¦tµİc`“­=¹TúiS¿©âU„åuáG«Æ&6ªúÈÑ­rÖ÷xÕ8}C*u`&ÛÚyš'N)Vİ;PuSÇvõïz»\Ê—K¯¥3šW&Mäuí•wŞ>´ïÍÃoï?ğÎ«
+éèI•F3òPé¬ü	ÖÊ˜	ä0¼‹rx'òù€Ü i÷zÜÓî
+¶?ŠEÛ8Ş%J¹Ñ–—…¡á–w \—JÃ×cÙ!/Æ}Ë~@å ölOİ;Ô\ùmSÛ¨ÔÏ­kZ³³a=Ó™zFb´\vÏïäÏÃ´è;œÑÇp£#b½,Aû(=bS2–ni×!&ÿ4-ãP{6Õ24ûÆ)xl¾/}[:Á˜}ˆÜ½ÜWÜm¼"n1T\•aËíK•ú£ëˆoÜú
+Ãr_»Q½wåÙ÷·Ä"Şyufİ˜»¬v¥pf,Jë;éÚXŸÂ~[8æ½bœ½Ä·':c¶T ßx;oOğí	¾=Á·'øößè´Ó*§á·“W'+ËÓ|e‚¯Lğ•	¾2ÁW&øÊ_™à+|e‚¯Lğ•	¾2ÁW&øÊ_™à+|e‚¯Lğ•	¾2ÁW&øÊDG]™æìF<paÖ®-\†_Së–y7D¨^éşÓÄŞbÜÑ–oßÁåêõ
+E²~=—Éèt÷b¥¢(ÜŒø78X¤—)à”Şˆ2íÁÉ©îäåÓ¤PÙÛ/¼şa:/Q)v—¥Ú&ÕO=´(£@Õw„sSy}õ[?Ônõf›eiÕ‹ÓÔ[ûQ½ªÛäEú–P›óŸ #Ú qÌTş·ÇÛ ˜éáàÛo¡Uÿcÿ> —(Óq';áÔ€2/`§3P†2”a e(Ói{”÷ÓYlKŠòêËÑD!/—Ñ2îhFŒó—6Ã°†Í0l†a3›aØÃf6Ã°†Í0l†a3›aØÃf6Ã°†Í0l†a3›é(Ø¡\¬Å´r/v7tSÀZ >ŞÇëÈæú
+$ï§úëåDaÈ˜«/8†¢P›ñˆ•RgTb¸÷3¦àÇîXíÎ1cñ¤ĞY†	F5ÒïUf÷*eE™©Ät™;[½1-i”^]*K(#ÅÎ5C ×Ÿ0¾Y³ªóBè b/|Æœ¾-£æ6b@ÏÏ CƒèÆÈnÌ’t0ŸµOÄÙø^oÎ÷fˆ†J°Ğ@&WÎ$
+º¬YrVºETüE›÷'’o²&-şîÍré!ài+šxº9÷Q¾ìÑ«6æ'¥kXzmï†#,éÉFzÇ¢†L=Ò¬bİÜñúä‰ÆÂ4Æ"³vmÉ˜zğQõæ×Œëé¸£p¬Á¸°Ów®'åÁ
+	Ü‰É»˜ÂQÿqÈ³íÂ,å5˜£¤•ôaRNÎ±ÕdşÆWûy˜X€İö$¤ıòĞëY‘Ñºéd“– èyÒµ¡4}ÁkyÔŒ2¢<¿Ç³½‘ÆV=[EÃ¹Â¨Ù^š^J¦´Ñqtqc±Ck$©âó¤í‘¶ÔWŒ‚ÁæCD(îqyg½Ñi)ò’8#j»ÀKIvŠÊÄZÎ\c¹,ÛàoIJ¾0¥T=A'3@¢[ÊÜgIkq§Ê®!+Eyj(¦:LNğ^h6Cö_ËÉhSOµ‘6t“K’J²i»b*U‰çÏ¾Ã¾Ã~¬Gãh1ñ’¯[ü?¶!X‹ìtXı¶¦Có©NHB+%±ÚÑÇûˆ cÒC}ØHGuœ&y†‚ƒqO(xâztØûÃdøÅPwÚ'P)ìJ „ßçŒ
+ı…Ö-Âß£¹nŒ$¸kTÅ#Ô¤b“à]’©?Å’ _ğDá§3Y.bÕÁkñàQKó¥ÉË¦A…"„09Ğ<ÇXƒ¾i²iè{İ™¤P®\„Üª·0ÈĞ“üp™¦ÚÂ&\&&HJcş±>µñM“üË§'m´àÁ‘ósÎQT´6îïÃô1¿Úx FÁ	ü¢#é+æ±\fb½˜	%TŒ´„˜ )‡ˆ˜_4ÚkÒ3©L¼ù4CšÑéptÜTùAü=§–Á¦÷X‰PÃ¿utÓ+@ò9Kÿ–”&öQ	-UĞ‡È-|JÏä½¹¼M¤É5|Ÿ…R:™®ìp(ô$S‰ÒŠÒŠÀğÁö#º0¢—úƒŒìRQè^”¬£Óª)$ÔÁ·ñúCÚkˆ3&½'y/÷$ú½Úk]×ŞÑ‹z¢€I.ÕI$¼ÚÛå‚6’K`Œº pGtmï›Zq¢Hbm•iÙD©\@’ÉGb.xsúE/$àöhº”òjÿ™C9Ãº>D	¼£YmÖÊEø3ÅxL÷:ûcnW]ô61YSúÅ>fhIëCŠĞ|ÄÊ·b¡©ãÏˆØ×o>ã¨ÙIZäî¨5%\¸æ2™ÁÍáé‘pÚWi95ÁÙMËšM¸V¯òZ”43@@O‘L'™Ä,%äÕ‘³xÛ4ÍZBqØ£Ä°À*ÎÏ´¶MWĞ$Å\Á#Æœ9
+ Y°cÕÕ4AÚšû]6›*	‡!PIa¡’ğã–J2Ó„)	¾Rš¸H°ÒˆÒŞÒj4–iØ5‹ŸèlÕùMŞ[Y6¶¶]ØÈå‡¥úí¥È\û¸‰ÓŸÿØx%øK³ˆH[W‚»H‹¹<$q`¿]Y°¶Pt€ üÃS6öI0c7íÜñÚ=jÓ¾©È×,~ÙKz&“Î¡yÅÊËnÈ„©-›ÔÕÿ¿ÚXQ{=‡•Rb
+¹îrZÒ4ÆõÄ´!"J±Š=ƒ§”ó@"XçXºÖî_¬şoŞnAÀYÆv¢ŒíKgËãÆÉ©ê¥ÚÂÍÚù“,b,b¿¬ˆ5û(½öGòÒŸËRX%7·_TÜ¬UÙoW²ÚŠF~»éĞ¹ 7,_¿®|á¯öÃêi„&[4N~QY›ÿ%MŞ9İÊ®-¤Ê´_‰"àÆ7=|³™¯Ä¾cHŠÀ¦ân—s€7!4]›Ë9@ZÄ­»9„†‰Û_ÎÙÑÜ„mMì|MKPOZÿcdçÆ7e³³Ø@Ok!Û)¡24Š“©÷Cc¶iÈÙBY›tŸØûÅ¿ñ7Ú²K‡>l$ÂoG"w;!Oı;T5ÿÇ×Éb‰ò17Õueïox%À‚Ö‘‚vàõ 8Ve<F\èyãÜuŞ9³˜ıâbößË‰l	.Ú®\Âñ¨vg,™ôpZú—j5ûs`ü†EqÇ®¾pÆ‰óK9‹¾DäögÔXÿ±iDî–ÙşBÒŠÃ´gÉe†<Yı¨GíZo|›åßª|ZªDøÇ<”£‚•…<¡7bög€Ålò”Lpú­%14 %'ú¢Z¡/„¯ò½’’wó¤›ÄyóLÙŠíoç±M
+ĞÿP¨PÔ¿\™!é!X‡# ¬ráRÎçõB’8|ÀVôêû–—õOç‰æo]bÄ=°h|oHÒ7âºİÎÖpßİ„ ªDÍÓé	%0*ÊŠÙ
+k&g–´L®hã…·hXpÿ‚\=	9‚c&r¬¨05ĞÇr’óš4Ø4Otı„Bü‘–klš B4÷ æ¬H)@ã€¬ù·Äh~öÚŞÿÎ£ûïzº²ŞÒÓÍ‹æĞf=M7òåøÇu=Mb‰[úšú×c¸b1öåF´\YB1z€Åy6 °ºâ QÂæÊùC š¿Yê8pw Ù,8šÔq7*/®e°h‡³²"ğºÂÓÌPßáÃn†d…™ÈĞE!Ë©ÓÅ[ûøÃK–^Â«nÛ»M°¦_8¢~É<ô»ÙgŸ«‡=Ë!šòG†oBB=˜¿stû©¥'¼,Œ& œjà]èêŠ;+ˆ»ù\¡”È`HdKÀ~Ñ[û<®Æ€g€ ‰•ˆ/¹yŒø ïR°äQÌ+öN€…%ü«åF—DA›+5	Ô’@½pÃ]C$ã±ã2ğµy-;2•8|˜¸ØA­(\o!—+õÑ„FRFÕÊâ°Ú×õÿR|äG»#il¼ÄÀ'Ìlbˆ•àÜ]ÒÉöHÛë'X®x<*»˜Ó=½Dl¤~½¼G¸o4e—=Â1ÿQŸPS‹”n¥ƒ£?à¢&\±Èb‡£éÌD¯‡Â”C$°»ë”xW©Šç×°«»ë >’ÓµwßÄÏwr Îæğãíñ‰¬‰»»Ş,cÃŠØ¸ÂšÉĞWpG;H¡ù»»ŞĞ3c:à	í-½¬ãÅ›’¢?ÒÕM±û=:éá%ËJ¹r2åğÄv4‘MçË´/Îeå÷~ï`>…J¢öÑ‡¸u0t/®/ªÿûıMı!Tˆ„SŠçbJ‡³A±Œh<ö{)$|s×m+kàù³Ÿ?kÈ=kl\ÜÂĞ3µx»úÃpd8:·\ÒĞÚ#Æ×nÊ.@Êò¨¥U ¡„™îåÇ?=!ğœÛ¨)$‚ş›Sj^¡>²Á!ÒR½™uzŞ%ã`nhBæ#°?¼eZŠP¸k¤'	óÄæ-•Kƒ
+¥šÚÖÛkWú‘T—h­ÍKgÃU˜…Óß½ÇÌª2Y\ xÇ0oK»KuŞÊ=[U¸ø¾{ûzJ©òè`/]%Áà³÷‹£Ìğ/DSu½4ŠÇôvµFüÏV­W(Ğ"æ¤L÷&ß´TDHfJGaÙ‘M“Š„$h€øœ#ú¦YÌ‹"y:ø%>~äÔİ›µ@óæSĞÊà“‡æ±Í©ü_åtò´d‰ŒE-a¯'Ğ¶Q¨L»ÆÈÛã•JûLÌRyZ¹e§´ÈæUn‡IfÚÍ¸Ô¾76k„ø¶=É¤ÏÄ"™¥<‰¶Ú÷³ªº„~róº¶ÅN•t3nºõ›l»4„5FDK2™môÉÙœãÒí}›+]zt©ººÒ1u%põ.+ÚVì•;:k5Ğ"øş¥	Eyûµæ¼Æ
+9=¤ıaÈOÿ¿ÉìfÕí(Â®ªıÑî€¯;êö†Ü”µÌ®y‡
+	L¨äNX4_6WÀälÍ†ö9N¶nx÷ª…ï&åÓÆ¦ifµ³k“œb/´IVNoUšìí4‡'Q@c<nu˜®5pa«åJP‰O›bĞ­ÏRŒ¸	ÃQ:3ô‘Zƒˆ4½>—Rœä#» Å[´v48s÷cbÖ¨$ÒM£Ò®ošò»“¬&Äfä£Vßëfhtˆ!¢Aåˆ›–ä¦âmƒ9díaÔfCî2<åtwÓ¶Ãm‡áº±xßÔÆ¢±{èîÚK¥áÌŒÌ(¯æ>HÛv-­/NŒâV*ÍëW6NxKÙ‹­Í·éÙİy–‚ÔªĞrßn-lmüÛu¥R"Ÿ"¸oUh–vDHn·u 4iÛÜÙº<­2½®ù>ö"\ÎĞ5<¡å7L0šÏ’H’C¤ÙC ßÒbÜü4§Åu:t°-K·#dq»"®®¹ÌŒİïĞ–3u—"„7½ò*˜:Pr/Óü×#4øVŠ·M`5©[gCŸmKš&íÙjÚ¢
+‹BG,	ei¢ñoZ'è·ms#jd™{>©oƒ­½íFw“Æs–!A›BäZé#iíU¦)»å"×!ãÙ/«0ÿ•J·ÉT·UVsÂtQÖ4P…õO5™EŒ½¦"ÍŸSˆDŸ[ïšyš–‹[
+zÓ¦d{¥BÂJ/ÙÔÉnçÄëVÎ|F±Š/µüGNXĞœyIkøšLšßM›êJãækâ#aG£€Ò¼ßkİÄuÕ/MÛ2KAwI•Ü”‰*)«èl²Ğt¨W/daM5U)NšÄc¤aëu1áØú×­4Û’C®·ÄĞÇr‰AÖ(Zõ»¤øC>G«C¯²’À·^KŒ´UŸ`ß^l@a¹lœ·ôªIPóŠ­eÎ²/İ[Hmo™jNê-¦rG³.Zb7`K#SkZÃV&^´–ÒİòæÏÂqƒz+nzë°¡ÛC·üÅªs ³VÁ{­ô¢µVÇŞBi9œ`º´2Ÿ¶éaŒsOmOËvK´«X¤jmµúĞÛ;¨Ã$­»,¦65–é§)—j.Òœ`»º¤ÄÓ7¢óaòR(<¤ì¶‡ÚÙ†°4W°}ÙÙ³„„9Ä‰“:İú‹Ğ‹Û•İÍU‰>o­Ë½šÿ¿Ãğ/fJ±xÄÖã9
+h0JYóÌó*çÖzË­÷¶ë–%Xô‹Iñ™ˆwĞL¿9©º“¯ÖÊÏK;nQ.9õl´ÛxFÎÿƒ¤‹Ò-Ú—tGÏÆõöBãÜ|ÙGË$Ôzrä˜—šJsll»›•
+‹ÏÆ¦×%	‹%ZÊ©©Ñ¦æÄo›jÑ°zË…ÌK£¹=4ucòí==ğ9
+†b ÀM<ŒãÄDÄDõHr8ˆ=™ÜHÎ›Ï:”c¥ínÙrRùË’#6pÇLT5qFN²NİeÛı–&òØ‰ˆ™ÎÜ¾eƒ8`r®Í·ÈB§
+¹VóH.i_8ç@i’=Ê6Ñt-Ûø\Nœ"mS!ÄÎõdÛ×SÿFsFÒ‡XN~ì-ÂGÖL4•;·rÎ=¡ÍGÙlK,kî¤EV·˜èÄr«eNõÈIõc¹:Ø¼hG¾¨OæK–±ÆXµïaÄzm„ÂÀ±tsöĞï‰¦SàlÉ¥¯Û&i¯m¶W¹„Ã‘ÊEÓvÑ†ujÚ­sgÂ 9@gÕpUèË”</Q”õÛ9ôZtx¤mY^H°‚}Ùİà²UğKá8‘İ1èÊİ.R'd9¥HCŸJˆ/=cÏÄf½’/ŠâÆ)U‹‹±h5Û7¢ßì/¤!Öş†ˆ±?7¤Êº†G¼Ïy%¯¡5ú‰…Ö‚Ã?ó¤Á„í’Lö‘„¶K´D‰DVS‚\Kú[3KP¨©…¤
+9!Z„oŠtIÀ†±:—Öğªô f şçÁ#4R¤Š'Ù'ÑÂ“xˆÂéÀs6¹Ñ†ÛuüòQ|áK;ƒûŠ)òˆ_pL°3ø#­?I8¤F=p{l,æ·o¤2zÀ_ñ$\™£DŠÍãC
+ú7L´ìSd~(½B{
+e4„6!¹!t¡ó¤BØ8¯Û¹ôV)]B!Æµ§µ™SµõÕúâ§ÏÕ„îM<CŠô-(Kyşn¾ëÑñ8˜Œ RÀÀQ/ÑEúáÁúMü N|¤ÿÿp4è	§p¡›$ iÆü¾¤O#ş›iqï¤¹ô1\êHú(k£šáÚNÃ•Vt?~ğr¡…á¹5åŒEŸ£Ûö^}ñŞÆõ‡Ï×{C= ;ÄŒ-Š`	¤eùÄa¿[·lõL$è'Ã…K2Dc‰÷ˆœ'BÛMˆ¿ÎHkqÄh»¨8iªíƒspl¸Ç ÛÁ(Ä9?ıİÍä'ÃA@âà	ÁY½üEŞ£?è/ŒCú Ş5şÅßnë‹È7†#@´Ã]<"St#êŠ7Öíc\Êªp®hUû¡¶îññ]Õ‚ Kô¥!Rk´›şˆ_EñHÄ;ñGU“ôuS.x`UY‹â§ø"ÑÑ ^»¡×àí¾q°¼á¤ñº!ØğÛZåúƒÊbPbİDNèF|/BíAúpÊn,Š×Rwıí‹ĞŠÔzëQüIùÃT¸È"^@µÉ4"_‘Å¯ÆYFªLÆ@:*DaD½‹«Ÿ‚.ğˆÈq)¥èŞFñ '^PØ+8ØÅ_ù9Ä+úª~Š¿ènèáH7âit#úB°²»ÁU;FF¬µíõocm˜‚Ô®©¬ÍU–f«*Çìg.§ï¶f•'¤íµAõñ*]ˆœ¾_½ğsıòœq{ù¹4:a6= XÂ°·}µŞÈÔ¢Ûmåı
+ÂúıĞªb…ö!@"Wˆè}á“ŸiòõïC 	*H#D<}„  rˆÔ$Â= é>D %Š„4Ä
+Á\	ì£p¾ ¦t¨s”jè3–ä– ávè‘@~Ji…€Œ"$"bBô«Ì_FÑo³ás^Bw™ûúÕÙÇõ…§ğ”oïİ$0ÚÛïV¤néO*áèHŠ?&B^aÖEäÌ»~L§Á¨=åA¨9‘bıC~Ñ#ä(;’„»k$ÁOüƒ BĞDˆaDN´ı¶ø“@@(^Aåò«æN¶A€Ü?*ˆà?ü¦
+PSè=Üw¡	<„'Ô½"şG´Q.DEÁG
+|Ecc X†+Ñ‹Qmˆ9$j£ÿè³ø_4NÿPô7Í·‚üQ ?}	ğ…ÏÔP"Ÿ ‡!Pïr©é‹¿AºQ¡åIThCúÿ”`'¸	f‚—`¥X¤'œ|q`¥àı!VËOäb\1ÒŞX½"Î¢;Qz,RC!É”Z˜hÖˆŸôdcµDIÁ>ôna„QÀ*hvb ÉâÚüØ;·Ş6Š(	a?ÄµİÜLHª
+UÊC[!ŠZ!ÄƒIÜØê6	qÚÒDy©DÕ*„
+"¢âRîU¨(m$#>¶ÓoÁïf¯ŞMT;•(R¥d½;3;3;·s™9çoOj;"J¬Ë\ˆò[OmgAQ³3¬ˆv©F­§ñÛ$«"Á2TmĞp§|áŞh=f1ME""ÅÆ©[päßr79n±ŠÑƒ\˜X´{–Ì@OîÜÏkÍ‡È·­ãšàxò s]éÓ³İrñçûT8ß§°r‘*Z`+ô¡úIàtºëËrMÀwÖİÑÖB0YfUÕ
+ëÙ«\g%h—ã¶0›·iÖ ITV·S”M¹tQ*É¤šZ=m¡§ÂÃ³:*IºdUÑ^uŸ8´lÖOæİ)"Ï«­´|F¬Ë‚4gâU#©~ŞßêFo§óæ,‰‡Hã€!Nl“4áÕí§CLs”1üƒ	i”çj3——½z‘¬aÛ6&b­èŸL˜İııq÷şGNLzíPc"iãLV´7mÛ´(wğÓ6Éé-ƒ9å¸Ö"é…•øTŠ¿ïÌ­Q…¸CAvav÷æD¹„Á­›|œ²bË[¨GÌãğ¥ôdòóg4ÖıİgÕ¶7­‡ˆ&Ä¥l’ûk€M"ÄKıûkªPIK?’Ct.1IVxy²e”ô$Ú¬d£J¦@’2cI«y;È²70J†íÍ7oİÙİnµÆ^”=F}$ö§ïŸğT÷D¹ß;†
+-2e•bzm+)Kşÿ‹†K]Ò§îë×vÀİV=¥¶W2Nel*zŒÓ‚À)ˆ2›">v¦jTD?õşQà	¥MWò)Ã:
+˜Ò…·ƒ&º,€§L‰ùvï¢dĞlmƒ‡DÅî&s*Ü1ˆc	%aèTÆ‘«Õõˆt¯€Å
+„')XD†±¡ïYùè‰,3xj6#4]%±œ’%Š4Pñş‚0ÖyŠC8.¡@Ò†’‹8;4mˆlá[	ûfd¿?Ç04êW æè¥ôjåw yÁF È‚r7:è¬‰|x» 4bş8}—çˆã5à¦„ğ>©¦ìİ÷·:×9¢ÔkÖızk¨N[¸€/šyÙB>}Ÿ…ï¤º,Êí ôy='¹®o©4*§+ôJWzè×¥.ghRéÉ¬Å*C7[Jåg4*¥™-—æpÈB=†áØjîƒƒL83ğçßİ{½­›»Û?ôÚWìÖ8ŒÙNÂí¢ÏóÈÓÂ‘–7S_2»ú5of½1úúI÷ G1s¦şrer•K©ş‡d jóõñv”x™ç½ËÏBëÎ…"wo†bàøYS÷ó[kq¹¤Nìãgy‰KË2—1ìŒ’EÑj²,>É¯yRÅÔ€D»¤ôiÅ’år€*Øw©jªè"Ğ>V@vNxP9m$¤´oĞ•Sƒáy[î|Èl|ıü{¸šJåÖJZà©Y¸LÕèsOZúöX<tUmUO›ğ«V«JAUNÅf?Œü>GSÙbJ`?ïï5†&Ÿ>‚‘d;~tĞ,ÎK­œÆ¿	É"CÎqÙgl«¾-ËüÂ~9'†ÙÙšU.Ïøa€ô7&Î¡Æ#tÀc¡ı F¯İş§ı[÷şw VöÚŸt>¾ÚùëJggçÉ¯_€;	 e÷Á'‰u);7~éÜøª{ıçÎƒÏ]ˆà)ÿh÷Úw»wm¹»ı¸÷Ó-ğ2ÙŸë\k­òû‚ƒıq°™ØªÙ‹Iì˜sèa(¤~Ú8ŒÑ=‡©täıÿœÆ‰`ïåkºŸnõ~÷œ~×z£x©y®¹¢½oÛ½tÈÈ?gòW¸¯|Ş¿±×~8rïË¿{?¢YÉøFªW%W/çkçß[m.,Öí[£\F-zÍVC&Klîr>.ğ¯xèLı•ç÷ã;×ow¿¹·»}«óáNŠP¦ıÜèxeLc—NÈ{â´SæÄ	\Ÿ$ƒ±kâ]Ëâ …¸&š£|¾03»± ÖŸ}rØËÜ²×0„8µÎs.iuyŒˆ“øúÊiÓgq+£ÆòvÍP/lèêlåNù‡üz^LdW…w"ÿ,ïŠîcµùF¤Ê™
+á?Å÷áò¦hÍäü¨¢ÃŞ;æ?EI¦›gsù—¢çB#m—sQÈLvµµ5Š>eÉòòföj>ºôW=?Uy¤°Y˜2.6— úso8†L!ASnæ¢p„“7[j¹™SÍ7g,bss“ÿB¾ÀŠjı3û/   ÿÿ  ÿÿpÚ|ï  ä PK  „UV             - manifest.jsonUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ¬’ÏŠÔ0ÇïûCaödÚ4iúg`Aæ	Ö‹—%ImmZ“Ìì¸²àIÁ„=x÷àø6:¾†I‹àF+”òË/_>ß|“ß›‹Õ*j•æıÓG›UÔ97ÙM’È»xœ@sËq˜×I“×‚È¦D5eXTr.‘¬hÆ+Ü”2¥Ñ“@uÊõx§ï~ù|úğötÿõÇ»Oß¿İ/nd§p¥†YF0¡DÒ+\n(Ù`§eşr+]Ãq§zšE>7âÎı"0`Ç½‘`ıfHå[Ö½îÁv îÇÒ†³á®5]bwJ&^›T¢¬M]eM9‚ÓCpú<Œ·È#@[5joÀÒ"c"+–û‹ªâ5ÏQ‘çrÙp\ä‰ÍÀ{ugèäQtÑïa2J»3túèÈBòœIö(iÆió'[¼›xÒíß^´á%G(9ÒEü@ãÓ¿gb–?İ›~;ëÖôÙšìügãÖğwÜŸn|cYø¢eJS†´ÄE-RŞH–X~¢›5İyÌó¬Äk’_M­/j_,„\üOÖ:æ{×ù6¾³Ù¢]Şl)¹|µ-Xä3Ş]Üı  ÿÿ  ÿÿ©6Òß  Ø  PK  „UV             - stylesheet_0.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙì]ın#9rí°çº5êÖ‡m;ØÉá€,Û?²w@ãÁ¤¥¦¬^·Ôºî–m£Ã=F$ÿä!òy“{’üŠ_M²»õak‚İÃz`YU,É"Y,©wo¿é”Q’>$ËxZû~7è^vş­óûïÿĞù§dÊ–Cj^–«büîAÚf‹·ïŞzãhV²ÜOØ,ËÙÓ$Ëc–{"K“¸ó:¾Š¯Xÿz’=úEò%YŞ…ÈÖÉëûåƒ?Í–%[–ãW¯¶ór‘>ùlr—”~ÉKbÁü(şi]”ã ×{s=µ?‹Iºÿø¿ÿ3_2oøE´,ü‚åÉÌ+6EÉş:ñühµJ™/ Şì6c?~ïıs6ÉÊÌûãd½,×Şo£eå,M½ íüFÁíYzÏÊdu~`kæ}È“(õ>ßÎo³4Ë;¿[d?%š¹›üq³˜d’µA&KæÏYr;GµºÃë2šğªÛIoL|²œC”òzå·ÉrÜÛÎGO¼x…å+Ç6zšR™š†·hÌ¦Y•I¶ÔtE™gË[ÁT²€Ôè³í4‹™·BOUl±¬Ë2[zÄmçcv‘ùu/ÚÒZmâÖùzÅ1éRO–ıÄëRæè)hÒb¼Ì–lû±Ü¬Ø·‚à“'	•:AXú)Ìõ$šŞİæÙzC©œİ
+5Z–&2YD·L”0öÙ–M×Eq²uIb£u™I$´1YŞGó(Îdî±&Y.1"ŠU²ôe[V8ğ´qO²QD!š®@u¦s£?›ªê”;K0 Ö«4‹bÅ¼½}¨“´ÌûŞ|ä­¸2hM„j¯S(kiÊM*Škê´d¹Z—fõ‘ôWi4es®hZ•vĞH-{M£é„)–ÍLÚ³}Ì³´¦#Óu^€f•%˜Šòí8NŠh’²X!b6‹Öi¹M·^qû<JØŒ'i6½»¾g9Í©N¿]I§l«Ÿä¤ô:½©e-=ví¦å*«rÉ.YÔSÀ<Š“uæ6ÆXÎîĞöãµH0y}söÄˆ‰£²R&æ£‚QjãØk‚Z ä¹Z®–Û°UTÚ†
+=¶a%sJ Öt Ï†¬s'Ócw
+R°”MK™ĞŠÂ“¢‡h<Cé
+Vï£üŒÃØbUn¼ÎùuE‘Íf ñ’¸œ{«Ç:JvÒl63pG}6©ç‘ê¡®„9'•éulŒ)Äy3h
+¾·tôô,X=v~³«4·8Y­ ²šÆü×ÈQàÎ=YƒJÀµšlCÈ(Œs(I¬äMD'uä˜ËVÑ4)7ãàèù§Æ *T6ó9š¥qá?ä4	äOÕ$jgğ#,M<›5&e¬ÕhÇ`oáo¬4v¹q´e·RÌ³u¾‡dÅ"N`í!KR¬X¹P‡}”K¬‡ûˆhşÙCsPiÌE‚Dµ;ÌV,‹j5óËlEFXß´‰øôjÍ¸!Í·5c™ë³+PÜ)ñ{ï&øFÁ¹–§Ôåš´iª<+‘V©â=Tä<¥)Œtâ˜Ih¤H®¢%p*±Ñ‰d	{ãK†ÖbŠÕ4õ‹e´‚'ÓrÉŠb¼Ê³Çd-T¨V²ŒR)Š9‹ı/,Ï«gŠ¦¿]çÌ…Ê©çÑ”Û±nÌà&äE3v~;‰Î†W^Ğïyá`äu‡‹AÛâîÎ½ûqB7ÓLÒu®ê;ÉI÷xHm®ò›'™¾Í£ïp˜¯™R	õ
+ƒF÷VT®a^jlÁVI¤q¡ãE”°›9Ø’Kkj”+©FÔDÖ˜ºìeWBƒÕìëÂİZVQ]c2U¨_Çò¯cù×±ü‹Ëy–•¾¼+üUı}¾¿®¦ı‹y\Øsg1Ó–ç¤bl6#@Q)˜<°+²`G(øÙU/f·Şë(¼šÄïõÕåÕ,¹î‘CöÂ ì+°Üs_÷‡ı‹îÜ!V‰5b#v©jÏªvº
+.¤Æ´!ÿ¹éIàCåÊÓÀ÷b‰c-Í[Ó»§İNk‡z…Xå¼æØ.Z3ª¶“ën>ÃàÂã¿á…×½t6 ‚b8ôÔ¯ŞKØÜÏu>KD-€-Ñ¶‹¿ëì““È©/GŞå¥ôL‰t®óóíw˜¡QçŒŒyQúÅèrõxşÔ5Û=¹½eùiî“"™$)	2‡3‚-·õìãy†Quş'\Û.Vƒ‚É®¢eãÍ¹¤èŒà5bg§XŠ¿|›²(ştWFyæ` ù?uŞŸ7s¦Üç¦w£bãø7FÒí¤ìuFÂÈdç G¾èù2%Ë»B
+%ı˜Ã^¯æaE÷³œu
+×g—NŞY»ğQ¯çÖ­sl!ÊÕgóá>®?¯³’ˆa9GvÊù‰Øeé!*¥O®!xô¦˜uÓºÒfÙZCµ÷KÙŒ+kr§Ó‡ƒİ•gM{}8Wó¨…oô,¾iö°‡ï‡Nñµ$~&çı2ÿ‰ólaBlä›¼@Ş]|¿Qï”øEm¼‹ó«àÕ³8Ë‘åp]?o”&Åô¤Cô}š ÇxöwÚuçL¾S,êğé8³ÿ 6¯ORÚd¦¬,Ü•uÒ–Qä0eç +[Çiï¾İØH¶®GHDÔ,ç$Í44±I/ÒûÚÚ3«'RI‰S™©	Yâ¼3¿»t»j6rµŒ ¶’ J¿úÛ_ÿó>ş‹>ş>şãUû:ºÏ’šÍ¸š¢#Ò¨ÎÊ³[ŠÚî*œ*„û*uÓT7©«|Á³-ZûÑ€ºÈÅ 6;äbÛwøqº©{É®ì¾rGâ<x®­a	uUâóğ¤ÁıöV‘µvè‹W]í¨[ºóğ$M€~q÷OÜ5]€i»ÇÖo«59OÒ è—ñàTĞZß¡[ßÚ
+X_ëæƒ¯T_œÂÒ–ØÙ‹ÕõS8ß¿=µ¹›F>ØN£mÅİI2¿¥¥İË‹út^/‚)N—CBLO\Wó|‰(s]šİÛÁKtšWÿê®c‡2²“:Ÿ¨s\#4ïş0µŸ„Mø<6µ^¨Ï:/æ[×ŒíSTÚ°NÁNïëOÁaF™“‡{»ıÃpD`Ñğ˜¼İC	†½3ĞiHc`WqNäI›aG…³ŠÑ2âj•:¸q¨™’Ç"²Š‡…ãíˆlŒÈ;AİÜ9†Ç¨=Ÿ›=Ñ40CpezP›ï™àí~o_Ú(š;Xˆ!&Eh÷Šğ0Ú:Hß:…B6¢#6RBˆæ­B"Ü}”$7ÛCø+X4N8E—/Œ—µ=Uœ3™'ŞNptkBîh°ª).ydSJÄ&l:Oà±=Z9 ›YÄÏm«qpuwt9Ã‰Øâ‘ÃàP•³œMå>¯&`«#œCœ˜]‚¡:·ô§|Ap^˜8:^¿L†Z³àäâoÊ@Ş÷&¸rádnrŠ“9Ç3~ñ0–€Êƒ³Ä!»Pq¦+£©ËCÒ”UY¬MrĞ¤ÚÄ®ÄÕùnr‹\³ğªoåªº»©bÕ iâ*NueÕ3KtÕqúDßÂ‹Î»šFı¨-ú°9¯èÇf\Õ—­¼u—ÖUG	­ë¢Dªõgƒ#7T-ØÊ¨êîVQEÏ6×´êùÖN
+ÀO0{ıÓ¡©­bj…¬ÓÎÀå‹¡k¿Gls;œï“˜e_msûä_v˜ºÎƒßÁ¡~r#)–nØ5V‡:Á`%Rï9ÇÎ3” šäÔ|O!ï¥›öàÅ{Ÿ~ÙÌ3šº™=ï½¯%»d~rÙ×igM—I:¸R’ñ¿ñyØÑî3zyÿæOS£O9|9‹şËY^ÌBÙüÇ*Œ5`[™§(¶Éßf÷zÇ˜j¿ZíZ¸šõ×%œ¶QTIU£T²¡äX}ÁĞÆñ%ãxŠV>»ÇV½ği¯şdÃäş]F5!uaGÔ±*Îi–<âÚÖ*+Ã“Ûn4Á}\#¨
+²íâî'buîœ‚PQÚ{İy­[[Â=ùÇ$Ú-›¶=á“X`)‚®Ë3ƒP3!Š§@Bnø*>Û.?óTe«üÌ/NAu¾à¦;TY¥£kÛıâ½§/°»b† a°øâß|o>iX(@£ná“ÓB]óã×ëU÷şº‹G“D¨;wtH€Ræ|DC˜„â²„E)Ûh±©Hµ¹bÍ¹˜4“rÌÀ]r8Â_¤†KâÄ¢¬x™E`¯ÙTI	ì*ÉîXäÂî(”Á;É,FuÔ,eúN!%¶]¡Ï(F®¸`Ï¡ƒ4¹÷hì#](á”"øÀŒæ$@_°$JĞHÓÈ:ƒ*T°K!xôèÏ}ÿ+bU)ºsDJ%0® Dá¡8Êó ªaúÀªZ°¨Ä*!Éxyş¥Lóë5<][»9››7şXœk&âF
+èøB!ˆâ­ ãd#< dªßQSâ<ÉjQšSpˆè/ô3ı7:A‡jÀaÅ!âw¨°‘¢ó$¼¹AáX×¼ Ú¤vG C˜¸7Pª[òú
+´&9ÓN#—qŸÎ¸p€ë|"èºÊ#Ò@ĞEƒ©àâ‚„ÿÉ#×mfWÆÌ"n) úö-ıö;Õ	wlƒVtèÚ6æô†î‘’N_š·àÛíw§äU—oµNá1öŞ<©PåîĞ*´™ +.Bûr±v/Lcå5ğ]ü-§,®ïZñã$Ç%\¾Æf	?¢‹h½Àbàİ<Ä€;•å÷úùÂ§HV4l×) Tx<kAb›$T’³r:·($lÛ¥×'’ÙFJ¢RêÄÁ”FãDy.©*SÁ'¬Äåe.ÉÀå"°Ûî-®äôŸğ©'-‚"§b‚„R æNJ÷x’(`ãï¹÷Q,7ŸÎÿb'åİuIœÃDËº–d¯®|šr¼­F‰	cİXùÌgfçöl˜³á²=LI£ƒõá›\2UZ›„š`#–ó*-WsqMRWERˆ‡%4Şvo¾y˜C/„€ô
+O
+qKŠ}“,VY^â9¬)%¿Êë’s ì7\¾óéR|ñDŸ<® Š"¢“ğ<)	 ÄĞ£3B\ÁZĞ{E±p)mEXao½„Yj0jÄ¤ñÀÂÌZšguô¥ïnŞÁP­_à®Æ * Š§6¼y:Ôs¬Dı7+ğÑ).İ¡óĞÍa¯wğıŒpˆ«a¸/[nhc.Æ<›î¡¸<yCÌS4M;7ºgå#Xë`†ÃĞö½Ñ.	9Ïám9Àíş»«-cígŞ•Ã;X†~èõû^OµÄí­2óSSñì‹{—ùÅ_1ÔùhxALg«vz@~ïA8¾|£|§+zÒÇn—P¹YLÉàhI£Î‘¦ºwÖ nÁÓHCË–vÉÈÙ‡Ö)k-e•ãF‚zÆSİöÜ´r•ÅŒfİÕ×³Ü
+F»™G»šÍr×¦æNäÑÂÉ¨ß:µš6¯µcîš4’ï+ºKlK"—JŒŠ\Èİ(¶"§mS©ØVÕyú
+—yª}:Ïtáä¡S›´UC.«Ò2â”$}0¾EØÅ/ıI/YßGYE"úÈ:ÏªšË±pR?û’ŠËÉéèŞ|r¢å‰Ñ®tp-ùW1îÛ.¿P2%NÎûY!KãBŸä”ÛDz®5&Øà"ôøï•±™ä4!V!Ä^p£ßÑ>Æ2ÜÎ®qõmPÏØíëKe;;m{ìĞ¸Èz GX8{9öG0bğ;áØ? O®.ĞÃ$ç¾>‘öÌ„º!7‘¾)°º*IGõ¸ğTİ—”÷åo>ö>÷>ğ»|&^7g½›pÚ1?ºAû|Äş¡ºOy:¶!ÙzŸÓ:É§!ÉaïyÎ Íï í ’ï"¡å	Í}×Bflb*üñÚèQò\;É3-iş‚‘Ù)ŠWãR¢Éï˜p6Îx6‡äœ­—rÛ¾à%‡	û’°ü¬; &Ç0¶åã; S¼˜îêSîn0,LîZnåYå*Ş|6–ü½E?<iúU_ş¼D[x¯ù[–Ç•nk¡İ—8„’ó0lWé¥
+rxœf¦‰óV\Ã!ƒM_ÀşÛ_ÿû•¡Ú²P¨våÚ®Š«Î;Tq†[S¸j´êi#3–ÜDîqĞKŸzÕJYEËÏ}İèøqnY¹ìĞHG~¿²Ê°)xúıÊ<½P¨hÏ,$â6uÒ|[¬Á·6¡h#rØÕÏ¥LÛN²:×=±ò\m‡ãn{¶ûğÈŒõ’ËŒßÃU3â¢„“µ»ÿtÆÖ]…Û6º42ì4ZàVı~–âµµ"¿LgÊP9Zè†ŠíÍÑ¥ÃØ›1„ç²Ígbü±‡›±ÚB£¢âı‡Ã7óM6…½—®Ê¸ùxó:üşC‡G–ÃoĞ÷à…Ù[ˆ2×,`Ÿ£Ã) +y§d!Í#)ô¼«7Ş¿ÜY%Y`ß4ùš¶‹’ª²ÃpÕÊ¬K»56üWí¦˜É›[É‡1>ÈVæOfŞŒ¹‰Ò«= ùs{Ïòè—,+èYÀPÖúeÏ[º@ô±ÌšÕ(«åËĞ	»z
+ú÷Ô/lÏÿïŞQ¯7™6fÕKÄ§Ø¡U…T³œ!†€VEîvÇf%_	¼Ê¹î
+ŞiÏÅı”æÊÑì«ŒÂI?lñUêÅã$¾Êö·˜hÁQHDĞ‰$²¶V¤„fD³V0ğ"(Tq@¢1j‡àí‘2$f=ö„À¹ÔÛlA`Ú‡2,Bbˆ¬Åuğòy8Eø˜;AÅrß!0ÑÔ@t$N8
+¹ç
+fŠ†çRÕéVuD¥ûBÀÍ3
+óàÉ”áæ›#4ÌC^Ú­//-P+]Ü$\ò÷å«¾wŞ	úİ«Áÿ;ÃA÷¢ë–—ïóÈuÛÊ7lM¯±Ù¬G:¬y–Ã}çœ<­\ü:€R"øh\¥‘¡˜p‡W²×¤œ´µ…Æ×ª (h3|Ôn†+†ÖôÇ5óÀ‰³a6
+zá€OGéíŞß7E8Ş
+6$@-‘€Ç„õqzâ`‡ØË
+‚ak\ÇA-9»ö™¢B÷m´RãUü5Dêg'}[Ï¸anbµ ÚzdAyˆÄÃ£@ÔY‘`¶q§gª‘ÚÙzĞÅ‘¥1s`ÓøÃÕ:>şÓ]ºé|‡ŠuÎÕù}¶Ì<|DÓÌû€g=qÅAâ$KüÇÍ36b¬Ä³;O2ƒFä»FÕr!¾:Â|Wˆùf5Ç÷ü¼•hÿ^šúf;åÚˆN‘’pˆzïWÀ¶<¾ˆ.÷¿×Uğl˜ˆ%ûm-o×Xî|ò§Ûq-Õ"¯1½Tjˆ"Ëáœ±ä.´„6»½è<‚“-X©¾ÃÆ¥)šÉ:IËÏÈ“íÉ®®†½©DÂwC•õD
+7Ë#r‹/C`WÃ¸/)£ïoâ[G˜¤ÍÙ-{„÷’'èÙe|©ŒÌ×ëE£˜Œ:Ÿ¤ß¬¡²ğ¯µ@dA a¼%]àª`ë8“PŒØ„Œ}Uf<ë÷.®t•é‚£›?QÕ,“²Ê8Ãi?V£o‰"p­ƒo(èœùˆ®›C¡ªGé¥ç{F7È›{»R`úæ©ìAª°HüjèhQ·C8oÅ·-Ù^ü;LI¿ûóò‡¬³X¤üíÿ  ÿÿ  ÿÿV,q.  6k  PK  „UV             - stylesheet_1.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ  ÿÿ           PK  „UV             - stylesheet_2.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ  ÿÿ           PK  „UV             - stylesheet_3.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ  ÿÿ           PK  „UV             - stylesheet_4.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ  ÿÿ           PK   „UV             - images/2.pngUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙ‰PNG
+
+   IHDR           D¤ŠÆ   gAMA  ±üa   sRGB ®Îé  õPLTELiqwªŸuªœu¨œt©œu¨œu©œm¶’u©œu©œt¦›v©›t©œu¨œu©œt¨œu©œu©›v©u©œu©›u©œÿÿÿÇÜ××æãy«Ÿ®ÍÅşÿÿúüû¡Å¼Óäà”¼²ÅÛÕx«ÀØÒÃÚÔøûú¦Ç¿˜¿µwªüıı~®¢¹®Š¶«äîìışşªÊÂ Ä»Öæâó÷ö§ÈÀûıüÕåáìóñz¬Ÿéñïy¬ŸŸÃºÉİØŞêçÜéæº¯€°¤¢Å¼ƒ±¦ÌßÚ„²¦ÄÚÕùûûóøößëèšÀ·ÂÙÔ¿×ÑİêçvªÌßÛÎáÜ‡´©ÎàÜúüü´ĞÉ°ÎÆ›Á¸æïíÏáÜõùøêòğàëèãíë‘»°¹ÓÍ…³§ùûúˆµªşşşÔäàÂ¹ËŞÙÂ¹¾×Ğ¯£ÂÙÓÂ¸©ÉÁ÷úúÙçãışığöõ|­¡…³¨—¾´–¾´v©œwª¡Ä»ËßÚ±¥¬ËÃ{­ ÊŞÙ•½³µÑÊïõô}®¢ïõó¥Ç¿¨ÉÀĞâŞÈİØâíêíôòçğî×æâ¸ÓÌ­ÌÄèğîÛéåÑâŞÈİ×™¿¶ò÷ö¯ÍÆöùøãîëŒ·¬ƒ²¦Ùçä¶ÒËàìéáìêÖåáÁÙÓûüü~¯£°¥ÃºÏáİöúù’»±ôø÷÷úù¢Å½«ËÃ¬ËÄÍàÛÆÜÖ”d   tRNS -¿–óÔôıÕ.•ü,˜À‘ò’¢„ÿ   	pHYs   v   vN{&  IDAT8Ë…Óe{Û0 `Ò´+îÇéê$ŞKNhRfnW\yÌÌ[ÇÌíxû“cÇòö¬Ù}‘tzlŸ	¡±aSY	ü%†Ê¢„±¦ş¥EÆìşFX7
+eQy¢‚Ögç/¡%uõ„TU“-ÚbQòv<ìŒá3.-YNÊrÓÆ÷‘i:4ô OÍHq¤¤9™%1 Ûc³#›İLÔíÕÁğ11?ûªA>‡ÃİÊ†ø5ôb2_…¾ n¦†št`	ÕãvØêùğü%Ş¬8fñ'ÔÊÀì[ğ
+Şw[Qd@¥0bÇV+Dg,ŞëØÅÀ³)P€%6úèVl`×NÏ20öZœà¤ßî ë!C×¤(,â6ù4ê'é=xx‚+8…Ãà˜™]J*ÀqüüÓ0{L“3˜­{¾+g‚:z$cı´î…©ˆoyBRÁ›1ºQ9m—¡·¿üø®€´³™ºæ0p·ËòÎ%ßA	<ÆÀ~ŒtŞÃÛ´NGfOë¾Å¶^ İn>e`çqĞª0‚}çè½ÓæåÒrÉjä¦ÜE®SnºÂZÏi-çë8D[í†ÜÓ‘!7•Ú”o:ÒãşÄ¤p`ëkRğÇo÷·;'ö¶è2„AŞ ¿^á 1VTå„T—Š×¿a¸‹$5ªÃ   WzTXtRaw profile type iptc  xœãòqV((ÊOËÌIåR #.c#K“ D€4Ãd#³T ËØÔÈÄÌÄÄË€H J. êtòB5•    IEND®B`‚˜¢    PK   „UV             - images/3.webpUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙRIFF¨  WEBPVP8 œ   *    >‘<•G¥£¢!0 °	j ·ÉÿöJÔ±òh‚˜ç¤½€?Vº°ùÏMÔP/®ÇÄÜo×„W˜ºrír¾Ği}À şı}iöº«äÿ¼¿–—,pWÑKqAú$]5‡úø(X€i;ç´HÉ¾ùÄÕ‹Z|iŸ,Ş»Ào»m7Lhòüıšì¤ò)ƒO¬!¾×Ñ°¨ÎSN¦9ôÏùÿ¬ ÷±‘•í·›jàxXÎ´.uÁ)s–£¦£Ï RL},¬8Ssõ¢øÙHñ‡…¨ØúX[›’¶éaO™QN8V+h‘53Àäí°å®û»!ê›–¢;+ºÏ>j›7á³¼È%ºìA÷ÙLdo9zHÿà;ú´èÑÄüáû¦Üíˆ|mÏ
+íC"ÂÎ¥/¹_Ö­åB¹Ä¸Øì •‹‹ûbh …×6¿™»aOĞZ›®/À!z¨&¢‘²¿ö¦+à¯jç·¼ä]§(€µu„_Q!…“•0äªJÑ%P  ®Íÿ-°  °  PK   „UVpÚ|ï  ä 
+ - A         ½D index.htmlUT ‚ôc
+          Î­øÎEÙ Î­øÎEÙ Î­øÎEÙhttps://chat.openai.com/chat/f6db2cf8-d5b5-40bb-8aac-c934a90f8c13PK   „UV©6Òß  Ø   -           š4 manifest.jsonUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙPK   „UVV,q.  6k   - =         İ6 stylesheet_0.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙhttps://chat.openai.com/_next/static/css/9bdb59bfd94431fc.cssPK   „UV            - B         rN stylesheet_1.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙmoz-extension://51745b48-3e56-4095-ada6-766be6cfa076/normalize.cssPK   „UV            - B         ŞN stylesheet_2.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙmoz-extension://51745b48-3e56-4095-ada6-766be6cfa076/blueprint.cssPK   „UV            - I         JO stylesheet_3.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙmoz-extension://51745b48-3e56-4095-ada6-766be6cfa076/blueprint-select.cssPK   „UV            - @         ¶O stylesheet_4.cssUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙmoz-extension://51745b48-3e56-4095-ada6-766be6cfa076/cropper.cssPK    „UV˜¢     - )         "P images/2.pngUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙhttps://chat.openai.com/favicon-32x32.pngPK    „UV®Íÿ-°  °   - Ì         ‘U images/3.webpUT ‚ôc
+         °õ­øÎEÙ°õ­øÎEÙ°õ­øÎEÙhttps://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2Fdb8131a16cfa3807db1afc5670c7186f%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fme.png&w=32&q=75PK    	 	 3  ¥W  ]]></xmp></html>
